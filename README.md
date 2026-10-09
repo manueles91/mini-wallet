@@ -2,8 +2,11 @@
 
 A personal, read-only crypto portfolio widget for Android (built for Samsung Galaxy / One UI).
 
-- **Mini Wallet: Exposure** widget: whole-portfolio exposure by coin. It counts liquid wallet balances on EVM chains plus on-chain protocol positions on Base (Aerodrome veAERO locks, 40 Acres collateral net of its USDC debt, Beefy CLM vaults, Venice staking, Bankr staking, veVIRTUAL), Optimism VELO (liquid, veVELO, 40 Acres OP collateral and debt; counted inside AERO by USD value ahead of the merger), and Derive stDRV staking on Ethereum. You can also add manual holdings in the app and Hyperliquid perps at notional, with the perps financing shown as negative stables. It shows net worth, % and $ per coin, and the 24h change.
-- **Mini Wallet: Hyperliquid** widget: open (isolated) perp positions, each with its own green/amber/red health dot based on its liquidation distance (>25% / 10–25% / <10%), plus total uPnL. The header dot shows the worst position.
+Four home-screen widgets, each resizable. The app's main screen shows all four as a dashboard, with the detailed breakdown and settings below.
+- **Mini Wallet: Exposure**: donut chart of whole-portfolio exposure by coin, with net worth in the center and a legend of %/$. Coverage: EVM wallets; Base protocols (Aerodrome veAERO, 40 Acres collateral net of debt, Beefy CLM, Venice, Bankr, veVIRTUAL); Optimism VELO (counted inside AERO); Derive stDRV; Hyperliquid perps at notional (tagged PERP); plus optional manual holdings.
+- **Mini Wallet: Performance**: net worth, 24h $ and % change, change since last refresh, and a sparkline of net worth history (stored on the phone).
+- **Mini Wallet: Movers**: 24h % change per coin as diverging bars, with the $ impact on the portfolio.
+- **Mini Wallet: Hyperliquid**: a mini card per isolated perp position showing side and leverage, margin, uPnL $ and %, a liquidation-distance bar colored by health (green >25%, amber 10–25%, red <10%), and entry vs mark.
 - Manual refresh button, plus automatic refresh about every 30 minutes. The app checks this repo daily for updates.
 
 Read-only. You enter a **public** wallet address on first launch. No private keys, seed phrases, accounts, or analytics. Data comes only from free public sources: the Hyperliquid info API, Blockscout (Ethereum), public chain RPCs (incl. Base protocol contract reads), and DefiLlama prices.
