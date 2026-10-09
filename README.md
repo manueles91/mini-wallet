@@ -21,3 +21,11 @@ Read-only. You enter a **public** wallet address on first launch. No private key
 Updates: the app checks every time you open it, and there's also a Check for updates button that shows your current version and the last result. When a new version is published here, the app shows a notification and a banner. Tap it to download and install. The app decodes the base64 file and checks its SHA-256 before installing.
 
 Not covered: protocols other than those listed (e.g. Aave, Arcadia, Superform, Spectra, Avantis), long-tail tokens outside Ethereum, and options (Derive needs a signed API session).
+
+## v6
+- Net worth = **Spot** (holdings − loans, no perps) + **Leverage** (Hyperliquid margin + uPnL + option marks + venue cash).
+- Widgets: Spot exposure, Performance, Movers (spot coins), **Leverage** (perps + options).
+- Superform SuperVaults (Base) read on-chain: SPCX, TSLA.
+- Manual holdings also accept:
+  - `OPTION DERIVE <instrument> <qty> @<avg cost>` (live mark/delta from Derive public ticker; Black-Scholes fallback at 60% IV)
+  - `CASH DERIVE <usd>`

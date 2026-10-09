@@ -1,1 +1,7 @@
-{"versionCode": 5, "versionName": "5.0", "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64", "apkSha256": "5ed377d878b6fb278139cec83fa865ecdeb198740b60286773fb74e0bcd839ad", "notes": "New look: four widgets (Exposure donut, Performance sparkline, Movers, Hyperliquid) and a dashboard home screen."}
+{
+  "versionCode": 6,
+  "versionName": "6.0",
+  "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
+  "apkSha256": "5997cd64a95bd358101c64da60d9332d722c8533a7a0bef1bc4bc868af540485",
+  "notes": "v6: Spot vs Leverage split; Leverage card (HL perps + Derive options with live marks); Superform SPCX/TSLA vaults; OPTION/CASH manual lines."
+}
