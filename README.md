@@ -29,3 +29,7 @@ Not covered: protocols other than those listed (e.g. Aave, Arcadia, Superform, S
 - Manual holdings also accept:
   - `OPTION DERIVE <instrument> <qty> @<avg cost>` (live mark/delta from Derive public ticker; Black-Scholes fallback at 60% IV)
   - `CASH DERIVE <usd>`
+
+## v7
+- Option marks now come from Derive V3 public tickers (`https://api.derive.xyz/v3/public/get_tickers`, field `M`). The legacy V2 host was frozen and returned stale marks.
+- New app layout: bottom navigation (Overview, Spot, Leverage, Settings), pull-to-refresh, tap a coin to expand its venues.

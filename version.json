@@ -1,7 +1,7 @@
 {
-  "versionCode": 6,
-  "versionName": "6.0",
+  "versionCode": 7,
+  "versionName": "7.0",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "5997cd64a95bd358101c64da60d9332d722c8533a7a0bef1bc4bc868af540485",
-  "notes": "v6: Spot vs Leverage split; Leverage card (HL perps + Derive options with live marks); Superform SPCX/TSLA vaults; OPTION/CASH manual lines."
+  "apkSha256": "aff84e42aa7b45fdebe2fa58a1e1eb5debb67bfb8b7f251a484da7775b57fa52",
+  "notes": "v7: Derive marks fixed (V3 public tickers); new app with bottom nav (Overview, Spot, Leverage, Settings), pull-to-refresh, expandable holdings."
 }
