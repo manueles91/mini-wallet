@@ -1,7 +1,7 @@
 {
-  "versionCode": 7,
-  "versionName": "7.0",
+  "versionCode": 8,
+  "versionName": "8.0",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "aff84e42aa7b45fdebe2fa58a1e1eb5debb67bfb8b7f251a484da7775b57fa52",
-  "notes": "v7: Derive marks fixed (V3 public tickers); new app with bottom nav (Overview, Spot, Leverage, Settings), pull-to-refresh, expandable holdings."
+  "apkSha256": "ce06e0109edf83234e7550244678b903934632a1c463a3023ecf78d72f0225bc",
+  "notes": "v8: 24h/7d toggles (performance + movers), movers % vs $ and sort by weight, Liquid portfolio card, Perps/Options sections, new liquidation gauges with trend, 30-min auto-refresh and chart points, no refresh buttons (tap widget to open + refresh)."
 }

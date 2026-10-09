@@ -33,3 +33,10 @@ Not covered: protocols other than those listed (e.g. Aave, Arcadia, Superform, S
 ## v7
 - Option marks now come from Derive V3 public tickers (`https://api.derive.xyz/v3/public/get_tickers`, field `M`). The legacy V2 host was frozen and returned stale marks.
 - New app layout: bottom navigation (Overview, Spot, Leverage, Settings), pull-to-refresh, tap a coin to expand its venues.
+
+## v8
+- Performance: 24h / 7d toggle; one snapshot per 30-min slot; until 7 days of real history exist, the older part is estimated from current holdings × DefiLlama historical prices (shown faded, labeled "est.").
+- Movers: 24h / 7d, % vs $, sort by change or by weight. Choices persist; widgets use defaults (24h, %, by change).
+- Liquid portfolio card (Spot page): wallet tokens, HL spot, withdrawable vaults (Beefy, Superform) + free cash (HL withdrawable, Derive cash). Excludes locks, loan collateral, staking with cooldown.
+- Leverage: Perps and Options sections with subtotals; distance-to-liquidation gauge LIQ → WATCH → SAFE with marker and trend vs previous refresh.
+- Auto-refresh every 30 min and on app open; pull-to-refresh. Refresh buttons removed: tap a widget to open the app (which refreshes).
