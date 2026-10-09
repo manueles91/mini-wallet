@@ -2,11 +2,11 @@
 
 A personal, read-only crypto portfolio widget for Android (built for Samsung Galaxy / One UI).
 
-- **Mini Wallet: Spot** widget: spot holdings across EVM chains (Ethereum, Arbitrum, Base, Optimism, Polygon, BNB, HyperEVM) plus non-stablecoin Hyperliquid spot tokens, each coin's % and $ value, total, 24h change, and change since last refresh.
-- **Mini Wallet: Hyperliquid** widget: open perp positions with side, leverage, unrealized PnL ($ and %), distance to liquidation, and a green/amber/red health dot (>25% / 10–25% / <10% from the nearest liquidation).
+- **Mini Wallet: Exposure** widget: whole-portfolio exposure by coin. It counts liquid wallet balances on EVM chains plus on-chain protocol positions on Base (Aerodrome veAERO locks, 40 Acres collateral net of its USDC debt, Beefy CLM vaults, Venice staking, Bankr staking, veVIRTUAL) and Hyperliquid perps at notional, with the perps financing shown as negative stables. It shows net worth, % and $ per coin, and the 24h change.
+- **Mini Wallet: Hyperliquid** widget: open (isolated) perp positions, each with its own green/amber/red health dot based on its liquidation distance (>25% / 10–25% / <10%), plus total uPnL. The header dot shows the worst position.
 - Manual refresh button, plus automatic refresh about every 30 minutes. The app checks this repo daily for updates.
 
-Read-only. You enter a **public** wallet address on first launch. No private keys, seed phrases, accounts, or analytics. Data comes only from free public sources: the Hyperliquid info API, Blockscout (Ethereum), public chain RPCs, and DefiLlama prices.
+Read-only. You enter a **public** wallet address on first launch. No private keys, seed phrases, accounts, or analytics. Data comes only from free public sources: the Hyperliquid info API, Blockscout (Ethereum), public chain RPCs (incl. Base protocol contract reads), and DefiLlama prices.
 
 ## Install (sideload)
 1. Get the APK: this repo stores it as base64 text (`mini-wallet.apk.b64`, SHA-256 in `version.json`). Decode it with `base64 -d mini-wallet.apk.b64 > mini-wallet.apk`, or use a direct APK link if you were given one, then open it on your phone.
@@ -17,4 +17,4 @@ Read-only. You enter a **public** wallet address on first launch. No private key
 
 Updates: when a new version is published here, the app shows a notification and a banner. Tap it to download and install. The app decodes the base64 file and checks its SHA-256 before installing.
 
-Not covered: DeFi positions (Aave, LPs), long-tail tokens outside Ethereum, and options.
+Not covered: protocols other than those listed (e.g. Aave, Arcadia, Superform, Spectra, 40 Acres on Optimism), long-tail tokens outside Ethereum, and options (Derive needs a signed API session).
