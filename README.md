@@ -40,3 +40,9 @@ Not covered: protocols other than those listed (e.g. Aave, Arcadia, Superform, S
 - Liquid portfolio card (Spot page): wallet tokens, HL spot, withdrawable vaults (Beefy, Superform) + free cash (HL withdrawable, Derive cash). Excludes locks, loan collateral, staking with cooldown.
 - Leverage: Perps and Options sections with subtotals; distance-to-liquidation gauge LIQ → WATCH → SAFE with marker and trend vs previous refresh.
 - Auto-refresh every 30 min and on app open; pull-to-refresh. Refresh buttons removed: tap a widget to open the app (which refreshes).
+
+## v9
+- Strict separation: Spot shows only spot holdings; Liquid card is spot-only (wallet tokens, HL spot non-stable tokens, withdrawable vaults). HL USDC (margin + free) and Derive cash are Leverage only.
+- Liquidation zones from one shared rule: <10% LIQ red, 10–25% WATCH amber, ≥25% SAFE green; trend arrow is neutral.
+- Positions show liquidation and mark prices; options show mark vs cost, underlying spot and strike, "no liq (max loss = premium)".
+- Movers: right-hand $ column removed. New bottom navigation with drawn icons.

@@ -1,7 +1,7 @@
 {
-  "versionCode": 8,
-  "versionName": "8.0",
+  "versionCode": 9,
+  "versionName": "9.0",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "ce06e0109edf83234e7550244678b903934632a1c463a3023ecf78d72f0225bc",
-  "notes": "v8: 24h/7d toggles (performance + movers), movers % vs $ and sort by weight, Liquid portfolio card, Perps/Options sections, new liquidation gauges with trend, 30-min auto-refresh and chart points, no refresh buttons (tap widget to open + refresh)."
+  "apkSha256": "84e78eb573ceffdfe8be4bb0884febda7abe1ade0bd79c0d0f923025e7fec631",
+  "notes": "v9: strict Spot/Leverage separation (Liquid card spot-only; HL spot tokens no longer double-counted), liquidation zone colours fixed, liq/mark prices on positions, option mark + ETH spot + strike, movers without $ column, new bottom navigation."
 }
