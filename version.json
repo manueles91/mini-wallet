@@ -1,7 +1,7 @@
 {
-  "versionCode": 14,
-  "versionName": "13.1",
+  "versionCode": 15,
+  "versionName": "13.2",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "9522f683f09c048148aec1951cc1954ec88113fa39f9f692c1087686220b903e",
-  "notes": "v13.1: summarized Overview (net worth + Spot + Leverage cards), Total exposure donut (spot + perp notional + option delta) with effective leverage, Movers header with spot total and token quantities. Movers default: by weight, 24h, $."
+  "apkSha256": "429e4d2407d21459f420a07c52bbfca9d02ea94ce396a18a3b9835fde91aecd8",
+  "notes": "v13.2: Overview = Net worth + Movers + Leverage; Spot page starts with Spot summary (exposure %, liquid/locked bar); total-exposure donut (% only); option rows show theta $/day; Movers default weight/%/24h with value (change) column."
 }

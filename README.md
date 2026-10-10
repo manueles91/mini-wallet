@@ -63,3 +63,7 @@ Not covered: protocols other than those listed (e.g. Aave, Arcadia, Superform, S
 - Exposure donut toggle Spot | Total (default Total, widget too): total = spot + signed perp notional + option delta × qty × underlying; stables/margin excluded; centre shows gross exposure and × net worth.
 - Movers (card + widget): spot total + change header, token quantity under each coin.
 - v13.1: Movers defaults (app without saved choice, and widget): sorted by weight, 24h, $ values.
+- v13.2: Overview Spot card shows a labeled Liquid | Locked/staked split bar (loans netted on the locked side).
+- v13.2: Overview Spot card coin line and mini donut show total exposure shares (incl. leverage); $ amounts stay spot.
+- v13.2: option rows show θ $/day for the whole position (Derive V3 ticker option_pricing.t × qty; Black-Scholes fallback marked est.). Exposure card/widget is total-exposure only, legend shows total % and spot % (no $), no toggle.
+- v13.2 layout: Overview = Net worth + Movers + Leverage summary; Spot page = Spot summary, Total exposure, Liquid, Holdings. Movers right column = position $ value (change $); defaults weight / % / 24h (saved movers toggles reset once on upgrade).
