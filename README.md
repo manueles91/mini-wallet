@@ -11,6 +11,8 @@ Four home-screen widgets, each resizable. The app's main screen shows all four a
 
 Read-only. You enter a **public** wallet address on first launch. No private keys, seed phrases, accounts, or analytics. Data comes only from free public sources: the Hyperliquid info API, Blockscout (Ethereum), public chain RPCs (incl. Base protocol contract reads), and DefiLlama prices.
 
+## 13.7.2 — Leverage page: per-position exposure bars (size = notional / Δ-notional, colour = health); Leverage and Movers widgets: names sized to content, bars take the spare width
+
 ## 13.7.1 — Leverage page: perp gauge labels (LIQ, SAFE, Entry, mark) laid out without overlaps; options cards reworked (index vs strike + days first, value vs at risk + health bar, muted greeks)
 
 ## 13.7 — Derive options fetched automatically
