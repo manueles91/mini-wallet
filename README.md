@@ -57,3 +57,9 @@ Not covered: protocols other than those listed (e.g. Aave, Arcadia, Superform, S
 ## v12
 - Overview: Performance + Movers. Movers right column: in % view shows $ impact, in $ view shows % move.
 - Spot donut larger (up to 9 legend rows). Options sorted by mark value. Update banner and Check-now buttons ≥56dp and below the status bar.
+
+## v13
+- Overview: net-worth header (24h/7d sparkline), Spot summary, Leverage summary (one row per position, max 6 + "+N more"). Tap a card to open its page.
+- Exposure donut toggle Spot | Total (default Total, widget too): total = spot + signed perp notional + option delta × qty × underlying; stables/margin excluded; centre shows gross exposure and × net worth.
+- Movers (card + widget): spot total + change header, token quantity under each coin.
+- v13.1: Movers defaults (app without saved choice, and widget): sorted by weight, 24h, $ values.

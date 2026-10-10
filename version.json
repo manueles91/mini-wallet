@@ -1,7 +1,7 @@
 {
-  "versionCode": 12,
-  "versionName": "12.0",
+  "versionCode": 14,
+  "versionName": "13.1",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "7a7638828ac7815bd43eded77033673e7930deffa8d28c173d308adb8248a06a",
-  "notes": "v12: Overview = Performance + Movers ($ column back), bigger Spot donut, distinct coin colours, options sorted by value, update banner below status bar with larger buttons."
+  "apkSha256": "9522f683f09c048148aec1951cc1954ec88113fa39f9f692c1087686220b903e",
+  "notes": "v13.1: summarized Overview (net worth + Spot + Leverage cards), Total exposure donut (spot + perp notional + option delta) with effective leverage, Movers header with spot total and token quantities. Movers default: by weight, 24h, $."
 }
