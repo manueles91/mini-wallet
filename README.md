@@ -11,6 +11,8 @@ Four home-screen widgets, each resizable. The app's main screen shows all four a
 
 Read-only. You enter a **public** wallet address on first launch. No private keys, seed phrases, accounts, or analytics. Data comes only from free public sources: the Hyperliquid info API, Blockscout (Ethereum), public chain RPCs (incl. Base protocol contract reads), and DefiLlama prices.
 
+## 13.8.1 — Setup chart images can be base64 text (.png.b64), decoded on the device; plain .png still works
+
 ## 13.8 — Proposed setups on the Leverage page (read-only, from the private research repo via a device-stored GitHub read token); Spot page 'Include AERO' switch
 
 ## 13.7.3 — RSI signal chips on Liquid portfolio rows + Show all; shared 24h/7d toggle on Overview and Leverage; Spot exposure centre = spot $; leverage exposure grouped by token (at-risk share)

@@ -1,7 +1,7 @@
 {
-  "versionCode": 32,
-  "versionName": "13.8",
+  "versionCode": 33,
+  "versionName": "13.8.1",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "7d824288673fd92db51105624e2de737cd04c20f47ea4a0dc5c9dee1830b5901",
-  "notes": "13.8: Proposed setups on the Leverage page (read-only, from the private research repo via a device-stored GitHub read token); Spot page 'Include AERO' switch"
+  "apkSha256": "6f7077452b158678871f85f2aff53a2eae088c021b34856caa7fbf9526f045b2",
+  "notes": "13.8.1: Setup chart images can be base64 text (.png.b64), decoded on the device; plain .png still works"
 }
