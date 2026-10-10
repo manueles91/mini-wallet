@@ -1,7 +1,7 @@
 {
-  "versionCode": 9,
-  "versionName": "9.0",
+  "versionCode": 10,
+  "versionName": "10.0",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "84e78eb573ceffdfe8be4bb0884febda7abe1ade0bd79c0d0f923025e7fec631",
-  "notes": "v9: strict Spot/Leverage separation (Liquid card spot-only; HL spot tokens no longer double-counted), liquidation zone colours fixed, liq/mark prices on positions, option mark + ETH spot + strike, movers without $ column, new bottom navigation."
+  "apkSha256": "105d0fff49411001237cb1805aa053b730bdda879ed2cb588551443e68a1b35d",
+  "notes": "v10: no page titles (pages start with cards), Leveraged exposure above Value composition, gauge legend text fixed."
 }

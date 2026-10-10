@@ -46,3 +46,6 @@ Not covered: protocols other than those listed (e.g. Aave, Arcadia, Superform, S
 - Liquidation zones from one shared rule: <10% LIQ red, 10–25% WATCH amber, ≥25% SAFE green; trend arrow is neutral.
 - Positions show liquidation and mark prices; options show mark vs cost, underlying spot and strike, "no liq (max loss = premium)".
 - Movers: right-hand $ column removed. New bottom navigation with drawn icons.
+
+## v10
+- Pages start directly with cards (no big titles). Leverage page: Leveraged exposure above Value composition. Gauge legend matches the neutral trend arrow.
