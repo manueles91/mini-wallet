@@ -1,7 +1,7 @@
 {
-  "versionCode": 25,
-  "versionName": "13.6",
+  "versionCode": 26,
+  "versionName": "13.6.1",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "9393e4df3738d157068aa3d940164b8e936d77537f8f2e10559062c9a6cac119",
-  "notes": "13.6: any EVM address via optional Zerion API key, multiple addresses"
+  "apkSha256": "cf40273f84d45f340edbc54707bdeb59f4fdf2c019f6b82f25ebca233b399cad",
+  "notes": "13.6.1: Zerion requests serialised + 429 retry, key cleaning, clearer source warnings"
 }

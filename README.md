@@ -11,6 +11,11 @@ Four home-screen widgets, each resizable. The app's main screen shows all four a
 
 Read-only. You enter a **public** wallet address on first launch. No private keys, seed phrases, accounts, or analytics. Data comes only from free public sources: the Hyperliquid info API, Blockscout (Ethereum), public chain RPCs (incl. Base protocol contract reads), and DefiLlama prices.
 
+## 13.6.1 — Fix 'Some sources failed' after adding the Zerion key
+- Zerion calls are serialised app-wide (≥1.1 s apart) and retried on 429 with 2/4/8 s backoff; only one refresh runs at a time (app, widget ↻ and background no longer collide).
+- Pasted key is cleaned (spaces, newlines, quotes); a rejected key says so.
+- If Zerion or DefiLlama fails, the last good data is kept and a muted note says so; amber warnings name the failed source and reason.
+
 ## 13.6 — Any EVM address (optional Zerion API key)
 - Settings: several addresses (add / remove / enable each) and an optional "Zerion API key" field, stored on the phone only. Blank key = built-in readers as before.
 - With a key: Zerion wallet + DeFi positions (deposits, staking, locks, rewards; loans negative) fill the spot breakdown; built-in readers still win for Hyperliquid, Derive, 40 Acres, veAERO/veVELO, locked VIRTUAL, stDRV, Superform, Beefy, Venice, Bankr (no double counting). Dust under $1 hidden. Zerion 24h % used for Movers.
