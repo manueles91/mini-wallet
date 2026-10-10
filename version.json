@@ -1,7 +1,7 @@
 {
-  "versionCode": 20,
-  "versionName": "13.5.2",
+  "versionCode": 21,
+  "versionName": "13.5.3",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "3bd90ac2817534a92f08fbc797956a99a83f0241b07cc1ee0e5f2e7d1b1330a4",
-  "notes": "13.5.2: bigger widget fonts, Leverage widget header fix, exposure centre = net worth, mark label above marker, eye button to hide widget totals"
+  "apkSha256": "202777b4d390d566b48e3a0fdd610026e77823e7285045d137e84d2f164aaf61",
+  "notes": "13.5.3: Exposure widget eye, 24h % in exposure legend, 24h PnL headers on leverage, entry tick on perp bars"
 }
