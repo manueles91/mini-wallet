@@ -11,6 +11,10 @@ Four home-screen widgets, each resizable. The app's main screen shows all four a
 
 Read-only. You enter a **public** wallet address on first launch. No private keys, seed phrases, accounts, or analytics. Data comes only from free public sources: the Hyperliquid info API, Blockscout (Ethereum), public chain RPCs (incl. Base protocol contract reads), and DefiLlama prices.
 
+## 13.7 — Derive options fetched automatically
+- For each enabled address: Derive public get_subaccounts → get_trade_history per subaccount (paginated) → net quantity and average cost per option; expired ones dropped; marked live via get_tickers. Cached 15 min.
+- Manual OPTION DERIVE lines are removed once auto-fetch succeeds; if Derive is unreachable, saved manual lines are used. CASH DERIVE stays manual (not public).
+
 ## 13.6.2 — Locked VIRTUAL from Zerion
 - With a Zerion key, the Virtuals Protocol VIRTUAL lock is read from Zerion; a saved manual "VIRTUAL … locked" line is migrated out once (kept if no key is set) and ignored at runtime, so it's never counted twice.
 - Removed the unused veVIRTUAL stakedAmountOf reader.

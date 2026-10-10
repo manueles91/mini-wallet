@@ -1,7 +1,7 @@
 {
-  "versionCode": 27,
-  "versionName": "13.6.2",
+  "versionCode": 28,
+  "versionName": "13.7",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "0497f669d84367460cb4a9033857376c8135fc404572499d3c7f0295c150d58f",
-  "notes": "13.6.2: locked VIRTUAL read from Zerion (manual line migrated out)"
+  "apkSha256": "758b1bb2f1af6f80d8fe6838fdd5120f675ee760a369d709b4001fc796577f98",
+  "notes": "13.7: Derive options fetched automatically"
 }
