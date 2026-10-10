@@ -1,7 +1,7 @@
 {
-  "versionCode": 28,
-  "versionName": "13.7",
+  "versionCode": 29,
+  "versionName": "13.7.1",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "758b1bb2f1af6f80d8fe6838fdd5120f675ee760a369d709b4001fc796577f98",
-  "notes": "13.7: Derive options fetched automatically"
+  "apkSha256": "d539de50e0d0eed927a922f0899eef092de63a2f51d9b4b68412ae76d9f7b12a",
+  "notes": "13.7.1: Leverage page: perp gauge labels (LIQ, SAFE, Entry, mark) laid out without overlaps; options cards reworked (index vs strike + days first, value vs at risk + health bar, muted greeks)"
 }
