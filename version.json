@@ -1,7 +1,7 @@
 {
-  "versionCode": 21,
-  "versionName": "13.5.3",
+  "versionCode": 22,
+  "versionName": "13.5.4",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "202777b4d390d566b48e3a0fdd610026e77823e7285045d137e84d2f164aaf61",
-  "notes": "13.5.3: Exposure widget eye, 24h % in exposure legend, 24h PnL headers on leverage, entry tick on perp bars"
+  "apkSha256": "f35212733ee7b86d254a4e1455167c748202ff7bedcb9171a1818bdfbc04f485",
+  "notes": "13.5.4: one shared widget eye; hidden mode shows % only; Movers widget layout refresh"
 }

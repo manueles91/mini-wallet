@@ -11,6 +11,8 @@ Four home-screen widgets, each resizable. The app's main screen shows all four a
 
 Read-only. You enter a **public** wallet address on first launch. No private keys, seed phrases, accounts, or analytics. Data comes only from free public sources: the Hyperliquid info API, Blockscout (Ethereum), public chain RPCs (incl. Base protocol contract reads), and DefiLlama prices.
 
+## 13.5.4 — widgets: one shared eye state (Exposure included); hidden mode shows no $ except prices (Leverage %, Movers %); Movers widget: name (±$), 24h % on bars, holding $ · price on the right
+
 ## 13.5.3 — Exposure widget eye (own state, hidden by default); exposure legend: coin 24h % instead of spot %; leverage headers show 24h PnL; perp bars mark entry price
 
 ## 13.5.2 — larger widget fonts; Leverage widget header: total left, PnL right; Total exposure centre = net worth; perp mark price centred above the marker; eye button on Movers/Performance/Leverage widgets hides the big total ($•••••, hidden by default)
