@@ -1,7 +1,7 @@
 {
-  "versionCode": 24,
-  "versionName": "13.5.6",
+  "versionCode": 25,
+  "versionName": "13.6",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "cb50df489008059346ccef19f50eda4f2fc99ad28b1dc4ed81883402e2836011",
-  "notes": "13.5.6: Exposure widget All | Liquid toggle"
+  "apkSha256": "9393e4df3738d157068aa3d940164b8e936d77537f8f2e10559062c9a6cac119",
+  "notes": "13.6: any EVM address via optional Zerion API key, multiple addresses"
 }

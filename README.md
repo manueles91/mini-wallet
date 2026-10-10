@@ -11,6 +11,11 @@ Four home-screen widgets, each resizable. The app's main screen shows all four a
 
 Read-only. You enter a **public** wallet address on first launch. No private keys, seed phrases, accounts, or analytics. Data comes only from free public sources: the Hyperliquid info API, Blockscout (Ethereum), public chain RPCs (incl. Base protocol contract reads), and DefiLlama prices.
 
+## 13.6 — Any EVM address (optional Zerion API key)
+- Settings: several addresses (add / remove / enable each) and an optional "Zerion API key" field, stored on the phone only. Blank key = built-in readers as before.
+- With a key: Zerion wallet + DeFi positions (deposits, staking, locks, rewards; loans negative) fill the spot breakdown; built-in readers still win for Hyperliquid, Derive, 40 Acres, veAERO/veVELO, locked VIRTUAL, stDRV, Superform, Beefy, Venice, Bankr (no double counting). Dust under $1 hidden. Zerion 24h % used for Movers.
+- Budget: 1 call per address per refresh, cached 15 min; pull / tap refresh bypasses the cache at most once a minute; backs off at 280 calls/day (counter in Settings).
+
 ## 13.5.6 — Exposure widget: All | Liquid chip (liquid = spot liquid holdings only, no leverage)
 
 ## 13.5.5 — exposure legend: 24h Δ = change in share of total exposure (pp); Movers card + widget: name + price (green/red by 24h), right column holding $ (±$ change); hidden mode price coloured too
