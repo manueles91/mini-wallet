@@ -49,3 +49,7 @@ Not covered: protocols other than those listed (e.g. Aave, Arcadia, Superform, S
 
 ## v10
 - Pages start directly with cards (no big titles). Leverage page: Leveraged exposure above Value composition. Gauge legend matches the neutral trend arrow.
+
+## v11
+- Updater reads version.json via the GitHub contents API (`Accept: application/vnd.github.raw`), falling back to raw.githubusercontent; if the raw APK download fails or its SHA-256 mismatches (stale CDN), it re-downloads `mini-wallet.apk.b64` via the contents API.
+- Overview: Performance + total Portfolio exposure (spot coins + Leverage slice). Holdings, Value composition and About are collapsible. Perps sorted by margin.

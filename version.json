@@ -1,7 +1,7 @@
 {
-  "versionCode": 10,
-  "versionName": "10.0",
+  "versionCode": 11,
+  "versionName": "11.0",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "105d0fff49411001237cb1805aa053b730bdda879ed2cb588551443e68a1b35d",
-  "notes": "v10: no page titles (pages start with cards), Leveraged exposure above Value composition, gauge legend text fixed."
+  "apkSha256": "b70e9fb3247f3feb6777c4bd8e96b9a9f5c964dab8046474ebca80e7a3b12a04",
+  "notes": "v11: top padding, total Portfolio exposure on Overview, collapsible holdings/value composition/about, perps sorted by margin with LIQ/SAFE bar ends, updater via GitHub contents API (no CDN cache)."
 }
