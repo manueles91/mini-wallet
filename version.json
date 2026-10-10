@@ -1,7 +1,7 @@
 {
-  "versionCode": 18,
-  "versionName": "13.5",
+  "versionCode": 19,
+  "versionName": "13.5.1",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "c91c8a021ad268c44ad067d43395d211daf53e2fad603432e135484fb9e99c46",
-  "notes": "13.5: smoother page swipe, deliberate pull-to-refresh, chart scrubbing, leverage health bars + 24h change"
+  "apkSha256": "3f2fdf17d6fbde27f122f01b243fec2a624a5ddd83c7214cdf90d7a7d12a5cbc",
+  "notes": "13.5.1: easier pull-to-refresh, widgets fill their height, concise Leverage widget, cleaner perp gauges, widget picker previews"
 }
