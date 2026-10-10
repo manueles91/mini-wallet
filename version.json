@@ -1,7 +1,7 @@
 {
-  "versionCode": 11,
-  "versionName": "11.0",
+  "versionCode": 12,
+  "versionName": "12.0",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "b70e9fb3247f3feb6777c4bd8e96b9a9f5c964dab8046474ebca80e7a3b12a04",
-  "notes": "v11: top padding, total Portfolio exposure on Overview, collapsible holdings/value composition/about, perps sorted by margin with LIQ/SAFE bar ends, updater via GitHub contents API (no CDN cache)."
+  "apkSha256": "7a7638828ac7815bd43eded77033673e7930deffa8d28c173d308adb8248a06a",
+  "notes": "v12: Overview = Performance + Movers ($ column back), bigger Spot donut, distinct coin colours, options sorted by value, update banner below status bar with larger buttons."
 }

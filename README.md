@@ -53,3 +53,7 @@ Not covered: protocols other than those listed (e.g. Aave, Arcadia, Superform, S
 ## v11
 - Updater reads version.json via the GitHub contents API (`Accept: application/vnd.github.raw`), falling back to raw.githubusercontent; if the raw APK download fails or its SHA-256 mismatches (stale CDN), it re-downloads `mini-wallet.apk.b64` via the contents API.
 - Overview: Performance + total Portfolio exposure (spot coins + Leverage slice). Holdings, Value composition and About are collapsible. Perps sorted by margin.
+
+## v12
+- Overview: Performance + Movers. Movers right column: in % view shows $ impact, in $ view shows % move.
+- Spot donut larger (up to 9 legend rows). Options sorted by mark value. Update banner and Check-now buttons ≥56dp and below the status bar.
