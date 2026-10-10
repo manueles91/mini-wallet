@@ -1,7 +1,7 @@
 {
-  "versionCode": 22,
-  "versionName": "13.5.4",
+  "versionCode": 23,
+  "versionName": "13.5.5",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "f35212733ee7b86d254a4e1455167c748202ff7bedcb9171a1818bdfbc04f485",
-  "notes": "13.5.4: one shared widget eye; hidden mode shows % only; Movers widget layout refresh"
+  "apkSha256": "b9d8d06db762fa145a9405e60f1bcdd1f864382f92af295f1a3faf07e8cc4867",
+  "notes": "13.5.5: exposure 24h share change (pp); Movers: coloured price by name, holding $ (\u00b1$) on the right"
 }
