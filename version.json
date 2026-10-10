@@ -1,7 +1,7 @@
 {
-  "versionCode": 19,
-  "versionName": "13.5.1",
+  "versionCode": 20,
+  "versionName": "13.5.2",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "3f2fdf17d6fbde27f122f01b243fec2a624a5ddd83c7214cdf90d7a7d12a5cbc",
-  "notes": "13.5.1: easier pull-to-refresh, widgets fill their height, concise Leverage widget, cleaner perp gauges, widget picker previews"
+  "apkSha256": "3bd90ac2817534a92f08fbc797956a99a83f0241b07cc1ee0e5f2e7d1b1330a4",
+  "notes": "13.5.2: bigger widget fonts, Leverage widget header fix, exposure centre = net worth, mark label above marker, eye button to hide widget totals"
 }
