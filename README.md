@@ -67,3 +67,5 @@ Not covered: protocols other than those listed (e.g. Aave, Arcadia, Superform, S
 - v13.2: Overview Spot card coin line and mini donut show total exposure shares (incl. leverage); $ amounts stay spot.
 - v13.2: option rows show θ $/day for the whole position (Derive V3 ticker option_pricing.t × qty; Black-Scholes fallback marked est.). Exposure card/widget is total-exposure only, legend shows total % and spot % (no $), no toggle.
 - v13.2 layout: Overview = Net worth + Movers + Leverage summary; Spot page = Spot summary, Total exposure, Liquid, Holdings. Movers right column = position $ value (change $); defaults weight / % / 24h (saved movers toggles reset once on upgrade).
+- v13.3: Overview option rows: break-even move at expiry, (strike + premium) / ETH index − 1. Movers header: "PnL ±$x" (24h/7d). Total exposure card: centre = spot value and gross exposure ÷ spot (no other $ on the card); Spot summary card removed from the Spot page.
+- v13.3: Movers show each coin's current price next to its name; Liquid portfolio card starts with the Liquid | Locked/staked split bar.
