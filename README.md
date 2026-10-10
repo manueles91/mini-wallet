@@ -11,6 +11,10 @@ Four home-screen widgets, each resizable. The app's main screen shows all four a
 
 Read-only. You enter a **public** wallet address on first launch. No private keys, seed phrases, accounts, or analytics. Data comes only from free public sources: the Hyperliquid info API, Blockscout (Ethereum), public chain RPCs (incl. Base protocol contract reads), and DefiLlama prices.
 
+## 13.6.2 — Locked VIRTUAL from Zerion
+- With a Zerion key, the Virtuals Protocol VIRTUAL lock is read from Zerion; a saved manual "VIRTUAL … locked" line is migrated out once (kept if no key is set) and ignored at runtime, so it's never counted twice.
+- Removed the unused veVIRTUAL stakedAmountOf reader.
+
 ## 13.6.1 — Fix 'Some sources failed' after adding the Zerion key
 - Zerion calls are serialised app-wide (≥1.1 s apart) and retried on 429 with 2/4/8 s backoff; only one refresh runs at a time (app, widget ↻ and background no longer collide).
 - Pasted key is cleaned (spaces, newlines, quotes); a rejected key says so.
