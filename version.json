@@ -1,7 +1,7 @@
 {
-  "versionCode": 30,
-  "versionName": "13.7.2",
+  "versionCode": 31,
+  "versionName": "13.7.3",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "4b2bd7a93cbac57e7b52670367237d21367e03b6027b0e6ebf82018bf7a9a5dc",
-  "notes": "13.7.2: Leverage page: per-position exposure bars (size = notional / \u0394-notional, colour = health); Leverage and Movers widgets: names sized to content, bars take the spare width"
+  "apkSha256": "32152a60070ca9db26f64b973ae396f946fb2aa3a60d0238e8e3c5366b68a410",
+  "notes": "13.7.3: RSI signal chips on Liquid portfolio rows + Show all; shared 24h/7d toggle on Overview and Leverage; Spot exposure centre = spot $; leverage exposure grouped by token (at-risk share)"
 }
