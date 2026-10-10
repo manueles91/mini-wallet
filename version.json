@@ -1,7 +1,7 @@
 {
-  "versionCode": 17,
-  "versionName": "13.4",
+  "versionCode": 18,
+  "versionName": "13.5",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "245089a651da29dc2f53401c2f45f1c6ae94131e65d23ed7e7f8d3d2030ea5c2",
-  "notes": "13.4: movers show holding $ by coin, price (%chg) column, $ change on bars; no %/$ toggle; swipe between pages; \u21bb refresh on widgets"
+  "apkSha256": "c91c8a021ad268c44ad067d43395d211daf53e2fad603432e135484fb9e99c46",
+  "notes": "13.5: smoother page swipe, deliberate pull-to-refresh, chart scrubbing, leverage health bars + 24h change"
 }

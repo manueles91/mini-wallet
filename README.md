@@ -11,6 +11,8 @@ Four home-screen widgets, each resizable. The app's main screen shows all four a
 
 Read-only. You enter a **public** wallet address on first launch. No private keys, seed phrases, accounts, or analytics. Data comes only from free public sources: the Hyperliquid info API, Blockscout (Ethereum), public chain RPCs (incl. Base protocol contract reads), and DefiLlama prices.
 
+## 13.5 — slide animation between pages; pull-to-refresh needs a long deliberate pull; press-and-drag the Net worth chart to scrub; Overview Leverage card: 24h change per position + header, red→green health bars (perps: distance to liq, ≥50% = green; options: probability of finishing past break-even, ≥50% = green)
+
 ## 13.4 — movers: holding $ next to coin, price (% chg) column, $ change on bars (% scale, %/$ toggle removed); swipe left/right between pages; ↻ refresh button on every widget
 
 ## Install (sideload)
