@@ -1,7 +1,7 @@
 {
-  "versionCode": 16,
-  "versionName": "13.3",
+  "versionCode": 17,
+  "versionName": "13.4",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "c25231ebb268ae85b55dd2647ef4d73728eb06188f931181378dc3144451347e",
-  "notes": "v13.3: Overview option rows show break-even %; Movers header shows PnL like the Leverage card; Spot page starts with Total exposure (centre = spot $ and exposure multiple vs spot). Movers show coin prices; Liquid card has the liquid/locked split bar."
+  "apkSha256": "245089a651da29dc2f53401c2f45f1c6ae94131e65d23ed7e7f8d3d2030ea5c2",
+  "notes": "13.4: movers show holding $ by coin, price (%chg) column, $ change on bars; no %/$ toggle; swipe between pages; \u21bb refresh on widgets"
 }

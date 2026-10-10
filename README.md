@@ -11,6 +11,8 @@ Four home-screen widgets, each resizable. The app's main screen shows all four a
 
 Read-only. You enter a **public** wallet address on first launch. No private keys, seed phrases, accounts, or analytics. Data comes only from free public sources: the Hyperliquid info API, Blockscout (Ethereum), public chain RPCs (incl. Base protocol contract reads), and DefiLlama prices.
 
+## 13.4 — movers: holding $ next to coin, price (% chg) column, $ change on bars (% scale, %/$ toggle removed); swipe left/right between pages; ↻ refresh button on every widget
+
 ## Install (sideload)
 1. Get the APK: this repo stores it as base64 text (`mini-wallet.apk.b64`, SHA-256 in `version.json`). Decode it with `base64 -d mini-wallet.apk.b64 > mini-wallet.apk`, or use a direct APK link if you were given one, then open it on your phone.
 2. If prompted, tap **Settings → Allow from this source**, then **Install** (tap "Install anyway" if Play Protect warns; Samsung Auto Blocker may need to be off).
