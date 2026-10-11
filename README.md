@@ -11,6 +11,8 @@ Four home-screen widgets, each resizable. The app's main screen shows all four a
 
 Read-only. You enter a **public** wallet address on first launch. No private keys, seed phrases, accounts, or analytics. Data comes only from free public sources: the Hyperliquid info API, Blockscout (Ethereum), public chain RPCs (incl. Base protocol contract reads), and DefiLlama prices.
 
+## 13.9 — Spot page: read-only veAERO votes card (Aerodrome Sugar via Base RPC + DefiLlama; no Zerion). Voting power, locks, vote split with $/1k votes last epoch, voted-this-epoch, epoch-flip and Aero-launch countdowns; 40 Acres locks shown as managed. After Oct 22 it switches to sAERO Predictive Allocation status (47h cooldown).
+
 ## 13.8.1 — Setup chart images can be base64 text (.png.b64), decoded on the device; plain .png still works
 
 ## 13.8 — Proposed setups on the Leverage page (read-only, from the private research repo via a device-stored GitHub read token); Spot page 'Include AERO' switch
