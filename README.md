@@ -11,6 +11,8 @@ Four home-screen widgets, each resizable. The app's main screen shows all four a
 
 Read-only. You enter a **public** wallet address on first launch. No private keys, seed phrases, accounts, or analytics. Data comes only from free public sources: the Hyperliquid info API, Blockscout (Ethereum), public chain RPCs (incl. Base protocol contract reads), and DefiLlama prices.
 
+## 13.10 — Spot page: Liquid card first (always unfiltered), then veAERO votes (collapsed by default, header shows voting power + switch gain), then Total exposure with its own 'AERO' switch (filters only that card).
+
 ## 13.9.1 — veAERO card: 'Recommended this epoch' from AeroAllocator's free /api/allocation (voter_roi) for votable power (40 Acres locks excluded); current vs recommended split, votes, expected $/epoch, stay vs switch. Hidden if the API is down (6 h cached fallback) and after Aero launch.
 
 ## 13.9 — Spot page: read-only veAERO votes card (Aerodrome Sugar via Base RPC + DefiLlama; no Zerion). Voting power, locks, vote split with $/1k votes last epoch, voted-this-epoch, epoch-flip and Aero-launch countdowns; 40 Acres locks shown as managed. After Oct 22 it switches to sAERO Predictive Allocation status (47h cooldown).

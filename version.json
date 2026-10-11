@@ -1,7 +1,7 @@
 {
-  "versionCode": 35,
-  "versionName": "13.9.1",
+  "versionCode": 36,
+  "versionName": "13.10",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "e2c2c8149ccf2a7962aa3b36b3aed87a287715e08b3ab7b11a76a4d830e390b1",
-  "notes": "13.9.1: veAERO card adds 'Recommended this epoch' (AeroAllocator voter_roi on your votable power) with stay vs switch"
+  "apkSha256": "ff11b7afc03914d0d2495ebbc0e4487ed821e0539f6b1d742ed730875b744f76",
+  "notes": "13.10: Spot order Liquid \u2192 veAERO votes (collapsible) \u2192 Total exposure; 'AERO' switch now only filters the exposure card"
 }
