@@ -1,7 +1,7 @@
 {
-  "versionCode": 34,
-  "versionName": "13.9",
+  "versionCode": 35,
+  "versionName": "13.9.1",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "c5337144dade0604e857681d18a48e6acf60f83fffc3e04805ead2cbdfadde6c",
-  "notes": "13.9: veAERO votes card on Spot (voting power, locks, split by pool with $/1k last epoch, epoch + Aero launch countdown, 40 Acres locks marked managed)"
+  "apkSha256": "e2c2c8149ccf2a7962aa3b36b3aed87a287715e08b3ab7b11a76a4d830e390b1",
+  "notes": "13.9.1: veAERO card adds 'Recommended this epoch' (AeroAllocator voter_roi on your votable power) with stay vs switch"
 }
