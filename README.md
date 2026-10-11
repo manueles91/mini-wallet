@@ -11,6 +11,8 @@ Four home-screen widgets, each resizable. The app's main screen shows all four a
 
 Read-only. You enter a **public** wallet address on first launch. No private keys, seed phrases, accounts, or analytics. Data comes only from free public sources: the Hyperliquid info API, Blockscout (Ethereum), public chain RPCs (incl. Base protocol contract reads), and DefiLlama prices.
 
+## 13.11 — Liquid card signal chips are tappable: a bottom sheet shows the research label, reasoning, RSI, M/W/D supports/resistances (USD and TOKEN/ETH), divergence and file date. Research labels override the RSI chip only when the file is dated today (phone's local date); otherwise (older file, coin missing, no token) → RSI-only explanation with 'last analysis: <date>'. Labels read with the same device token as setups, cached 1 h.
+
 ## 13.10.1 — Leverage page: when the setups file loads fine but has no qualifying proposals, a discreet one-liner (file's note, else 'No active proposals at the moment') takes the section's place. No token / fetch failure: unchanged.
 
 ## 13.10 — Spot page: Liquid card first (always unfiltered), then veAERO votes (collapsed by default, header shows voting power + switch gain), then Total exposure with its own 'AERO' switch (filters only that card).

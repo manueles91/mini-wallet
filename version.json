@@ -1,7 +1,7 @@
 {
-  "versionCode": 37,
-  "versionName": "13.10.1",
+  "versionCode": 38,
+  "versionName": "13.11",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "7a79ecb616515fb16f017db75d6931536414a11752f752c8feec187bb6f72c11",
-  "notes": "13.10.1: Leverage page shows a one-line 'No active proposals' when the setups file loads with none"
+  "apkSha256": "f67af17a1dfbe92e17256c860a247121cde57a20ad845a2cb3256702a2eb7a47",
+  "notes": "13.11: tap a Liquid-card signal chip for the reasoning (research labels from the private repo; RSI fallback)"
 }
