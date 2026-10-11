@@ -1,7 +1,7 @@
 {
-  "versionCode": 36,
-  "versionName": "13.10",
+  "versionCode": 37,
+  "versionName": "13.10.1",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "ff11b7afc03914d0d2495ebbc0e4487ed821e0539f6b1d742ed730875b744f76",
-  "notes": "13.10: Spot order Liquid \u2192 veAERO votes (collapsible) \u2192 Total exposure; 'AERO' switch now only filters the exposure card"
+  "apkSha256": "7a79ecb616515fb16f017db75d6931536414a11752f752c8feec187bb6f72c11",
+  "notes": "13.10.1: Leverage page shows a one-line 'No active proposals' when the setups file loads with none"
 }

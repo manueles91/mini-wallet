@@ -11,6 +11,8 @@ Four home-screen widgets, each resizable. The app's main screen shows all four a
 
 Read-only. You enter a **public** wallet address on first launch. No private keys, seed phrases, accounts, or analytics. Data comes only from free public sources: the Hyperliquid info API, Blockscout (Ethereum), public chain RPCs (incl. Base protocol contract reads), and DefiLlama prices.
 
+## 13.10.1 — Leverage page: when the setups file loads fine but has no qualifying proposals, a discreet one-liner (file's note, else 'No active proposals at the moment') takes the section's place. No token / fetch failure: unchanged.
+
 ## 13.10 — Spot page: Liquid card first (always unfiltered), then veAERO votes (collapsed by default, header shows voting power + switch gain), then Total exposure with its own 'AERO' switch (filters only that card).
 
 ## 13.9.1 — veAERO card: 'Recommended this epoch' from AeroAllocator's free /api/allocation (voter_roi) for votable power (40 Acres locks excluded); current vs recommended split, votes, expected $/epoch, stay vs switch. Hidden if the API is down (6 h cached fallback) and after Aero launch.
