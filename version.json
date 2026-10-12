@@ -1,7 +1,7 @@
 {
-  "versionCode": 39,
-  "versionName": "13.12",
+  "versionCode": 40,
+  "versionName": "13.13",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "59daa01511e36c472d52bba09fb081074057e54b032440216030241da90444cf",
-  "notes": "13.12: tap the top-left wordmark for privacy mode; Liquid card signal pills + % column; veAERO card shows countdowns + suggestions only; widgets follow 24h/7d (tap title) and Exposure widget gains No AERO"
+  "apkSha256": "1e8cc6c85f4aedc950136d915f6887e33b07e36c654dfb2bcc82fbeccae05878",
+  "notes": "13.13: coin sheet shows today's research charts (USD + vs ETH) with levels under an expander; privacy mode shows Overview leverage PnL as %; veAERO card gap fixed"
 }
