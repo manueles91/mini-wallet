@@ -11,6 +11,8 @@ Four home-screen widgets, each resizable. The app's main screen shows all four a
 
 Read-only. You enter a **public** wallet address on first launch. No private keys, seed phrases, accounts, or analytics. Data comes only from free public sources: the Hyperliquid info API, Blockscout (Ethereum), public chain RPCs (incl. Base protocol contract reads), and DefiLlama prices.
 
+## 13.14 — Privacy mode: all leverage cards (Overview leverage, Leverage page perps/options, section headers, per-position 24h/7d) show PnL as % — of margin for perps, premium paid for options, leverage value for totals — instead of $•••.
+
 ## 13.13 — Coin bottom sheet: when today's research label has chart images (USD + TOKEN/ETH; ETH: USD + ETH/BTC), they're shown stacked with captions under the reasoning, cached on device; S/R text collapses under a "Levels" expander. Otherwise the text / RSI-only fallback. Privacy mode: Overview Leverage card PnL and rows as %. veAERO card: removed the empty gap.
 
 ## 13.12 — Privacy mode: tap the MINI WALLET wordmark (top-left) to mask every $ amount and quantity (•••); % and prices stay; the Performance chart switches to % from range start; stay-vs-switch shows % gain; the widget eye uses the same global state. Liquid card: dedicated tappable signal-pill column + 24h/7d % per row. veAERO card: countdowns + recommended pools only (current split behind a flag). Widgets: follow the app 24h/7d setting, tap the widget title to flip it for all widgets; Exposure widget chip cycles All → Liquid → No AERO.

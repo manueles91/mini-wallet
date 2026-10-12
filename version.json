@@ -1,7 +1,7 @@
 {
-  "versionCode": 40,
-  "versionName": "13.13",
+  "versionCode": 41,
+  "versionName": "13.14",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "1e8cc6c85f4aedc950136d915f6887e33b07e36c654dfb2bcc82fbeccae05878",
-  "notes": "13.13: coin sheet shows today's research charts (USD + vs ETH) with levels under an expander; privacy mode shows Overview leverage PnL as %; veAERO card gap fixed"
+  "apkSha256": "38d6ee474f58cdea80ee975e4063fbcf6aa96fe1319496117433b7015c18dbb1",
+  "notes": "13.14: privacy mode shows every leverage card's 24h/7d PnL as % (margin / premium / leverage value)"
 }
