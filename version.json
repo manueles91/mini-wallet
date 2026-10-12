@@ -1,7 +1,7 @@
 {
-  "versionCode": 38,
-  "versionName": "13.11",
+  "versionCode": 39,
+  "versionName": "13.12",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "f67af17a1dfbe92e17256c860a247121cde57a20ad845a2cb3256702a2eb7a47",
-  "notes": "13.11: tap a Liquid-card signal chip for the reasoning (research labels from the private repo; RSI fallback)"
+  "apkSha256": "59daa01511e36c472d52bba09fb081074057e54b032440216030241da90444cf",
+  "notes": "13.12: tap the top-left wordmark for privacy mode; Liquid card signal pills + % column; veAERO card shows countdowns + suggestions only; widgets follow 24h/7d (tap title) and Exposure widget gains No AERO"
 }
