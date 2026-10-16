@@ -13,6 +13,8 @@ Read-only. You enter a **public** wallet address on first launch. No private key
 
 ## 13.16 — Rebrand to LeverLens: new launcher icon (adaptive + legacy + round), app, launcher and widget names are now 'LeverLens', the top-left wordmark reads LEVERLENS (tap still toggles privacy mode). applicationId unchanged, so it updates in place and keeps all settings.
 
+## 13.17 — Round icon: new circular LeverLens launcher icon (adaptive, legacy and round).
+
 ## 13.15 — Liquid card labels: chips come only from live price vs the daily analysis' price thresholds (Consider adding / Deep value below, Getting warm / Take profit above, else Neutral), on a 24h rolling basis. Fixes labels switching to plain RSI after local midnight. No RSI fallback: after 36h without a new analysis the last thresholds keep working and the chip shows '· old'; coins not covered get no chip. Coin sheet lists the label levels and current price.
 
 ## 13.14 — Privacy mode: all leverage cards (Overview leverage, Leverage page perps/options, section headers, per-position 24h/7d) show PnL as % — of margin for perps, premium paid for options, leverage value for totals — instead of $•••.

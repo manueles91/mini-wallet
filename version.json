@@ -1,7 +1,7 @@
 {
-  "versionCode": 43,
-  "versionName": "13.16",
+  "versionCode": 44,
+  "versionName": "13.17",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "7e0a05d7c8b4dde366036ab555a84784ed91bfd4a1ecaa26034f1cc54a707dca",
-  "notes": "13.16: Rebranded to LeverLens: new icon, app/launcher/widget names and LEVERLENS wordmark (tap still toggles privacy). Same app, data and settings."
+  "apkSha256": "90445bbe6e059c43693c931ba84f5835cacc03ae94a6f6bdd5d267c18e7f21ac",
+  "notes": "Round icon"
 }
