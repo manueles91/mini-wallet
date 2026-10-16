@@ -1,4 +1,4 @@
-# Mini Wallet
+# LeverLens (formerly Mini Wallet)
 
 A personal, read-only crypto portfolio widget for Android (built for Samsung Galaxy / One UI).
 
@@ -10,6 +10,8 @@ Four home-screen widgets, each resizable. The app's main screen shows all four a
 - Manual refresh button, plus automatic refresh about every 30 minutes. The app checks this repo daily for updates.
 
 Read-only. You enter a **public** wallet address on first launch. No private keys, seed phrases, accounts, or analytics. Data comes only from free public sources: the Hyperliquid info API, Blockscout (Ethereum), public chain RPCs (incl. Base protocol contract reads), and DefiLlama prices.
+
+## 13.16 — Rebrand to LeverLens: new launcher icon (adaptive + legacy + round), app, launcher and widget names are now 'LeverLens', the top-left wordmark reads LEVERLENS (tap still toggles privacy mode). applicationId unchanged, so it updates in place and keeps all settings.
 
 ## 13.15 — Liquid card labels: chips come only from live price vs the daily analysis' price thresholds (Consider adding / Deep value below, Getting warm / Take profit above, else Neutral), on a 24h rolling basis. Fixes labels switching to plain RSI after local midnight. No RSI fallback: after 36h without a new analysis the last thresholds keep working and the chip shows '· old'; coins not covered get no chip. Coin sheet lists the label levels and current price.
 

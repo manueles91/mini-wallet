@@ -1,7 +1,7 @@
 {
-  "versionCode": 42,
-  "versionName": "13.15",
+  "versionCode": 43,
+  "versionName": "13.16",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "0054411b09467f1f56fb317a3ea2a819ebf8d9d6becc6274f9896d7b48a7a0a0",
-  "notes": "13.15: Liquid card labels come only from live price vs the daily analysis' price thresholds (24h rolling); no RSI switch after midnight; after 36h the last labels show '\u00b7 old'"
+  "apkSha256": "7e0a05d7c8b4dde366036ab555a84784ed91bfd4a1ecaa26034f1cc54a707dca",
+  "notes": "13.16: Rebranded to LeverLens: new icon, app/launcher/widget names and LEVERLENS wordmark (tap still toggles privacy). Same app, data and settings."
 }
