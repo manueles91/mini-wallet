@@ -11,6 +11,8 @@ Four home-screen widgets, each resizable. The app's main screen shows all four a
 
 Read-only. You enter a **public** wallet address on first launch. No private keys, seed phrases, accounts, or analytics. Data comes only from free public sources: the Hyperliquid info API, Blockscout (Ethereum), public chain RPCs (incl. Base protocol contract reads), and DefiLlama prices.
 
+## 13.15 — Liquid card labels: chips come only from live price vs the daily analysis' price thresholds (Consider adding / Deep value below, Getting warm / Take profit above, else Neutral), on a 24h rolling basis. Fixes labels switching to plain RSI after local midnight. No RSI fallback: after 36h without a new analysis the last thresholds keep working and the chip shows '· old'; coins not covered get no chip. Coin sheet lists the label levels and current price.
+
 ## 13.14 — Privacy mode: all leverage cards (Overview leverage, Leverage page perps/options, section headers, per-position 24h/7d) show PnL as % — of margin for perps, premium paid for options, leverage value for totals — instead of $•••.
 
 ## 13.13 — Coin bottom sheet: when today's research label has chart images (USD + TOKEN/ETH; ETH: USD + ETH/BTC), they're shown stacked with captions under the reasoning, cached on device; S/R text collapses under a "Levels" expander. Otherwise the text / RSI-only fallback. Privacy mode: Overview Leverage card PnL and rows as %. veAERO card: removed the empty gap.

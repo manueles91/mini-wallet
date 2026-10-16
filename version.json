@@ -1,7 +1,7 @@
 {
-  "versionCode": 41,
-  "versionName": "13.14",
+  "versionCode": 42,
+  "versionName": "13.15",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "38d6ee474f58cdea80ee975e4063fbcf6aa96fe1319496117433b7015c18dbb1",
-  "notes": "13.14: privacy mode shows every leverage card's 24h/7d PnL as % (margin / premium / leverage value)"
+  "apkSha256": "0054411b09467f1f56fb317a3ea2a819ebf8d9d6becc6274f9896d7b48a7a0a0",
+  "notes": "13.15: Liquid card labels come only from live price vs the daily analysis' price thresholds (24h rolling); no RSI switch after midnight; after 36h the last labels show '\u00b7 old'"
 }
