@@ -11,6 +11,8 @@ Four home-screen widgets, each resizable. The app's main screen shows all four a
 
 Read-only. You enter a **public** wallet address on first launch. No private keys, seed phrases, accounts, or analytics. Data comes only from free public sources: the Hyperliquid info API, Blockscout (Ethereum), public chain RPCs (incl. Base protocol contract reads), and DefiLlama prices.
 
+## 13.18 — Settings redesign: a short list of grouped rows (Data: Portfolio & data sources, Research labels & setups; App: Widgets, Updates, About), each opening a sub-screen with the detailed options and a summary of current values. Nothing removed. Privacy mode moved off the wordmark to a hidden gesture in Settings.
+
 ## 13.17 — Round icon: new circular LeverLens launcher icon (adaptive, legacy and round).
 
 ## 13.16 — Rebrand to LeverLens: new launcher icon (adaptive + legacy + round), app, launcher and widget names are now 'LeverLens', the top-left wordmark reads LEVERLENS (tap still toggles privacy mode). applicationId unchanged, so it updates in place and keeps all settings.

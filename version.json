@@ -1,7 +1,7 @@
 {
-  "versionCode": 44,
-  "versionName": "13.17",
+  "versionCode": 45,
+  "versionName": "13.18",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "90445bbe6e059c43693c931ba84f5835cacc03ae94a6f6bdd5d267c18e7f21ac",
-  "notes": "Round icon"
+  "apkSha256": "e26039fba21d09374dd7e3ecb79081e8b4120efa44c34349dc9a42a8a39ed771",
+  "notes": "Settings redesign; privacy moved to hidden long-press"
 }
