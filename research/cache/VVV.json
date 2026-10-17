@@ -73,18 +73,8 @@
     ],
     "invalidation": 20.5
   },
-  "last_divergence": {
-    "type": "Regular Bullish",
-    "timeframe": "1d",
-    "date": "2026-10-13"
-  },
-  "divergences_seen": [
-    {
-      "type": "Regular Bullish",
-      "timeframe": "1d",
-      "date": "2026-10-13"
-    }
-  ],
+  "last_divergence": null,
+  "divergences_seen": [],
   "thesis": [
     "VVV jumped 9% to 24.35 off monthly support 21.54, with RSI 48 and no active divergence, and VVV/ETH held daily 0.00987",
     "Hold while 21.5 stays intact on a daily close; daily 25.9 is first resistance and monthly 34.7 the take-profit zone."

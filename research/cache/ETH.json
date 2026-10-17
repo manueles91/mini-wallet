@@ -74,18 +74,8 @@
     ],
     "invalidation": 2000
   },
-  "last_divergence": {
-    "type": "Regular Bullish",
-    "timeframe": "1d",
-    "date": "2026-10-15"
-  },
-  "divergences_seen": [
-    {
-      "type": "Regular Bullish",
-      "timeframe": "1d",
-      "date": "2026-10-15"
-    }
-  ],
+  "last_divergence": null,
+  "divergences_seen": [],
   "thesis": [
     "ETH bounced 5% to 2,460 and reclaimed weekly 2,403, now pressing weekly resistance 2,465 with RSI 42 and no divergence",
     "ETH/BTC is cool (RSI 36) under weekly 0.0302, so hold rather than chase; daily 2,266 and monthly 2,142 remain the add stack if this bounce fails."

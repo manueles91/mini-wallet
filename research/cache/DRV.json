@@ -61,23 +61,8 @@
     "valid_until": "2026-10-20T18:07:00-06:00"
   },
   "zones": null,
-  "last_divergence": {
-    "type": "Hidden Bullish",
-    "timeframe": "1d",
-    "date": "2026-10-15"
-  },
-  "divergences_seen": [
-    {
-      "type": "Hidden Bullish",
-      "timeframe": "1d",
-      "date": "2026-10-15"
-    },
-    {
-      "type": "Regular Bearish",
-      "timeframe": "1d",
-      "date": "2026-10-09"
-    }
-  ],
+  "last_divergence": null,
+  "divergences_seen": [],
   "thesis": [
     "DRV ripped 17% off yesterday's daily support 0.364 to 0.434, with RSI 55 and weekly RSI still extended at 75, and no active divergence",
     "DRV/ETH is extended too, so hold and let daily 0.489 be the first trim zone rather than adding into strength."

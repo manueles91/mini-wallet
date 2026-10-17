@@ -80,18 +80,8 @@
     ],
     "invalidation": 0.185
   },
-  "last_divergence": {
-    "type": "Regular Bearish",
-    "timeframe": "1d",
-    "date": "2026-10-13"
-  },
-  "divergences_seen": [
-    {
-      "type": "Regular Bearish",
-      "timeframe": "1d",
-      "date": "2026-10-13"
-    }
-  ],
+  "last_divergence": null,
+  "divergences_seen": [],
   "thesis": [
     "SYRUP is holding just above weekly support 0.204 after a -9% week, with daily RSI 41, no active divergence and price below all EMAs under daily resistance 0.215",
     "SYRUP/ETH sits on daily support 8.48e-05, so wait for weekly 0.204 to add, with monthly 0.193 the deep-value level; the 0.236-0.245 monthly/weekly cluster is the take-profit zone."
