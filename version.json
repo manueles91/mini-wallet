@@ -1,7 +1,7 @@
 {
-  "versionCode": 54,
-  "versionName": "13.26",
+  "versionCode": 55,
+  "versionName": "13.27",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "8b720aa53884510d3a122f6b5defc601628d05b091a3c4328028abac57e4b1dc",
-  "notes": "Liquid names use full width \u00b7 Leverage pie Size | At risk toggle \u00b7 dense Perps/Options rows \u00b7 old At-risk panel removed"
+  "apkSha256": "30fc916d8f5057338f55493e705e42a3fec79c678ea05cb83de32d7ff4f7886a",
+  "notes": "Liquid PRICE column \u00b7 Movers on all capital (spot + at-risk leverage) \u00b7 Overview AERO toggle \u00b7 perp mark price \u00b7 level-crossed removed \u00b7 watchlist webhook sync"
 }
