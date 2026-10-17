@@ -1,7 +1,7 @@
 {
-  "versionCode": 45,
-  "versionName": "13.18",
+  "versionCode": 46,
+  "versionName": "13.19",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "e26039fba21d09374dd7e3ecb79081e8b4120efa44c34349dc9a42a8a39ed771",
-  "notes": "Settings redesign; privacy moved to hidden long-press"
+  "apkSha256": "5eb831cbc9a84c73cd295684465bd354c06b9faca3e343a92913a0dda7ff846f",
+  "notes": "Research + updates now read from mini-wallet with your read token (repo going private). Token: fine-grained, mini-wallet only, Contents: Read."
 }

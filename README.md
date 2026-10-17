@@ -11,6 +11,8 @@ Four home-screen widgets, each resizable. The app's main screen shows all four a
 
 Read-only. You enter a **public** wallet address on first launch. No private keys, seed phrases, accounts, or analytics. Data comes only from free public sources: the Hyperliquid info API, Blockscout (Ethereum), public chain RPCs (incl. Base protocol contract reads), and DefiLlama prices.
 
+## 13.19 — Consolidation: research labels, setups and chart images are read from this repo under research/ (labels/latest.json, labels/img/, setups/latest.json; old life-os paths are mapped automatically). In-app updates use the authenticated GitHub API with the same stored token, so they keep working when this repo is private; without a token the Updates screen shows 'Token needed for updates'. Token: fine-grained, repository manueles91/mini-wallet only, Contents: Read (Settings → Research labels & setups).
+
 ## 13.18 — Settings redesign: a short list of grouped rows (Data: Portfolio & data sources, Research labels & setups; App: Widgets, Updates, About), each opening a sub-screen with the detailed options and a summary of current values. Nothing removed. Privacy mode moved off the wordmark to a hidden gesture in Settings.
 
 ## 13.17 — Round icon: new circular LeverLens launcher icon (adaptive, legacy and round).
