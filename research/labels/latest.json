@@ -1263,6 +1263,136 @@
         "valid_from": "2026-10-16T22:50:10-06:00",
         "valid_until": "2026-10-20T18:07:00-06:00"
       }
+    },
+    "GRASS": {
+      "rsi": {
+        "value": 50.9,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "neutral"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.6245
+          ],
+          "resistance": [
+            0.9055
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.6032,
+            0.476
+          ],
+          "resistance": [
+            0.6404,
+            0.655
+          ]
+        },
+        "daily": {
+          "support": [
+            0.5649
+          ],
+          "resistance": [
+            0.7969
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.000123689
+          ],
+          "resistance": [
+            0.000319959
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.000226571,
+            0.000196585
+          ],
+          "resistance": [
+            0.000284234
+          ]
+        },
+        "daily": {
+          "support": [
+            0.000257806
+          ],
+          "resistance": [
+            0.000263952
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": true,
+        "timeframe": "1d",
+        "indicator": "RSI",
+        "type": "Hidden Bullish"
+      },
+      "divergences": [
+        {
+          "type": "Hidden Bullish",
+          "timeframe": "1d",
+          "chart": "USD",
+          "from": "2026-10-08",
+          "to": "2026-10-14",
+          "rsi_from": 55.0,
+          "rsi_to": 50.5,
+          "status": "active"
+        },
+        {
+          "type": "Hidden Bullish",
+          "timeframe": "1d",
+          "chart": "vs ETH",
+          "from": "2026-10-08",
+          "to": "2026-10-14",
+          "rsi_from": 59.1,
+          "rsi_to": 53.6,
+          "status": "active"
+        }
+      ],
+      "label": "Neutral",
+      "reasoning": "GRASS is retesting monthly support 0.625 after a 30% pullback from its October spike, with daily RSI 51 and an active 1d Hidden Bullish divergence on both USD and vs ETH, still above EMA50/200. Add on a dip to weekly 0.603, with daily 0.565 the deep-value level; 0.80 daily resistance is getting warm and 0.905 monthly is take profit.",
+      "images": [
+        {
+          "caption": "USD · daily (M/W/D levels, RSI divergences marked)",
+          "path": "research/labels/img/GRASS_usd_2026-10-17.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (M/W/D levels, RSI divergences marked)",
+          "path": "research/labels/img/GRASS_eth_2026-10-17.png.b64"
+        }
+      ],
+      "notes": "Verified: Binance USDT-M GRASSUSDT perp daily (709d) + CoinGecko grass, 2026-10-17 00:59 CR new-coin run (LeverLens watchlist add); price 0.630539, RSI d/w 50.9/58. Verified: 24h -7.1%, 7d -3.1%, below EMA20 0.647, above EMA50 0.549/EMA200 0.443, vol 0.51x, 30d high 0.895 (-29.5%). Binance OI -2.5% 24h, funding +0.005%. Hyperliquid OI 47.4M GRASS, funding +0.00125%/h, mark 0.6314. W R 0.640/0.655 overhead. GRASS/ETH RSI d/w 53.5/57, above EMAs, D S 2.58e-04, W S 2.27e-04, W R 2.84e-04. Hidden Bullish 1d (Oct 8 to Oct 14) active on USD and vs ETH; no active bearish divergence. Missing: no holdings or position in GRASS.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 0.6032
+          },
+          {
+            "label": "Deep value",
+            "price": 0.5649
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 0.7969
+          },
+          {
+            "label": "Take profit",
+            "price": 0.9055
+          }
+        ],
+        "ref_price": 0.630539,
+        "valid_from": "2026-10-17T00:59:37-06:00",
+        "valid_until": "2026-10-20T18:07:00-06:00"
+      }
     }
   },
   "valid_from": "2026-10-16T07:34:05-06:00",
