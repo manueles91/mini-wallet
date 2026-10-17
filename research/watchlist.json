@@ -1,10 +1,14 @@
 {
   "schema": "mw-watchlist/0",
-  "updated": "2026-10-17T04:33:10Z",
+  "updated": "2026-10-17T06:59:47Z",
   "coins": [
     {
       "symbol": "SYRUP",
       "id": "syrup"
+    },
+    {
+      "symbol": "GRASS",
+      "id": "grass"
     }
   ]
 }
