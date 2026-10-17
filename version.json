@@ -1,7 +1,7 @@
 {
-  "versionCode": 53,
-  "versionName": "13.25",
+  "versionCode": 54,
+  "versionName": "13.26",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "ce31264ab10c6fe416142ba21eece79836f3ed74a2b24266eb88911a108b5dd3",
-  "notes": "Liquid card: liquid only + column headers; compact Perps/Options cards; one exposure pie per page (Spot-only, Leverage-only, Overview total); slimmer tappable watchlist rows"
+  "apkSha256": "8b720aa53884510d3a122f6b5defc601628d05b091a3c4328028abac57e4b1dc",
+  "notes": "Liquid names use full width \u00b7 Leverage pie Size | At risk toggle \u00b7 dense Perps/Options rows \u00b7 old At-risk panel removed"
 }
