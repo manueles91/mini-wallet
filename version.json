@@ -1,7 +1,7 @@
 {
-  "versionCode": 56,
-  "versionName": "13.28",
+  "versionCode": 57,
+  "versionName": "13.29",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "c3c8290aa7a94e7a0d5a00f5bb6d7d72ad0dcc28222f818a48b3dece070721d4",
-  "notes": "Reserve line (free USDC) on Perps and Options cards \u00b7 Derive cash auto-fetched \u00b7 per-token label validity"
+  "apkSha256": "f5af6e3b56488522670a12d89fe4909d8c33728995e5bb6e5db882642afa4d26",
+  "notes": "Pull-to-refresh now fetches fresh labels, setups and watchlist \u00b7 new analyses appear automatically after adding a coin"
 }
