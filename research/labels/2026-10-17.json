@@ -198,20 +198,9 @@
         "timeframe": "1d",
         "indicator": "RSI"
       },
-      "divergences": [
-        {
-          "type": "Regular Bullish",
-          "timeframe": "1d",
-          "chart": "USD (wick pivots)",
-          "from": "2026-10-08",
-          "to": "2026-10-15",
-          "rsi_from": 37.5,
-          "rsi_to": 39.9,
-          "status": "new; not confirmed on closes"
-        }
-      ],
+      "divergences": [],
       "label": "Neutral",
-      "reasoning": "ETH gave back the bounce to 2,406 (-2% since Oct 16) and is testing the weekly 2,403 add level with RSI 39. A Regular Bullish 1d on wick lows (Oct 8 to Oct 15) is new but not confirmed on closes, so treat it as a soft positive; daily 2,266 and monthly 2,142 stay the deeper add stack.",
+      "reasoning": "ETH gave back the bounce to 2,406 (-2% since Oct 16) and is testing the weekly 2,403 add level with RSI 39 and no divergence on closes. Daily 2,266 and monthly 2,142 stay the deeper add stack.",
       "images": [
         {
           "caption": "USD · daily (M/W/D levels, RSI divergences marked)",
@@ -222,7 +211,7 @@
           "path": "research/labels/img/ETH_eth_2026-10-17.png.b64"
         }
       ],
-      "notes": "Light (incremental) update 2026-10-17 ~11:35 CR from research/cache/ETH.json (needs_full: quiet: 1 new daily close(s), move -2.2%, no M/W/threshold cross, 1d since full). Fresh: price 2405.3 (Hyperliquid 1d), RSI 1d 38.6 on completed closes, pivots/divergence re-check, chart redrawn (new divergence). Carried from the 2026-10-16 full run: thresholds, usd_sr, eth_sr, OI/funding. Previous notes: Verified: Binance spot ETHUSDT + ETHBTC (data-api.binance.vision, 1500d/1000d), 2026-10-16 07:35 CR run; price 2460.17, RSI d/w 41.8/54. OI/funding: OKX USDT-swap OI (24h change from 1h history) and current funding, since Binance fapi is blocked. Verified: 24h +5.1%, 7d -1.7%, RSI d/w 42/55, below EMA20, above EMA50/EMA200, vol 1.14x. OKX OI -6.2% 24h, funding ~0%. eth_sr empty by design; ETH/BTC: W S 0.02968/0.02872, W R 0.0302/0.03069, M S 0.02827 / M R 0.03205. Dec call break-evens ~3,083 / ~3,532.",
+      "notes": "Light (incremental) update 2026-10-17 ~11:35 CR from research/cache/ETH.json (needs_full: quiet: 1 new daily close(s), move -2.2%, no M/W/threshold cross, 1d since full). Fresh: price 2405.3 (Hyperliquid 1d), RSI 1d 38.6 on completed closes, pivots/divergence re-check, chart redrawn. Carried from the 2026-10-16 full run: thresholds, usd_sr, eth_sr, OI/funding. Previous notes: Verified: Binance spot ETHUSDT + ETHBTC (data-api.binance.vision, 1500d/1000d), 2026-10-16 07:35 CR run; price 2460.17, RSI d/w 41.8/54. OI/funding: OKX USDT-swap OI (24h change from 1h history) and current funding, since Binance fapi is blocked. Verified: 24h +5.1%, 7d -1.7%, RSI d/w 42/55, below EMA20, above EMA50/EMA200, vol 1.14x. OKX OI -6.2% 24h, funding ~0%. eth_sr empty by design; ETH/BTC: W S 0.02968/0.02872, W R 0.0302/0.03069, M S 0.02827 / M R 0.03205. Dec call break-evens ~3,083 / ~3,532.",
       "thresholds": {
         "base": "Neutral",
         "down": [
@@ -303,20 +292,9 @@
         "timeframe": "1d",
         "indicator": "RSI"
       },
-      "divergences": [
-        {
-          "type": "Regular Bullish",
-          "timeframe": "1d",
-          "chart": "USD (wick pivots)",
-          "from": "2026-10-08",
-          "to": "2026-10-13",
-          "rsi_from": 41.2,
-          "rsi_to": 43.3,
-          "status": "new; not confirmed on closes"
-        }
-      ],
+      "divergences": [],
       "label": "Neutral",
-      "reasoning": "VVV pulled back 8% to 22.5 but still holds above the monthly 21.54 add level, with RSI 44 and a new Regular Bullish 1d on wick lows (Oct 8 to Oct 13). Hold while 21.5 holds on a daily close; your 3x liquidation at 18.10 is ~20% below, and monthly 34.7 stays the take-profit zone.",
+      "reasoning": "VVV pulled back 8% to 22.5 but still holds above the monthly 21.54 add level, with RSI 44 and no active divergence. Hold while 21.5 holds on a daily close; your 3x liquidation at 18.10 is ~20% below, and monthly 34.7 stays the take-profit zone.",
       "images": [
         {
           "caption": "USD · daily (M/W/D levels, RSI divergences marked)",
@@ -327,7 +305,7 @@
           "path": "research/labels/img/VVV_eth_2026-10-17.png.b64"
         }
       ],
-      "notes": "Light (incremental) update 2026-10-17 ~11:35 CR from research/cache/VVV.json (needs_full: quiet: 1 new daily close(s), move -7.7%, no M/W/threshold cross, 1d since full). Fresh: price 22.467 (Hyperliquid 1d), RSI 1d 44.3 on completed closes, pivots/divergence re-check, chart redrawn (new divergence). Carried from the 2026-10-16 full run: thresholds, usd_sr, eth_sr, OI/funding. Previous notes: Verified: Binance USDT-M perp history (2026-10-15 cache) + OKX VVV-USDT-SWAP daily (UTC) through Oct 16 for the latest bars (Binance fapi HTTP 451 from this box), 2026-10-16 07:35 CR run; price 24.35, RSI d/w 48.1/65. OI/funding: OKX USDT-swap OI (24h change from 1h history) and current funding, since Binance fapi is blocked. Verified: 24h +8.9%, 7d +7.2%, RSI d/w 48/65, below EMA20, above EMA50/EMA200, vol 1.21x. OKX OI -27.5% 24h (deleveraging into the bounce), funding -0.0044%. D S 21.13, W S 14.86. Verified (Hyperliquid read-only): 673 @ 22.56, 3x isolated, liq 18.09 (~25.8% below mark 24.36), reduce-only TPs at 33 and 39.",
+      "notes": "Light (incremental) update 2026-10-17 ~11:35 CR from research/cache/VVV.json (needs_full: quiet: 1 new daily close(s), move -7.7%, no M/W/threshold cross, 1d since full). Fresh: price 22.467 (Hyperliquid 1d), RSI 1d 44.3 on completed closes, pivots/divergence re-check, chart redrawn. Carried from the 2026-10-16 full run: thresholds, usd_sr, eth_sr, OI/funding. Previous notes: Verified: Binance USDT-M perp history (2026-10-15 cache) + OKX VVV-USDT-SWAP daily (UTC) through Oct 16 for the latest bars (Binance fapi HTTP 451 from this box), 2026-10-16 07:35 CR run; price 24.35, RSI d/w 48.1/65. OI/funding: OKX USDT-swap OI (24h change from 1h history) and current funding, since Binance fapi is blocked. Verified: 24h +8.9%, 7d +7.2%, RSI d/w 48/65, below EMA20, above EMA50/EMA200, vol 1.21x. OKX OI -27.5% 24h (deleveraging into the bounce), funding -0.0044%. D S 21.13, W S 14.86. Verified (Hyperliquid read-only): 673 @ 22.56, 3x isolated, liq 18.09 (~25.8% below mark 24.36), reduce-only TPs at 33 and 39.",
       "thresholds": {
         "base": "Neutral",
         "down": [
@@ -641,20 +619,9 @@
         "timeframe": "1d",
         "indicator": "RSI"
       },
-      "divergences": [
-        {
-          "type": "Hidden Bullish",
-          "timeframe": "1d",
-          "chart": "USD (wick pivots)",
-          "from": "2026-10-07",
-          "to": "2026-10-15",
-          "rsi_from": 54.7,
-          "rsi_to": 51.5,
-          "status": "new; not confirmed on closes"
-        }
-      ],
+      "divergences": [],
       "label": "Neutral",
-      "reasoning": "DRV gave back 6% to 0.407 after the 17% rip, with RSI 49 and a new Hidden Bullish 1d on wick lows (Oct 7 to Oct 15). Still hold rather than chase; daily 0.364 is the add level and daily 0.489 the first trim zone.",
+      "reasoning": "DRV gave back 6% to 0.407 after the 17% rip, with RSI 49 and no active divergence. Still hold rather than chase; daily 0.364 is the add level and daily 0.489 the first trim zone.",
       "images": [
         {
           "caption": "USD · daily (M/W/D levels, RSI divergences marked)",
@@ -665,7 +632,7 @@
           "path": "research/labels/img/DRV_eth_2026-10-17.png.b64"
         }
       ],
-      "notes": "Light (incremental) update 2026-10-17 ~11:35 CR from research/cache/DRV.json (needs_full: quiet: 1 new daily close(s), move -6.2%, no M/W/threshold cross, 1d since full). Fresh: price 0.407215 (GeckoTerminal 1d), RSI 1d 48.9 on completed closes, pivots/divergence re-check, chart redrawn (new divergence). Carried from the 2026-10-16 full run: thresholds, usd_sr, eth_sr, OI/funding. Previous notes: Verified: GeckoTerminal Base pool OHLC (141d) + CoinGecko closes, 2026-10-16 07:35 CR run; price 0.433906, RSI d/w 54.7/74. Verified: 24h +17.3%, 7d -13.6%, RSI d/w 55/75, above EMA20/50/200, vol 0.60x. M S 0.201. DRV/ETH RSI 58/75, D S 0.000171 / D R 0.000181. Missing: perp OI/funding. Yesterday's forming Hidden Bullish on DRV/ETH dropped out.",
+      "notes": "Light (incremental) update 2026-10-17 ~11:35 CR from research/cache/DRV.json (needs_full: quiet: 1 new daily close(s), move -6.2%, no M/W/threshold cross, 1d since full). Fresh: price 0.407215 (GeckoTerminal 1d), RSI 1d 48.9 on completed closes, pivots/divergence re-check, chart redrawn. Carried from the 2026-10-16 full run: thresholds, usd_sr, eth_sr, OI/funding. Previous notes: Verified: GeckoTerminal Base pool OHLC (141d) + CoinGecko closes, 2026-10-16 07:35 CR run; price 0.433906, RSI d/w 54.7/74. Verified: 24h +17.3%, 7d -13.6%, RSI d/w 55/75, above EMA20/50/200, vol 0.60x. M S 0.201. DRV/ETH RSI 58/75, D S 0.000171 / D R 0.000181. Missing: perp OI/funding. Yesterday's forming Hidden Bullish on DRV/ETH dropped out.",
       "thresholds": {
         "base": "Neutral",
         "down": [
@@ -1261,20 +1228,9 @@
         "timeframe": "1d",
         "indicator": "RSI"
       },
-      "divergences": [
-        {
-          "type": "Regular Bearish",
-          "timeframe": "1d",
-          "chart": "USD (wick pivots)",
-          "from": "2026-10-04",
-          "to": "2026-10-13",
-          "rsi_from": 66.9,
-          "rsi_to": 50.7,
-          "status": "new; not confirmed on closes"
-        }
-      ],
+      "divergences": [],
       "label": "Consider adding",
-      "reasoning": "SYRUP slipped under weekly support 0.204 to 0.200 with RSI 39, and a Regular Bearish 1d on wick highs (Oct 4 to Oct 13) is new. This is the weekly add level, so small adds are fine here with monthly 0.193 the deep-value level; the 0.236-0.245 cluster stays the take-profit zone.",
+      "reasoning": "SYRUP slipped under weekly support 0.204 to 0.200 with RSI 39 and no active divergence. This is the weekly add level, so small adds are fine here with monthly 0.193 the deep-value level; the 0.236-0.245 cluster stays the take-profit zone.",
       "images": [
         {
           "caption": "USD · daily (M/W/D levels, RSI divergences marked)",
@@ -1285,7 +1241,7 @@
           "path": "research/labels/img/SYRUP_eth_2026-10-17.png.b64"
         }
       ],
-      "notes": "Light (incremental) update 2026-10-17 ~11:35 CR from research/cache/SYRUP.json (needs_full: quiet: 0 new daily close(s), move -4.4%, no M/W/threshold cross, 1d since full). Fresh: price 0.19981 (Hyperliquid 1d), RSI 1d 39.0 on completed closes, pivots/divergence re-check, chart redrawn (new divergence). Carried from the 2026-10-16 full run: thresholds, usd_sr, eth_sr, OI/funding. Previous notes: Verified: Binance USDT-M SYRUPUSDT perp daily (529d) + CoinGecko syrup, 2026-10-16 22:50 CR new-coin run (LeverLens watchlist add); price 0.208997, RSI d/w 41.4/50. Verified: 24h +1.3%, 7d -9.1%, below EMA20/50/200, vol 0.63x. Binance OI +1.7% 24h, funding +0.005%. Hyperliquid OI 34.5M SYRUP, funding +0.00125%/h, mark 0.2089. D S 0.190, W S 0.197. SYRUP/ETH RSI d/w 46.4/48, M S 7.70e-05, W R 9.45e-05. No active divergence: last Regular Bullish 1d vs ETH (Aug 19 to Aug 29) expired; Regular Bearish 1d USD (Aug 21 to Sep 8) invalidated. Your report: Hyperliquid SYRUP position flat since 2026-10-16.",
+      "notes": "Light (incremental) update 2026-10-17 ~11:35 CR from research/cache/SYRUP.json (needs_full: quiet: 0 new daily close(s), move -4.4%, no M/W/threshold cross, 1d since full). Fresh: price 0.19981 (Hyperliquid 1d), RSI 1d 39.0 on completed closes, pivots/divergence re-check, chart redrawn. Carried from the 2026-10-16 full run: thresholds, usd_sr, eth_sr, OI/funding. Previous notes: Verified: Binance USDT-M SYRUPUSDT perp daily (529d) + CoinGecko syrup, 2026-10-16 22:50 CR new-coin run (LeverLens watchlist add); price 0.208997, RSI d/w 41.4/50. Verified: 24h +1.3%, 7d -9.1%, below EMA20/50/200, vol 0.63x. Binance OI +1.7% 24h, funding +0.005%. Hyperliquid OI 34.5M SYRUP, funding +0.00125%/h, mark 0.2089. D S 0.190, W S 0.197. SYRUP/ETH RSI d/w 46.4/48, M S 7.70e-05, W R 9.45e-05. No active divergence: last Regular Bullish 1d vs ETH (Aug 19 to Aug 29) expired; Regular Bearish 1d USD (Aug 21 to Sep 8) invalidated. Your report: Hyperliquid SYRUP position flat since 2026-10-16.",
       "thresholds": {
         "base": "Neutral",
         "down": [
