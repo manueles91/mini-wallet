@@ -1154,6 +1154,115 @@
         "valid_from": "2026-10-16T07:34:05-06:00",
         "valid_until": "2026-10-17T07:34:05-06:00"
       }
+    },
+    "SYRUP": {
+      "rsi": {
+        "value": 41.4,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "cool"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.19326
+          ],
+          "resistance": [
+            0.23633,
+            0.24535
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.20357,
+            0.19657
+          ],
+          "resistance": [
+            0.24047
+          ]
+        },
+        "daily": {
+          "support": [
+            0.19029
+          ],
+          "resistance": [
+            0.21511
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            7.69767e-05,
+            7.30946e-05
+          ],
+          "resistance": [
+            8.7207e-05,
+            8.98317e-05
+          ]
+        },
+        "weekly": {
+          "support": [
+            7.44724e-05
+          ],
+          "resistance": [
+            9.44998e-05
+          ]
+        },
+        "daily": {
+          "support": [
+            8.48156e-05
+          ],
+          "resistance": [
+            9.28193e-05
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "divergences": [],
+      "label": "Neutral",
+      "reasoning": "SYRUP is holding just above weekly support 0.204 after a -9% week, with daily RSI 41, no active divergence and price below all EMAs under daily resistance 0.215. SYRUP/ETH sits on daily support 8.48e-05, so wait for weekly 0.204 to add, with monthly 0.193 the deep-value level; the 0.236-0.245 monthly/weekly cluster is the take-profit zone.",
+      "images": [
+        {
+          "caption": "USD · daily (M/W/D levels, RSI divergences marked)",
+          "path": "research/labels/img/SYRUP_usd_2026-10-16.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (M/W/D levels, RSI divergences marked)",
+          "path": "research/labels/img/SYRUP_eth_2026-10-16.png.b64"
+        }
+      ],
+      "notes": "Verified: Binance USDT-M SYRUPUSDT perp daily (529d) + CoinGecko syrup, 2026-10-16 22:50 CR new-coin run (LeverLens watchlist add); price 0.208997, RSI d/w 41.4/50. Verified: 24h +1.3%, 7d -9.1%, below EMA20/50/200, vol 0.63x. Binance OI +1.7% 24h, funding +0.005%. Hyperliquid OI 34.5M SYRUP, funding +0.00125%/h, mark 0.2089. D S 0.190, W S 0.197. SYRUP/ETH RSI d/w 46.4/48, M S 7.70e-05, W R 9.45e-05. No active divergence: last Regular Bullish 1d vs ETH (Aug 19 to Aug 29) expired; Regular Bearish 1d USD (Aug 21 to Sep 8) invalidated. Your report: Hyperliquid SYRUP position flat since 2026-10-16.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 0.20357
+          },
+          {
+            "label": "Deep value",
+            "price": 0.19326
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 0.23633
+          },
+          {
+            "label": "Take profit",
+            "price": 0.24535
+          }
+        ],
+        "ref_price": 0.208997,
+        "valid_from": "2026-10-16T22:50:10-06:00",
+        "valid_until": "2026-10-20T18:07:00-06:00"
+      }
     }
   },
   "valid_from": "2026-10-16T07:34:05-06:00",
