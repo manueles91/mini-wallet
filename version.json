@@ -1,7 +1,7 @@
 {
-  "versionCode": 51,
-  "versionName": "13.23",
+  "versionCode": 52,
+  "versionName": "13.24",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "b0362ec471732a822d82fc2ce48ae8d7df7cb5c772ed479c1e5fe7434e7574fe",
-  "notes": "Research: sort (Custom/A-Z/% change/Label), quick filter chips with counts, Edit mode to drag-reorder and remove watched coins"
+  "apkSha256": "849cab7c29be19ff1155adb028ed84d3dcdee5f485317758cb6edad495d5675c",
+  "notes": "Leverage: big margin/at-risk, Protocol distribution, no greeks line or gauge note; proposals moved to Research. Spot: new Locked portfolio card. Research: no filter chips, level-crossed for Held only, swipe left to remove watched coins (Undo)"
 }
