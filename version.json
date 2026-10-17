@@ -1,7 +1,7 @@
 {
-  "versionCode": 49,
+  "versionCode": 50,
   "versionName": "13.22",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "d60d556a6215cc8d1471da8171361d3aced881276c09c06ca3d001dabe1f6dff",
-  "notes": "Compact one-line Research rows so many more coins fit on screen"
+  "apkSha256": "d22672dd782716df3916624a096d8fab52d6cf4076d421e33724995e514c81da",
+  "notes": "Compact one-line Research rows; amber arrow when price crossed a label level since the analysis; labels go 'old' only after valid_until (else 6 days)"
 }
