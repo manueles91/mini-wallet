@@ -1,7 +1,7 @@
 {
-  "versionCode": 59,
-  "versionName": "13.31",
+  "versionCode": 60,
+  "versionName": "13.32",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "ea2d97062aaccf46d99ac709271bd1225abc03fa607fcde6546951c8453242d7",
-  "notes": "New LeverLens icon and wordmark."
+  "apkSha256": "8a2bee268f3865ae462ecb48833cb17cc8d31ccaf8bee37cc83598c0289e71e9",
+  "notes": "Total exposure: view toggle and AERO switch now share one row."
 }
