@@ -1,7 +1,7 @@
 {
-  "versionCode": 52,
-  "versionName": "13.24",
+  "versionCode": 53,
+  "versionName": "13.25",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "849cab7c29be19ff1155adb028ed84d3dcdee5f485317758cb6edad495d5675c",
-  "notes": "Leverage: big margin/at-risk, Protocol distribution, no greeks line or gauge note; proposals moved to Research. Spot: new Locked portfolio card. Research: no filter chips, level-crossed for Held only, swipe left to remove watched coins (Undo)"
+  "apkSha256": "ce31264ab10c6fe416142ba21eece79836f3ed74a2b24266eb88911a108b5dd3",
+  "notes": "Liquid card: liquid only + column headers; compact Perps/Options cards; one exposure pie per page (Spot-only, Leverage-only, Overview total); slimmer tappable watchlist rows"
 }
