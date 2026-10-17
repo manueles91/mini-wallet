@@ -1,7 +1,7 @@
 {
-  "versionCode": 46,
-  "versionName": "13.19",
+  "versionCode": 47,
+  "versionName": "13.20",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "5eb831cbc9a84c73cd295684465bd354c06b9faca3e343a92913a0dda7ff846f",
-  "notes": "Research + updates now read from mini-wallet with your read token (repo going private). Token: fine-grained, mini-wallet only, Contents: Read."
+  "apkSha256": "ddba14018fdb1a9061ec4c1fe31338a8c581a4c1414a7e7099dc2887e80e22ea",
+  "notes": "Header: wordmark + 24h/7d on one row (Overview, Spot, Leverage); Spot follows 24h/7d; bigger animated Net Worth card"
 }
