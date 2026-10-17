@@ -10,11 +10,11 @@
   },
   "last_update": {
     "date": "2026-10-17",
-    "ts": "2026-10-17T00:59:37-06:00",
-    "price": 0.630539,
-    "mode": "full"
+    "ts": "2026-10-17T11:36:58-06:00",
+    "price": 0.61632,
+    "mode": "incremental"
   },
-  "rsi_d": 50.9,
+  "rsi_d": 51.4,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -65,8 +65,8 @@
         "price": 0.9055
       }
     ],
-    "ref_price": 0.630539,
-    "valid_from": "2026-10-17T00:59:37-06:00",
+    "ref_price": 0.61632,
+    "valid_from": "2026-10-17T11:36:58-06:00",
     "valid_until": "2026-10-20T18:07:00-06:00"
   },
   "zones": {
@@ -99,6 +99,11 @@
       "timeframe": "1d",
       "date": "2026-10-14",
       "chart": "vs ETH"
+    },
+    {
+      "type": "Regular Bearish",
+      "timeframe": "1d",
+      "date": "2026-10-12"
     }
   ],
   "thesis": [
@@ -115,34 +120,32 @@
     "daily_highs": [
       {
         "date": "2026-09-29",
-        "price": 0.819
+        "price": 0.82087
       },
       {
         "date": "2026-10-04",
-        "price": 0.7969
+        "price": 0.79598
       },
       {
         "date": "2026-10-12",
-        "price": 0.8945
+        "price": 0.89096
       }
     ],
     "daily_lows": [
       {
         "date": "2026-09-08",
-        "price": 0.3208
+        "price": 0.32104
       },
       {
         "date": "2026-09-15",
-        "price": 0.3011
+        "price": 0.30156
       },
       {
         "date": "2026-10-08",
-        "price": 0.5649
+        "price": 0.56034
       }
     ],
-    "k": 3,
-    "source": "bn_kl_GRASSUSDT.json",
-    "as_of": "2026-10-17"
+    "k": 3
   },
   "image_paths": [
     {
@@ -155,5 +158,6 @@
       "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
       "drawn": "2026-10-17"
     }
-  ]
+  ],
+  "last_reasoning": "GRASS slipped 2% to 0.617, just under monthly 0.625 but above the weekly 0.603 add level, with RSI 51 and the Hidden Bullish 1d (USD and vs ETH) still active. Add at 0.603 with daily 0.565 the deep value; your 3x liquidation at 0.511 and the Oct 28 unlock argue for patience."
 }

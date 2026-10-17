@@ -3,26 +3,24 @@
   "symbol": "SPCX",
   "coingecko_id": null,
   "last_full_analysis": {
-    "date": "2026-10-16",
-    "ref_price": 148.01,
-    "label": "Neutral",
-    "source": "research/labels/2026-10-16.json"
+    "date": "2026-10-17",
+    "ref_price": 145.38,
+    "label": "Consider adding",
+    "source": "research/labels/2026-10-17.json"
   },
   "last_update": {
-    "date": "2026-10-16",
-    "ts": "2026-10-16T07:34:05-06:00",
-    "price": 148.01,
+    "date": "2026-10-17",
+    "ts": "2026-10-17T11:36:58-06:00",
+    "price": 145.38,
     "mode": "full"
   },
-  "rsi_d": 39.5,
+  "rsi_d": 37.0,
   "usd_sr": {
     "monthly": {
       "support": [
-        104.31
+        104.36
       ],
-      "resistance": [
-        228.0
-      ]
+      "resistance": []
     },
     "weekly": {
       "support": [],
@@ -30,10 +28,10 @@
     },
     "daily": {
       "support": [
-        146.87
+        145.22
       ],
       "resistance": [
-        149.49
+        149.47
       ]
     }
   },
@@ -42,53 +40,35 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 146.87
+        "price": 149.47
       },
       {
         "label": "Deep value",
-        "price": 104.31
+        "price": 104.36
       }
     ],
-    "up": [
-      {
-        "label": "Getting warm",
-        "price": 228.0
-      }
-    ],
-    "ref_price": 148.01,
-    "valid_from": "2026-10-16T07:34:05-06:00",
-    "valid_until": "2026-10-17T07:34:05-06:00"
+    "up": [],
+    "ref_price": 145.38,
+    "valid_from": "2026-10-17T11:36:58-06:00",
+    "valid_until": "2026-10-20T18:07:00-06:00"
   },
   "zones": null,
-  "last_divergence": {
-    "type": "Hidden Bullish",
-    "timeframe": "1d",
-    "date": "2026-10-16",
-    "chart": "USD",
-    "status": "forming (unconfirmed)"
-  },
-  "divergences_seen": [
-    {
-      "type": "Hidden Bullish",
-      "timeframe": "1d",
-      "date": "2026-10-16",
-      "chart": "USD"
-    }
-  ],
+  "last_divergence": null,
+  "divergences_seen": [],
   "thesis": [
-    "SPCX flat near daily support 146.9 with RSI 40, and a Hidden Bullish 1d (Sep 28 to Oct 16) is forming but unconfirmed",
-    "SPCX/ETH sits under daily resistance 0.0607 with weekly 0.0576 below, so hold; monthly 104 is the deep support if the form fails."
+    "SPCX lost the 146.9 add level on the Oct 16 close and sits on daily support 145.2 with RSI 37; yesterday's forming Hidden Bullish dropped out",
+    "SPCX/ETH holds daily support 0.0591 above weekly 0.0576, so small adds are fine while 145 holds on a daily close; monthly 104 is the only deep support, and a reclaim of daily 149.5 turns it neutral."
   ],
   "catalysts": [],
   "last_swings": {
     "daily_highs": [
       {
         "date": "2026-09-17",
-        "price": 156.91
+        "price": 156.9
       },
       {
         "date": "2026-09-21",
-        "price": 158.24
+        "price": 158.19
       },
       {
         "date": "2026-10-06",
@@ -98,31 +78,31 @@
     "daily_lows": [
       {
         "date": "2026-09-15",
-        "price": 142.56
+        "price": 142.51
       },
       {
         "date": "2026-09-24",
-        "price": 146.1
+        "price": 146.12
       },
       {
         "date": "2026-09-28",
-        "price": 145.29
+        "price": 145.22
       }
     ],
     "k": 3,
-    "source": "bn_kl_SPCXUSDT.json",
-    "as_of": "2026-10-16"
+    "source": "OKX USDT-swap 1D (utc)",
+    "as_of": "2026-10-17"
   },
   "image_paths": [
     {
-      "path": "research/labels/img/SPCX_usd_2026-10-16.png.b64",
+      "path": "research/labels/img/SPCX_usd_2026-10-17.png.b64",
       "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-16"
+      "drawn": "2026-10-17"
     },
     {
-      "path": "research/labels/img/SPCX_eth_2026-10-16.png.b64",
+      "path": "research/labels/img/SPCX_eth_2026-10-17.png.b64",
       "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-16"
+      "drawn": "2026-10-17"
     }
   ]
 }

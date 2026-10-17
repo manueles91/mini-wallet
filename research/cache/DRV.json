@@ -9,12 +9,12 @@
     "source": "research/labels/2026-10-16.json"
   },
   "last_update": {
-    "date": "2026-10-16",
-    "ts": "2026-10-16T07:34:05-06:00",
-    "price": 0.433906,
-    "mode": "full"
+    "date": "2026-10-17",
+    "ts": "2026-10-17T11:36:58-06:00",
+    "price": 0.407215,
+    "mode": "incremental"
   },
-  "rsi_d": 54.7,
+  "rsi_d": 48.9,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -56,13 +56,28 @@
         "price": 0.489274
       }
     ],
-    "ref_price": 0.433906,
-    "valid_from": "2026-10-16T07:34:05-06:00",
-    "valid_until": "2026-10-17T07:34:05-06:00"
+    "ref_price": 0.407215,
+    "valid_from": "2026-10-17T11:36:58-06:00",
+    "valid_until": "2026-10-20T18:07:00-06:00"
   },
   "zones": null,
-  "last_divergence": null,
-  "divergences_seen": [],
+  "last_divergence": {
+    "type": "Hidden Bullish",
+    "timeframe": "1d",
+    "date": "2026-10-15"
+  },
+  "divergences_seen": [
+    {
+      "type": "Hidden Bullish",
+      "timeframe": "1d",
+      "date": "2026-10-15"
+    },
+    {
+      "type": "Regular Bearish",
+      "timeframe": "1d",
+      "date": "2026-10-09"
+    }
+  ],
   "thesis": [
     "DRV ripped 17% off yesterday's daily support 0.364 to 0.434, with RSI 55 and weekly RSI still extended at 75, and no active divergence",
     "DRV/ETH is extended too, so hold and let daily 0.489 be the first trim zone rather than adding into strength."
@@ -97,20 +112,19 @@
         "price": 0.341168
       }
     ],
-    "k": 3,
-    "source": "gt_ohlcv_DRV.json",
-    "as_of": "2026-10-16"
+    "k": 3
   },
   "image_paths": [
     {
-      "path": "research/labels/img/DRV_usd_2026-10-16.png.b64",
+      "path": "research/labels/img/DRV_usd_2026-10-17.png.b64",
       "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-16"
+      "drawn": "2026-10-17"
     },
     {
-      "path": "research/labels/img/DRV_eth_2026-10-16.png.b64",
+      "path": "research/labels/img/DRV_eth_2026-10-17.png.b64",
       "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-16"
+      "drawn": "2026-10-17"
     }
-  ]
+  ],
+  "last_reasoning": "DRV gave back 6% to 0.407 after the 17% rip, with RSI 49 and a new Hidden Bullish 1d on wick lows (Oct 7 to Oct 15). Still hold rather than chase; daily 0.364 is the add level and daily 0.489 the first trim zone."
 }

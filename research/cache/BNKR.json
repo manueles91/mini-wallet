@@ -3,25 +3,26 @@
   "symbol": "BNKR",
   "coingecko_id": "bankercoin-2",
   "last_full_analysis": {
-    "date": "2026-10-16",
-    "ref_price": 0.00029841,
+    "date": "2026-10-17",
+    "ref_price": 0.00028512,
     "label": "Neutral",
-    "source": "research/labels/2026-10-16.json"
+    "source": "research/labels/2026-10-17.json"
   },
   "last_update": {
-    "date": "2026-10-16",
-    "ts": "2026-10-16T07:34:05-06:00",
-    "price": 0.00029841,
+    "date": "2026-10-17",
+    "ts": "2026-10-17T11:36:58-06:00",
+    "price": 0.00028512,
     "mode": "full"
   },
-  "rsi_d": 40.4,
+  "rsi_d": 38.0,
   "usd_sr": {
     "monthly": {
       "support": [
-        0.000296021,
-        0.000191941
+        0.000191941,
+        0.000179026
       ],
       "resistance": [
+        0.000296021,
         0.000556528
       ]
     },
@@ -30,16 +31,15 @@
         0.00021037
       ],
       "resistance": [
-        0.000301467,
-        0.000608855
+        0.000301467
       ]
     },
     "daily": {
       "support": [
-        0.000290435
+        0.00024784
       ],
       "resistance": [
-        0.000308855
+        0.000288722
       ]
     }
   },
@@ -48,11 +48,11 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.000296021
+        "price": 0.00024784
       },
       {
         "label": "Deep value",
-        "price": 0.000290435
+        "price": 0.00021037
       }
     ],
     "up": [
@@ -61,16 +61,16 @@
         "price": 0.000556528
       }
     ],
-    "ref_price": 0.00029841,
-    "valid_from": "2026-10-16T07:34:05-06:00",
-    "valid_until": "2026-10-17T07:34:05-06:00"
+    "ref_price": 0.00028512,
+    "valid_from": "2026-10-17T11:36:58-06:00",
+    "valid_until": "2026-10-20T18:07:00-06:00"
   },
   "zones": null,
   "last_divergence": null,
   "divergences_seen": [],
   "thesis": [
-    "BNKR bounced 11% back onto the monthly/daily support cluster 0.000290-0.000296 with RSI 40 and no live divergence",
-    "BNKR/ETH is still cool under daily resistance 1.23e-07, so hold; a clean break of weekly 0.000301 is needed before chasing, with weekly 0.00021 the deep add."
+    "BNKR closed below monthly support 0.000296 on Oct 16, which now caps it, with RSI 38, price below all EMAs and no live divergence",
+    "BNKR/ETH sits on daily support 1.15e-07, so hold; daily 0.000248 is the next add level and weekly 0.00021 the deep-value add, and a reclaim of weekly 0.000301 is needed before getting constructive."
   ],
   "catalysts": [],
   "last_swings": {
@@ -103,19 +103,19 @@
       }
     ],
     "k": 3,
-    "source": "gt_ohlcv_BNKR.json",
-    "as_of": "2026-10-16"
+    "source": "GeckoTerminal 1d",
+    "as_of": "2026-10-17"
   },
   "image_paths": [
     {
-      "path": "research/labels/img/BNKR_usd_2026-10-16.png.b64",
+      "path": "research/labels/img/BNKR_usd_2026-10-17.png.b64",
       "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-16"
+      "drawn": "2026-10-17"
     },
     {
-      "path": "research/labels/img/BNKR_eth_2026-10-16.png.b64",
+      "path": "research/labels/img/BNKR_eth_2026-10-17.png.b64",
       "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-16"
+      "drawn": "2026-10-17"
     }
   ]
 }

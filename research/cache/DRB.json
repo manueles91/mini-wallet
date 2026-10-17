@@ -9,12 +9,12 @@
     "source": "research/labels/2026-10-16.json"
   },
   "last_update": {
-    "date": "2026-10-16",
-    "ts": "2026-10-16T07:34:05-06:00",
-    "price": 0.00017104,
-    "mode": "full"
+    "date": "2026-10-17",
+    "ts": "2026-10-17T11:36:58-06:00",
+    "price": 0.0001702,
+    "mode": "incremental"
   },
-  "rsi_d": 42.9,
+  "rsi_d": 41.3,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -60,9 +60,9 @@
         "price": 0.000288262
       }
     ],
-    "ref_price": 0.00017104,
-    "valid_from": "2026-10-16T07:34:05-06:00",
-    "valid_until": "2026-10-17T07:34:05-06:00"
+    "ref_price": 0.0001702,
+    "valid_from": "2026-10-17T11:36:58-06:00",
+    "valid_until": "2026-10-20T18:07:00-06:00"
   },
   "zones": null,
   "last_divergence": null,
@@ -101,20 +101,19 @@
         "price": 0.000172079
       }
     ],
-    "k": 3,
-    "source": "gt_ohlcv_DRB.json",
-    "as_of": "2026-10-16"
+    "k": 3
   },
   "image_paths": [
     {
-      "path": "research/labels/img/DRB_usd_2026-10-16.png.b64",
+      "path": "50-projects/mini-wallet-research/labels/img/DRB_usd_2026-10-16.png.b64",
       "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
       "drawn": "2026-10-16"
     },
     {
-      "path": "research/labels/img/DRB_eth_2026-10-16.png.b64",
+      "path": "50-projects/mini-wallet-research/labels/img/DRB_eth_2026-10-16.png.b64",
       "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
       "drawn": "2026-10-16"
     }
-  ]
+  ],
+  "last_reasoning": "DRB is flat at 0.000170, still pinned under daily resistance 0.000172 with RSI 41 and no new divergence. Hold; weekly 0.00014 and daily 0.000134 remain the deep-value add zone."
 }

@@ -9,10 +9,10 @@
     "source": "research/labels/2026-10-16.json"
   },
   "last_update": {
-    "date": "2026-10-16",
-    "ts": "2026-10-16T07:34:05-06:00",
-    "price": 0.682659,
-    "mode": "full"
+    "date": "2026-10-17",
+    "ts": "2026-10-17T11:36:58-06:00",
+    "price": 0.614084,
+    "mode": "incremental"
   },
   "rsi_d": 59.6,
   "usd_sr": {
@@ -56,9 +56,9 @@
         "price": 0.903233
       }
     ],
-    "ref_price": 0.682659,
-    "valid_from": "2026-10-16T07:34:05-06:00",
-    "valid_until": "2026-10-17T07:34:05-06:00"
+    "ref_price": 0.614084,
+    "valid_from": "2026-10-17T11:36:58-06:00",
+    "valid_until": "2026-10-20T18:07:00-06:00"
   },
   "zones": null,
   "last_divergence": null,
@@ -97,20 +97,19 @@
         "price": 0.567201
       }
     ],
-    "k": 3,
-    "source": "gt_ohlcv_POD.json",
-    "as_of": "2026-10-16"
+    "k": 3
   },
   "image_paths": [
     {
-      "path": "research/labels/img/POD_usd_2026-10-16.png.b64",
+      "path": "50-projects/mini-wallet-research/labels/img/POD_usd_2026-10-16.png.b64",
       "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
       "drawn": "2026-10-16"
     },
     {
-      "path": "research/labels/img/POD_eth_2026-10-16.png.b64",
+      "path": "50-projects/mini-wallet-research/labels/img/POD_eth_2026-10-16.png.b64",
       "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
       "drawn": "2026-10-16"
     }
-  ]
+  ],
+  "last_reasoning": "POD dropped 10% intraday to 0.614, right on the monthly 0.614 add level flagged yesterday (RSI 60 is from the last close, before today's drop), with no divergence. Adds start at 0.614, with daily 0.567 the deep-value level below."
 }

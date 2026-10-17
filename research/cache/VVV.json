@@ -9,12 +9,12 @@
     "source": "research/labels/2026-10-16.json"
   },
   "last_update": {
-    "date": "2026-10-16",
-    "ts": "2026-10-16T07:34:05-06:00",
-    "price": 24.35,
-    "mode": "full"
+    "date": "2026-10-17",
+    "ts": "2026-10-17T11:36:58-06:00",
+    "price": 22.467,
+    "mode": "incremental"
   },
-  "rsi_d": 48.1,
+  "rsi_d": 44.3,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -58,9 +58,9 @@
         "price": 34.666
       }
     ],
-    "ref_price": 24.35,
-    "valid_from": "2026-10-16T07:34:05-06:00",
-    "valid_until": "2026-10-17T07:34:05-06:00"
+    "ref_price": 22.467,
+    "valid_from": "2026-10-17T11:36:58-06:00",
+    "valid_until": "2026-10-20T18:07:00-06:00"
   },
   "zones": {
     "date": "2026-10-15",
@@ -73,8 +73,18 @@
     ],
     "invalidation": 20.5
   },
-  "last_divergence": null,
-  "divergences_seen": [],
+  "last_divergence": {
+    "type": "Regular Bullish",
+    "timeframe": "1d",
+    "date": "2026-10-13"
+  },
+  "divergences_seen": [
+    {
+      "type": "Regular Bullish",
+      "timeframe": "1d",
+      "date": "2026-10-13"
+    }
+  ],
   "thesis": [
     "VVV jumped 9% to 24.35 off monthly support 21.54, with RSI 48 and no active divergence, and VVV/ETH held daily 0.00987",
     "Hold while 21.5 stays intact on a daily close; daily 25.9 is first resistance and monthly 34.7 the take-profit zone."
@@ -83,46 +93,45 @@
   "last_swings": {
     "daily_highs": [
       {
-        "date": "2026-09-09",
-        "price": 29.289
-      },
-      {
         "date": "2026-09-21",
-        "price": 34.666
+        "price": 34.732
       },
       {
         "date": "2026-10-04",
-        "price": 30.875
+        "price": 30.853
+      },
+      {
+        "date": "2026-10-12",
+        "price": 25.577
       }
     ],
     "daily_lows": [
       {
-        "date": "2026-09-24",
-        "price": 28.375
-      },
-      {
         "date": "2026-10-01",
-        "price": 25.901
+        "price": 25.902
       },
       {
         "date": "2026-10-08",
-        "price": 21.282
+        "price": 21.341
+      },
+      {
+        "date": "2026-10-13",
+        "price": 21.247
       }
     ],
-    "k": 3,
-    "source": "bn_kl_VVVUSDT.json",
-    "as_of": "2026-10-16"
+    "k": 3
   },
   "image_paths": [
     {
-      "path": "research/labels/img/VVV_usd_2026-10-16.png.b64",
+      "path": "research/labels/img/VVV_usd_2026-10-17.png.b64",
       "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-16"
+      "drawn": "2026-10-17"
     },
     {
-      "path": "research/labels/img/VVV_eth_2026-10-16.png.b64",
+      "path": "research/labels/img/VVV_eth_2026-10-17.png.b64",
       "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-16"
+      "drawn": "2026-10-17"
     }
-  ]
+  ],
+  "last_reasoning": "VVV pulled back 8% to 22.5 but still holds above the monthly 21.54 add level, with RSI 44 and a new Regular Bullish 1d on wick lows (Oct 8 to Oct 13). Hold while 21.5 holds on a daily close; your 3x liquidation at 18.10 is ~20% below, and monthly 34.7 stays the take-profit zone."
 }

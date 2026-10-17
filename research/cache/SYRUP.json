@@ -9,12 +9,12 @@
     "source": "research/labels/2026-10-16.json"
   },
   "last_update": {
-    "date": "2026-10-16",
-    "ts": "2026-10-16T22:50:10-06:00",
-    "price": 0.208997,
-    "mode": "full"
+    "date": "2026-10-17",
+    "ts": "2026-10-17T11:36:58-06:00",
+    "price": 0.19981,
+    "mode": "incremental"
   },
-  "rsi_d": 41.4,
+  "rsi_d": 39.0,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -65,8 +65,8 @@
         "price": 0.24535
       }
     ],
-    "ref_price": 0.208997,
-    "valid_from": "2026-10-16T22:50:10-06:00",
+    "ref_price": 0.19981,
+    "valid_from": "2026-10-17T11:36:58-06:00",
     "valid_until": "2026-10-20T18:07:00-06:00"
   },
   "zones": {
@@ -80,8 +80,18 @@
     ],
     "invalidation": 0.185
   },
-  "last_divergence": null,
-  "divergences_seen": [],
+  "last_divergence": {
+    "type": "Regular Bearish",
+    "timeframe": "1d",
+    "date": "2026-10-13"
+  },
+  "divergences_seen": [
+    {
+      "type": "Regular Bearish",
+      "timeframe": "1d",
+      "date": "2026-10-13"
+    }
+  ],
   "thesis": [
     "SYRUP is holding just above weekly support 0.204 after a -9% week, with daily RSI 41, no active divergence and price below all EMAs under daily resistance 0.215",
     "SYRUP/ETH sits on daily support 8.48e-05, so wait for weekly 0.204 to add, with monthly 0.193 the deep-value level; the 0.236-0.245 monthly/weekly cluster is the take-profit zone."
@@ -90,46 +100,45 @@
   "last_swings": {
     "daily_highs": [
       {
-        "date": "2026-09-21",
-        "price": 0.2385
-      },
-      {
         "date": "2026-09-29",
-        "price": 0.2563
+        "price": 0.25576
       },
       {
         "date": "2026-10-04",
-        "price": 0.2662
+        "price": 0.26625
+      },
+      {
+        "date": "2026-10-13",
+        "price": 0.2701
       }
     ],
     "daily_lows": [
       {
         "date": "2026-09-24",
-        "price": 0.1984
+        "price": 0.19882
       },
       {
         "date": "2026-09-28",
-        "price": 0.2044
+        "price": 0.20324
       },
       {
         "date": "2026-10-08",
-        "price": 0.2156
+        "price": 0.21132
       }
     ],
-    "k": 3,
-    "source": "bn_kl_SYRUPUSDT.json",
-    "as_of": "2026-10-16"
+    "k": 3
   },
   "image_paths": [
     {
-      "path": "research/labels/img/SYRUP_usd_2026-10-16.png.b64",
+      "path": "research/labels/img/SYRUP_usd_2026-10-17.png.b64",
       "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-16"
+      "drawn": "2026-10-17"
     },
     {
-      "path": "research/labels/img/SYRUP_eth_2026-10-16.png.b64",
+      "path": "research/labels/img/SYRUP_eth_2026-10-17.png.b64",
       "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-16"
+      "drawn": "2026-10-17"
     }
-  ]
+  ],
+  "last_reasoning": "SYRUP slipped under weekly support 0.204 to 0.200 with RSI 39, and a Regular Bearish 1d on wick highs (Oct 4 to Oct 13) is new. This is the weekly add level, so small adds are fine here with monthly 0.193 the deep-value level; the 0.236-0.245 cluster stays the take-profit zone."
 }

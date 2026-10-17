@@ -3,35 +3,40 @@
   "symbol": "AERO",
   "coingecko_id": "aerodrome-finance",
   "last_full_analysis": {
-    "date": "2026-10-16",
-    "ref_price": 0.907381,
+    "date": "2026-10-17",
+    "ref_price": 0.84832,
     "label": "Neutral",
-    "source": "research/labels/2026-10-16.json"
+    "source": "research/labels/2026-10-17.json"
   },
   "last_update": {
-    "date": "2026-10-16",
-    "ts": "2026-10-16T07:34:05-06:00",
-    "price": 0.907381,
+    "date": "2026-10-17",
+    "ts": "2026-10-17T11:36:58-06:00",
+    "price": 0.84832,
     "mode": "full"
   },
-  "rsi_d": 60.6,
+  "rsi_d": 53.5,
   "usd_sr": {
     "monthly": {
       "support": [
-        0.389
+        0.61022
       ],
       "resistance": []
     },
     "weekly": {
-      "support": [],
-      "resistance": []
+      "support": [
+        0.8041,
+        0.7175
+      ],
+      "resistance": [
+        0.9629
+      ]
     },
     "daily": {
       "support": [
-        0.8906
+        0.76712
       ],
       "resistance": [
-        0.932
+        0.89894
       ]
     }
   },
@@ -40,17 +45,22 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.8906
+        "price": 0.8041
       },
       {
         "label": "Deep value",
-        "price": 0.389
+        "price": 0.7175
       }
     ],
-    "up": [],
-    "ref_price": 0.907381,
-    "valid_from": "2026-10-16T07:34:05-06:00",
-    "valid_until": "2026-10-17T07:34:05-06:00"
+    "up": [
+      {
+        "label": "Getting warm",
+        "price": 0.9629
+      }
+    ],
+    "ref_price": 0.84832,
+    "valid_from": "2026-10-17T11:36:58-06:00",
+    "valid_until": "2026-10-20T18:07:00-06:00"
   },
   "zones": {
     "date": "2026-10-15",
@@ -69,13 +79,19 @@
     "invalidation": 0.66
   },
   "last_divergence": {
-    "type": "Regular Bearish",
+    "type": "Hidden Bullish",
     "timeframe": "1d",
-    "date": "2026-10-11",
+    "date": "2026-10-17",
     "chart": "USD",
-    "status": "active"
+    "status": "forming (unconfirmed)"
   },
   "divergences_seen": [
+    {
+      "type": "Hidden Bullish",
+      "timeframe": "1d",
+      "date": "2026-10-07",
+      "chart": "USD"
+    },
     {
       "type": "Regular Bearish",
       "timeframe": "1d",
@@ -85,7 +101,7 @@
     {
       "type": "Hidden Bullish",
       "timeframe": "1d",
-      "date": "2026-10-07",
+      "date": "2026-10-17",
       "chart": "USD"
     },
     {
@@ -96,8 +112,8 @@
     }
   ],
   "thesis": [
-    "AERO bounced 8% to 0.907, reclaiming daily 0.891 with RSI 61, while a Regular Bearish 1d (Oct 4 to Oct 11) still caps the move under daily 0.932",
-    "A Hidden Bullish 1d (Oct 1 to Oct 7) is now active on USD and vs ETH, so hold into the Oct 21 launch; add only on a retest of daily 0.891 toward weekly support farther down."
+    "AERO lost daily 0.891 on the Oct 16 close and slipped to 0.848 with RSI 54, and the Regular Bearish 1d (Oct 4 to Oct 11) is still active while a Hidden Bullish 1d (Oct 7 to Oct 17) is only forming",
+    "Weekly 0.804 lines up with buy Zone 1 (0.80-0.82), so that is the add level into the Oct 21 launch; weekly 0.718 is the deep add."
   ],
   "catalysts": [
     {
@@ -109,45 +125,45 @@
     "daily_highs": [
       {
         "date": "2026-09-26",
-        "price": 0.932
+        "price": 0.93266
       },
       {
         "date": "2026-10-04",
-        "price": 0.8906
+        "price": 0.89894
       },
       {
         "date": "2026-10-11",
-        "price": 0.9934
+        "price": 0.99427
       }
     ],
     "daily_lows": [
       {
-        "date": "2026-09-16",
-        "price": 0.5176
+        "date": "2026-09-15",
+        "price": 0.51582
       },
       {
         "date": "2026-10-02",
-        "price": 0.7637
+        "price": 0.76334
       },
       {
         "date": "2026-10-08",
-        "price": 0.7693
+        "price": 0.76712
       }
     ],
     "k": 3,
-    "source": "bn_kl_AEROUSDT.json",
-    "as_of": "2026-10-16"
+    "source": "Hyperliquid 1d",
+    "as_of": "2026-10-17"
   },
   "image_paths": [
     {
-      "path": "research/labels/img/AERO_usd_2026-10-16.png.b64",
+      "path": "research/labels/img/AERO_usd_2026-10-17.png.b64",
       "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-16"
+      "drawn": "2026-10-17"
     },
     {
-      "path": "research/labels/img/AERO_eth_2026-10-16.png.b64",
+      "path": "research/labels/img/AERO_eth_2026-10-17.png.b64",
       "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-16"
+      "drawn": "2026-10-17"
     }
   ]
 }

@@ -9,12 +9,12 @@
     "source": "research/labels/2026-10-16.json"
   },
   "last_update": {
-    "date": "2026-10-16",
-    "ts": "2026-10-16T07:34:05-06:00",
-    "price": 2460.17,
-    "mode": "full"
+    "date": "2026-10-17",
+    "ts": "2026-10-17T11:36:58-06:00",
+    "price": 2405.3,
+    "mode": "incremental"
   },
-  "rsi_d": 41.8,
+  "rsi_d": 38.6,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -54,9 +54,9 @@
       }
     ],
     "up": [],
-    "ref_price": 2460.17,
-    "valid_from": "2026-10-16T07:34:05-06:00",
-    "valid_until": "2026-10-17T07:34:05-06:00"
+    "ref_price": 2405.3,
+    "valid_from": "2026-10-17T11:36:58-06:00",
+    "valid_until": "2026-10-20T18:07:00-06:00"
   },
   "zones": {
     "date": "2026-10-15",
@@ -74,8 +74,18 @@
     ],
     "invalidation": 2000
   },
-  "last_divergence": null,
-  "divergences_seen": [],
+  "last_divergence": {
+    "type": "Regular Bullish",
+    "timeframe": "1d",
+    "date": "2026-10-15"
+  },
+  "divergences_seen": [
+    {
+      "type": "Regular Bullish",
+      "timeframe": "1d",
+      "date": "2026-10-15"
+    }
+  ],
   "thesis": [
     "ETH bounced 5% to 2,460 and reclaimed weekly 2,403, now pressing weekly resistance 2,465 with RSI 42 and no divergence",
     "ETH/BTC is cool (RSI 36) under weekly 0.0302, so hold rather than chase; daily 2,266 and monthly 2,142 remain the add stack if this bounce fails."
@@ -85,45 +95,44 @@
     "daily_highs": [
       {
         "date": "2026-09-21",
-        "price": 2807.34
+        "price": 2809.5
       },
       {
         "date": "2026-10-02",
-        "price": 2777.33
+        "price": 2779.4
       },
       {
         "date": "2026-10-12",
-        "price": 2579.88
+        "price": 2578.1
       }
     ],
     "daily_lows": [
       {
         "date": "2026-09-28",
-        "price": 2635.69
+        "price": 2634.5
       },
       {
         "date": "2026-10-02",
-        "price": 2650.88
+        "price": 2651.0
       },
       {
         "date": "2026-10-08",
-        "price": 2406.11
+        "price": 2406.7
       }
     ],
-    "k": 3,
-    "source": "bn_kl_ETHUSDT.json",
-    "as_of": "2026-10-16"
+    "k": 3
   },
   "image_paths": [
     {
-      "path": "research/labels/img/ETH_usd_2026-10-16.png.b64",
+      "path": "research/labels/img/ETH_usd_2026-10-17.png.b64",
       "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-16"
+      "drawn": "2026-10-17"
     },
     {
-      "path": "research/labels/img/ETH_eth_2026-10-16.png.b64",
+      "path": "research/labels/img/ETH_eth_2026-10-17.png.b64",
       "caption": "vs BTC \u00b7 daily (ETH/BTC, RSI divergences marked)",
-      "drawn": "2026-10-16"
+      "drawn": "2026-10-17"
     }
-  ]
+  ],
+  "last_reasoning": "ETH gave back the bounce to 2,406 (-2% since Oct 16) and is testing the weekly 2,403 add level with RSI 39. A Regular Bullish 1d on wick lows (Oct 8 to Oct 15) is new but not confirmed on closes, so treat it as a soft positive; daily 2,266 and monthly 2,142 stay the deeper add stack."
 }
