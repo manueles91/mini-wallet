@@ -1,7 +1,7 @@
 {
-  "versionCode": 50,
-  "versionName": "13.22",
+  "versionCode": 51,
+  "versionName": "13.23",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "d22672dd782716df3916624a096d8fab52d6cf4076d421e33724995e514c81da",
-  "notes": "Compact one-line Research rows; amber arrow when price crossed a label level since the analysis; labels go 'old' only after valid_until (else 6 days)"
+  "apkSha256": "b0362ec471732a822d82fc2ce48ae8d7df7cb5c772ed479c1e5fe7434e7574fe",
+  "notes": "Research: sort (Custom/A-Z/% change/Label), quick filter chips with counts, Edit mode to drag-reorder and remove watched coins"
 }
