@@ -1,0 +1,135 @@
+{
+  "schema": "mw-cache/0",
+  "symbol": "SYRUP",
+  "coingecko_id": "syrup",
+  "last_full_analysis": {
+    "date": "2026-10-16",
+    "ref_price": 0.208997,
+    "label": "Neutral",
+    "source": "research/labels/2026-10-16.json"
+  },
+  "last_update": {
+    "date": "2026-10-16",
+    "ts": "2026-10-16T22:50:10-06:00",
+    "price": 0.208997,
+    "mode": "full"
+  },
+  "rsi_d": 41.4,
+  "usd_sr": {
+    "monthly": {
+      "support": [
+        0.19326
+      ],
+      "resistance": [
+        0.23633,
+        0.24535
+      ]
+    },
+    "weekly": {
+      "support": [
+        0.20357,
+        0.19657
+      ],
+      "resistance": [
+        0.24047
+      ]
+    },
+    "daily": {
+      "support": [
+        0.19029
+      ],
+      "resistance": [
+        0.21511
+      ]
+    }
+  },
+  "thresholds": {
+    "base": "Neutral",
+    "down": [
+      {
+        "label": "Consider adding",
+        "price": 0.20357
+      },
+      {
+        "label": "Deep value",
+        "price": 0.19326
+      }
+    ],
+    "up": [
+      {
+        "label": "Getting warm",
+        "price": 0.23633
+      },
+      {
+        "label": "Take profit",
+        "price": 0.24535
+      }
+    ],
+    "ref_price": 0.208997,
+    "valid_from": "2026-10-16T22:50:10-06:00",
+    "valid_until": "2026-10-20T18:07:00-06:00"
+  },
+  "zones": {
+    "date": "2026-10-15",
+    "buy": [
+      {
+        "name": "Add zone",
+        "lo": 0.193,
+        "hi": 0.204
+      }
+    ],
+    "invalidation": 0.185
+  },
+  "last_divergence": null,
+  "divergences_seen": [],
+  "thesis": [
+    "SYRUP is holding just above weekly support 0.204 after a -9% week, with daily RSI 41, no active divergence and price below all EMAs under daily resistance 0.215",
+    "SYRUP/ETH sits on daily support 8.48e-05, so wait for weekly 0.204 to add, with monthly 0.193 the deep-value level; the 0.236-0.245 monthly/weekly cluster is the take-profit zone."
+  ],
+  "catalysts": [],
+  "last_swings": {
+    "daily_highs": [
+      {
+        "date": "2026-09-21",
+        "price": 0.2385
+      },
+      {
+        "date": "2026-09-29",
+        "price": 0.2563
+      },
+      {
+        "date": "2026-10-04",
+        "price": 0.2662
+      }
+    ],
+    "daily_lows": [
+      {
+        "date": "2026-09-24",
+        "price": 0.1984
+      },
+      {
+        "date": "2026-09-28",
+        "price": 0.2044
+      },
+      {
+        "date": "2026-10-08",
+        "price": 0.2156
+      }
+    ],
+    "k": 3,
+    "source": "bn_kl_SYRUPUSDT.json",
+    "as_of": "2026-10-16"
+  },
+  "image_paths": [
+    {
+      "path": "research/labels/img/SYRUP_usd_2026-10-16.png.b64",
+      "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
+      "drawn": "2026-10-16"
+    },
+    {
+      "path": "research/labels/img/SYRUP_eth_2026-10-16.png.b64",
+      "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
+      "drawn": "2026-10-16"
+    }
+  ]
+}

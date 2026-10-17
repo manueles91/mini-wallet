@@ -1,0 +1,129 @@
+{
+  "schema": "mw-cache/0",
+  "symbol": "ETH",
+  "coingecko_id": "ethereum",
+  "last_full_analysis": {
+    "date": "2026-10-16",
+    "ref_price": 2460.17,
+    "label": "Neutral",
+    "source": "research/labels/2026-10-16.json"
+  },
+  "last_update": {
+    "date": "2026-10-16",
+    "ts": "2026-10-16T07:34:05-06:00",
+    "price": 2460.17,
+    "mode": "full"
+  },
+  "rsi_d": 41.8,
+  "usd_sr": {
+    "monthly": {
+      "support": [
+        2141.54
+      ],
+      "resistance": []
+    },
+    "weekly": {
+      "support": [
+        2403.0,
+        2357.59
+      ],
+      "resistance": [
+        2464.91,
+        2623.57
+      ]
+    },
+    "daily": {
+      "support": [
+        2265.61
+      ],
+      "resistance": [
+        2546.66
+      ]
+    }
+  },
+  "thresholds": {
+    "base": "Neutral",
+    "down": [
+      {
+        "label": "Consider adding",
+        "price": 2403.0
+      },
+      {
+        "label": "Deep value",
+        "price": 2357.59
+      }
+    ],
+    "up": [],
+    "ref_price": 2460.17,
+    "valid_from": "2026-10-16T07:34:05-06:00",
+    "valid_until": "2026-10-17T07:34:05-06:00"
+  },
+  "zones": {
+    "date": "2026-10-15",
+    "buy": [
+      {
+        "name": "Zone 1",
+        "lo": 2360,
+        "hi": 2425
+      },
+      {
+        "name": "Zone 2",
+        "lo": 2100,
+        "hi": 2150
+      }
+    ],
+    "invalidation": 2000
+  },
+  "last_divergence": null,
+  "divergences_seen": [],
+  "thesis": [
+    "ETH bounced 5% to 2,460 and reclaimed weekly 2,403, now pressing weekly resistance 2,465 with RSI 42 and no divergence",
+    "ETH/BTC is cool (RSI 36) under weekly 0.0302, so hold rather than chase; daily 2,266 and monthly 2,142 remain the add stack if this bounce fails."
+  ],
+  "catalysts": [],
+  "last_swings": {
+    "daily_highs": [
+      {
+        "date": "2026-09-21",
+        "price": 2807.34
+      },
+      {
+        "date": "2026-10-02",
+        "price": 2777.33
+      },
+      {
+        "date": "2026-10-12",
+        "price": 2579.88
+      }
+    ],
+    "daily_lows": [
+      {
+        "date": "2026-09-28",
+        "price": 2635.69
+      },
+      {
+        "date": "2026-10-02",
+        "price": 2650.88
+      },
+      {
+        "date": "2026-10-08",
+        "price": 2406.11
+      }
+    ],
+    "k": 3,
+    "source": "bn_kl_ETHUSDT.json",
+    "as_of": "2026-10-16"
+  },
+  "image_paths": [
+    {
+      "path": "research/labels/img/ETH_usd_2026-10-16.png.b64",
+      "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
+      "drawn": "2026-10-16"
+    },
+    {
+      "path": "research/labels/img/ETH_eth_2026-10-16.png.b64",
+      "caption": "vs BTC \u00b7 daily (ETH/BTC, RSI divergences marked)",
+      "drawn": "2026-10-16"
+    }
+  ]
+}

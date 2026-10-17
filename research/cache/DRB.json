@@ -1,0 +1,120 @@
+{
+  "schema": "mw-cache/0",
+  "symbol": "DRB",
+  "coingecko_id": "debtreliefbot",
+  "last_full_analysis": {
+    "date": "2026-10-16",
+    "ref_price": 0.00017104,
+    "label": "Neutral",
+    "source": "research/labels/2026-10-16.json"
+  },
+  "last_update": {
+    "date": "2026-10-16",
+    "ts": "2026-10-16T07:34:05-06:00",
+    "price": 0.00017104,
+    "mode": "full"
+  },
+  "rsi_d": 42.9,
+  "usd_sr": {
+    "monthly": {
+      "support": [
+        0.000111506
+      ],
+      "resistance": [
+        0.00030529
+      ]
+    },
+    "weekly": {
+      "support": [
+        0.000140269,
+        9.04949e-05
+      ],
+      "resistance": [
+        0.000288262
+      ]
+    },
+    "daily": {
+      "support": [
+        0.000134011
+      ],
+      "resistance": [
+        0.000172079
+      ]
+    }
+  },
+  "thresholds": {
+    "base": "Neutral",
+    "down": [
+      {
+        "label": "Consider adding",
+        "price": 0.000140269
+      },
+      {
+        "label": "Deep value",
+        "price": 0.000134011
+      }
+    ],
+    "up": [
+      {
+        "label": "Getting warm",
+        "price": 0.000288262
+      }
+    ],
+    "ref_price": 0.00017104,
+    "valid_from": "2026-10-16T07:34:05-06:00",
+    "valid_until": "2026-10-17T07:34:05-06:00"
+  },
+  "zones": null,
+  "last_divergence": null,
+  "divergences_seen": [],
+  "thesis": [
+    "DRB edged up 4% to 0.000171, still pinned under daily resistance 0.000172 with RSI 43 and no live divergence",
+    "DRB/ETH is on weekly support 6.93e-08, so hold; weekly 0.00014 and daily 0.000134 remain the deep-value add zone."
+  ],
+  "catalysts": [],
+  "last_swings": {
+    "daily_highs": [
+      {
+        "date": "2026-09-26",
+        "price": 0.000248489
+      },
+      {
+        "date": "2026-10-01",
+        "price": 0.000288262
+      },
+      {
+        "date": "2026-10-11",
+        "price": 0.000206708
+      }
+    ],
+    "daily_lows": [
+      {
+        "date": "2026-09-23",
+        "price": 0.000174607
+      },
+      {
+        "date": "2026-10-03",
+        "price": 0.000192063
+      },
+      {
+        "date": "2026-10-08",
+        "price": 0.000172079
+      }
+    ],
+    "k": 3,
+    "source": "gt_ohlcv_DRB.json",
+    "as_of": "2026-10-16"
+  },
+  "image_paths": [
+    {
+      "path": "research/labels/img/DRB_usd_2026-10-16.png.b64",
+      "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
+      "drawn": "2026-10-16"
+    },
+    {
+      "path": "research/labels/img/DRB_eth_2026-10-16.png.b64",
+      "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
+      "drawn": "2026-10-16"
+    }
+  ]
+}

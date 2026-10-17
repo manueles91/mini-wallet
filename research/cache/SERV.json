@@ -1,0 +1,124 @@
+{
+  "schema": "mw-cache/0",
+  "symbol": "SERV",
+  "coingecko_id": "openserv",
+  "last_full_analysis": {
+    "date": "2026-10-16",
+    "ref_price": 0.0177427,
+    "label": "Consider adding",
+    "source": "research/labels/2026-10-16.json"
+  },
+  "last_update": {
+    "date": "2026-10-16",
+    "ts": "2026-10-16T07:34:05-06:00",
+    "price": 0.0177427,
+    "mode": "full"
+  },
+  "rsi_d": 35.8,
+  "usd_sr": {
+    "monthly": {
+      "support": [
+        0.0128728
+      ],
+      "resistance": [
+        0.0383767
+      ]
+    },
+    "weekly": {
+      "support": [
+        0.0137247
+      ],
+      "resistance": [
+        0.0231199,
+        0.0241149
+      ]
+    },
+    "daily": {
+      "support": [
+        0.0174189
+      ],
+      "resistance": [
+        0.0202603
+      ]
+    }
+  },
+  "thresholds": {
+    "base": "Neutral",
+    "down": [
+      {
+        "label": "Consider adding",
+        "price": 0.018275
+      },
+      {
+        "label": "Deep value",
+        "price": 0.0137247
+      }
+    ],
+    "up": [
+      {
+        "label": "Getting warm",
+        "price": 0.0202603
+      },
+      {
+        "label": "Take profit",
+        "price": 0.0231199
+      }
+    ],
+    "ref_price": 0.0177427,
+    "valid_from": "2026-10-16T07:34:05-06:00",
+    "valid_until": "2026-10-17T07:34:05-06:00"
+  },
+  "zones": null,
+  "last_divergence": null,
+  "divergences_seen": [],
+  "thesis": [
+    "SERV is still stuck on daily support 0.0174 after a -20% week, with RSI 36 and no divergence, while SERV/ETH is a falling knife under daily resistance 7.73e-06",
+    "Small adds work while 0.0174 holds on a daily close; below it, weekly/monthly 0.0129-0.0137 is the deep-value zone."
+  ],
+  "catalysts": [],
+  "last_swings": {
+    "daily_highs": [
+      {
+        "date": "2026-09-14",
+        "price": 0.0242374
+      },
+      {
+        "date": "2026-09-21",
+        "price": 0.0315037
+      },
+      {
+        "date": "2026-09-29",
+        "price": 0.0276217
+      }
+    ],
+    "daily_lows": [
+      {
+        "date": "2026-09-08",
+        "price": 0.0128728
+      },
+      {
+        "date": "2026-09-15",
+        "price": 0.0174189
+      },
+      {
+        "date": "2026-10-07",
+        "price": 0.0202603
+      }
+    ],
+    "k": 3,
+    "source": "gt_ohlcv_SERV.json",
+    "as_of": "2026-10-16"
+  },
+  "image_paths": [
+    {
+      "path": "research/labels/img/SERV_usd_2026-10-16.png.b64",
+      "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
+      "drawn": "2026-10-16"
+    },
+    {
+      "path": "research/labels/img/SERV_eth_2026-10-16.png.b64",
+      "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
+      "drawn": "2026-10-16"
+    }
+  ]
+}

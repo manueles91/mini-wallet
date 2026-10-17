@@ -1,0 +1,116 @@
+{
+  "schema": "mw-cache/0",
+  "symbol": "DRV",
+  "coingecko_id": "derive",
+  "last_full_analysis": {
+    "date": "2026-10-16",
+    "ref_price": 0.433906,
+    "label": "Neutral",
+    "source": "research/labels/2026-10-16.json"
+  },
+  "last_update": {
+    "date": "2026-10-16",
+    "ts": "2026-10-16T07:34:05-06:00",
+    "price": 0.433906,
+    "mode": "full"
+  },
+  "rsi_d": 54.7,
+  "usd_sr": {
+    "monthly": {
+      "support": [
+        0.201034,
+        0.119443
+      ],
+      "resistance": []
+    },
+    "weekly": {
+      "support": [
+        0.122579
+      ],
+      "resistance": []
+    },
+    "daily": {
+      "support": [
+        0.364053
+      ],
+      "resistance": [
+        0.489274
+      ]
+    }
+  },
+  "thresholds": {
+    "base": "Neutral",
+    "down": [
+      {
+        "label": "Consider adding",
+        "price": 0.364053
+      },
+      {
+        "label": "Deep value",
+        "price": 0.201034
+      }
+    ],
+    "up": [
+      {
+        "label": "Getting warm",
+        "price": 0.489274
+      }
+    ],
+    "ref_price": 0.433906,
+    "valid_from": "2026-10-16T07:34:05-06:00",
+    "valid_until": "2026-10-17T07:34:05-06:00"
+  },
+  "zones": null,
+  "last_divergence": null,
+  "divergences_seen": [],
+  "thesis": [
+    "DRV ripped 17% off yesterday's daily support 0.364 to 0.434, with RSI 55 and weekly RSI still extended at 75, and no active divergence",
+    "DRV/ETH is extended too, so hold and let daily 0.489 be the first trim zone rather than adding into strength."
+  ],
+  "catalysts": [],
+  "last_swings": {
+    "daily_highs": [
+      {
+        "date": "2026-09-19",
+        "price": 0.489274
+      },
+      {
+        "date": "2026-09-23",
+        "price": 0.511475
+      },
+      {
+        "date": "2026-10-09",
+        "price": 0.563608
+      }
+    ],
+    "daily_lows": [
+      {
+        "date": "2026-09-16",
+        "price": 0.135605
+      },
+      {
+        "date": "2026-09-29",
+        "price": 0.364053
+      },
+      {
+        "date": "2026-10-07",
+        "price": 0.341168
+      }
+    ],
+    "k": 3,
+    "source": "gt_ohlcv_DRV.json",
+    "as_of": "2026-10-16"
+  },
+  "image_paths": [
+    {
+      "path": "research/labels/img/DRV_usd_2026-10-16.png.b64",
+      "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
+      "drawn": "2026-10-16"
+    },
+    {
+      "path": "research/labels/img/DRV_eth_2026-10-16.png.b64",
+      "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
+      "drawn": "2026-10-16"
+    }
+  ]
+}

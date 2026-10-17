@@ -1,0 +1,153 @@
+{
+  "schema": "mw-cache/0",
+  "symbol": "AERO",
+  "coingecko_id": "aerodrome-finance",
+  "last_full_analysis": {
+    "date": "2026-10-16",
+    "ref_price": 0.907381,
+    "label": "Neutral",
+    "source": "research/labels/2026-10-16.json"
+  },
+  "last_update": {
+    "date": "2026-10-16",
+    "ts": "2026-10-16T07:34:05-06:00",
+    "price": 0.907381,
+    "mode": "full"
+  },
+  "rsi_d": 60.6,
+  "usd_sr": {
+    "monthly": {
+      "support": [
+        0.389
+      ],
+      "resistance": []
+    },
+    "weekly": {
+      "support": [],
+      "resistance": []
+    },
+    "daily": {
+      "support": [
+        0.8906
+      ],
+      "resistance": [
+        0.932
+      ]
+    }
+  },
+  "thresholds": {
+    "base": "Neutral",
+    "down": [
+      {
+        "label": "Consider adding",
+        "price": 0.8906
+      },
+      {
+        "label": "Deep value",
+        "price": 0.389
+      }
+    ],
+    "up": [],
+    "ref_price": 0.907381,
+    "valid_from": "2026-10-16T07:34:05-06:00",
+    "valid_until": "2026-10-17T07:34:05-06:00"
+  },
+  "zones": {
+    "date": "2026-10-15",
+    "buy": [
+      {
+        "name": "Zone 1",
+        "lo": 0.8,
+        "hi": 0.82
+      },
+      {
+        "name": "Zone 2",
+        "lo": 0.695,
+        "hi": 0.723
+      }
+    ],
+    "invalidation": 0.66
+  },
+  "last_divergence": {
+    "type": "Regular Bearish",
+    "timeframe": "1d",
+    "date": "2026-10-11",
+    "chart": "USD",
+    "status": "active"
+  },
+  "divergences_seen": [
+    {
+      "type": "Regular Bearish",
+      "timeframe": "1d",
+      "date": "2026-10-11",
+      "chart": "USD"
+    },
+    {
+      "type": "Hidden Bullish",
+      "timeframe": "1d",
+      "date": "2026-10-07",
+      "chart": "USD"
+    },
+    {
+      "type": "Hidden Bullish",
+      "timeframe": "1d",
+      "date": "2026-10-06",
+      "chart": "vs ETH"
+    }
+  ],
+  "thesis": [
+    "AERO bounced 8% to 0.907, reclaiming daily 0.891 with RSI 61, while a Regular Bearish 1d (Oct 4 to Oct 11) still caps the move under daily 0.932",
+    "A Hidden Bullish 1d (Oct 1 to Oct 7) is now active on USD and vs ETH, so hold into the Oct 21 launch; add only on a retest of daily 0.891 toward weekly support farther down."
+  ],
+  "catalysts": [
+    {
+      "date": "2026-10-21",
+      "event": "Aero migration / Aerodrome launch (aero.deftools.xyz)"
+    }
+  ],
+  "last_swings": {
+    "daily_highs": [
+      {
+        "date": "2026-09-26",
+        "price": 0.932
+      },
+      {
+        "date": "2026-10-04",
+        "price": 0.8906
+      },
+      {
+        "date": "2026-10-11",
+        "price": 0.9934
+      }
+    ],
+    "daily_lows": [
+      {
+        "date": "2026-09-16",
+        "price": 0.5176
+      },
+      {
+        "date": "2026-10-02",
+        "price": 0.7637
+      },
+      {
+        "date": "2026-10-08",
+        "price": 0.7693
+      }
+    ],
+    "k": 3,
+    "source": "bn_kl_AEROUSDT.json",
+    "as_of": "2026-10-16"
+  },
+  "image_paths": [
+    {
+      "path": "research/labels/img/AERO_usd_2026-10-16.png.b64",
+      "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
+      "drawn": "2026-10-16"
+    },
+    {
+      "path": "research/labels/img/AERO_eth_2026-10-16.png.b64",
+      "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
+      "drawn": "2026-10-16"
+    }
+  ]
+}

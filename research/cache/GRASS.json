@@ -1,0 +1,159 @@
+{
+  "schema": "mw-cache/0",
+  "symbol": "GRASS",
+  "coingecko_id": "grass",
+  "last_full_analysis": {
+    "date": "2026-10-17",
+    "ref_price": 0.630539,
+    "label": "Neutral",
+    "source": "research/labels/2026-10-17.json"
+  },
+  "last_update": {
+    "date": "2026-10-17",
+    "ts": "2026-10-17T00:59:37-06:00",
+    "price": 0.630539,
+    "mode": "full"
+  },
+  "rsi_d": 50.9,
+  "usd_sr": {
+    "monthly": {
+      "support": [
+        0.6245
+      ],
+      "resistance": [
+        0.9055
+      ]
+    },
+    "weekly": {
+      "support": [
+        0.6032,
+        0.476
+      ],
+      "resistance": [
+        0.6404,
+        0.655
+      ]
+    },
+    "daily": {
+      "support": [
+        0.5649
+      ],
+      "resistance": [
+        0.7969
+      ]
+    }
+  },
+  "thresholds": {
+    "base": "Neutral",
+    "down": [
+      {
+        "label": "Consider adding",
+        "price": 0.6032
+      },
+      {
+        "label": "Deep value",
+        "price": 0.5649
+      }
+    ],
+    "up": [
+      {
+        "label": "Getting warm",
+        "price": 0.7969
+      },
+      {
+        "label": "Take profit",
+        "price": 0.9055
+      }
+    ],
+    "ref_price": 0.630539,
+    "valid_from": "2026-10-17T00:59:37-06:00",
+    "valid_until": "2026-10-20T18:07:00-06:00"
+  },
+  "zones": {
+    "date": "2026-10-15",
+    "buy": [
+      {
+        "name": "Zone 1",
+        "lo": 0.565,
+        "hi": 0.6
+      }
+    ],
+    "invalidation": 0.53
+  },
+  "last_divergence": {
+    "type": "Hidden Bullish",
+    "timeframe": "1d",
+    "date": "2026-10-14",
+    "chart": "vs ETH",
+    "status": "active"
+  },
+  "divergences_seen": [
+    {
+      "type": "Hidden Bullish",
+      "timeframe": "1d",
+      "date": "2026-10-14",
+      "chart": "USD"
+    },
+    {
+      "type": "Hidden Bullish",
+      "timeframe": "1d",
+      "date": "2026-10-14",
+      "chart": "vs ETH"
+    }
+  ],
+  "thesis": [
+    "GRASS is retesting monthly support 0.625 after a 30% pullback from its October spike, with daily RSI 51 and an active 1d Hidden Bullish divergence on both USD and vs ETH, still above EMA50/200",
+    "Add on a dip to weekly 0.603, with daily 0.565 the deep-value level; 0.80 daily resistance is getting warm and 0.905 monthly is take profit."
+  ],
+  "catalysts": [
+    {
+      "date": "2026-10-28",
+      "event": "GRASS token unlock"
+    }
+  ],
+  "last_swings": {
+    "daily_highs": [
+      {
+        "date": "2026-09-29",
+        "price": 0.819
+      },
+      {
+        "date": "2026-10-04",
+        "price": 0.7969
+      },
+      {
+        "date": "2026-10-12",
+        "price": 0.8945
+      }
+    ],
+    "daily_lows": [
+      {
+        "date": "2026-09-08",
+        "price": 0.3208
+      },
+      {
+        "date": "2026-09-15",
+        "price": 0.3011
+      },
+      {
+        "date": "2026-10-08",
+        "price": 0.5649
+      }
+    ],
+    "k": 3,
+    "source": "bn_kl_GRASSUSDT.json",
+    "as_of": "2026-10-17"
+  },
+  "image_paths": [
+    {
+      "path": "research/labels/img/GRASS_usd_2026-10-17.png.b64",
+      "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
+      "drawn": "2026-10-17"
+    },
+    {
+      "path": "research/labels/img/GRASS_eth_2026-10-17.png.b64",
+      "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
+      "drawn": "2026-10-17"
+    }
+  ]
+}

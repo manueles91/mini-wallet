@@ -1,0 +1,128 @@
+{
+  "schema": "mw-cache/0",
+  "symbol": "VVV",
+  "coingecko_id": "venice-token",
+  "last_full_analysis": {
+    "date": "2026-10-16",
+    "ref_price": 24.35,
+    "label": "Neutral",
+    "source": "research/labels/2026-10-16.json"
+  },
+  "last_update": {
+    "date": "2026-10-16",
+    "ts": "2026-10-16T07:34:05-06:00",
+    "price": 24.35,
+    "mode": "full"
+  },
+  "rsi_d": 48.1,
+  "usd_sr": {
+    "monthly": {
+      "support": [
+        21.536
+      ],
+      "resistance": [
+        34.666
+      ]
+    },
+    "weekly": {
+      "support": [
+        14.863,
+        11.069
+      ],
+      "resistance": []
+    },
+    "daily": {
+      "support": [
+        21.131
+      ],
+      "resistance": [
+        25.901
+      ]
+    }
+  },
+  "thresholds": {
+    "base": "Neutral",
+    "down": [
+      {
+        "label": "Consider adding",
+        "price": 21.536
+      },
+      {
+        "label": "Deep value",
+        "price": 21.131
+      }
+    ],
+    "up": [
+      {
+        "label": "Getting warm",
+        "price": 34.666
+      }
+    ],
+    "ref_price": 24.35,
+    "valid_from": "2026-10-16T07:34:05-06:00",
+    "valid_until": "2026-10-17T07:34:05-06:00"
+  },
+  "zones": {
+    "date": "2026-10-15",
+    "buy": [
+      {
+        "name": "Add zone",
+        "lo": 21.1,
+        "hi": 21.8
+      }
+    ],
+    "invalidation": 20.5
+  },
+  "last_divergence": null,
+  "divergences_seen": [],
+  "thesis": [
+    "VVV jumped 9% to 24.35 off monthly support 21.54, with RSI 48 and no active divergence, and VVV/ETH held daily 0.00987",
+    "Hold while 21.5 stays intact on a daily close; daily 25.9 is first resistance and monthly 34.7 the take-profit zone."
+  ],
+  "catalysts": [],
+  "last_swings": {
+    "daily_highs": [
+      {
+        "date": "2026-09-09",
+        "price": 29.289
+      },
+      {
+        "date": "2026-09-21",
+        "price": 34.666
+      },
+      {
+        "date": "2026-10-04",
+        "price": 30.875
+      }
+    ],
+    "daily_lows": [
+      {
+        "date": "2026-09-24",
+        "price": 28.375
+      },
+      {
+        "date": "2026-10-01",
+        "price": 25.901
+      },
+      {
+        "date": "2026-10-08",
+        "price": 21.282
+      }
+    ],
+    "k": 3,
+    "source": "bn_kl_VVVUSDT.json",
+    "as_of": "2026-10-16"
+  },
+  "image_paths": [
+    {
+      "path": "research/labels/img/VVV_usd_2026-10-16.png.b64",
+      "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
+      "drawn": "2026-10-16"
+    },
+    {
+      "path": "research/labels/img/VVV_eth_2026-10-16.png.b64",
+      "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
+      "drawn": "2026-10-16"
+    }
+  ]
+}

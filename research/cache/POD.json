@@ -1,0 +1,116 @@
+{
+  "schema": "mw-cache/0",
+  "symbol": "POD",
+  "coingecko_id": "dolphin-2",
+  "last_full_analysis": {
+    "date": "2026-10-16",
+    "ref_price": 0.682659,
+    "label": "Neutral",
+    "source": "research/labels/2026-10-16.json"
+  },
+  "last_update": {
+    "date": "2026-10-16",
+    "ts": "2026-10-16T07:34:05-06:00",
+    "price": 0.682659,
+    "mode": "full"
+  },
+  "rsi_d": 59.6,
+  "usd_sr": {
+    "monthly": {
+      "support": [
+        0.613596
+      ],
+      "resistance": []
+    },
+    "weekly": {
+      "support": [
+        0.554525,
+        0.537038
+      ],
+      "resistance": [
+        0.903233
+      ]
+    },
+    "daily": {
+      "support": [
+        0.567201
+      ],
+      "resistance": []
+    }
+  },
+  "thresholds": {
+    "base": "Neutral",
+    "down": [
+      {
+        "label": "Consider adding",
+        "price": 0.613596
+      },
+      {
+        "label": "Deep value",
+        "price": 0.567201
+      }
+    ],
+    "up": [
+      {
+        "label": "Getting warm",
+        "price": 0.903233
+      }
+    ],
+    "ref_price": 0.682659,
+    "valid_from": "2026-10-16T07:34:05-06:00",
+    "valid_until": "2026-10-17T07:34:05-06:00"
+  },
+  "zones": null,
+  "last_divergence": null,
+  "divergences_seen": [],
+  "thesis": [
+    "POD edged +1.5% to 0.683, still above all EMAs with RSI 60 and no divergence after yesterday's giveback",
+    "POD/ETH stays extended at RSI 62 near daily resistance 0.000278, so hold; the better add is a retest of monthly support 0.614, with daily 0.567 below."
+  ],
+  "catalysts": [],
+  "last_swings": {
+    "daily_highs": [
+      {
+        "date": "2026-09-21",
+        "price": 0.439639
+      },
+      {
+        "date": "2026-09-27",
+        "price": 0.348421
+      },
+      {
+        "date": "2026-10-04",
+        "price": 0.903233
+      }
+    ],
+    "daily_lows": [
+      {
+        "date": "2026-09-16",
+        "price": 0.249638
+      },
+      {
+        "date": "2026-09-29",
+        "price": 0.300062
+      },
+      {
+        "date": "2026-10-08",
+        "price": 0.567201
+      }
+    ],
+    "k": 3,
+    "source": "gt_ohlcv_POD.json",
+    "as_of": "2026-10-16"
+  },
+  "image_paths": [
+    {
+      "path": "research/labels/img/POD_usd_2026-10-16.png.b64",
+      "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
+      "drawn": "2026-10-16"
+    },
+    {
+      "path": "research/labels/img/POD_eth_2026-10-16.png.b64",
+      "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
+      "drawn": "2026-10-16"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "schema": "mw-cache/0",
+  "symbol": "BNKR",
+  "coingecko_id": "bankercoin-2",
+  "last_full_analysis": {
+    "date": "2026-10-16",
+    "ref_price": 0.00029841,
+    "label": "Neutral",
+    "source": "research/labels/2026-10-16.json"
+  },
+  "last_update": {
+    "date": "2026-10-16",
+    "ts": "2026-10-16T07:34:05-06:00",
+    "price": 0.00029841,
+    "mode": "full"
+  },
+  "rsi_d": 40.4,
+  "usd_sr": {
+    "monthly": {
+      "support": [
+        0.000296021,
+        0.000191941
+      ],
+      "resistance": [
+        0.000556528
+      ]
+    },
+    "weekly": {
+      "support": [
+        0.00021037
+      ],
+      "resistance": [
+        0.000301467,
+        0.000608855
+      ]
+    },
+    "daily": {
+      "support": [
+        0.000290435
+      ],
+      "resistance": [
+        0.000308855
+      ]
+    }
+  },
+  "thresholds": {
+    "base": "Neutral",
+    "down": [
+      {
+        "label": "Consider adding",
+        "price": 0.000296021
+      },
+      {
+        "label": "Deep value",
+        "price": 0.000290435
+      }
+    ],
+    "up": [
+      {
+        "label": "Getting warm",
+        "price": 0.000556528
+      }
+    ],
+    "ref_price": 0.00029841,
+    "valid_from": "2026-10-16T07:34:05-06:00",
+    "valid_until": "2026-10-17T07:34:05-06:00"
+  },
+  "zones": null,
+  "last_divergence": null,
+  "divergences_seen": [],
+  "thesis": [
+    "BNKR bounced 11% back onto the monthly/daily support cluster 0.000290-0.000296 with RSI 40 and no live divergence",
+    "BNKR/ETH is still cool under daily resistance 1.23e-07, so hold; a clean break of weekly 0.000301 is needed before chasing, with weekly 0.00021 the deep add."
+  ],
+  "catalysts": [],
+  "last_swings": {
+    "daily_highs": [
+      {
+        "date": "2026-09-17",
+        "price": 0.000290435
+      },
+      {
+        "date": "2026-09-25",
+        "price": 0.000556528
+      },
+      {
+        "date": "2026-10-02",
+        "price": 0.00043578
+      }
+    ],
+    "daily_lows": [
+      {
+        "date": "2026-09-16",
+        "price": 0.000191941
+      },
+      {
+        "date": "2026-09-29",
+        "price": 0.000396375
+      },
+      {
+        "date": "2026-10-08",
+        "price": 0.000301518
+      }
+    ],
+    "k": 3,
+    "source": "gt_ohlcv_BNKR.json",
+    "as_of": "2026-10-16"
+  },
+  "image_paths": [
+    {
+      "path": "research/labels/img/BNKR_usd_2026-10-16.png.b64",
+      "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
+      "drawn": "2026-10-16"
+    },
+    {
+      "path": "research/labels/img/BNKR_eth_2026-10-16.png.b64",
+      "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
+      "drawn": "2026-10-16"
+    }
+  ]
+}

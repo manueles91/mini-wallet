@@ -1,0 +1,159 @@
+{
+  "schema": "mw-cache/0",
+  "symbol": "VIRTUAL",
+  "coingecko_id": "virtual-protocol",
+  "last_full_analysis": {
+    "date": "2026-10-16",
+    "ref_price": 0.686286,
+    "label": "Neutral",
+    "source": "research/labels/2026-10-16.json"
+  },
+  "last_update": {
+    "date": "2026-10-16",
+    "ts": "2026-10-16T07:34:05-06:00",
+    "price": 0.686286,
+    "mode": "full"
+  },
+  "rsi_d": 44.0,
+  "usd_sr": {
+    "monthly": {
+      "support": [
+        0.605
+      ],
+      "resistance": [
+        0.827,
+        0.9783
+      ]
+    },
+    "weekly": {
+      "support": [
+        0.6815,
+        0.6291
+      ],
+      "resistance": [
+        0.7963
+      ]
+    },
+    "daily": {
+      "support": [
+        0.6666
+      ],
+      "resistance": [
+        0.7186
+      ]
+    }
+  },
+  "thresholds": {
+    "base": "Neutral",
+    "down": [
+      {
+        "label": "Consider adding",
+        "price": 0.6815
+      },
+      {
+        "label": "Deep value",
+        "price": 0.6666
+      }
+    ],
+    "up": [
+      {
+        "label": "Getting warm",
+        "price": 0.7963
+      },
+      {
+        "label": "Take profit",
+        "price": 0.827
+      }
+    ],
+    "ref_price": 0.686286,
+    "valid_from": "2026-10-16T07:34:05-06:00",
+    "valid_until": "2026-10-17T07:34:05-06:00"
+  },
+  "zones": {
+    "date": "2026-10-15",
+    "buy": [
+      {
+        "name": "Add 1",
+        "lo": 0.629,
+        "hi": 0.663
+      },
+      {
+        "name": "Add 2",
+        "lo": 0.6,
+        "hi": 0.61
+      }
+    ],
+    "invalidation": 0.59
+  },
+  "last_divergence": {
+    "type": "Regular Bearish",
+    "timeframe": "1d",
+    "date": "2026-10-05",
+    "chart": "vs ETH",
+    "status": "active"
+  },
+  "divergences_seen": [
+    {
+      "type": "Regular Bearish",
+      "timeframe": "1d",
+      "date": "2026-10-05",
+      "chart": "USD"
+    },
+    {
+      "type": "Regular Bearish",
+      "timeframe": "1d",
+      "date": "2026-10-05",
+      "chart": "vs ETH"
+    }
+  ],
+  "thesis": [
+    "VIRTUAL bounced 7% back onto weekly support 0.681 and daily 0.667, still below all EMAs with RSI 44 and an active Regular Bearish 1d (Sep 27 to Oct 5)",
+    "Your 5x liquidation at 0.575 is now ~16% away, so hold rather than add; weekly 0.629 and monthly 0.605 are the next supports if 0.681 fails."
+  ],
+  "catalysts": [],
+  "last_swings": {
+    "daily_highs": [
+      {
+        "date": "2026-09-08",
+        "price": 0.7586
+      },
+      {
+        "date": "2026-09-28",
+        "price": 0.8538
+      },
+      {
+        "date": "2026-10-05",
+        "price": 0.8861
+      }
+    ],
+    "daily_lows": [
+      {
+        "date": "2026-09-16",
+        "price": 0.5748
+      },
+      {
+        "date": "2026-10-02",
+        "price": 0.7381
+      },
+      {
+        "date": "2026-10-08",
+        "price": 0.6762
+      }
+    ],
+    "k": 3,
+    "source": "bn_kl_VIRTUALUSDT.json",
+    "as_of": "2026-10-16"
+  },
+  "image_paths": [
+    {
+      "path": "research/labels/img/VIRTUAL_usd_2026-10-16.png.b64",
+      "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
+      "drawn": "2026-10-16"
+    },
+    {
+      "path": "research/labels/img/VIRTUAL_eth_2026-10-16.png.b64",
+      "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
+      "drawn": "2026-10-16"
+    }
+  ]
+}
