@@ -1,7 +1,7 @@
 {
-  "versionCode": 58,
-  "versionName": "13.30",
+  "versionCode": 59,
+  "versionName": "13.31",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "7c1879bd7bbd83e0ec4545040eda5ad74a001c4f4f5c4e7be8b79913a854ee25",
-  "notes": "Total exposure: Net worth | Notional toggle with totals comparison"
+  "apkSha256": "ea2d97062aaccf46d99ac709271bd1225abc03fa607fcde6546951c8453242d7",
+  "notes": "New LeverLens icon and wordmark."
 }
