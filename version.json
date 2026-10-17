@@ -1,7 +1,7 @@
 {
-  "versionCode": 48,
-  "versionName": "13.21",
+  "versionCode": 49,
+  "versionName": "13.22",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "115e21730440bc3e5efa3c5ffe09d9bab7440086f4dee7dd2b5718ebe042a889",
-  "notes": "New Research page + watchlist; analysis chips removed from Spot"
+  "apkSha256": "d60d556a6215cc8d1471da8171361d3aced881276c09c06ca3d001dabe1f6dff",
+  "notes": "Compact one-line Research rows so many more coins fit on screen"
 }
