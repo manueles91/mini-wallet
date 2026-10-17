@@ -1,0 +1,344 @@
+{
+  "schema": "mw-labels/0",
+  "date": "2026-10-11",
+  "generated_by": "Crypto Research \u2014 first real pass with reasoning (RSI 14d Wilder, M/W/D pivots USD + TOKEN/ETH, 1d RSI divergence; Manuel's rules: long bias, HTF-weighted S/R, ETH confluence)",
+  "tokens": {
+    "AERO": {
+      "rsi": {
+        "value": 70.7,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "overbought"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.6098
+          ],
+          "resistance": []
+        },
+        "weekly": {
+          "support": [
+            0.9629,
+            0.8041
+          ],
+          "resistance": []
+        },
+        "daily": {
+          "support": [
+            0.9319
+          ],
+          "resistance": []
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.00038472,
+            0.00033196
+          ],
+          "resistance": []
+        },
+        "weekly": {
+          "support": [
+            0.00035613
+          ],
+          "resistance": []
+        },
+        "daily": {
+          "support": [
+            0.00031684
+          ],
+          "resistance": []
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "label": "Getting warm",
+      "reasoning": "AERO is in price discovery above every monthly and weekly resistance, with daily RSI 71 and weekly 75, and AERO/ETH confirms the strength (+23% on the week, just above monthly support 0.000385). With no higher-timeframe resistance overhead and the Oct 21 Aerodrome launch still ahead, this is a stretched hold, not a take-profit; the area to add back is a retest of weekly support near 0.963.",
+      "notes": "Verified: Binance AEROUSDT perp, 2026-10-11 07:29 CR run; price 0.973, +8.6% 24h on 1.7x vol. Verified: Oct 21 launch confirmed by @aeroxyz. Assumption: catalyst override of RSI stretch per Manuel's rule. No bearish/bullish divergence checked beyond 1d."
+    },
+    "ETH": {
+      "rsi": {
+        "value": 41.0,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "cool"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            2146.1
+          ],
+          "resistance": []
+        },
+        "weekly": {
+          "support": [
+            2463.86,
+            2407.63
+          ],
+          "resistance": [
+            2620.0,
+            2719.89
+          ]
+        },
+        "daily": {
+          "support": [
+            2357.0
+          ],
+          "resistance": [
+            2547.0
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [],
+          "resistance": []
+        },
+        "weekly": {
+          "support": [],
+          "resistance": []
+        },
+        "daily": {
+          "support": [],
+          "resistance": []
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "label": "Consider adding",
+      "reasoning": "ETH is cool at RSI 41 and holding 1.6% above weekly support 2,464, with monthly support far below at 2,146. ETH/BTC sits on weekly support with RSI 30, close to oversold, which supports a long-bias add; a daily close back above 2,547 and then 2,620 is what your Dec 3000/3500 calls need.",
+      "notes": "Verified: Binance ETHUSDT perp + ETHBTC spot, 2026-10-11 run. eth_sr intentionally empty (ETH/ETH is undefined); ETH/BTC used for confluence instead (M S 0.0283, W S 0.0297, W R 0.0302). No 1d bullish divergence."
+    },
+    "VVV": {
+      "rsi": {
+        "value": 41.5,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "cool"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            21.536
+          ],
+          "resistance": [
+            34.666
+          ]
+        },
+        "weekly": {
+          "support": [
+            14.863,
+            11.069
+          ],
+          "resistance": []
+        },
+        "daily": {
+          "support": [
+            21.131
+          ],
+          "resistance": [
+            25.901
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.00562259
+          ],
+          "resistance": [
+            0.01153135
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.00709422,
+            0.00589568
+          ],
+          "resistance": []
+        },
+        "daily": {
+          "support": [
+            0.00885302
+          ],
+          "resistance": [
+            0.00910771
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "label": "Consider adding",
+      "reasoning": "VVV is down 20% on the week but resting on monthly support at 21.54, the highest-weight level, with RSI cool at 41 and VVV/ETH also sitting on daily support. Long bias says consider adding here, but only while 21.5 holds on a daily close; losing it opens the weekly level at 14.86, and there is no bullish divergence yet.",
+      "notes": "Verified: Binance VVVUSDT perp, 2026-10-11 run; state flagged 'falling knife' (-19.7% 7d) on USD, 'at support' on ETH chart. Missing: bullish divergence (none on 1d)."
+    },
+    "DIEM": {
+      "rsi": {
+        "value": 42.1,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "cool"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            1208.66
+          ],
+          "resistance": [
+            1835.07,
+            2339.0
+          ]
+        },
+        "weekly": {
+          "support": [
+            1541.01,
+            1307.8
+          ],
+          "resistance": []
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.57148653
+          ],
+          "resistance": [
+            0.94812955
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.65932036
+          ],
+          "resistance": [
+            0.77902331,
+            0.81473092
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "label": "Consider adding",
+      "reasoning": "DIEM is cool at RSI 42 and trades between weekly support 1,541 and monthly resistance 1,835, tracking VVV's pullback to its own monthly support. The DIEM/ETH chart is mid-range above weekly support 0.659, so it is a measured add while VVV holds 21.5, not a chase.",
+      "notes": "Verified: CoinGecko daily closes only (body-only levels, no daily pivots), from labels commit a0a7d00. Missing: intraday OHLC, daily S/R, divergence beyond 1d closes."
+    },
+    "TSLA": {
+      "rsi": {
+        "value": 62.1,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "warm"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            337.34,
+            293.8
+          ],
+          "resistance": [
+            453.56
+          ]
+        },
+        "weekly": {
+          "support": [
+            367.41
+          ],
+          "resistance": [
+            384.22,
+            409.39
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.14918102
+          ],
+          "resistance": [
+            0.22105894
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.13887758
+          ],
+          "resistance": [
+            0.15555486,
+            0.16819183
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "label": "Getting warm",
+      "reasoning": "TSLA is warm at RSI 62 and pressing weekly resistance at 384, with the next level at 409 and monthly resistance at 454. TSLA/ETH is also just under weekly resistance, so let it break 384 before adding; weekly support 367 is the better add zone.",
+      "notes": "Assumption: Binance TSLAUSDT perp (257d) used as proxy for the tokenized TSLA held. Levels from commit a0a7d00 (2026-10-11). Missing: daily S/R."
+    },
+    "SPCX": {
+      "rsi": {
+        "value": 60.5,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "warm"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            104.31
+          ],
+          "resistance": [
+            228.0
+          ]
+        },
+        "weekly": {
+          "support": [],
+          "resistance": []
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.05430488
+          ],
+          "resistance": [
+            0.11488956
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.06341362,
+            0.05761593
+          ],
+          "resistance": [
+            0.07808175
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "label": "Neutral",
+      "reasoning": "SPCX sits mid-range between monthly support 104 and resistance 228 with RSI 60, so there is no edge from the USD chart. SPCX/ETH is between weekly support 0.063 and resistance 0.078, which agrees; hold and wait for a pullback toward weekly ETH-chart support.",
+      "notes": "Assumption: Binance SPCXUSDT (144d history) used as proxy for tokenized SpaceX held. Missing: USD weekly pivots (not formed yet) and daily S/R. RSI warm band but label kept Neutral because no S/R is near."
+    }
+  }
+}

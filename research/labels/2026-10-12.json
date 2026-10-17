@@ -1,0 +1,809 @@
+{
+  "schema": "mw-labels/0",
+  "date": "2026-10-12",
+  "generated_by": "Crypto Research daily routine (RSI 14d Wilder, M/W/D pivots USD + TOKEN/ETH, 1d+1w RSI divergence scan; long bias, HTF-weighted S/R, ETH confluence). Token list: holdings/latest.json 2026-10-12, total_usd > $500.",
+  "tokens": {
+    "AERO": {
+      "rsi": {
+        "value": 63.3,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "warm"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.6098
+          ],
+          "resistance": []
+        },
+        "weekly": {
+          "support": [
+            0.8041,
+            0.7175
+          ],
+          "resistance": [
+            0.9629
+          ]
+        },
+        "daily": {
+          "support": [
+            0.891
+          ],
+          "resistance": [
+            0.9319
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.000331961
+          ],
+          "resistance": [
+            0.00038472
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.000356127,
+            0.000323036
+          ],
+          "resistance": []
+        },
+        "daily": {
+          "support": [
+            0.000316839
+          ],
+          "resistance": []
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "label": "Getting warm",
+      "reasoning": "AERO pulled back 7.6% after rejecting weekly resistance 0.963, with two bearish 1d RSI divergences since Sep 26 and weekly RSI still 71. It sits just above daily support 0.891, and AERO/ETH was rejected at monthly resistance but is holding weekly support 0.000356, so this is a hold into the Oct 21 launch; the add zone is weekly support near 0.80.",
+      "notes": "Verified: Binance AEROUSDT perp, 2026-10-12 07:49 CR run; price 0.903066, RSI d/w 63.3/70.8. Verified: 24h -7.6%, vol 0.75x 20d avg, Binance OI -2.8% 24h, funding +0.005%/8h (neutral). Verified: bearish 1d RSI divergences 2026-09-26->10-04->10-11. Verified (per Manuel/@aeroxyz): Aerodrome Oct 21 launch confirmed. Verified: 40 Acres Base loan ~$4.9k vs ~29.6k AERO collateral (~18% LTV)."
+    },
+    "ETH": {
+      "rsi": {
+        "value": 44.2,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "cool"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            2146.1
+          ],
+          "resistance": []
+        },
+        "weekly": {
+          "support": [
+            2463.86,
+            2407.63
+          ],
+          "resistance": [
+            2620.0,
+            2719.89
+          ]
+        },
+        "daily": {
+          "support": [
+            2357.0
+          ],
+          "resistance": [
+            2547.0
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [],
+          "resistance": []
+        },
+        "weekly": {
+          "support": [],
+          "resistance": []
+        },
+        "daily": {
+          "support": [],
+          "resistance": []
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "label": "Consider adding",
+      "reasoning": "ETH is cool at RSI 44, 2.7% above weekly support 2,464 and above EMA50, with monthly support far lower at 2,146. ETH/BTC sits on weekly support 0.0302 with RSI 40, which agrees; daily 2,547 then weekly 2,620 are the levels your Dec calls need reclaimed.",
+      "notes": "Verified: Binance ETHUSDT perp + ETHBTC spot, 2026-10-12 07:49 CR run; price 2531.78, RSI d/w 44.2/57.0. Verified: Binance OI -1.1% 24h, funding ~0.001%/8h. eth_sr empty by design (ETH/ETH undefined); ETH/BTC used for confluence: M S 0.02827, W S 0.0302/0.02968, W R 0.03069, D S 0.02909, D R 0.03134. No 1d/1w bullish divergence."
+    },
+    "VVV": {
+      "rsi": {
+        "value": 45.5,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "neutral"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            21.536
+          ],
+          "resistance": [
+            34.666
+          ]
+        },
+        "weekly": {
+          "support": [
+            14.863,
+            11.069
+          ],
+          "resistance": []
+        },
+        "daily": {
+          "support": [
+            21.131
+          ],
+          "resistance": [
+            25.901
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.00562259
+          ],
+          "resistance": [
+            0.0115314
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.00709422,
+            0.00589568
+          ],
+          "resistance": []
+        },
+        "daily": {
+          "support": [
+            0.00910771
+          ],
+          "resistance": [
+            0.00970555
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "label": "Consider adding",
+      "reasoning": "VVV held monthly support 21.54, the highest-weight level, and bounced 5% today with RSI back to a neutral 46, while VVV/ETH holds daily support 0.00911. Long bias says add while 21.5 holds on a daily close; daily 25.9 is the first resistance and monthly 34.7 the bigger one.",
+      "notes": "Verified: Binance VVVUSDT perp, 2026-10-12 07:49 CR run; price 23.87, RSI d/w 45.5/63.4. Verified: OI -4.8% 24h while price +5% (short covering / deleveraging bounce, not new longs), funding +0.005%, vol 1.1x. No bullish divergence yet. Context: your 3x VVV-1 long (entry 21.98, liq ~17.62) is in profit."
+    },
+    "VIRTUAL": {
+      "rsi": {
+        "value": 47.6,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "neutral"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.6041
+          ],
+          "resistance": [
+            0.8265
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.6826,
+            0.6285
+          ],
+          "resistance": [
+            0.796,
+            0.8466
+          ]
+        },
+        "daily": {
+          "support": [
+            0.6721
+          ],
+          "resistance": [
+            0.7292
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.000243915
+          ],
+          "resistance": [
+            0.00028826
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.000262708,
+            0.000237862
+          ],
+          "resistance": [
+            0.000297586,
+            0.000319867
+          ]
+        },
+        "daily": {
+          "support": [
+            0.00027509
+          ],
+          "resistance": [
+            0.000303423
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "label": "Neutral",
+      "reasoning": "VIRTUAL is mid-range at RSI 48, pressing daily resistance 0.729 with weekly resistance 0.796 above and weekly support 0.683 below. VIRTUAL/ETH is sitting right at monthly resistance 0.000288, and a bearish 1d divergence from Oct 5 is still fresh, so there is no edge to add until 0.73 then 0.80 break.",
+      "notes": "Verified: Binance VIRTUALUSDT perp, 2026-10-12 07:49 CR run; price 0.728031, RSI d/w 47.6/51.0. Verified: vol 0.62x, OI -2.1% 24h, funding +0.005%. Context: VIRT-2 5x long (entry 0.7123, liq ~0.634) slightly green; 0.80 is the stop-to-entry trigger, 0.796/0.827/0.847 the manual-exit resistances."
+    },
+    "BNKR": {
+      "rsi": {
+        "value": 45.0,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "neutral"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.000296021
+          ],
+          "resistance": [
+            0.000556528
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.000301467,
+            0.00021037
+          ],
+          "resistance": [
+            0.000413811,
+            0.000608855
+          ]
+        },
+        "daily": {
+          "support": [
+            0.00032774
+          ],
+          "resistance": [
+            0.000346526
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            8.4438e-08
+          ],
+          "resistance": [
+            1.32044e-07,
+            1.7547e-07
+          ]
+        },
+        "weekly": {
+          "support": [],
+          "resistance": [
+            1.56101e-07
+          ]
+        },
+        "daily": {
+          "support": [
+            1.23269e-07
+          ],
+          "resistance": [
+            1.36076e-07
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "label": "Neutral",
+      "reasoning": "BNKR is down 22% on the week and below all three EMAs, resting on daily support 0.000328 with RSI 45. The strong add zone is the weekly/monthly cluster at 0.000296-0.000301 about 9% lower, and BNKR/ETH is still a falling knife with no weekly support, so wait for that cluster or a bullish divergence.",
+      "notes": "Verified: GeckoTerminal Base pool OHLC (183d) + CoinGecko closes, 2026-10-12 07:49 CR run; price 0.0003309, RSI d/w 45.0/47.0. Verified: selling on low volume (0.51x 20d avg). Missing: perp OI/funding (no Binance perp listed). No bullish divergence (last one 2026-09-09, expired)."
+    },
+    "DRV": {
+      "rsi": {
+        "value": 58.0,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "warm"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.201034,
+            0.119443
+          ],
+          "resistance": []
+        },
+        "weekly": {
+          "support": [
+            0.122579
+          ],
+          "resistance": []
+        },
+        "daily": {
+          "support": [
+            0.364053
+          ],
+          "resistance": [
+            0.489274
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            8.20988e-05
+          ],
+          "resistance": []
+        },
+        "weekly": {
+          "support": [
+            7.03658e-05,
+            6.60398e-05
+          ],
+          "resistance": []
+        },
+        "daily": {
+          "support": [
+            0.000152515
+          ],
+          "resistance": [
+            0.000181327
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "label": "Getting warm",
+      "reasoning": "DRV is in price discovery with weekly RSI 78 overbought and no monthly or weekly resistance overhead, but it dropped 9.4% today after tagging daily resistance 0.489. DRV/ETH shows the same extension, so hold, and treat daily support 0.364 as the add zone rather than chasing.",
+      "notes": "Verified: GeckoTerminal Base pool OHLC (137d) + CoinGecko closes, 2026-10-12 07:49 CR run; price 0.453473, RSI d/w 58.0/78.2. Verified: drop on light volume (0.48x). Missing: perp OI/funding (no Binance perp). 24h drop is under the 10% accumulation threshold. Monthly S 0.201 / weekly S 0.123 are far below."
+    },
+    "DIEM": {
+      "rsi": {
+        "value": 46.7,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "neutral"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            1164.57
+          ],
+          "resistance": [
+            1937.81,
+            2561.92
+          ]
+        },
+        "weekly": {
+          "support": [
+            1776.02,
+            1636.31
+          ],
+          "resistance": []
+        },
+        "daily": {
+          "support": [
+            1725.19
+          ],
+          "resistance": [
+            1832.21
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.602469
+          ],
+          "resistance": [
+            0.941281
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.64163
+          ],
+          "resistance": [
+            0.788549,
+            0.802262
+          ]
+        },
+        "daily": {
+          "support": [
+            0.69855
+          ],
+          "resistance": [
+            0.715675
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "label": "Consider adding",
+      "reasoning": "DIEM is sitting on weekly support 1,776 with RSI 47 after a 14% weekly drop, tracking VVV's hold of its monthly support. DIEM/ETH is on daily support 0.699 with weekly support 0.642 below, so it is a measured add while VVV holds 21.5.",
+      "notes": "Verified: GeckoTerminal Base pool OHLC (183d) + CoinGecko closes, 2026-10-12 07:49 CR run; price 1783.36, RSI d/w 46.7/58.8. Verified: now built from GeckoTerminal Base pool OHLC (yesterday was CoinGecko closes only), so levels shifted vs 2026-10-11. Monthly R 1,938. Missing: perp OI/funding. No bullish divergence."
+    },
+    "SPCX": {
+      "rsi": {
+        "value": 62.2,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "warm"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            104.31
+          ],
+          "resistance": [
+            228.0
+          ]
+        },
+        "weekly": {
+          "support": [],
+          "resistance": []
+        },
+        "daily": {
+          "support": [
+            161.0
+          ],
+          "resistance": [
+            167.74
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.0543049
+          ],
+          "resistance": [
+            0.11489
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.0634136,
+            0.0576159
+          ],
+          "resistance": [
+            0.0780818
+          ]
+        },
+        "daily": {
+          "support": [
+            0.061533
+          ],
+          "resistance": [
+            0.0665317
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "label": "Neutral",
+      "reasoning": "SPCX sits between daily support 161 and resistance 168 with RSI 62 and no weekly pivots formed yet, far from monthly support 104 and resistance 228. SPCX/ETH is above weekly support 0.0634 and below daily resistance 0.0665, so there's no edge on either chart; hold and add on a pullback toward ETH-chart weekly support.",
+      "notes": "Verified: Binance SPCXUSDT perp (145d) as proxy for tokenized SpaceX, 2026-10-12 07:49 CR run; price 165.63, RSI d/w 62.2/45.1. Assumption: Binance SPCXUSDT perp used as proxy for the Superform tokenized SpaceX held. Verified: perp OI -2.0% 24h, funding +0.007%. Missing: weekly USD pivots (history too short), volume ratio."
+    },
+    "DRB": {
+      "rsi": {
+        "value": 50.1,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "neutral"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.000111506
+          ],
+          "resistance": [
+            0.00030529
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.000140269,
+            9.04949e-05
+          ],
+          "resistance": [
+            0.000288262
+          ]
+        },
+        "daily": {
+          "support": [
+            0.000192063
+          ],
+          "resistance": [
+            0.000217223
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            4.9514e-08
+          ],
+          "resistance": [
+            1.00636e-07
+          ]
+        },
+        "weekly": {
+          "support": [
+            6.9388e-08,
+            3.3685e-08
+          ],
+          "resistance": [
+            9.0793e-08
+          ]
+        },
+        "daily": {
+          "support": [
+            7.5896e-08
+          ],
+          "resistance": [
+            8.1182e-08
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "label": "Neutral",
+      "reasoning": "DRB is neutral at RSI 50, between daily support 0.000192 and resistance 0.000217, well above weekly support 0.00014 and below weekly/monthly resistance 0.000288-0.000305. DRB/ETH is also mid-range above daily support, so hold and wait for one of the edges.",
+      "notes": "Verified: GeckoTerminal Base pool OHLC (183d) + CoinGecko closes, 2026-10-12 07:49 CR run; price 0.00019911, RSI d/w 50.1/66.6. Verified: vol 0.44x. Missing: perp OI/funding (no Binance perp). No divergence."
+    },
+    "TSLA": {
+      "rsi": {
+        "value": 59.2,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "warm"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            337.34
+          ],
+          "resistance": [
+            453.56
+          ]
+        },
+        "weekly": {
+          "support": [
+            367.41,
+            346.4
+          ],
+          "resistance": [
+            384.22,
+            409.39
+          ]
+        },
+        "daily": {
+          "support": [
+            378.3
+          ],
+          "resistance": [
+            390.73
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.149181
+          ],
+          "resistance": [
+            0.221059
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.138878,
+            0.131543
+          ],
+          "resistance": [
+            0.155555,
+            0.168192
+          ]
+        },
+        "daily": {
+          "support": [
+            0.143286
+          ],
+          "resistance": [
+            0.158454
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "label": "Getting warm",
+      "reasoning": "TSLA is warm at RSI 59 and was rejected again just under weekly resistance 384, with daily support 378 and weekly support 367 below. TSLA/ETH sits on monthly support 0.149, which is constructive, so add on a daily close above 384 or a pullback to 367 rather than here.",
+      "notes": "Verified: Binance TSLAUSDT perp (258d) as proxy for tokenized TSLA, 2026-10-12 07:49 CR run; price 381.57, RSI d/w 59.2/47.4. Assumption: Binance TSLAUSDT perp used as proxy for the Superform tokenized TSLA held. Verified: perp OI -0.7% 24h, funding 0. Monthly R 454. Missing: volume ratio."
+    },
+    "SERV": {
+      "rsi": {
+        "value": 45.8,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "neutral"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.0128728
+          ],
+          "resistance": [
+            0.0383767
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.0137247
+          ],
+          "resistance": [
+            0.021571,
+            0.0231199
+          ]
+        },
+        "daily": {
+          "support": [
+            0.0202603
+          ],
+          "resistance": [
+            0.0220946
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            6.55433e-06
+          ],
+          "resistance": [
+            1.28752e-05
+          ]
+        },
+        "weekly": {
+          "support": [
+            6.19824e-06,
+            6.07248e-06
+          ],
+          "resistance": [
+            8.49078e-06,
+            1.11505e-05
+          ]
+        },
+        "daily": {
+          "support": [
+            7.98129e-06
+          ],
+          "resistance": [
+            8.78019e-06
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "label": "Neutral",
+      "reasoning": "SERV is below all three EMAs with RSI 46, sitting right under weekly resistance 0.0216 with daily support at 0.0203. SERV/ETH is also capped at weekly resistance, so there's no edge until 0.0216 breaks; the deep-value zone is the weekly/monthly support near 0.013-0.0137.",
+      "notes": "Verified: GeckoTerminal Ethereum pool OHLC (183d) + CoinGecko closes, 2026-10-12 07:49 CR run; price 0.0214225, RSI d/w 45.8/44.2. Missing: perp OI/funding (no Binance perp). No bullish divergence (last one 2026-08-16, expired)."
+    },
+    "POD": {
+      "rsi": {
+        "value": 62.5,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "warm"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.613596
+          ],
+          "resistance": []
+        },
+        "weekly": {
+          "support": [
+            0.554525,
+            0.537038
+          ],
+          "resistance": [
+            0.903233
+          ]
+        },
+        "daily": {
+          "support": [
+            0.567201
+          ],
+          "resistance": []
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.000102667
+          ],
+          "resistance": [
+            0.000299629
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.000206799,
+            0.000193585
+          ],
+          "resistance": [
+            0.000324053
+          ]
+        },
+        "daily": {
+          "support": [
+            0.000223571
+          ],
+          "resistance": [
+            0.000270987
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "label": "Neutral",
+      "reasoning": "POD bounced 15% today on 1.9x volume and reclaimed monthly support 0.614, with RSI 62 and weekly resistance far above at 0.903. POD/ETH is warm at RSI 65 just under daily resistance 0.000271, so after a +15% day the better add is a retest of 0.614.",
+      "notes": "Verified: GeckoTerminal Base pool OHLC (183d) + CoinGecko dolphin-2 closes, 2026-10-12 07:49 CR run; price 0.678884, RSI d/w 62.5/60.4. POD = CoinGecko dolphin-2 (Dolphin). Verified: 24h +15.1%, 7d -17.1%, volume ~1.9x 20d avg (near-spike). Missing: perp OI/funding. Daily S 0.567."
+    }
+  }
+}
