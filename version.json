@@ -1,7 +1,7 @@
 {
-  "versionCode": 47,
-  "versionName": "13.20",
+  "versionCode": 48,
+  "versionName": "13.21",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "ddba14018fdb1a9061ec4c1fe31338a8c581a4c1414a7e7099dc2887e80e22ea",
-  "notes": "Header: wordmark + 24h/7d on one row (Overview, Spot, Leverage); Spot follows 24h/7d; bigger animated Net Worth card"
+  "apkSha256": "115e21730440bc3e5efa3c5ffe09d9bab7440086f4dee7dd2b5718ebe042a889",
+  "notes": "New Research page + watchlist; analysis chips removed from Spot"
 }
