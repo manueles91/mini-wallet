@@ -10,11 +10,11 @@
   },
   "last_update": {
     "date": "2026-10-17",
-    "ts": "2026-10-17T11:36:58-06:00",
-    "price": 22.467,
+    "ts": "2026-10-17T18:20:16-06:00",
+    "price": 22.305,
     "mode": "incremental"
   },
-  "rsi_d": 44.3,
+  "rsi_d": 43.2,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -58,8 +58,8 @@
         "price": 34.666
       }
     ],
-    "ref_price": 22.467,
-    "valid_from": "2026-10-17T11:36:58-06:00",
+    "ref_price": 22.305,
+    "valid_from": "2026-10-17T18:20:16-06:00",
     "valid_until": "2026-10-20T18:07:00-06:00"
   },
   "zones": {
@@ -123,5 +123,5 @@
       "drawn": "2026-10-17"
     }
   ],
-  "last_reasoning": "VVV pulled back 8% to 22.5 but still holds above the monthly 21.54 add level, with RSI 44 and a new Regular Bullish 1d on wick lows (Oct 8 to Oct 13). Hold while 21.5 holds on a daily close; your 3x liquidation at 18.10 is ~20% below, and monthly 34.7 stays the take-profit zone."
+  "last_reasoning": "VVV closed Oct 17 at 22.33 (-2%), still above the monthly 21.54 add level with RSI 43 and no active divergence. Hold while 21.5 holds on a daily close; your 3x liquidation at 18.10 is ~19% below, and monthly 34.7 stays the take-profit zone."
 }

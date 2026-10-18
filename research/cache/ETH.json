@@ -3,41 +3,42 @@
   "symbol": "ETH",
   "coingecko_id": "ethereum",
   "last_full_analysis": {
-    "date": "2026-10-16",
-    "ref_price": 2460.17,
+    "date": "2026-10-17",
+    "ts": "2026-10-17T18:20:16-06:00",
+    "ref_price": 2398.53,
     "label": "Neutral",
-    "source": "research/labels/2026-10-16.json"
+    "source": "research/labels/2026-10-17.json"
   },
   "last_update": {
     "date": "2026-10-17",
-    "ts": "2026-10-17T11:36:58-06:00",
-    "price": 2405.3,
-    "mode": "incremental"
+    "ts": "2026-10-17T18:20:16-06:00",
+    "price": 2398.53,
+    "mode": "full"
   },
-  "rsi_d": 38.6,
+  "rsi_d": 36.9,
   "usd_sr": {
     "monthly": {
       "support": [
-        2141.54
+        2145.5,
+        2100.0
       ],
       "resistance": []
     },
     "weekly": {
       "support": [
-        2403.0,
-        2357.59
+        2383.7
       ],
       "resistance": [
-        2464.91,
-        2623.57
+        2423.8,
+        2462.5
       ]
     },
     "daily": {
       "support": [
-        2265.61
+        2314.4
       ],
       "resistance": [
-        2546.66
+        2545.9
       ]
     }
   },
@@ -46,16 +47,21 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 2403.0
+        "price": 2383.7
       },
       {
         "label": "Deep value",
-        "price": 2357.59
+        "price": 2314.4
       }
     ],
-    "up": [],
-    "ref_price": 2405.3,
-    "valid_from": "2026-10-17T11:36:58-06:00",
+    "up": [
+      {
+        "label": "Getting warm",
+        "price": 2462.5
+      }
+    ],
+    "ref_price": 2398.53,
+    "valid_from": "2026-10-17T18:20:16-06:00",
     "valid_until": "2026-10-20T18:07:00-06:00"
   },
   "zones": {
@@ -77,8 +83,8 @@
   "last_divergence": null,
   "divergences_seen": [],
   "thesis": [
-    "ETH bounced 5% to 2,460 and reclaimed weekly 2,403, now pressing weekly resistance 2,465 with RSI 42 and no divergence",
-    "ETH/BTC is cool (RSI 36) under weekly 0.0302, so hold rather than chase; daily 2,266 and monthly 2,142 remain the add stack if this bounce fails."
+    "ETH closed Oct 17 at 2,402, just under the old weekly 2,403 add level, and sits on recomputed weekly support 2,384 with RSI 37, below the 20/50 EMAs and no divergence on daily closes",
+    "ETH/BTC is oversold (RSI 28) above weekly 0.0287, so hold; adds at 2,384 then daily 2,314, monthly 2,146 the floor, weekly 2,462 the first warm level."
   ],
   "catalysts": [],
   "last_swings": {
@@ -110,7 +116,9 @@
         "price": 2406.7
       }
     ],
-    "k": 3
+    "k": 3,
+    "source": "Hyperliquid 1d",
+    "as_of": "2026-10-17"
   },
   "image_paths": [
     {
@@ -124,5 +132,5 @@
       "drawn": "2026-10-17"
     }
   ],
-  "last_reasoning": "ETH gave back the bounce to 2,406 (-2% since Oct 16) and is testing the weekly 2,403 add level with RSI 39. A Regular Bullish 1d on wick lows (Oct 8 to Oct 15) is new but not confirmed on closes, so treat it as a soft positive; daily 2,266 and monthly 2,142 stay the deeper add stack."
+  "last_reasoning": "ETH closed Oct 17 at 2,402, just under the old weekly 2,403 add level, and sits on recomputed weekly support 2,384 with RSI 37, below the 20/50 EMAs and no divergence on daily closes. ETH/BTC is oversold (RSI 28) above weekly 0.0287, so hold; adds at 2,384 then daily 2,314, monthly 2,146 the floor, weekly 2,462 the first warm level."
 }

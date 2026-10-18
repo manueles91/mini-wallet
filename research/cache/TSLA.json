@@ -10,11 +10,11 @@
   },
   "last_update": {
     "date": "2026-10-17",
-    "ts": "2026-10-17T11:36:58-06:00",
-    "price": 351.17,
-    "mode": "full"
+    "ts": "2026-10-17T18:20:16-06:00",
+    "price": 349.95,
+    "mode": "incremental"
   },
-  "rsi_d": 35.3,
+  "rsi_d": 34.9,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -65,8 +65,8 @@
         "price": 453.58
       }
     ],
-    "ref_price": 351.17,
-    "valid_from": "2026-10-17T11:36:58-06:00",
+    "ref_price": 349.95,
+    "valid_from": "2026-10-17T18:20:16-06:00",
     "valid_until": "2026-10-20T18:07:00-06:00"
   },
   "zones": null,
@@ -106,9 +106,7 @@
         "price": 346.52
       }
     ],
-    "k": 3,
-    "source": "OKX USDT-swap 1D (utc)",
-    "as_of": "2026-10-17"
+    "k": 3
   },
   "image_paths": [
     {
@@ -121,5 +119,6 @@
       "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
       "drawn": "2026-10-17"
     }
-  ]
+  ],
+  "last_reasoning": "TSLA closed Oct 17 at 350.4 with RSI 35, below all EMAs and no divergence, and live 349 is drifting toward the weekly 346.5 add level. Hold for now; 346.5 is the add, monthly 337.3 the deep value, weekly 384 the first warm level."
 }

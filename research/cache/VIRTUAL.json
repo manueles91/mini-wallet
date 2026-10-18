@@ -10,11 +10,11 @@
   },
   "last_update": {
     "date": "2026-10-17",
-    "ts": "2026-10-17T11:36:58-06:00",
-    "price": 0.651636,
-    "mode": "full"
+    "ts": "2026-10-17T18:20:16-06:00",
+    "price": 0.65454,
+    "mode": "incremental"
   },
-  "rsi_d": 40.0,
+  "rsi_d": 40.2,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -65,8 +65,8 @@
         "price": 0.82746
       }
     ],
-    "ref_price": 0.651636,
-    "valid_from": "2026-10-17T11:36:58-06:00",
+    "ref_price": 0.65454,
+    "valid_from": "2026-10-17T18:20:16-06:00",
     "valid_until": "2026-10-20T18:07:00-06:00"
   },
   "zones": {
@@ -140,9 +140,7 @@
         "price": 0.676
       }
     ],
-    "k": 3,
-    "source": "Hyperliquid 1d",
-    "as_of": "2026-10-17"
+    "k": 3
   },
   "image_paths": [
     {
@@ -155,5 +153,6 @@
       "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
       "drawn": "2026-10-17"
     }
-  ]
+  ],
+  "last_reasoning": "VIRTUAL closed Oct 17 at 0.654 (-2.5%), still on daily support 0.648 below all EMAs with RSI 40 and no new divergence. Your 5x liquidation is now 0.580, ~11.5% below, so don't add here; weekly 0.629 and monthly 0.604 stay the supports, daily 0.73 the first warm level."
 }

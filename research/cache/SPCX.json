@@ -10,11 +10,11 @@
   },
   "last_update": {
     "date": "2026-10-17",
-    "ts": "2026-10-17T11:36:58-06:00",
-    "price": 145.38,
-    "mode": "full"
+    "ts": "2026-10-17T18:20:16-06:00",
+    "price": 144.63,
+    "mode": "incremental"
   },
-  "rsi_d": 37.0,
+  "rsi_d": 36.9,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -48,8 +48,8 @@
       }
     ],
     "up": [],
-    "ref_price": 145.38,
-    "valid_from": "2026-10-17T11:36:58-06:00",
+    "ref_price": 144.63,
+    "valid_from": "2026-10-17T18:20:16-06:00",
     "valid_until": "2026-10-20T18:07:00-06:00"
   },
   "zones": null,
@@ -89,9 +89,7 @@
         "price": 145.22
       }
     ],
-    "k": 3,
-    "source": "OKX USDT-swap 1D (utc)",
-    "as_of": "2026-10-17"
+    "k": 3
   },
   "image_paths": [
     {
@@ -104,5 +102,6 @@
       "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
       "drawn": "2026-10-17"
     }
-  ]
+  ],
+  "last_reasoning": "SPCX closed Oct 17 at 145.3, right on daily support 145.2, with RSI 37 and no divergence, and live 144.3 is just under it. Small adds are fine while 145 holds on a daily close, but a close below opens monthly 104; a reclaim of daily 149.5 turns it neutral."
 }

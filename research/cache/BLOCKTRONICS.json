@@ -1,0 +1,136 @@
+{
+  "coingecko_id": "blocktronics",
+  "catalysts": [],
+  "zones": {
+    "date": "2026-10-17",
+    "buy": [
+      {
+        "name": "Zone 1",
+        "lo": 3.66091e-06,
+        "hi": 3.9e-06
+      }
+    ],
+    "invalidation": 2.95e-06
+  },
+  "last_full_analysis": {
+    "date": "2026-10-17",
+    "ts": "2026-10-17T18:20:16-06:00",
+    "ref_price": 4.88e-06,
+    "label": "Neutral",
+    "source": "research/labels/2026-10-17.json"
+  },
+  "last_update": {
+    "date": "2026-10-17",
+    "ts": "2026-10-17T18:20:16-06:00",
+    "price": 4.88e-06,
+    "mode": "full"
+  },
+  "rsi_d": 43.3,
+  "usd_sr": {
+    "monthly": {
+      "support": [
+        1.68039e-06
+      ],
+      "resistance": [
+        7.22636e-06
+      ]
+    },
+    "weekly": {
+      "support": [
+        3.66091e-06,
+        2.95794e-06
+      ],
+      "resistance": [
+        6.53141e-06,
+        1.20211e-05
+      ]
+    },
+    "daily": {
+      "support": [
+        4.67786e-06
+      ],
+      "resistance": [
+        5.01998e-06
+      ]
+    }
+  },
+  "thresholds": {
+    "base": "Neutral",
+    "down": [
+      {
+        "label": "Consider adding",
+        "price": 3.66091e-06
+      },
+      {
+        "label": "Deep value",
+        "price": 2.95794e-06
+      }
+    ],
+    "up": [
+      {
+        "label": "Getting warm",
+        "price": 6.53141e-06
+      },
+      {
+        "label": "Take profit",
+        "price": 7.22636e-06
+      }
+    ],
+    "ref_price": 4.88e-06,
+    "valid_from": "2026-10-17T18:20:16-06:00",
+    "valid_until": "2026-10-20T18:07:00-06:00"
+  },
+  "last_divergence": {
+    "type": "Hidden Bullish",
+    "timeframe": "1d",
+    "date": "2026-10-09",
+    "chart": "vs ETH",
+    "status": "active"
+  },
+  "divergences_seen": [
+    {
+      "type": "Hidden Bullish",
+      "timeframe": "1d",
+      "date": "2026-10-09",
+      "chart": "USD"
+    },
+    {
+      "type": "Regular Bearish",
+      "timeframe": "1w",
+      "date": "2026-09-27",
+      "chart": "USD"
+    },
+    {
+      "type": "Hidden Bullish",
+      "timeframe": "1d",
+      "date": "2026-10-09",
+      "chart": "vs ETH"
+    }
+  ],
+  "thesis": [
+    "BLOCKTRONICS is a thin Base micro-cap (~$1k daily volume, close-only CoinGecko data) at 4.88e-06, between daily support 4.68e-06 and resistance 5.02e-06 with RSI 43",
+    "A Hidden Bullish 1d (Sep 15 to Oct 9) is active, but the weekly shows a Regular Bearish (Aug 23 to Sep 27); hold, add only near weekly 3.66e-06, warm at weekly 6.53e-06."
+  ],
+  "last_swings": {
+    "daily_highs": [],
+    "daily_lows": [],
+    "k": 3,
+    "source": "CoinGecko closes (no OHLC helper source)",
+    "as_of": "2026-10-17"
+  },
+  "image_paths": [
+    {
+      "path": "research/labels/img/BLOCKTRONICS_usd_2026-10-17.png.b64",
+      "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
+      "drawn": "2026-10-17"
+    },
+    {
+      "path": "research/labels/img/BLOCKTRONICS_eth_2026-10-17.png.b64",
+      "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
+      "drawn": "2026-10-17"
+    }
+  ],
+  "last_reasoning": "BLOCKTRONICS is a thin Base micro-cap (~$1k daily volume, close-only CoinGecko data) at 4.88e-06, between daily support 4.68e-06 and resistance 5.02e-06 with RSI 43. A Hidden Bullish 1d (Sep 15 to Oct 9) is active, but the weekly shows a Regular Bearish (Aug 23 to Sep 27); hold, add only near weekly 3.66e-06, warm at weekly 6.53e-06.",
+  "schema": "mw-cache/0",
+  "symbol": "BLOCKTRONICS"
+}

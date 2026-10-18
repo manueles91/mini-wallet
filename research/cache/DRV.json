@@ -10,11 +10,11 @@
   },
   "last_update": {
     "date": "2026-10-17",
-    "ts": "2026-10-17T11:36:58-06:00",
-    "price": 0.407215,
+    "ts": "2026-10-17T18:20:16-06:00",
+    "price": 0.403908,
     "mode": "incremental"
   },
-  "rsi_d": 48.9,
+  "rsi_d": 51.1,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -56,8 +56,8 @@
         "price": 0.489274
       }
     ],
-    "ref_price": 0.407215,
-    "valid_from": "2026-10-17T11:36:58-06:00",
+    "ref_price": 0.403908,
+    "valid_from": "2026-10-17T18:20:16-06:00",
     "valid_until": "2026-10-20T18:07:00-06:00"
   },
   "zones": null,
@@ -111,5 +111,5 @@
       "drawn": "2026-10-17"
     }
   ],
-  "last_reasoning": "DRV gave back 6% to 0.407 after the 17% rip, with RSI 49 and a new Hidden Bullish 1d on wick lows (Oct 7 to Oct 15). Still hold rather than chase; daily 0.364 is the add level and daily 0.489 the first trim zone."
+  "last_reasoning": "DRV firmed 4% to a 0.404 close on Oct 17 with RSI 51 and no active divergence, still mid-range. Hold rather than chase; daily 0.364 is the add level and daily 0.489 the first trim zone."
 }

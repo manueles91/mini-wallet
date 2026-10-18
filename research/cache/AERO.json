@@ -10,11 +10,11 @@
   },
   "last_update": {
     "date": "2026-10-17",
-    "ts": "2026-10-17T11:36:58-06:00",
-    "price": 0.84832,
-    "mode": "full"
+    "ts": "2026-10-17T18:20:16-06:00",
+    "price": 0.84266,
+    "mode": "incremental"
   },
-  "rsi_d": 53.5,
+  "rsi_d": 53.1,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -58,8 +58,8 @@
         "price": 0.9629
       }
     ],
-    "ref_price": 0.84832,
-    "valid_from": "2026-10-17T11:36:58-06:00",
+    "ref_price": 0.84266,
+    "valid_from": "2026-10-17T18:20:16-06:00",
     "valid_until": "2026-10-20T18:07:00-06:00"
   },
   "zones": {
@@ -150,9 +150,7 @@
         "price": 0.76712
       }
     ],
-    "k": 3,
-    "source": "Hyperliquid 1d",
-    "as_of": "2026-10-17"
+    "k": 3
   },
   "image_paths": [
     {
@@ -165,5 +163,6 @@
       "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
       "drawn": "2026-10-17"
     }
-  ]
+  ],
+  "last_reasoning": "AERO closed Oct 17 at 0.844 (-4%) with RSI 53, holding above the weekly 0.804 add level (buy Zone 1, 0.80-0.82). The Regular Bearish 1d (Oct 4 to Oct 11) is still active and the Hidden Bullish 1d (Oct 7 to Oct 18) is still only forming; adds stay at 0.804 into the Oct 21 launch, weekly 0.718 the deep add."
 }
