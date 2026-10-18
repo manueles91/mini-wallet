@@ -1,11 +1,11 @@
 {
   "schema": "mw-labels/0",
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "generated_by": "Crypto Research daily routine (RSI 14d Wilder, M/W/D pivots USD + TOKEN/ETH, 1d+1w RSI divergence scan classified Regular/Hidden x Bullish/Bearish per cheat-sheet; long bias, HTF-weighted S/R, ETH confluence). Token list: holdings/latest.json 2026-10-17 total_usd > $500 + research/watchlist.json (14 coins, BLOCKTRONICS added). 2026-10-17 post-close run (6:07 PM CR, after the 00:00 UTC close): per-coin cache (research/cache, mw-cache/0); coins where needs_full() fired got a full analysis, quiet coins a light incremental update (thresholds carried, RSI/price/divergence refreshed).",
   "tokens": {
     "AERO": {
       "rsi": {
-        "value": 53.1,
+        "value": 47.6,
         "period": 14,
         "timeframe": "1d",
         "state": "neutral"
@@ -19,10 +19,11 @@
         },
         "weekly": {
           "support": [
-            0.8041,
-            0.7175
+            0.7175,
+            0.6949
           ],
           "resistance": [
+            0.8041,
             0.9629
           ]
         },
@@ -70,16 +71,6 @@
       },
       "divergences": [
         {
-          "type": "Hidden Bullish",
-          "timeframe": "1d",
-          "chart": "USD",
-          "from": "2026-10-01",
-          "to": "2026-10-07",
-          "rsi_from": 64.5,
-          "rsi_to": 58.2,
-          "status": "active"
-        },
-        {
           "type": "Regular Bearish",
           "timeframe": "1d",
           "chart": "USD",
@@ -93,11 +84,11 @@
           "type": "Hidden Bullish",
           "timeframe": "1d",
           "chart": "USD",
-          "from": "2026-10-07",
-          "to": "2026-10-17",
-          "rsi_from": 58.2,
-          "rsi_to": 53.5,
-          "status": "forming (unconfirmed)"
+          "from": "2026-10-01",
+          "to": "2026-10-07",
+          "rsi_from": 64.5,
+          "rsi_to": 58.2,
+          "status": "invalidated (closes below the Oct 7 low)"
         },
         {
           "type": "Hidden Bullish",
@@ -108,41 +99,57 @@
           "rsi_from": 62.9,
           "rsi_to": 58.6,
           "status": "active"
+        },
+        {
+          "type": "Hidden Bullish",
+          "timeframe": "1d",
+          "chart": "vs ETH",
+          "from": "2026-10-06",
+          "to": "2026-10-18",
+          "status": "forming (unconfirmed)"
         }
       ],
       "label": "Neutral",
-      "reasoning": "AERO closed Oct 17 at 0.844 (-4%) with RSI 53, holding above the weekly 0.804 add level (buy Zone 1, 0.80-0.82). The Regular Bearish 1d (Oct 4 to Oct 11) is still active and the Hidden Bullish 1d (Oct 7 to Oct 18) is still only forming; adds stay at 0.804 into the Oct 21 launch, weekly 0.718 the deep add.",
+      "reasoning": "AERO lost buy Zone 1 (0.80-0.82) and weekly 0.804, sliding 7.5% to 0.791 with daily RSI 48 and 4h RSI 33; the Regular Bearish 1d (Oct 4 to Oct 11) is still active and the Hidden Bullish 1d broke. AERO/ETH holds monthly 0.000332 with a Hidden Bullish forming vs ETH. Add in Zone 2 (0.695-0.723) into the Oct 21 launch; a daily close below 0.66 invalidates.",
       "images": [
         {
-          "caption": "USD · daily (M/W/D levels, RSI divergences marked)",
-          "path": "research/labels/img/AERO_usd_2026-10-17.png.b64"
+          "caption": "USD · daily (zones, M/W/D levels, risk/upside boxes, RSI divergences)",
+          "path": "research/labels/img/AERO_usd_2026-10-18.png.b64"
+        },
+        {
+          "caption": "USD · 4h (zones, M/W/D levels, RSI divergences)",
+          "path": "research/labels/img/AERO_usd4h_2026-10-18.png.b64"
         },
         {
           "caption": "vs ETH · daily (M/W/D levels, RSI divergences marked)",
-          "path": "research/labels/img/AERO_eth_2026-10-17.png.b64"
+          "path": "research/labels/img/AERO_eth_2026-10-18.png.b64"
         }
       ],
-      "notes": "Light (incremental) update 2026-10-17 post-close ~18:20 CR from research/cache/AERO.json (needs_full: quiet: 1 new daily close(s), live 0.842045 -0.2% vs last close, move -0.7%, no cross, 1d since full). Fresh: price 0.84266 (Hyperliquid 1d), RSI 1d 53.1 on completed closes through Oct 17, pivots/divergence re-check, no redraw (no new confirmed divergence, levels unchanged, image fresh). Carried from the 2026-10-17 full run: thresholds, usd_sr, eth_sr, OI/funding. Previous notes: Full analysis (needs_full: daily close 0.88095 on 2026-10-16 crossed threshold Consider adding 0.8906). Verified: Binance perp AEROUSDT (683d), 2026-10-17 ~11:35 CR run; price 0.84832, RSI d/w 53.5/66.2, 24h -1.5%, 7d -7.6%, EMA20/50/200 >>>, vol 0.68x. HL perp OI/funding not refreshed in this run. Oct 21 Aero migration/launch in 4 days (aero.deftools.xyz).",
+      "notes": "Full analysis 2026-10-18 13:10 CR (manual refresh for an HL long review). Verified: Hyperliquid AERO perp 1d (684d) + 4h (200d) candles, ETH 1d/4h; mark 0.79112, prev day 0.85598 (-7.6%), HL OI 39.03M AERO (39.0M Oct 14, 37.1M Oct 15, 39.7M Oct 16: flat while price fell ~20% from the Oct 16 high), HL funding +0.00125%/h (flat 10d), 24h vol $2.48M. RSI d/4h/w 47.6/32.8/62.0; EMA20 0.839 (below), EMA50 0.737, EMA200 0.572. Divergences on closes: Regular Bearish 1d active; 4h none active. AERO/ETH 0.000334, RSI 53, M S 0.000332 / W R 0.000356. Verified (@aeroxyz): 'Aero szn loading 90%' (Oct 17), 'expand to 7 chains', 'unified liquidity layer for all of Ethereum' (Oct 18); no delay. Verified (MSB Intel/others): AERO+veAERO get 94.5% of new supply, AERO 1:1, VELO -> 0.044 AERO, old emissions stop at the Oct 21 18:00 CR epoch flip. Assumption: sell-the-news risk is moderate — price already -20% from the Oct 16 high into the event. Missing: post-launch emission schedule and HL perp handling of the token migration. Caution: @Aeroxyz_Fnd ('Aeroxyz Ecosystem', unverified) is posting a 'Position Rewards' article — not the official account, likely phishing. 40 Acres (on-chain, 13:05 CR): Base LTV 20.8%, OP 21.9%, combined 21.0% (non-liquidating veNFT loans per docs).",
       "thresholds": {
         "base": "Neutral",
         "down": [
           {
             "label": "Consider adding",
-            "price": 0.8041
+            "price": 0.7175
           },
           {
             "label": "Deep value",
-            "price": 0.7175
+            "price": 0.61022
           }
         ],
         "up": [
           {
             "label": "Getting warm",
+            "price": 0.89894
+          },
+          {
+            "label": "Take profit",
             "price": 0.9629
           }
         ],
-        "ref_price": 0.84266,
-        "valid_from": "2026-10-17T18:20:16-06:00",
+        "ref_price": 0.79112,
+        "valid_from": "2026-10-18T13:15:12-06:00",
         "valid_until": "2026-10-20T18:07:00-06:00"
       }
     },

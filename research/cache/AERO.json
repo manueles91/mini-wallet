@@ -3,18 +3,19 @@
   "symbol": "AERO",
   "coingecko_id": "aerodrome-finance",
   "last_full_analysis": {
-    "date": "2026-10-17",
-    "ref_price": 0.84832,
+    "date": "2026-10-18",
+    "ts": "2026-10-18T13:15:12-06:00",
+    "ref_price": 0.79112,
     "label": "Neutral",
-    "source": "research/labels/2026-10-17.json"
+    "source": "research/labels/2026-10-18.json"
   },
   "last_update": {
-    "date": "2026-10-17",
-    "ts": "2026-10-17T18:20:16-06:00",
-    "price": 0.84266,
-    "mode": "incremental"
+    "date": "2026-10-18",
+    "ts": "2026-10-18T13:15:12-06:00",
+    "price": 0.79112,
+    "mode": "full"
   },
-  "rsi_d": 53.1,
+  "rsi_d": 47.6,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -24,10 +25,11 @@
     },
     "weekly": {
       "support": [
-        0.8041,
-        0.7175
+        0.7175,
+        0.6949
       ],
       "resistance": [
+        0.8041,
         0.9629
       ]
     },
@@ -45,21 +47,25 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.8041
+        "price": 0.7175
       },
       {
         "label": "Deep value",
-        "price": 0.7175
+        "price": 0.61022
       }
     ],
     "up": [
       {
         "label": "Getting warm",
+        "price": 0.89894
+      },
+      {
+        "label": "Take profit",
         "price": 0.9629
       }
     ],
-    "ref_price": 0.84266,
-    "valid_from": "2026-10-17T18:20:16-06:00",
+    "ref_price": 0.79112,
+    "valid_from": "2026-10-18T13:15:12-06:00",
     "valid_until": "2026-10-20T18:07:00-06:00"
   },
   "zones": {
@@ -68,7 +74,8 @@
       {
         "name": "Zone 1",
         "lo": 0.8,
-        "hi": 0.82
+        "hi": 0.82,
+        "status": "lost 2026-10-18"
       },
       {
         "name": "Zone 2",
@@ -79,19 +86,13 @@
     "invalidation": 0.66
   },
   "last_divergence": {
-    "type": "Hidden Bullish",
+    "type": "Regular Bearish",
     "timeframe": "1d",
-    "date": "2026-10-17",
+    "date": "2026-10-11",
     "chart": "USD",
-    "status": "forming (unconfirmed)"
+    "status": "active"
   },
   "divergences_seen": [
-    {
-      "type": "Hidden Bullish",
-      "timeframe": "1d",
-      "date": "2026-10-07",
-      "chart": "USD"
-    },
     {
       "type": "Regular Bearish",
       "timeframe": "1d",
@@ -101,7 +102,7 @@
     {
       "type": "Hidden Bullish",
       "timeframe": "1d",
-      "date": "2026-10-17",
+      "date": "2026-10-07",
       "chart": "USD"
     },
     {
@@ -112,8 +113,8 @@
     }
   ],
   "thesis": [
-    "AERO lost daily 0.891 on the Oct 16 close and slipped to 0.848 with RSI 54, and the Regular Bearish 1d (Oct 4 to Oct 11) is still active while a Hidden Bullish 1d (Oct 7 to Oct 17) is only forming",
-    "Weekly 0.804 lines up with buy Zone 1 (0.80-0.82), so that is the add level into the Oct 21 launch; weekly 0.718 is the deep add."
+    "AERO lost buy Zone 1 (0.80-0.82) and weekly 0.804, sliding 7.5% to 0.791 with daily RSI 48 and 4h RSI 33; the Regular Bearish 1d (Oct 4 to Oct 11) is still active and the Hidden Bullish 1d broke",
+    "AERO/ETH holds monthly 0.000332 with a Hidden Bullish forming vs ETH. Add in Zone 2 (0.695-0.723) into the Oct 21 launch; a daily close below 0.66 invalidates."
   ],
   "catalysts": [
     {
@@ -150,19 +151,26 @@
         "price": 0.76712
       }
     ],
-    "k": 3
+    "k": 3,
+    "source": "Hyperliquid 1d",
+    "as_of": "2026-10-18"
   },
   "image_paths": [
     {
-      "path": "research/labels/img/AERO_usd_2026-10-17.png.b64",
-      "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-17"
+      "caption": "USD \u00b7 daily (zones, M/W/D levels, risk/upside boxes, RSI divergences)",
+      "path": "research/labels/img/AERO_usd_2026-10-18.png.b64",
+      "drawn": "2026-10-18"
     },
     {
-      "path": "research/labels/img/AERO_eth_2026-10-17.png.b64",
+      "caption": "USD \u00b7 4h (zones, M/W/D levels, RSI divergences)",
+      "path": "research/labels/img/AERO_usd4h_2026-10-18.png.b64",
+      "drawn": "2026-10-18"
+    },
+    {
       "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-17"
+      "path": "research/labels/img/AERO_eth_2026-10-18.png.b64",
+      "drawn": "2026-10-18"
     }
   ],
-  "last_reasoning": "AERO closed Oct 17 at 0.844 (-4%) with RSI 53, holding above the weekly 0.804 add level (buy Zone 1, 0.80-0.82). The Regular Bearish 1d (Oct 4 to Oct 11) is still active and the Hidden Bullish 1d (Oct 7 to Oct 18) is still only forming; adds stay at 0.804 into the Oct 21 launch, weekly 0.718 the deep add."
+  "setup_id": "AERO-L-2026-10-18"
 }
