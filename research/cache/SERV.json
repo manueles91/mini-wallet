@@ -9,12 +9,12 @@
     "source": "research/labels/2026-10-16.json"
   },
   "last_update": {
-    "date": "2026-10-17",
-    "ts": "2026-10-17T18:20:16-06:00",
-    "price": 0.0170289,
+    "date": "2026-10-18",
+    "ts": "2026-10-18T18:22:27-06:00",
+    "price": 0.0172283,
     "mode": "incremental"
   },
-  "rsi_d": 34.2,
+  "rsi_d": 35.2,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -64,9 +64,9 @@
         "price": 0.0231199
       }
     ],
-    "ref_price": 0.0170289,
-    "valid_from": "2026-10-17T18:20:16-06:00",
-    "valid_until": "2026-10-20T18:07:00-06:00"
+    "ref_price": 0.0175078,
+    "valid_from": "2026-10-18T18:22:27-06:00",
+    "valid_until": "2026-10-21T18:07:00-06:00"
   },
   "zones": null,
   "last_divergence": null,
@@ -119,5 +119,5 @@
       "drawn": "2026-10-16"
     }
   ],
-  "last_reasoning": "SERV closed Oct 17 at 0.0170, still under daily 0.0174, with RSI 34 and no divergence, though its Ethereum gas usage is up 1.8x while price fell. Keep adds small and prefer a daily close back above 0.0174; weekly/monthly 0.0129-0.0137 is the deep-value zone."
+  "last_reasoning": "SERV closed Oct 18 at 0.0172 (+1.2%), just under daily 0.0174 with RSI 35 and no divergence; live 0.0175 is testing it. Small adds are fine below 0.0183, better on a daily close back above 0.0174; weekly/monthly 0.0129-0.0137 is the deep-value zone."
 }

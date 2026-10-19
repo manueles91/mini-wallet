@@ -10,12 +10,12 @@
     "source": "research/labels/2026-10-17.json"
   },
   "last_update": {
-    "date": "2026-10-17",
-    "ts": "2026-10-17T18:20:16-06:00",
-    "price": 0.00031491,
-    "mode": "full"
+    "date": "2026-10-18",
+    "ts": "2026-10-18T18:22:27-06:00",
+    "price": 0.000345867,
+    "mode": "incremental"
   },
-  "rsi_d": 45.8,
+  "rsi_d": 52.4,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -66,9 +66,9 @@
         "price": 0.000608855
       }
     ],
-    "ref_price": 0.00031491,
-    "valid_from": "2026-10-17T18:20:16-06:00",
-    "valid_until": "2026-10-20T18:07:00-06:00"
+    "ref_price": 0.0003474,
+    "valid_from": "2026-10-18T18:22:27-06:00",
+    "valid_until": "2026-10-21T18:07:00-06:00"
   },
   "zones": null,
   "last_divergence": null,
@@ -95,21 +95,19 @@
     ],
     "daily_lows": [
       {
-        "date": "2026-09-16",
-        "price": 0.000191941
-      },
-      {
         "date": "2026-09-29",
         "price": 0.000396375
       },
       {
         "date": "2026-10-08",
         "price": 0.000301518
+      },
+      {
+        "date": "2026-10-15",
+        "price": 0.000261924
       }
     ],
-    "k": 3,
-    "source": "GeckoTerminal 1d",
-    "as_of": "2026-10-17"
+    "k": 3
   },
   "image_paths": [
     {
@@ -123,5 +121,5 @@
       "drawn": "2026-10-17"
     }
   ],
-  "last_reasoning": "BNKR jumped 9% to a 0.000315 close on Oct 17, reclaiming monthly 0.000296 and weekly 0.000301 a day after losing them, with RSI 46, still below all EMAs and no active divergence. BNKR/ETH is pressing monthly resistance 1.32e-07, so hold; 0.000296 is the add level, weekly 0.00021 deep value, monthly 0.000557 the first warm level."
+  "last_reasoning": "BNKR added 9.7% to a 0.000345 close on Oct 18 on 1.6x volume, now well above monthly 0.000296 and weekly 0.000301 with RSI 52 and no divergence. BNKR/ETH broke above monthly 1.32e-07; hold, 0.000296 stays the add level and monthly 0.000557 the first warm level."
 }

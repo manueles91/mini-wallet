@@ -9,12 +9,12 @@
     "source": "research/labels/2026-10-17.json"
   },
   "last_update": {
-    "date": "2026-10-17",
-    "ts": "2026-10-17T18:20:16-06:00",
-    "price": 0.65454,
+    "date": "2026-10-18",
+    "ts": "2026-10-18T18:22:27-06:00",
+    "price": 0.65602,
     "mode": "incremental"
   },
-  "rsi_d": 40.2,
+  "rsi_d": 40.7,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -65,9 +65,9 @@
         "price": 0.82746
       }
     ],
-    "ref_price": 0.65454,
-    "valid_from": "2026-10-17T18:20:16-06:00",
-    "valid_until": "2026-10-20T18:07:00-06:00"
+    "ref_price": 0.65566,
+    "valid_from": "2026-10-18T18:22:27-06:00",
+    "valid_until": "2026-10-21T18:07:00-06:00"
   },
   "zones": {
     "date": "2026-10-15",
@@ -154,5 +154,5 @@
       "drawn": "2026-10-17"
     }
   ],
-  "last_reasoning": "VIRTUAL closed Oct 17 at 0.654 (-2.5%), still on daily support 0.648 below all EMAs with RSI 40 and no new divergence. Your 5x liquidation is now 0.580, ~11.5% below, so don't add here; weekly 0.629 and monthly 0.604 stay the supports, daily 0.73 the first warm level."
+  "last_reasoning": "VIRTUAL closed Oct 18 at 0.657 (+0.4%), still on daily support 0.648 under weekly 0.663 resistance with RSI 41 and no divergence. After the $400 top-up your 5x liquidation is 0.555, ~15% below; weekly 0.629 and monthly 0.604 are the add and deep-value levels, daily 0.73 the first warm level."
 }

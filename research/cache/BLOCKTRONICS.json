@@ -20,12 +20,12 @@
     "source": "research/labels/2026-10-17.json"
   },
   "last_update": {
-    "date": "2026-10-17",
-    "ts": "2026-10-17T18:20:16-06:00",
-    "price": 4.88e-06,
-    "mode": "full"
+    "date": "2026-10-18",
+    "ts": "2026-10-18T18:22:27-06:00",
+    "price": 4.80804e-06,
+    "mode": "incremental"
   },
-  "rsi_d": 43.3,
+  "rsi_d": 42.2,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -76,9 +76,9 @@
         "price": 7.22636e-06
       }
     ],
-    "ref_price": 4.88e-06,
-    "valid_from": "2026-10-17T18:20:16-06:00",
-    "valid_until": "2026-10-20T18:07:00-06:00"
+    "ref_price": 4.81e-06,
+    "valid_from": "2026-10-18T18:22:27-06:00",
+    "valid_until": "2026-10-21T18:07:00-06:00"
   },
   "last_divergence": {
     "type": "Hidden Bullish",
@@ -112,11 +112,35 @@
     "A Hidden Bullish 1d (Sep 15 to Oct 9) is active, but the weekly shows a Regular Bearish (Aug 23 to Sep 27); hold, add only near weekly 3.66e-06, warm at weekly 6.53e-06."
   ],
   "last_swings": {
-    "daily_highs": [],
-    "daily_lows": [],
-    "k": 3,
-    "source": "CoinGecko closes (no OHLC helper source)",
-    "as_of": "2026-10-17"
+    "daily_highs": [
+      {
+        "date": "2026-09-25",
+        "price": 7.21459e-06
+      },
+      {
+        "date": "2026-10-13",
+        "price": 5.22586e-06
+      },
+      {
+        "date": "2026-10-14",
+        "price": 5.22586e-06
+      }
+    ],
+    "daily_lows": [
+      {
+        "date": "2026-09-16",
+        "price": 3.98233e-06
+      },
+      {
+        "date": "2026-10-09",
+        "price": 4.46295e-06
+      },
+      {
+        "date": "2026-10-10",
+        "price": 4.46295e-06
+      }
+    ],
+    "k": 3
   },
   "image_paths": [
     {
@@ -130,7 +154,7 @@
       "drawn": "2026-10-17"
     }
   ],
-  "last_reasoning": "BLOCKTRONICS is a thin Base micro-cap (~$1k daily volume, close-only CoinGecko data) at 4.88e-06, between daily support 4.68e-06 and resistance 5.02e-06 with RSI 43. A Hidden Bullish 1d (Sep 15 to Oct 9) is active, but the weekly shows a Regular Bearish (Aug 23 to Sep 27); hold, add only near weekly 3.66e-06, warm at weekly 6.53e-06.",
+  "last_reasoning": "BLOCKTRONICS eased 1.5% to 4.80e-06 on Oct 18 (thin, close-only CoinGecko data), between daily support 4.68e-06 and resistance 5.02e-06 with RSI 42. The Hidden Bullish 1d (Sep 15 to Oct 9) stays active against the weekly Regular Bearish; hold, add only near weekly 3.66e-06, warm at 6.53e-06.",
   "schema": "mw-cache/0",
   "symbol": "BLOCKTRONICS"
 }

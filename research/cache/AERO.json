@@ -11,11 +11,11 @@
   },
   "last_update": {
     "date": "2026-10-18",
-    "ts": "2026-10-18T13:15:12-06:00",
-    "price": 0.79112,
-    "mode": "full"
+    "ts": "2026-10-18T18:22:27-06:00",
+    "price": 0.79792,
+    "mode": "incremental"
   },
-  "rsi_d": 47.6,
+  "rsi_d": 48.3,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -64,9 +64,9 @@
         "price": 0.9629
       }
     ],
-    "ref_price": 0.79112,
-    "valid_from": "2026-10-18T13:15:12-06:00",
-    "valid_until": "2026-10-20T18:07:00-06:00"
+    "ref_price": 0.79797,
+    "valid_from": "2026-10-18T18:22:27-06:00",
+    "valid_until": "2026-10-21T18:07:00-06:00"
   },
   "zones": {
     "date": "2026-10-15",
@@ -151,26 +151,25 @@
         "price": 0.76712
       }
     ],
-    "k": 3,
-    "source": "Hyperliquid 1d",
-    "as_of": "2026-10-18"
+    "k": 3
   },
   "image_paths": [
     {
-      "caption": "USD \u00b7 daily (zones, M/W/D levels, risk/upside boxes, RSI divergences)",
       "path": "research/labels/img/AERO_usd_2026-10-18.png.b64",
+      "caption": "USD \u00b7 daily (zones, M/W/D levels, risk/upside boxes, RSI divergences)",
       "drawn": "2026-10-18"
     },
     {
-      "caption": "USD \u00b7 4h (zones, M/W/D levels, RSI divergences)",
       "path": "research/labels/img/AERO_usd4h_2026-10-18.png.b64",
+      "caption": "USD \u00b7 4h (zones, M/W/D levels, RSI divergences)",
       "drawn": "2026-10-18"
     },
     {
-      "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
       "path": "research/labels/img/AERO_eth_2026-10-18.png.b64",
+      "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
       "drawn": "2026-10-18"
     }
   ],
-  "setup_id": "AERO-L-2026-10-18"
+  "setup_id": "AERO-L-2026-10-18",
+  "last_reasoning": "AERO closed Oct 18 at 0.798 (-5.5%), back under weekly 0.804 after losing buy Zone 1, with RSI 48 and the Regular Bearish 1d (Oct 4 to Oct 11) still active. Daily 0.767 is first support; adds stay in Zone 2 (0.695-0.723) into the launch (Oct 21, 6 PM CR), and a daily close below 0.66 invalidates."
 }

@@ -3,25 +3,27 @@
   "symbol": "POD",
   "coingecko_id": "dolphin-2",
   "last_full_analysis": {
-    "date": "2026-10-17",
-    "ts": "2026-10-17T18:20:16-06:00",
-    "ref_price": 0.613945,
+    "date": "2026-10-18",
+    "ts": "2026-10-18T18:22:27-06:00",
+    "ref_price": 0.553676,
     "label": "Neutral",
-    "source": "research/labels/2026-10-17.json"
+    "source": "research/labels/2026-10-18.json"
   },
   "last_update": {
-    "date": "2026-10-17",
-    "ts": "2026-10-17T18:20:16-06:00",
-    "price": 0.613945,
+    "date": "2026-10-18",
+    "ts": "2026-10-18T18:22:27-06:00",
+    "price": 0.553676,
     "mode": "full"
   },
-  "rsi_d": 53.4,
+  "rsi_d": 48.6,
   "usd_sr": {
     "monthly": {
       "support": [
-        0.613596
+        0.479149
       ],
-      "resistance": []
+      "resistance": [
+        0.613596
+      ]
     },
     "weekly": {
       "support": [
@@ -34,10 +36,10 @@
     },
     "daily": {
       "support": [
-        0.567201
+        0.517594
       ],
       "resistance": [
-        0.775161
+        0.567201
       ]
     }
   },
@@ -46,11 +48,11 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.613596
+        "price": 0.537038
       },
       {
         "label": "Deep value",
-        "price": 0.554525
+        "price": 0.479149
       }
     ],
     "up": [
@@ -63,24 +65,30 @@
         "price": 0.903233
       }
     ],
-    "ref_price": 0.613945,
-    "valid_from": "2026-10-17T18:20:16-06:00",
-    "valid_until": "2026-10-20T18:07:00-06:00"
+    "ref_price": 0.553676,
+    "valid_from": "2026-10-18T18:22:27-06:00",
+    "valid_until": "2026-10-21T18:07:00-06:00"
   },
-  "zones": null,
+  "zones": {
+    "date": "2026-10-18",
+    "buy": [
+      {
+        "name": "Zone 1",
+        "lo": 0.537038,
+        "hi": 0.554525
+      }
+    ],
+    "invalidation": 0.479149
+  },
   "last_divergence": null,
   "divergences_seen": [],
   "thesis": [
-    "POD fell 9.5% and closed Oct 17 at 0.6135, a hair under monthly support 0.6136, with RSI 53, still above all EMAs, thin volume and no divergence",
-    "It is sitting on the add line, so adds start at 0.614 on a hold; weekly 0.554 is deep value (daily 0.567 in between), daily 0.775 the first warm level."
+    "POD fell 9.1% to a 0.558 close on Oct 18, losing monthly 0.614 (now resistance) and sitting on weekly 0.5545 with RSI 49 on thin volume, below EMA20 but above EMA50/200; no divergence on daily closes",
+    "POD/ETH is neutral (RSI 51), so hold: adds at weekly 0.537, monthly 0.479 deep value, 0.775 the first warm level."
   ],
   "catalysts": [],
   "last_swings": {
     "daily_highs": [
-      {
-        "date": "2026-09-21",
-        "price": 0.439639
-      },
       {
         "date": "2026-09-27",
         "price": 0.348421
@@ -88,6 +96,10 @@
       {
         "date": "2026-10-04",
         "price": 0.903233
+      },
+      {
+        "date": "2026-10-15",
+        "price": 0.775161
       }
     ],
     "daily_lows": [
@@ -106,19 +118,19 @@
     ],
     "k": 3,
     "source": "GeckoTerminal 1d",
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
   },
   "image_paths": [
     {
-      "path": "research/labels/img/POD_usd_2026-10-17.png.b64",
-      "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-17"
+      "path": "research/labels/img/POD_usd_2026-10-18.png.b64",
+      "caption": "USD \u00b7 daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
+      "drawn": "2026-10-18"
     },
     {
-      "path": "research/labels/img/POD_eth_2026-10-17.png.b64",
-      "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-17"
+      "path": "research/labels/img/POD_eth_2026-10-18.png.b64",
+      "caption": "vs ETH \u00b7 daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
+      "drawn": "2026-10-18"
     }
   ],
-  "last_reasoning": "POD fell 9.5% and closed Oct 17 at 0.6135, a hair under monthly support 0.6136, with RSI 53, still above all EMAs, thin volume and no divergence. It is sitting on the add line, so adds start at 0.614 on a hold; weekly 0.554 is deep value (daily 0.567 in between), daily 0.775 the first warm level."
+  "last_reasoning": "POD fell 9.1% to a 0.558 close on Oct 18, losing monthly 0.614 (now resistance) and sitting on weekly 0.5545 with RSI 49 on thin volume, below EMA20 but above EMA50/200; no divergence on daily closes. POD/ETH is neutral (RSI 51), so hold: adds at weekly 0.537, monthly 0.479 deep value, 0.775 the first warm level."
 }

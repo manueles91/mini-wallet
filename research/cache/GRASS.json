@@ -3,19 +3,19 @@
   "symbol": "GRASS",
   "coingecko_id": "grass",
   "last_full_analysis": {
-    "date": "2026-10-17",
-    "ts": "2026-10-17T18:20:16-06:00",
-    "ref_price": 0.616373,
+    "date": "2026-10-18",
+    "ts": "2026-10-18T18:22:27-06:00",
+    "ref_price": 0.59138,
     "label": "Neutral",
-    "source": "research/labels/2026-10-17.json"
+    "source": "research/labels/2026-10-18.json"
   },
   "last_update": {
-    "date": "2026-10-17",
-    "ts": "2026-10-17T18:20:16-06:00",
-    "price": 0.616373,
+    "date": "2026-10-18",
+    "ts": "2026-10-18T18:22:27-06:00",
+    "price": 0.59138,
     "mode": "full"
   },
-  "rsi_d": 49.7,
+  "rsi_d": 47.9,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -27,17 +27,17 @@
     },
     "weekly": {
       "support": [
-        0.60118,
-        0.47677
+        0.47677,
+        0.39736
       ],
       "resistance": [
-        0.64074,
-        0.6538
+        0.60118,
+        0.64074
       ]
     },
     "daily": {
       "support": [
-        0.59146
+        0.56034
       ],
       "resistance": [
         0.79598
@@ -49,11 +49,11 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.60118
+        "price": 0.56034
       },
       {
         "label": "Deep value",
-        "price": 0.59146
+        "price": 0.47677
       }
     ],
     "up": [
@@ -62,17 +62,17 @@
         "price": 0.79598
       }
     ],
-    "ref_price": 0.616373,
-    "valid_from": "2026-10-17T18:20:16-06:00",
-    "valid_until": "2026-10-20T18:07:00-06:00"
+    "ref_price": 0.59138,
+    "valid_from": "2026-10-18T18:22:27-06:00",
+    "valid_until": "2026-10-21T18:07:00-06:00"
   },
   "zones": {
-    "date": "2026-10-15",
+    "date": "2026-10-18",
     "buy": [
       {
         "name": "Zone 1",
-        "lo": 0.565,
-        "hi": 0.6
+        "lo": 0.548,
+        "hi": 0.562
       }
     ],
     "invalidation": 0.53
@@ -80,8 +80,8 @@
   "last_divergence": null,
   "divergences_seen": [],
   "thesis": [
-    "GRASS closed Oct 17 at 0.619, below monthly 0.6215 (now resistance) with RSI 50, under EMA20 but above EMA50/200, and a Hidden Bullish 1d (Oct 8 to Oct 18) only forming",
-    "Weekly 0.601 is the add level and daily 0.591 deep value; your 3x liquidation at 0.505 is ~18% below, and the Oct 28 unlock argues for patience."
+    "GRASS closed Oct 18 at 0.589 (-4.8%), losing weekly 0.601 and daily 0.591 with RSI 48, below EMA20 but above EMA50/200 and no divergence on daily closes",
+    "Hold: daily 0.560 is the add level and a close below 0.53 invalidates; your 3x liquidation at 0.506 is ~14.5% below, with the Oct 28 unlock ahead."
   ],
   "catalysts": [
     {
@@ -120,19 +120,19 @@
     ],
     "k": 3,
     "source": "Hyperliquid 1d",
-    "as_of": "2026-10-17"
+    "as_of": "2026-10-18"
   },
   "image_paths": [
     {
-      "path": "research/labels/img/GRASS_usd_2026-10-17.png.b64",
-      "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-17"
+      "path": "research/labels/img/GRASS_usd_2026-10-18.png.b64",
+      "caption": "USD \u00b7 daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
+      "drawn": "2026-10-18"
     },
     {
-      "path": "research/labels/img/GRASS_eth_2026-10-17.png.b64",
-      "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-17"
+      "path": "research/labels/img/GRASS_eth_2026-10-18.png.b64",
+      "caption": "vs ETH \u00b7 daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
+      "drawn": "2026-10-18"
     }
   ],
-  "last_reasoning": "GRASS closed Oct 17 at 0.619, below monthly 0.6215 (now resistance) with RSI 50, under EMA20 but above EMA50/200, and a Hidden Bullish 1d (Oct 8 to Oct 18) only forming. Weekly 0.601 is the add level and daily 0.591 deep value; your 3x liquidation at 0.505 is ~18% below, and the Oct 28 unlock argues for patience."
+  "last_reasoning": "GRASS closed Oct 18 at 0.589 (-4.8%), losing weekly 0.601 and daily 0.591 with RSI 48, below EMA20 but above EMA50/200 and no divergence on daily closes. Hold: daily 0.560 is the add level and a close below 0.53 invalidates; your 3x liquidation at 0.506 is ~14.5% below, with the Oct 28 unlock ahead."
 }
