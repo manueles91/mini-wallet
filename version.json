@@ -1,7 +1,7 @@
 {
-  "versionCode": 60,
-  "versionName": "13.32",
+  "versionCode": 61,
+  "versionName": "13.33",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "8a2bee268f3865ae462ecb48833cb17cc8d31ccaf8bee37cc83598c0289e71e9",
-  "notes": "Total exposure: view toggle and AERO switch now share one row."
+  "apkSha256": "afaed19d1edc6e123541c4fd0b19416c09d52b9d55828381ca0f6dd1c2f93840",
+  "notes": "Research: archive or dismiss proposed setups (swipe left or \u22ef menu); Archived section with Restore."
 }
