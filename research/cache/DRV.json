@@ -9,12 +9,12 @@
     "source": "research/labels/2026-10-16.json"
   },
   "last_update": {
-    "date": "2026-10-18",
-    "ts": "2026-10-18T18:22:27-06:00",
-    "price": 0.384024,
+    "date": "2026-10-19",
+    "ts": "2026-10-19T18:35:09-06:00",
+    "price": 0.39736,
     "mode": "incremental"
   },
-  "rsi_d": 48.2,
+  "rsi_d": 50.2,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -56,9 +56,9 @@
         "price": 0.489274
       }
     ],
-    "ref_price": 0.387355,
-    "valid_from": "2026-10-18T18:22:27-06:00",
-    "valid_until": "2026-10-21T18:07:00-06:00"
+    "ref_price": 0.397742,
+    "valid_from": "2026-10-19T18:35:09-06:00",
+    "valid_until": "2026-10-22T18:07:00-06:00"
   },
   "zones": null,
   "last_divergence": null,
@@ -111,5 +111,5 @@
       "drawn": "2026-10-17"
     }
   ],
-  "last_reasoning": "DRV slipped 5.2% to a 0.383 close on Oct 18 (-23% on the week) with RSI 48 and no divergence, still above daily support 0.364. Hold; 0.364 is the add level, monthly 0.201 deep value, daily 0.489 the first trim zone."
+  "last_reasoning": "DRV bounced 3.7% to a 0.397 close on Oct 19 with RSI 50 and no divergence, holding above daily support 0.364. Hold; 0.364 is the add level, monthly 0.201 deep value, daily 0.489 the first trim zone."
 }

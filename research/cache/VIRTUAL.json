@@ -3,18 +3,19 @@
   "symbol": "VIRTUAL",
   "coingecko_id": "virtual-protocol",
   "last_full_analysis": {
-    "date": "2026-10-17",
-    "ref_price": 0.651636,
+    "date": "2026-10-19",
+    "ts": "2026-10-19T18:35:09-06:00",
+    "ref_price": 0.66121,
     "label": "Neutral",
-    "source": "research/labels/2026-10-17.json"
+    "source": "research/labels/2026-10-19.json"
   },
   "last_update": {
-    "date": "2026-10-18",
-    "ts": "2026-10-18T18:22:27-06:00",
-    "price": 0.65602,
-    "mode": "incremental"
+    "date": "2026-10-19",
+    "ts": "2026-10-19T18:35:09-06:00",
+    "price": 0.66121,
+    "mode": "full"
   },
-  "rsi_d": 40.7,
+  "rsi_d": 41.6,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -36,7 +37,7 @@
     },
     "daily": {
       "support": [
-        0.648
+        0.65281
       ],
       "resistance": [
         0.73024
@@ -65,12 +66,12 @@
         "price": 0.82746
       }
     ],
-    "ref_price": 0.65566,
-    "valid_from": "2026-10-18T18:22:27-06:00",
-    "valid_until": "2026-10-21T18:07:00-06:00"
+    "ref_price": 0.66121,
+    "valid_from": "2026-10-19T18:35:09-06:00",
+    "valid_until": "2026-10-22T18:07:00-06:00"
   },
   "zones": {
-    "date": "2026-10-15",
+    "date": "2026-10-19",
     "buy": [
       {
         "name": "Add 1",
@@ -107,8 +108,8 @@
     }
   ],
   "thesis": [
-    "VIRTUAL closed below weekly 0.682 and 0.663 and sits on daily support 0.648, below all EMAs with RSI 40 and the Regular Bearish 1d (Sep 27 to Oct 5) still active",
-    "Your 5x liquidation at 0.578 is only ~11% away, so hold and don't add here; weekly 0.629 and monthly 0.604 (Add 1/Add 2) are the supports, daily 0.73 the first warm level."
+    "VIRTUAL closed Oct 19 at 0.664 (+1.0%), a marginal close above weekly 0.663 that live 0.661 is giving back, with RSI 42, price below all EMAs and no active divergence (the Regular Bearish 1d aged out)",
+    "Hold; weekly 0.629 and monthly 0.604 are the add and deep-value levels, daily 0.730 the first warm level; your 5x liquidation at 0.556 is ~16% below."
   ],
   "catalysts": [],
   "last_swings": {
@@ -140,19 +141,21 @@
         "price": 0.676
       }
     ],
-    "k": 3
+    "k": 3,
+    "source": "Hyperliquid 1d",
+    "as_of": "2026-10-19"
   },
   "image_paths": [
     {
-      "path": "research/labels/img/VIRTUAL_usd_2026-10-17.png.b64",
-      "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-17"
+      "path": "research/labels/img/VIRTUAL_usd_2026-10-19.png.b64",
+      "caption": "USD \u00b7 daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
+      "drawn": "2026-10-19"
     },
     {
-      "path": "research/labels/img/VIRTUAL_eth_2026-10-17.png.b64",
-      "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-17"
+      "path": "research/labels/img/VIRTUAL_eth_2026-10-19.png.b64",
+      "caption": "vs ETH \u00b7 daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
+      "drawn": "2026-10-19"
     }
   ],
-  "last_reasoning": "VIRTUAL closed Oct 18 at 0.657 (+0.4%), still on daily support 0.648 under weekly 0.663 resistance with RSI 41 and no divergence. After the $400 top-up your 5x liquidation is 0.555, ~15% below; weekly 0.629 and monthly 0.604 are the add and deep-value levels, daily 0.73 the first warm level."
+  "last_reasoning": "VIRTUAL closed Oct 19 at 0.664 (+1.0%), a marginal close above weekly 0.663 that live 0.661 is giving back, with RSI 42, price below all EMAs and no active divergence (the Regular Bearish 1d aged out). Hold; weekly 0.629 and monthly 0.604 are the add and deep-value levels, daily 0.730 the first warm level; your 5x liquidation at 0.556 is ~16% below."
 }

@@ -10,12 +10,12 @@
     "source": "research/labels/2026-10-17.json"
   },
   "last_update": {
-    "date": "2026-10-18",
-    "ts": "2026-10-18T18:22:27-06:00",
-    "price": 0.000345867,
+    "date": "2026-10-19",
+    "ts": "2026-10-19T18:35:09-06:00",
+    "price": 0.000359072,
     "mode": "incremental"
   },
-  "rsi_d": 52.4,
+  "rsi_d": 55.1,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -66,9 +66,9 @@
         "price": 0.000608855
       }
     ],
-    "ref_price": 0.0003474,
-    "valid_from": "2026-10-18T18:22:27-06:00",
-    "valid_until": "2026-10-21T18:07:00-06:00"
+    "ref_price": 0.00035202,
+    "valid_from": "2026-10-19T18:35:09-06:00",
+    "valid_until": "2026-10-22T18:07:00-06:00"
   },
   "zones": null,
   "last_divergence": null,
@@ -121,5 +121,5 @@
       "drawn": "2026-10-17"
     }
   ],
-  "last_reasoning": "BNKR added 9.7% to a 0.000345 close on Oct 18 on 1.6x volume, now well above monthly 0.000296 and weekly 0.000301 with RSI 52 and no divergence. BNKR/ETH broke above monthly 1.32e-07; hold, 0.000296 stays the add level and monthly 0.000557 the first warm level."
+  "last_reasoning": "BNKR added 4.0% to a 0.000359 close on Oct 19, extending above monthly 0.000296 and weekly 0.000301 with RSI 55 and no divergence. Hold; 0.000296 stays the add level and monthly 0.000557 the first warm level."
 }

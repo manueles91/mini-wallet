@@ -20,12 +20,12 @@
     "source": "research/labels/2026-10-17.json"
   },
   "last_update": {
-    "date": "2026-10-18",
-    "ts": "2026-10-18T18:22:27-06:00",
-    "price": 4.80804e-06,
+    "date": "2026-10-19",
+    "ts": "2026-10-19T18:35:09-06:00",
+    "price": 4.73115e-06,
     "mode": "incremental"
   },
-  "rsi_d": 42.2,
+  "rsi_d": 41.2,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -76,9 +76,9 @@
         "price": 7.22636e-06
       }
     ],
-    "ref_price": 4.81e-06,
-    "valid_from": "2026-10-18T18:22:27-06:00",
-    "valid_until": "2026-10-21T18:07:00-06:00"
+    "ref_price": 4.73e-06,
+    "valid_from": "2026-10-19T18:35:09-06:00",
+    "valid_until": "2026-10-22T18:07:00-06:00"
   },
   "last_divergence": {
     "type": "Hidden Bullish",
@@ -154,7 +154,7 @@
       "drawn": "2026-10-17"
     }
   ],
-  "last_reasoning": "BLOCKTRONICS eased 1.5% to 4.80e-06 on Oct 18 (thin, close-only CoinGecko data), between daily support 4.68e-06 and resistance 5.02e-06 with RSI 42. The Hidden Bullish 1d (Sep 15 to Oct 9) stays active against the weekly Regular Bearish; hold, add only near weekly 3.66e-06, warm at 6.53e-06.",
+  "last_reasoning": "BLOCKTRONICS eased 1.5% to 4.73e-06 on Oct 19 (thin, close-only CoinGecko data), just above daily support 4.68e-06 with RSI 41. The Hidden Bullish 1d (Sep 15 to Oct 9) stays active against the weekly Regular Bearish; hold, add only near weekly 3.66e-06, warm at 6.53e-06.",
   "schema": "mw-cache/0",
   "symbol": "BLOCKTRONICS"
 }
