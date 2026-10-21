@@ -3,19 +3,19 @@
   "symbol": "SYRUP",
   "coingecko_id": "syrup",
   "last_full_analysis": {
-    "date": "2026-10-19",
-    "ts": "2026-10-19T18:35:09-06:00",
-    "ref_price": 0.19504,
+    "date": "2026-10-20",
+    "ts": "2026-10-20T18:19:06-06:00",
+    "ref_price": 0.202005,
     "label": "Neutral",
-    "source": "research/labels/2026-10-19.json"
+    "source": "research/labels/2026-10-20.json"
   },
   "last_update": {
-    "date": "2026-10-19",
-    "ts": "2026-10-19T18:35:09-06:00",
-    "price": 0.19504,
+    "date": "2026-10-20",
+    "ts": "2026-10-20T18:19:06-06:00",
+    "price": 0.202005,
     "mode": "full"
   },
-  "rsi_d": 35.1,
+  "rsi_d": 40.0,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -27,12 +27,12 @@
     },
     "weekly": {
       "support": [
-        0.14702,
-        0.11808
+        0.1969,
+        0.14702
       ],
       "resistance": [
-        0.1969,
-        0.2036
+        0.2036,
+        0.24015
       ]
     },
     "daily": {
@@ -66,12 +66,12 @@
         "price": 0.2267
       }
     ],
-    "ref_price": 0.19504,
-    "valid_from": "2026-10-19T18:35:09-06:00",
-    "valid_until": "2026-10-22T18:07:00-06:00"
+    "ref_price": 0.202005,
+    "valid_from": "2026-10-20T18:19:06-06:00",
+    "valid_until": "2026-10-23T18:07:00-06:00"
   },
   "zones": {
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "buy": [
       {
         "name": "Add zone",
@@ -84,8 +84,8 @@
   "last_divergence": null,
   "divergences_seen": [],
   "thesis": [
-    "SYRUP closed Oct 19 at 0.195 (+0.5%), back above monthly 0.193 but capped by weekly 0.197, with RSI 35, price below all EMAs and no divergence on daily closes; SYRUP/ETH holds daily support",
-    "The label moves to Neutral above 0.193: re-add there, 0.190 is deep value, a daily close below 0.185 invalidates, 0.211 is the first warm level."
+    "SYRUP closed Oct 20 at 0.202 (+3.5%), back above weekly 0.197 but just under weekly 0.2036, with RSI 40, price below all EMAs and no divergence on daily closes",
+    "Hold; monthly 0.193 is the add level, 0.190 deep value, a daily close below 0.185 invalidates, daily 0.211 is the first warm level; your 3x liquidation at 0.151 is ~25% below."
   ],
   "catalysts": [],
   "last_swings": {
@@ -119,19 +119,19 @@
     ],
     "k": 3,
     "source": "Hyperliquid 1d",
-    "as_of": "2026-10-19"
+    "as_of": "2026-10-20"
   },
   "image_paths": [
     {
-      "path": "research/labels/img/SYRUP_usd_2026-10-19.png.b64",
+      "path": "research/labels/img/SYRUP_usd_2026-10-20.png.b64",
       "caption": "USD \u00b7 daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
-      "drawn": "2026-10-19"
+      "drawn": "2026-10-20"
     },
     {
-      "path": "research/labels/img/SYRUP_eth_2026-10-19.png.b64",
+      "path": "research/labels/img/SYRUP_eth_2026-10-20.png.b64",
       "caption": "vs ETH \u00b7 daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
-      "drawn": "2026-10-19"
+      "drawn": "2026-10-20"
     }
   ],
-  "last_reasoning": "SYRUP closed Oct 19 at 0.195 (+0.5%), back above monthly 0.193 but capped by weekly 0.197, with RSI 35, price below all EMAs and no divergence on daily closes; SYRUP/ETH holds daily support. The label moves to Neutral above 0.193: re-add there, 0.190 is deep value, a daily close below 0.185 invalidates, 0.211 is the first warm level."
+  "last_reasoning": "SYRUP closed Oct 20 at 0.202 (+3.5%), back above weekly 0.197 but just under weekly 0.2036, with RSI 40, price below all EMAs and no divergence on daily closes. Hold; monthly 0.193 is the add level, 0.190 deep value, a daily close below 0.185 invalidates, daily 0.211 is the first warm level; your 3x liquidation at 0.151 is ~25% below."
 }

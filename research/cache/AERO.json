@@ -3,19 +3,19 @@
   "symbol": "AERO",
   "coingecko_id": "aerodrome-finance",
   "last_full_analysis": {
-    "date": "2026-10-19",
-    "ts": "2026-10-19T18:35:09-06:00",
-    "ref_price": 0.791565,
+    "date": "2026-10-20",
+    "ts": "2026-10-20T18:19:06-06:00",
+    "ref_price": 0.88539,
     "label": "Neutral",
-    "source": "research/labels/2026-10-19.json"
+    "source": "research/labels/2026-10-20.json"
   },
   "last_update": {
-    "date": "2026-10-19",
-    "ts": "2026-10-19T18:35:09-06:00",
-    "price": 0.791565,
+    "date": "2026-10-20",
+    "ts": "2026-10-20T18:19:06-06:00",
+    "price": 0.88539,
     "mode": "full"
   },
-  "rsi_d": 47.6,
+  "rsi_d": 56.4,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -25,12 +25,12 @@
     },
     "weekly": {
       "support": [
-        0.7175,
-        0.6949
+        0.8041,
+        0.7175
       ],
       "resistance": [
-        0.8041,
-        0.9629
+        0.9629,
+        0.99427
       ]
     },
     "daily": {
@@ -47,11 +47,11 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.7175
+        "price": 0.8041
       },
       {
         "label": "Deep value",
-        "price": 0.61022
+        "price": 0.7175
       }
     ],
     "up": [
@@ -64,18 +64,18 @@
         "price": 0.9629
       }
     ],
-    "ref_price": 0.791565,
-    "valid_from": "2026-10-19T18:35:09-06:00",
-    "valid_until": "2026-10-22T18:07:00-06:00"
+    "ref_price": 0.88539,
+    "valid_from": "2026-10-20T18:19:06-06:00",
+    "valid_until": "2026-10-23T18:07:00-06:00"
   },
   "zones": {
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "buy": [
       {
         "name": "Zone 1",
-        "lo": 0.8,
+        "lo": 0.8041,
         "hi": 0.82,
-        "status": "lost 2026-10-18"
+        "status": "reclaimed 2026-10-20"
       },
       {
         "name": "Zone 2",
@@ -113,8 +113,8 @@
     }
   ],
   "thesis": [
-    "AERO closed Oct 19 at 0.796 (-0.2%), still under weekly 0.804 and above daily 0.767, RSI 48, with the Regular Bearish 1d (Oct 4 to Oct 11) active",
-    "AERO/ETH sits on monthly support with a Hidden Bullish 1d forming (unconfirmed) Hold into the Oct 21 6 PM CR launch; adds stay in Zone 2 (0.695-0.723) and a daily close below 0.66 invalidates."
+    "AERO ripped 11.5% to a 0.888 close on Oct 20, reclaiming weekly 0.804 (Zone 1) and stalling just under daily 0.899, RSI 56, with the Regular Bearish 1d (Oct 4 to Oct 11) still active; AERO/ETH (RSI 59) is back above weekly support",
+    "Hold into tomorrow's 6 PM CR launch: 0.804 is now the add level, 0.718 deep value, 0.899/0.963 warm/take profit; a sell-the-news wick is the main risk."
   ],
   "catalysts": [
     {
@@ -153,20 +153,20 @@
     ],
     "k": 3,
     "source": "Hyperliquid 1d",
-    "as_of": "2026-10-19"
+    "as_of": "2026-10-20"
   },
   "image_paths": [
     {
-      "path": "research/labels/img/AERO_usd_2026-10-19.png.b64",
+      "path": "research/labels/img/AERO_usd_2026-10-20.png.b64",
       "caption": "USD \u00b7 daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
-      "drawn": "2026-10-19"
+      "drawn": "2026-10-20"
     },
     {
-      "path": "research/labels/img/AERO_eth_2026-10-19.png.b64",
+      "path": "research/labels/img/AERO_eth_2026-10-20.png.b64",
       "caption": "vs ETH \u00b7 daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
-      "drawn": "2026-10-19"
+      "drawn": "2026-10-20"
     }
   ],
   "setup_id": "AERO-L-2026-10-18",
-  "last_reasoning": "AERO closed Oct 19 at 0.796 (-0.2%), still under weekly 0.804 and above daily 0.767, RSI 48, with the Regular Bearish 1d (Oct 4 to Oct 11) active. AERO/ETH sits on monthly support with a Hidden Bullish 1d forming (unconfirmed). Hold into the Oct 21 6 PM CR launch; adds stay in Zone 2 (0.695-0.723) and a daily close below 0.66 invalidates."
+  "last_reasoning": "AERO ripped 11.5% to a 0.888 close on Oct 20, reclaiming weekly 0.804 (Zone 1) and stalling just under daily 0.899, RSI 56, with the Regular Bearish 1d (Oct 4 to Oct 11) still active; AERO/ETH (RSI 59) is back above weekly support. Hold into tomorrow's 6 PM CR launch: 0.804 is now the add level, 0.718 deep value, 0.899/0.963 warm/take profit; a sell-the-news wick is the main risk."
 }

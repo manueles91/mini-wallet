@@ -9,12 +9,12 @@
     "source": "research/labels/2026-10-16.json"
   },
   "last_update": {
-    "date": "2026-10-19",
-    "ts": "2026-10-19T18:35:09-06:00",
-    "price": 0.000159248,
+    "date": "2026-10-20",
+    "ts": "2026-10-20T18:19:06-06:00",
+    "price": 0.000165708,
     "mode": "incremental"
   },
-  "rsi_d": 39.7,
+  "rsi_d": 42.7,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -60,9 +60,9 @@
         "price": 0.000288262
       }
     ],
-    "ref_price": 0.00015798,
-    "valid_from": "2026-10-19T18:35:09-06:00",
-    "valid_until": "2026-10-22T18:07:00-06:00"
+    "ref_price": 0.00016388,
+    "valid_from": "2026-10-20T18:19:06-06:00",
+    "valid_until": "2026-10-23T18:07:00-06:00"
   },
   "zones": null,
   "last_divergence": null,
@@ -115,5 +115,5 @@
       "drawn": "2026-10-16"
     }
   ],
-  "last_reasoning": "DRB slipped 3.3% to a 0.000159 close on Oct 19, still under daily resistance 0.000172 with RSI 40 and no divergence. Hold; weekly 0.00014 and daily 0.000134 remain the add and deep-value zone, weekly 0.000288 the first warm level."
+  "last_reasoning": "DRB rose 4.3% to a 0.000166 close on Oct 20, still under daily resistance 0.000172 with RSI 43 and no divergence. Hold; weekly 0.00014 and daily 0.000134 remain the add and deep-value zone, weekly 0.000288 the first warm level."
 }

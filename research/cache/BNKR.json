@@ -10,12 +10,12 @@
     "source": "research/labels/2026-10-17.json"
   },
   "last_update": {
-    "date": "2026-10-19",
-    "ts": "2026-10-19T18:35:09-06:00",
-    "price": 0.000359072,
+    "date": "2026-10-20",
+    "ts": "2026-10-20T18:19:06-06:00",
+    "price": 0.000319835,
     "mode": "incremental"
   },
-  "rsi_d": 55.1,
+  "rsi_d": 48.1,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -66,9 +66,9 @@
         "price": 0.000608855
       }
     ],
-    "ref_price": 0.00035202,
-    "valid_from": "2026-10-19T18:35:09-06:00",
-    "valid_until": "2026-10-22T18:07:00-06:00"
+    "ref_price": 0.00032606,
+    "valid_from": "2026-10-20T18:19:06-06:00",
+    "valid_until": "2026-10-23T18:07:00-06:00"
   },
   "zones": null,
   "last_divergence": null,
@@ -121,5 +121,5 @@
       "drawn": "2026-10-17"
     }
   ],
-  "last_reasoning": "BNKR added 4.0% to a 0.000359 close on Oct 19, extending above monthly 0.000296 and weekly 0.000301 with RSI 55 and no divergence. Hold; 0.000296 stays the add level and monthly 0.000557 the first warm level."
+  "last_reasoning": "BNKR gave back 9.1% to a 0.000326 close on Oct 20, still above weekly 0.000301 and monthly 0.000296 with RSI 48 and no divergence. Hold; 0.000296 stays the add level and monthly 0.000557 the first warm level."
 }

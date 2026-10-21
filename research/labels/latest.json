@@ -1,14 +1,14 @@
 {
   "schema": "mw-labels/0",
-  "date": "2026-10-19",
-  "generated_by": "Crypto Research daily routine (RSI 14d Wilder, M/W/D pivots USD + TOKEN/ETH, 1d+1w RSI divergence scan classified Regular/Hidden x Bullish/Bearish per cheat-sheet; long bias, HTF-weighted S/R, ETH confluence). Token list: holdings/latest.json 2026-10-19 total_usd > $500 + research/watchlist.json (12 coins). 2026-10-19 post-close run (6:07 PM CR, after the 00:00 UTC close): per-coin cache (research/cache, mw-cache/0); coins where needs_full() fired got a full analysis, quiet coins a light incremental update (thresholds carried, RSI/price/divergence refreshed).",
+  "date": "2026-10-20",
+  "generated_by": "Crypto Research daily routine (RSI 14d Wilder, M/W/D pivots USD + TOKEN/ETH, 1d+1w RSI divergence scan classified Regular/Hidden x Bullish/Bearish per cheat-sheet; long bias, HTF-weighted S/R, ETH confluence). Token list: holdings/latest.json 2026-10-20 total_usd > $500 + research/watchlist.json (12 coins). 2026-10-20 post-close run (6:07 PM CR, after the 00:00 UTC close): per-coin cache (research/cache, mw-cache/0); coins where needs_full() fired got a full analysis, quiet coins a light incremental update (thresholds carried, RSI/price/divergence refreshed).",
   "tokens": {
     "AERO": {
       "rsi": {
-        "value": 47.6,
+        "value": 56.4,
         "period": 14,
         "timeframe": "1d",
-        "state": "neutral"
+        "state": "warm"
       },
       "usd_sr": {
         "monthly": {
@@ -19,12 +19,12 @@
         },
         "weekly": {
           "support": [
-            0.7175,
-            0.6949
+            0.8041,
+            0.7175
           ],
           "resistance": [
-            0.8041,
-            0.9629
+            0.9629,
+            0.99427
           ]
         },
         "daily": {
@@ -39,7 +39,7 @@
       "eth_sr": {
         "monthly": {
           "support": [
-            0.000328881
+            0.000331745
           ],
           "resistance": [
             0.000384653
@@ -47,12 +47,10 @@
         },
         "weekly": {
           "support": [
-            0.00032282,
-            0.000294686
+            0.000356221,
+            0.00032282
           ],
-          "resistance": [
-            0.000356221
-          ]
+          "resistance": []
         },
         "daily": {
           "support": [
@@ -67,7 +65,7 @@
         "present": false,
         "timeframe": "1d",
         "indicator": "RSI",
-        "note": "Hidden Bullish 1d vs ETH forming, unconfirmed"
+        "note": "Regular Bearish 1d (USD) active; vs-ETH Hidden Bullish (Oct 1 to Oct 6) aged out"
       },
       "divergences": [
         {
@@ -78,42 +76,32 @@
           "to": "2026-10-11",
           "rsi_from": 71.8,
           "rsi_to": 69.0,
-          "status": "active"
-        },
-        {
-          "type": "Hidden Bullish",
-          "timeframe": "1d",
-          "chart": "vs ETH",
-          "from": "2026-10-06",
-          "to": "2026-10-20",
-          "rsi_from": 58.6,
-          "rsi_to": 51.9,
-          "status": "forming (not close-confirmed)"
+          "status": "active (not invalidated: no close above the Oct 11 close yet)"
         }
       ],
       "label": "Neutral",
-      "reasoning": "AERO closed Oct 19 at 0.796 (-0.2%), still under weekly 0.804 and above daily 0.767, RSI 48, with the Regular Bearish 1d (Oct 4 to Oct 11) active. AERO/ETH sits on monthly support with a Hidden Bullish 1d forming (unconfirmed). Hold into the Oct 21 6 PM CR launch; adds stay in Zone 2 (0.695-0.723) and a daily close below 0.66 invalidates.",
+      "reasoning": "AERO ripped 11.5% to a 0.888 close on Oct 20, reclaiming weekly 0.804 (Zone 1) and stalling just under daily 0.899, RSI 56, with the Regular Bearish 1d (Oct 4 to Oct 11) still active; AERO/ETH (RSI 59) is back above weekly support. Hold into tomorrow's 6 PM CR launch: 0.804 is now the add level, 0.718 deep value, 0.899/0.963 warm/take profit; a sell-the-news wick is the main risk.",
       "images": [
         {
           "caption": "USD · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
-          "path": "research/labels/img/AERO_usd_2026-10-19.png.b64"
+          "path": "research/labels/img/AERO_usd_2026-10-20.png.b64"
         },
         {
           "caption": "vs ETH · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
-          "path": "research/labels/img/AERO_eth_2026-10-19.png.b64"
+          "path": "research/labels/img/AERO_eth_2026-10-20.png.b64"
         }
       ],
-      "notes": "Full analysis (needs_full: catalyst 2026-10-21 Aero migration / Aerodrome launch (aero.deftools.xyz)). Verified: Binance perp history (2026-10-18 cache, 0d) + Hyperliquid 1d (686d, through 2026-10-20), 2026-10-19 post-close run ~18:30 CR; live 0.791565 (Hyperliquid mid), Oct 19 close 0.79623, RSI d/w 47.6/62.0, 7d -10.6%, EMA20/50/200 <>> (0.831/0.7419/0.5767), vol 0.58x. AERO/ETH 0.0003298, RSI 51.9. Divergence scan on daily closes (1d USD, 1d vs ETH, 1w USD): Regular Bearish 1d USD (2026-10-04 to 2026-10-11) active; Hidden Bullish 1d vs ETH (2026-10-06 to 2026-10-20) forming (not close-confirmed). HL funding +0.00125%/h, HL OI $29.4M (metaAndAssetCtxs ~18:30 CR). Stale: Binance OI/funding (HTTP 451 from the box; last Oct 18 cache), so HL is the perp source today. Catalyst Verified (@aeroxyz, Oct 19): 'Final boarding call', Metaswaps live with Aero in 2 days; launch Oct 21 6 PM CR, no delay posted. Zones: Zone 1 0.80-0.82 lost Oct 18, Zone 2 0.695-0.723, invalidation daily close < 0.66.",
+      "notes": "Full analysis (needs_full: catalyst 2026-10-21 Aero migration / Aerodrome launch (aero.deftools.xyz)). Verified: Binance perp history (2026-10-20 cache, 0d) + Hyperliquid 1d (687d, through 2026-10-21), 2026-10-20 post-close run ~18:20 CR; live 0.88539 (Hyperliquid mid), Oct 20 close 0.88757, RSI d/w 56.4/65.9, 7d -1.8%, EMA20/50/200 >>> (0.8443/0.751/0.5807), vol 1.32x. AERO/ETH 0.0003609, RSI 59.4. Divergence scan on daily closes (1d USD, 1d vs ETH, 1w USD): Regular Bearish 1d USD (2026-10-04 to 2026-10-11) active (not invalidated: no close above the Oct 11 close yet). HL funding +0.00125%/h, HL OI $36.1M (metaAndAssetCtxs ~18:20 CR). Stale: Binance OI/funding (HTTP 451 from the box; last Oct 18 cache), so HL is the perp source today. Catalyst Verified (@aeroxyz, Oct 20): 'Aero launches tomorrow' and an advance preview of the new Aero docs (16:47 CR); no delay posted. Launch Oct 21 6 PM CR. Zones: Zone 1 0.80-0.82 reclaimed Oct 20, Zone 2 0.695-0.723, invalidation daily close < 0.66. Setup AERO-L-2026-10-18 alt trigger (daily close > 0.82) fired on the Oct 20 close.",
       "thresholds": {
         "base": "Neutral",
         "down": [
           {
             "label": "Consider adding",
-            "price": 0.7175
+            "price": 0.8041
           },
           {
             "label": "Deep value",
-            "price": 0.61022
+            "price": 0.7175
           }
         ],
         "up": [
@@ -126,14 +114,14 @@
             "price": 0.9629
           }
         ],
-        "ref_price": 0.791565,
-        "valid_from": "2026-10-19T18:35:09-06:00",
-        "valid_until": "2026-10-22T18:07:00-06:00"
+        "ref_price": 0.88539,
+        "valid_from": "2026-10-20T18:19:06-06:00",
+        "valid_until": "2026-10-23T18:07:00-06:00"
       }
     },
     "ETH": {
       "rsi": {
-        "value": 37.9,
+        "value": 42.9,
         "period": 14,
         "timeframe": "1d",
         "state": "cool"
@@ -141,18 +129,18 @@
       "usd_sr": {
         "monthly": {
           "support": [
-            2145.5,
-            2100.0
+            2145.5
           ],
           "resistance": []
         },
         "weekly": {
           "support": [
+            2423.8,
             2383.7
           ],
           "resistance": [
-            2423.8,
-            2462.5
+            2462.5,
+            2621.4
           ]
         },
         "daily": {
@@ -166,16 +154,30 @@
       },
       "eth_sr": {
         "monthly": {
-          "support": [],
-          "resistance": []
+          "support": [
+            0.02827
+          ],
+          "resistance": [
+            0.03205
+          ]
         },
         "weekly": {
-          "support": [],
-          "resistance": []
+          "support": [
+            0.02872,
+            0.02623
+          ],
+          "resistance": [
+            0.02968,
+            0.0302
+          ]
         },
         "daily": {
-          "support": [],
-          "resistance": []
+          "support": [
+            0.02782
+          ],
+          "resistance": [
+            0.03097
+          ]
         }
       },
       "bullish_divergence": {
@@ -185,24 +187,24 @@
       },
       "divergences": [],
       "label": "Neutral",
-      "reasoning": "ETH closed Oct 19 at 2,407 (-0.1%), still holding weekly support 2,384 with RSI 38 and no divergence on daily closes, while ETH/BTC stays oversold (RSI 26) near weekly 0.0287. Hold; 2,384 is the add level, daily 2,314 deep value, weekly 2,462 the first warm level.",
+      "reasoning": "ETH rose 1.7% to a 2,449 close on Oct 20, reclaiming weekly 2,424 but pinned under weekly 2,462, with RSI 43 (below EMA20/50, above EMA200) and no divergence on daily closes; ETH/BTC stays weak at 0.0295 (RSI 30) under weekly 0.0297. Hold; 2,424 is the add level, daily 2,314 deep value, daily 2,546 the first warm level.",
       "images": [
         {
-          "caption": "USD · daily (M/W/D levels, RSI divergences marked)",
-          "path": "research/labels/img/ETH_usd_2026-10-17.png.b64"
+          "caption": "USD · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
+          "path": "research/labels/img/ETH_usd_2026-10-20.png.b64"
         },
         {
-          "caption": "vs BTC · daily (ETH/BTC, RSI divergences marked)",
-          "path": "research/labels/img/ETH_eth_2026-10-17.png.b64"
+          "caption": "vs BTC · daily (ETH/BTC, M/W/D levels, risk/upside boxes, RSI divergences marked)",
+          "path": "research/labels/img/ETH_eth_2026-10-20.png.b64"
         }
       ],
-      "notes": "Light (incremental) update 2026-10-19 post-close ~18:30 CR from research/cache/ETH.json (needs_full: quiet: 1 new daily close(s), live 2400.35 -0.3% vs last close, move -0.2%, no cross, 3d since full). Fresh: live 2400.35 (Hyperliquid mid), Oct 19 close 2407.2 (Hyperliquid 1d), RSI 1d 37.9 on completed closes through Oct 19, pivots/divergence re-check (no new close-confirmed divergence), no redraw (no new confirmed divergence, levels unchanged, image fresh). Carried from the 2026-10-17 full run: thresholds, usd_sr, eth_sr, divergence statuses, OI/funding. Previous notes: Full analysis (needs_full: daily close 2401.7 on 2026-10-17 crossed weekly S 2403). Verified: Binance perp history (2026-10-17 cache, 0d) + Hyperliquid 1d (1501d, through 2026-10-18), 2026-10-17 post-close run ~18:20 CR; price 2398.53, RSI d/w 36.9/52.6, 24h -0.9%, 7d -4.3%, EMA20/50/200 <<>, vol 0.50x. Funding +0.0044%/8h, OI +0.7% 24h (Binance-cached history spliced with Hyperliquid). Derive Dec 25 $3,000/$3,500 calls held.",
+      "notes": "Full analysis (needs_full: daily close 2448.6 on 2026-10-20 crossed weekly R 2423.8). Verified: Binance perp ETHUSDT history spliced with Hyperliquid 1d (1502d, through the 2026-10-20 close), 2026-10-20 post-close run ~18:20 CR; live 2448.75 (Hyperliquid mid), Oct 20 close 2448.6, RSI d/w 42.9/54.0, 7d -2.5%, EMA20/50/200 <<> (2494/2480/2316), vol 0.99x. ETH/BTC 0.0295, RSI 29.8. Divergence scan on daily closes (1d USD, 1d vs ETH, 1w USD): none active. HL funding +0.00125%/h, HL OI $2.61B. Stale: Binance OI/funding (HTTP 451 from the box; last Oct 18 cache), so HL is the perp source today. ETH/BTC 0.0295, RSI 29.8, under weekly R 0.02968 (monthly S 0.02827). Derive Dec 25 $3,000/$3,200/$3,500 calls held (Assumption: from memory, not re-read today).",
       "thresholds": {
         "base": "Neutral",
         "down": [
           {
             "label": "Consider adding",
-            "price": 2383.7
+            "price": 2423.8
           },
           {
             "label": "Deep value",
@@ -212,17 +214,21 @@
         "up": [
           {
             "label": "Getting warm",
-            "price": 2462.5
+            "price": 2545.9
+          },
+          {
+            "label": "Take profit",
+            "price": 2621.4
           }
         ],
-        "ref_price": 2400.35,
-        "valid_from": "2026-10-19T18:35:09-06:00",
-        "valid_until": "2026-10-22T18:07:00-06:00"
+        "ref_price": 2448.75,
+        "valid_from": "2026-10-20T18:19:06-06:00",
+        "valid_until": "2026-10-23T18:07:00-06:00"
       }
     },
     "VVV": {
       "rsi": {
-        "value": 49.1,
+        "value": 52.8,
         "period": 14,
         "timeframe": "1d",
         "state": "neutral"
@@ -284,7 +290,7 @@
       },
       "divergences": [],
       "label": "Neutral",
-      "reasoning": "VVV jumped 6.8% to a 24.21 close on Oct 19, well above the monthly 21.54 add level and under daily resistance 25.90, with RSI 49 and no active divergence. Hold; a daily close above 25.9 opens the way toward monthly 34.7 (take-profit zone), and your 3x liquidation at 18.11 is now ~25% below.",
+      "reasoning": "VVV extended 5.5% to a 25.54 close on Oct 20, now testing daily resistance 25.90 with RSI 53 and no active divergence. Hold; a daily close above 25.9 opens monthly 34.7 (take-profit zone; your TPs sit at 33/39), monthly 21.54 stays the add level and your 3x liquidation at 18.12 is ~29% below.",
       "images": [
         {
           "caption": "USD · daily (M/W/D levels, RSI divergences marked)",
@@ -295,7 +301,7 @@
           "path": "research/labels/img/VVV_eth_2026-10-17.png.b64"
         }
       ],
-      "notes": "Light (incremental) update 2026-10-19 post-close ~18:30 CR from research/cache/VVV.json (needs_full: quiet: 1 new daily close(s), live 24.2795 +0.3% vs last close, move +7.1%, no cross, 4d since full). Fresh: live 24.2795 (Hyperliquid mid), Oct 19 close 24.212 (Hyperliquid 1d), RSI 1d 49.1 on completed closes through Oct 19, pivots/divergence re-check (no new close-confirmed divergence), no redraw (no new confirmed divergence, levels unchanged, image fresh). Carried from the 2026-10-16 full run: thresholds, usd_sr, eth_sr, divergence statuses, OI/funding. Previous notes: Verified: Binance USDT-M perp history (2026-10-15 cache) + OKX VVV-USDT-SWAP daily (UTC) through Oct 16 for the latest bars (Binance fapi HTTP 451 from this box), 2026-10-16 07:35 CR run; price 24.35, RSI d/w 48.1/65. OI/funding: OKX USDT-swap OI (24h change from 1h history) and current funding, since Binance fapi is blocked. Verified: 24h +8.9%, 7d +7.2%, RSI d/w 48/65, below EMA20, above EMA50/EMA200, vol 1.21x. OKX OI -27.5% 24h (deleveraging into the bounce), funding -0.0044%. D S 21.13, W S 14.86. Verified (Hyperliquid read-only): 673 @ 22.56, 3x isolated, liq 18.09 (~25.8% below mark 24.36), reduce-only TPs at 33 and 39.",
+      "notes": "Light (incremental) update 2026-10-20 post-close ~18:20 CR from research/cache/VVV.json (needs_full: quiet: 1 new daily close(s), live 25.5335 -0.0% vs last close, move +5.2%, no cross, 5d since full). Fresh: live 25.5335 (Hyperliquid mid), Oct 20 close 25.535 (Hyperliquid 1d), RSI 1d 52.8 on completed closes through Oct 20, pivots/divergence re-check (no new close-confirmed divergence), redraw: False (no new confirmed divergence, levels unchanged, image fresh). Carried from the 2026-10-16 full run: thresholds, usd_sr, eth_sr, divergence statuses, OI/funding. Previous notes: Verified: Binance USDT-M perp history (2026-10-15 cache) + OKX VVV-USDT-SWAP daily (UTC) through Oct 16 for the latest bars (Binance fapi HTTP 451 from this box), 2026-10-16 07:35 CR run; price 24.35, RSI d/w 48.1/65. OI/funding: OKX USDT-swap OI (24h change from 1h history) and current funding, since Binance fapi is blocked. Verified: 24h +8.9%, 7d +7.2%, RSI d/w 48/65, below EMA20, above EMA50/EMA200, vol 1.21x. OKX OI -27.5% 24h (deleveraging into the bounce), funding -0.0044%. D S 21.13, W S 14.86. Verified (Hyperliquid read-only): 673 @ 22.56, 3x isolated, liq 18.09 (~25.8% below mark 24.36), reduce-only TPs at 33 and 39.",
       "thresholds": {
         "base": "Neutral",
         "down": [
@@ -314,14 +320,14 @@
             "price": 34.666
           }
         ],
-        "ref_price": 24.2795,
-        "valid_from": "2026-10-19T18:35:09-06:00",
-        "valid_until": "2026-10-22T18:07:00-06:00"
+        "ref_price": 25.5335,
+        "valid_from": "2026-10-20T18:19:06-06:00",
+        "valid_until": "2026-10-23T18:07:00-06:00"
       }
     },
     "VIRTUAL": {
       "rsi": {
-        "value": 41.6,
+        "value": 44.7,
         "period": 14,
         "timeframe": "1d",
         "state": "cool"
@@ -337,12 +343,12 @@
         },
         "weekly": {
           "support": [
-            0.62893,
-            0.57473
+            0.66308,
+            0.62893
           ],
           "resistance": [
-            0.66308,
-            0.68191
+            0.68191,
+            0.79614
           ]
         },
         "daily": {
@@ -387,41 +393,20 @@
         "timeframe": "1d",
         "indicator": "RSI"
       },
-      "divergences": [
-        {
-          "type": "Regular Bearish",
-          "timeframe": "1d",
-          "chart": "USD",
-          "from": "2026-09-27",
-          "to": "2026-10-05",
-          "rsi_from": 68.7,
-          "rsi_to": 64.2,
-          "status": "aged out (older than 12 daily bars)"
-        },
-        {
-          "type": "Regular Bearish",
-          "timeframe": "1d",
-          "chart": "vs ETH",
-          "from": "2026-09-27",
-          "to": "2026-10-05",
-          "rsi_from": 67.6,
-          "rsi_to": 62.9,
-          "status": "aged out (older than 12 daily bars)"
-        }
-      ],
+      "divergences": [],
       "label": "Neutral",
-      "reasoning": "VIRTUAL closed Oct 19 at 0.664 (+1.0%), a marginal close above weekly 0.663 that live 0.661 is giving back, with RSI 42, price below all EMAs and no active divergence (the Regular Bearish 1d aged out). Hold; weekly 0.629 and monthly 0.604 are the add and deep-value levels, daily 0.730 the first warm level; your 5x liquidation at 0.556 is ~16% below.",
+      "reasoning": "VIRTUAL closed Oct 20 at 0.681 (+2.7%), holding above weekly 0.663 but capped by weekly 0.682, with RSI 45, price below all EMAs on light volume (0.59x) and no divergence on daily closes. Hold; weekly 0.629 and monthly 0.604 are the add and deep-value levels, daily 0.730 the first warm level; your 5x liquidation at 0.556 is ~18% below.",
       "images": [
         {
           "caption": "USD · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
-          "path": "research/labels/img/VIRTUAL_usd_2026-10-19.png.b64"
+          "path": "research/labels/img/VIRTUAL_usd_2026-10-20.png.b64"
         },
         {
           "caption": "vs ETH · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
-          "path": "research/labels/img/VIRTUAL_eth_2026-10-19.png.b64"
+          "path": "research/labels/img/VIRTUAL_eth_2026-10-20.png.b64"
         }
       ],
-      "notes": "Full analysis (needs_full: daily close 0.66367 on 2026-10-19 crossed weekly R 0.66308). Verified: Binance perp history (2026-10-18 cache, 0d) + Hyperliquid 1d (680d, through 2026-10-20), 2026-10-19 post-close run ~18:30 CR; live 0.66121 (Hyperliquid mid), Oct 19 close 0.66367, RSI d/w 41.6/47.8, 7d -4.7%, EMA20/50/200 <<< (0.7051/0.7043/0.6996), vol 0.49x. VIRTUAL/ETH 0.0002757, RSI 45.2. Divergence scan on daily closes (1d USD, 1d vs ETH, 1w USD): Regular Bearish 1d USD (2026-09-27 to 2026-10-05) aged out (older than 12 daily bars); Regular Bearish 1d vs ETH (2026-09-27 to 2026-10-05) aged out (older than 12 daily bars). HL funding +0.00125%/h, HL OI $6.3M. Stale: Binance OI/funding (HTTP 451 from the box; last Oct 18 cache), so HL is the perp source today. Verified (Hyperliquid read-only, 2026-10-19 ~18:13 CR): long 17,826 @ 0.6716, 5x isolated, liq 0.5557 (~16% below), reduce-only TPs 8,913 @ 0.82 / 0.95. Invalidation 0.59 (daily close).",
+      "notes": "Full analysis (needs_full: daily close 0.68138 on 2026-10-20 crossed weekly R 0.66308). Verified: Binance perp VIRTUALUSDT history spliced with Hyperliquid 1d (681d, through the 2026-10-20 close), 2026-10-20 post-close run ~18:20 CR; live 0.67999 (Hyperliquid mid), Oct 20 close 0.68138, RSI d/w 44.7/48.8, 7d -3.7%, EMA20/50/200 <<< (0.7044/0.7041/0.6996), vol 0.59x. VIRTUAL/ETH 0.0002777, RSI 46.5. Divergence scan on daily closes (1d USD, 1d vs ETH, 1w USD): none active. HL funding +0.00125%/h, HL OI $6.7M. Stale: Binance OI/funding (HTTP 451 from the box; last Oct 18 cache), so HL is the perp source today. Verified (Hyperliquid read-only, 2026-10-20 ~18:12 CR): long 17,826 @ 0.6716, 5x isolated, liq 0.5559 (~18% below), reduce-only TPs 8,913 @ 0.82 / 0.95. Invalidation 0.59 (daily close).",
       "thresholds": {
         "base": "Neutral",
         "down": [
@@ -444,17 +429,17 @@
             "price": 0.82746
           }
         ],
-        "ref_price": 0.66121,
-        "valid_from": "2026-10-19T18:35:09-06:00",
-        "valid_until": "2026-10-22T18:07:00-06:00"
+        "ref_price": 0.67999,
+        "valid_from": "2026-10-20T18:19:06-06:00",
+        "valid_until": "2026-10-23T18:07:00-06:00"
       }
     },
     "BNKR": {
       "rsi": {
-        "value": 55.1,
+        "value": 48.1,
         "period": 14,
         "timeframe": "1d",
-        "state": "warm"
+        "state": "neutral"
       },
       "usd_sr": {
         "monthly": {
@@ -516,7 +501,7 @@
       },
       "divergences": [],
       "label": "Neutral",
-      "reasoning": "BNKR added 4.0% to a 0.000359 close on Oct 19, extending above monthly 0.000296 and weekly 0.000301 with RSI 55 and no divergence. Hold; 0.000296 stays the add level and monthly 0.000557 the first warm level.",
+      "reasoning": "BNKR gave back 9.1% to a 0.000326 close on Oct 20, still above weekly 0.000301 and monthly 0.000296 with RSI 48 and no divergence. Hold; 0.000296 stays the add level and monthly 0.000557 the first warm level.",
       "images": [
         {
           "caption": "USD · daily (M/W/D levels, RSI divergences marked)",
@@ -527,7 +512,7 @@
           "path": "research/labels/img/BNKR_eth_2026-10-17.png.b64"
         }
       ],
-      "notes": "Light (incremental) update 2026-10-19 post-close ~18:30 CR from research/cache/BNKR.json (needs_full: quiet: 1 new daily close(s), live 0.00035202 -2.0% vs last close, move +3.8%, no cross, 3d since full). Fresh: live 0.00035202 (CoinGecko simple price), Oct 19 close 0.000359072 (GeckoTerminal 1d), RSI 1d 55.1 on completed closes through Oct 19, pivots/divergence re-check (no new close-confirmed divergence), no redraw (no new confirmed divergence, levels unchanged, image fresh). Carried from the 2026-10-17 full run: thresholds, usd_sr, eth_sr, divergence statuses, OI/funding. Previous notes: Full analysis (needs_full: daily close 0.000314812 on 2026-10-17 crossed monthly R 0.000296021). Verified: GeckoTerminal pool OHLC (183d) + CoinGecko closes before, 2026-10-17 post-close run ~18:20 CR; price 0.00031491, RSI d/w 45.8/51.2, 24h +9.2%, 7d -2.9%, EMA20/50/200 <<<, vol 0.82x. Missing: perp OI/funding (no perp source).",
+      "notes": "Light (incremental) update 2026-10-20 post-close ~18:20 CR from research/cache/BNKR.json (needs_full: quiet: 1 new daily close(s), live 0.00032606 -0.1% vs last close, move -10.9%, no cross, 4d since full). Fresh: live 0.00032606 (CoinGecko simple price), Oct 20 close 0.00032637 (GeckoTerminal 1d), RSI 1d 48.1 on completed closes through Oct 20, pivots/divergence re-check (no new close-confirmed divergence), redraw: False (no new confirmed divergence, levels unchanged, image fresh). Carried from the 2026-10-17 full run: thresholds, usd_sr, eth_sr, divergence statuses, OI/funding. Previous notes: Full analysis (needs_full: daily close 0.000314812 on 2026-10-17 crossed monthly R 0.000296021). Verified: GeckoTerminal pool OHLC (183d) + CoinGecko closes before, 2026-10-17 post-close run ~18:20 CR; price 0.00031491, RSI d/w 45.8/51.2, 24h +9.2%, 7d -2.9%, EMA20/50/200 <<<, vol 0.82x. Missing: perp OI/funding (no perp source).",
       "thresholds": {
         "base": "Neutral",
         "down": [
@@ -550,14 +535,14 @@
             "price": 0.000608855
           }
         ],
-        "ref_price": 0.00035202,
-        "valid_from": "2026-10-19T18:35:09-06:00",
-        "valid_until": "2026-10-22T18:07:00-06:00"
+        "ref_price": 0.00032606,
+        "valid_from": "2026-10-20T18:19:06-06:00",
+        "valid_until": "2026-10-23T18:07:00-06:00"
       }
     },
     "DRV": {
       "rsi": {
-        "value": 50.2,
+        "value": 49.8,
         "period": 14,
         "timeframe": "1d",
         "state": "neutral"
@@ -609,24 +594,48 @@
         }
       },
       "bullish_divergence": {
-        "present": false,
+        "present": true,
+        "type": "Hidden Bullish",
         "timeframe": "1d",
-        "indicator": "RSI"
+        "indicator": "RSI",
+        "from": "2026-10-07",
+        "to": "2026-10-18"
       },
-      "divergences": [],
-      "label": "Neutral",
-      "reasoning": "DRV bounced 3.7% to a 0.397 close on Oct 19 with RSI 50 and no divergence, holding above daily support 0.364. Hold; 0.364 is the add level, monthly 0.201 deep value, daily 0.489 the first trim zone.",
-      "images": [
+      "divergences": [
         {
-          "caption": "USD · daily (M/W/D levels, RSI divergences marked)",
-          "path": "research/labels/img/DRV_usd_2026-10-17.png.b64"
+          "type": "Hidden Bullish",
+          "timeframe": "1d",
+          "chart": "USD",
+          "from": "2026-10-07",
+          "to": "2026-10-18",
+          "rsi_from": 54.7,
+          "rsi_to": 48.2,
+          "status": "active (close-confirmed Oct 20)"
         },
         {
-          "caption": "vs ETH · daily (M/W/D levels, RSI divergences marked)",
-          "path": "research/labels/img/DRV_eth_2026-10-17.png.b64"
+          "type": "Hidden Bullish",
+          "timeframe": "1d",
+          "chart": "vs ETH",
+          "from": "2026-10-07",
+          "to": "2026-10-18",
+          "rsi_from": 57.2,
+          "rsi_to": 51.0,
+          "status": "active (close-confirmed Oct 20)"
         }
       ],
-      "notes": "Light (incremental) update 2026-10-19 post-close ~18:30 CR from research/cache/DRV.json (needs_full: quiet: 1 new daily close(s), live 0.397742 +0.1% vs last close, move +3.5%, no cross, 4d since full). Fresh: live 0.397742 (CoinGecko simple price), Oct 19 close 0.39736 (GeckoTerminal 1d), RSI 1d 50.2 on completed closes through Oct 19, pivots/divergence re-check (no new close-confirmed divergence), no redraw (no new confirmed divergence, levels unchanged, image fresh). Carried from the 2026-10-16 full run: thresholds, usd_sr, eth_sr, divergence statuses, OI/funding. Previous notes: Verified: GeckoTerminal Base pool OHLC (141d) + CoinGecko closes, 2026-10-16 07:35 CR run; price 0.433906, RSI d/w 54.7/74. Verified: 24h +17.3%, 7d -13.6%, RSI d/w 55/75, above EMA20/50/200, vol 0.60x. M S 0.201. DRV/ETH RSI 58/75, D S 0.000171 / D R 0.000181. Missing: perp OI/funding. Yesterday's forming Hidden Bullish on DRV/ETH dropped out.",
+      "label": "Neutral",
+      "reasoning": "DRV closed Oct 20 at 0.395 (-0.7%) with RSI 50, holding above daily support 0.364, and a Hidden Bullish 1d (Oct 7 to Oct 18) is now close-confirmed on both the USD and vs-ETH charts. Hold; 0.364 stays the add level, monthly 0.201 deep value, daily 0.489 the first trim zone.",
+      "images": [
+        {
+          "caption": "USD · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
+          "path": "research/labels/img/DRV_usd_2026-10-20.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
+          "path": "research/labels/img/DRV_eth_2026-10-20.png.b64"
+        }
+      ],
+      "notes": "Light (incremental) update 2026-10-20 post-close ~18:20 CR from research/cache/DRV.json (needs_full: quiet: 1 new daily close(s), live 0.39721 +0.6% vs last close, move -0.5%, no cross, 5d since full). Fresh: live 0.39721 (CoinGecko simple price), Oct 20 close 0.394715 (GeckoTerminal 1d), RSI 1d 49.8 on completed closes through Oct 20, pivots/divergence re-check (new close-confirmed Hidden Bullish 1d (2026-10-07 to 2026-10-18); USD and vs-ETH charts redrawn), redraw: True (new close-confirmed divergence). Carried from the 2026-10-16 full run: thresholds, usd_sr, eth_sr, divergence statuses, OI/funding. Previous notes: Verified: GeckoTerminal Base pool OHLC (141d) + CoinGecko closes, 2026-10-16 07:35 CR run; price 0.433906, RSI d/w 54.7/74. Verified: 24h +17.3%, 7d -13.6%, RSI d/w 55/75, above EMA20/50/200, vol 0.60x. M S 0.201. DRV/ETH RSI 58/75, D S 0.000171 / D R 0.000181. Missing: perp OI/funding. Yesterday's forming Hidden Bullish on DRV/ETH dropped out.",
       "thresholds": {
         "base": "Neutral",
         "down": [
@@ -645,14 +654,14 @@
             "price": 0.489274
           }
         ],
-        "ref_price": 0.397742,
-        "valid_from": "2026-10-19T18:35:09-06:00",
-        "valid_until": "2026-10-22T18:07:00-06:00"
+        "ref_price": 0.39721,
+        "valid_from": "2026-10-20T18:19:06-06:00",
+        "valid_until": "2026-10-23T18:07:00-06:00"
       }
     },
     "DRB": {
       "rsi": {
-        "value": 39.7,
+        "value": 42.7,
         "period": 14,
         "timeframe": "1d",
         "state": "cool"
@@ -718,7 +727,7 @@
       },
       "divergences": [],
       "label": "Neutral",
-      "reasoning": "DRB slipped 3.3% to a 0.000159 close on Oct 19, still under daily resistance 0.000172 with RSI 40 and no divergence. Hold; weekly 0.00014 and daily 0.000134 remain the add and deep-value zone, weekly 0.000288 the first warm level.",
+      "reasoning": "DRB rose 4.3% to a 0.000166 close on Oct 20, still under daily resistance 0.000172 with RSI 43 and no divergence. Hold; weekly 0.00014 and daily 0.000134 remain the add and deep-value zone, weekly 0.000288 the first warm level.",
       "images": [
         {
           "caption": "USD · daily (M/W/D levels, RSI divergences marked)",
@@ -729,7 +738,7 @@
           "path": "research/labels/img/DRB_eth_2026-10-16.png.b64"
         }
       ],
-      "notes": "Light (incremental) update 2026-10-19 post-close ~18:30 CR from research/cache/DRB.json (needs_full: quiet: 1 new daily close(s), live 0.00015798 -0.5% vs last close, move -3.3%, no cross, 4d since full). Fresh: live 0.00015798 (CoinGecko simple price), Oct 19 close 0.000158832 (GeckoTerminal 1d), RSI 1d 39.7 on completed closes through Oct 19, pivots/divergence re-check (no new close-confirmed divergence), no redraw (no new confirmed divergence, levels unchanged, image fresh). Carried from the 2026-10-16 full run: thresholds, usd_sr, eth_sr, divergence statuses, OI/funding. Previous notes: Verified: GeckoTerminal Base pool OHLC (183d) + CoinGecko closes, 2026-10-16 07:35 CR run; price 0.00017104, RSI d/w 42.9/62. Verified: 24h +3.8%, 7d -10.5%, RSI d/w 43/62, below EMA20, above EMA50, vol 0.45x. W R 0.000288, M S 0.000112, M R 0.000305. Missing: perp OI/funding (no perp source).",
+      "notes": "Light (incremental) update 2026-10-20 post-close ~18:20 CR from research/cache/DRB.json (needs_full: quiet: 1 new daily close(s), live 0.00016388 -1.1% vs last close, move +4.1%, no cross, 5d since full). Fresh: live 0.00016388 (CoinGecko simple price), Oct 20 close 0.000165708 (GeckoTerminal 1d), RSI 1d 42.7 on completed closes through Oct 20, pivots/divergence re-check (no new close-confirmed divergence), redraw: False (no new confirmed divergence, levels unchanged, image fresh). Carried from the 2026-10-16 full run: thresholds, usd_sr, eth_sr, divergence statuses, OI/funding. Previous notes: Verified: GeckoTerminal Base pool OHLC (183d) + CoinGecko closes, 2026-10-16 07:35 CR run; price 0.00017104, RSI d/w 42.9/62. Verified: 24h +3.8%, 7d -10.5%, RSI d/w 43/62, below EMA20, above EMA50, vol 0.45x. W R 0.000288, M S 0.000112, M R 0.000305. Missing: perp OI/funding (no perp source).",
       "thresholds": {
         "base": "Neutral",
         "down": [
@@ -748,14 +757,14 @@
             "price": 0.000288262
           }
         ],
-        "ref_price": 0.00015798,
-        "valid_from": "2026-10-19T18:35:09-06:00",
-        "valid_until": "2026-10-22T18:07:00-06:00"
+        "ref_price": 0.00016388,
+        "valid_from": "2026-10-20T18:19:06-06:00",
+        "valid_until": "2026-10-23T18:07:00-06:00"
       }
     },
     "SERV": {
       "rsi": {
-        "value": 34.2,
+        "value": 35.1,
         "period": 14,
         "timeframe": "1d",
         "state": "cool"
@@ -822,7 +831,7 @@
       },
       "divergences": [],
       "label": "Consider adding",
-      "reasoning": "SERV closed Oct 19 at 0.0169 (-2.0%), back under daily 0.0174 with RSI 34 and no divergence; live 0.0172 is bouncing toward it. Still in the add zone below 0.0183, better on a daily close back above 0.0174; weekly/monthly 0.0129-0.0137 is the deep-value zone.",
+      "reasoning": "SERV closed Oct 20 at 0.0170 (+0.9%), still under daily 0.0174 with RSI 35 and no divergence, though live 0.0176 has pushed back above it. Still in the add zone below 0.0183, better on a daily close back above 0.0174; weekly/monthly 0.0129-0.0137 is the deep-value zone.",
       "images": [
         {
           "caption": "USD · daily (M/W/D levels, RSI divergences marked)",
@@ -833,7 +842,7 @@
           "path": "research/labels/img/SERV_eth_2026-10-16.png.b64"
         }
       ],
-      "notes": "Light (incremental) update 2026-10-19 post-close ~18:30 CR from research/cache/SERV.json (needs_full: quiet: 1 new daily close(s), live 0.0171695 +1.7% vs last close, move -2.0%, no cross, 4d since full). Fresh: live 0.0171695 (CoinGecko simple price), Oct 19 close 0.0168834 (GeckoTerminal 1d), RSI 1d 34.2 on completed closes through Oct 19, pivots/divergence re-check (no new close-confirmed divergence), no redraw (no new confirmed divergence, levels unchanged, image fresh). Carried from the 2026-10-16 full run: thresholds, usd_sr, eth_sr, divergence statuses, OI/funding. Previous notes: Verified: GeckoTerminal Ethereum pool OHLC (183d) + CoinGecko closes, 2026-10-16 07:35 CR run; price 0.0177427, RSI d/w 35.8/48. Verified: 24h -2.9%, 7d -20.0%, RSI d/w 36/48, below all EMAs, vol 0.86x. D R 0.0203, W R 0.0231. Missing: perp OI/funding (no perp source). Last bullish divergence (Regular Bullish 1d, Aug 3 to Aug 16) invalidated.",
+      "notes": "Light (incremental) update 2026-10-20 post-close ~18:20 CR from research/cache/SERV.json (needs_full: quiet: 1 new daily close(s), live 0.0175861 +3.2% vs last close, move +2.9%, no cross, 5d since full). Fresh: live 0.0175861 (CoinGecko simple price), Oct 20 close 0.0170429 (GeckoTerminal 1d), RSI 1d 35.1 on completed closes through Oct 20, pivots/divergence re-check (no new close-confirmed divergence), redraw: False (no new confirmed divergence, levels unchanged, image fresh). Carried from the 2026-10-16 full run: thresholds, usd_sr, eth_sr, divergence statuses, OI/funding. Previous notes: Verified: GeckoTerminal Ethereum pool OHLC (183d) + CoinGecko closes, 2026-10-16 07:35 CR run; price 0.0177427, RSI d/w 35.8/48. Verified: 24h -2.9%, 7d -20.0%, RSI d/w 36/48, below all EMAs, vol 0.86x. D R 0.0203, W R 0.0231. Missing: perp OI/funding (no perp source). Last bullish divergence (Regular Bullish 1d, Aug 3 to Aug 16) invalidated.",
       "thresholds": {
         "base": "Neutral",
         "down": [
@@ -856,26 +865,24 @@
             "price": 0.0231199
           }
         ],
-        "ref_price": 0.0171695,
-        "valid_from": "2026-10-19T18:35:09-06:00",
-        "valid_until": "2026-10-22T18:07:00-06:00"
+        "ref_price": 0.0175861,
+        "valid_from": "2026-10-20T18:19:06-06:00",
+        "valid_until": "2026-10-23T18:07:00-06:00"
       }
     },
     "POD": {
       "rsi": {
-        "value": 50.0,
+        "value": 57.7,
         "period": 14,
         "timeframe": "1d",
-        "state": "neutral"
+        "state": "warm"
       },
       "usd_sr": {
         "monthly": {
           "support": [
-            0.479149
-          ],
-          "resistance": [
             0.613596
-          ]
+          ],
+          "resistance": []
         },
         "weekly": {
           "support": [
@@ -915,11 +922,9 @@
         },
         "daily": {
           "support": [
-            0.000223413
+            0.000277676
           ],
-          "resistance": [
-            0.000237611
-          ]
+          "resistance": []
         }
       },
       "bullish_divergence": {
@@ -929,28 +934,28 @@
       },
       "divergences": [],
       "label": "Neutral",
-      "reasoning": "POD closed Oct 19 at 0.543 (-2.6%), under weekly 0.5545 but above the 0.537 add level, and live 0.565 has bounced back above it on thin volume (0.12x); RSI 50, below EMA20 but above EMA50/200, no divergence on daily closes. POD/ETH is neutral (RSI 52); hold, add at 0.537, monthly 0.479 deep value, monthly 0.614 the first resistance.",
+      "reasoning": "POD jumped 24% to a 0.673 close on Oct 20, breaking above monthly 0.614 on 1.5x volume with RSI 58 and price above all EMAs; no divergence on daily closes, and POD/ETH (RSI 59) is pressing monthly resistance. Hold; the reclaimed 0.614 is the add level, weekly 0.555 deep value, a daily close below 0.537 invalidates, daily 0.775 is the first warm level.",
       "images": [
         {
           "caption": "USD · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
-          "path": "research/labels/img/POD_usd_2026-10-19.png.b64"
+          "path": "research/labels/img/POD_usd_2026-10-20.png.b64"
         },
         {
           "caption": "vs ETH · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
-          "path": "research/labels/img/POD_eth_2026-10-19.png.b64"
+          "path": "research/labels/img/POD_eth_2026-10-20.png.b64"
         }
       ],
-      "notes": "Full analysis (needs_full: intraday: live 0.564853 (CoinGecko simple price) crossed weekly S 0.554525 vs last full analysis 0.553676). Verified: GeckoTerminal pool OHLC (183d) + CoinGecko closes before, 2026-10-19 post-close run ~18:30 CR; live 0.564853 (CoinGecko simple price), Oct 19 close 0.54318, RSI d/w 50.0/56.9, 7d -20.3%, EMA20/50/200 <>> (0.5943/0.5095/0.3428), vol 0.12x. POD/ETH 0.0002374, RSI 52.1. Divergence scan on daily closes (1d USD, 1d vs ETH, 1w USD): none active. Missing: perp OI/funding (no perp source). Volume 0.12x of 20d. needs_full fired on an intraday cross of weekly 0.5545 (live above, close below); no level change vs Oct 18 except first resistance now cited as monthly 0.614.",
+      "notes": "Full analysis (needs_full: daily close 0.673361 on 2026-10-20 crossed monthly R 0.613596). Verified: GeckoTerminal pool OHLC (183d) + CoinGecko closes before, 2026-10-20 post-close run ~18:20 CR; live 0.683646 (CoinGecko simple price), Oct 20 close 0.673361, RSI d/w 57.7/59.9, 7d -1.2%, EMA20/50/200 >>> (0.6115/0.5201/0.3472), vol 1.47x. POD/ETH 0.0002785, RSI 59.1. Divergence scan on daily closes (1d USD, 1d vs ETH, 1w USD): none active. Missing: perp OI/funding (no perp source). Volume 1.47x of 20d. needs_full fired on the daily close above monthly R 0.6136, which flips to support; next resistance daily 0.775, weekly 0.903.",
       "thresholds": {
         "base": "Neutral",
         "down": [
           {
             "label": "Consider adding",
-            "price": 0.537038
+            "price": 0.613596
           },
           {
             "label": "Deep value",
-            "price": 0.479149
+            "price": 0.554525
           }
         ],
         "up": [
@@ -963,14 +968,14 @@
             "price": 0.903233
           }
         ],
-        "ref_price": 0.564853,
-        "valid_from": "2026-10-19T18:35:09-06:00",
-        "valid_until": "2026-10-22T18:07:00-06:00"
+        "ref_price": 0.683646,
+        "valid_from": "2026-10-20T18:19:06-06:00",
+        "valid_until": "2026-10-23T18:07:00-06:00"
       }
     },
     "SYRUP": {
       "rsi": {
-        "value": 35.1,
+        "value": 40.0,
         "period": 14,
         "timeframe": "1d",
         "state": "cool"
@@ -986,12 +991,12 @@
         },
         "weekly": {
           "support": [
-            0.14702,
-            0.11808
+            0.1969,
+            0.14702
           ],
           "resistance": [
-            0.1969,
-            0.2036
+            0.2036,
+            0.24015
           ]
         },
         "daily": {
@@ -1024,7 +1029,7 @@
         },
         "daily": {
           "support": [
-            8.10698e-05
+            8.20352e-05
           ],
           "resistance": [
             8.34232e-05
@@ -1038,18 +1043,18 @@
       },
       "divergences": [],
       "label": "Neutral",
-      "reasoning": "SYRUP closed Oct 19 at 0.195 (+0.5%), back above monthly 0.193 but capped by weekly 0.197, with RSI 35, price below all EMAs and no divergence on daily closes; SYRUP/ETH holds daily support. The label moves to Neutral above 0.193: re-add there, 0.190 is deep value, a daily close below 0.185 invalidates, 0.211 is the first warm level.",
+      "reasoning": "SYRUP closed Oct 20 at 0.202 (+3.5%), back above weekly 0.197 but just under weekly 0.2036, with RSI 40, price below all EMAs and no divergence on daily closes. Hold; monthly 0.193 is the add level, 0.190 deep value, a daily close below 0.185 invalidates, daily 0.211 is the first warm level; your 3x liquidation at 0.151 is ~25% below.",
       "images": [
         {
           "caption": "USD · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
-          "path": "research/labels/img/SYRUP_usd_2026-10-19.png.b64"
+          "path": "research/labels/img/SYRUP_usd_2026-10-20.png.b64"
         },
         {
           "caption": "vs ETH · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
-          "path": "research/labels/img/SYRUP_eth_2026-10-19.png.b64"
+          "path": "research/labels/img/SYRUP_eth_2026-10-20.png.b64"
         }
       ],
-      "notes": "Full analysis (needs_full: daily close 0.19522 on 2026-10-19 crossed monthly R 0.19344). Verified: Binance perp history (2026-10-18-close cache, 1d) + Hyperliquid 1d (532d, through 2026-10-20), 2026-10-19 post-close run ~18:30 CR; live 0.19504 (Hyperliquid mid), Oct 19 close 0.19522, RSI d/w 35.1/48.1, 7d -19.9%, EMA20/50/200 <<< (0.2172/0.2149/0.2118), vol 0.77x. SYRUP/ETH 8.121e-05, RSI 40.3. Divergence scan on daily closes (1d USD, 1d vs ETH, 1w USD): none active. HL funding +0.00125%/h, HL OI $5.5M. Stale: Binance OI/funding (HTTP 451 from the box; last Oct 18 cache), so HL is the perp source today. Verified (Hyperliquid read-only, 2026-10-19 ~18:13 CR): long 6,074 @ 0.1887, 3x isolated, liq 0.1511 (~22% below). Take profit 0.2267 = monthly R.",
+      "notes": "Full analysis (needs_full: daily close 0.20197 on 2026-10-20 crossed weekly R 0.1969). Verified: Binance perp SYRUPUSDT history spliced with Hyperliquid 1d (534d, through the 2026-10-20 close), 2026-10-20 post-close run ~18:20 CR; live 0.202005 (Hyperliquid mid), Oct 20 close 0.20197, RSI d/w 40.0/49.3, 7d -14.8%, EMA20/50/200 <<< (0.2163/0.2147/0.2118), vol 0.83x. SYRUP/ETH 8.256e-05, RSI 42.7. Divergence scan on daily closes (1d USD, 1d vs ETH, 1w USD): none active. HL funding +0.00125%/h, HL OI $5.8M. Stale: Binance OI/funding (HTTP 451 from the box; last Oct 18 cache), so HL is the perp source today. Verified (Hyperliquid read-only, 2026-10-20 ~18:12 CR): long 6,074 @ 0.1887, 3x isolated, liq 0.1511 (~25% below). Take profit 0.2267 = monthly R.",
       "thresholds": {
         "base": "Neutral",
         "down": [
@@ -1072,14 +1077,14 @@
             "price": 0.2267
           }
         ],
-        "ref_price": 0.19504,
-        "valid_from": "2026-10-19T18:35:09-06:00",
-        "valid_until": "2026-10-22T18:07:00-06:00"
+        "ref_price": 0.202005,
+        "valid_from": "2026-10-20T18:19:06-06:00",
+        "valid_until": "2026-10-23T18:07:00-06:00"
       }
     },
     "GRASS": {
       "rsi": {
-        "value": 49.7,
+        "value": 51.2,
         "period": 14,
         "timeframe": "1d",
         "state": "neutral"
@@ -1087,10 +1092,10 @@
       "usd_sr": {
         "monthly": {
           "support": [
-            0.26553
+            0.62146
           ],
           "resistance": [
-            0.62146
+            0.81893
           ]
         },
         "weekly": {
@@ -1133,10 +1138,10 @@
         },
         "daily": {
           "support": [
-            0.000245256
+            0.00025804
           ],
           "resistance": [
-            0.000257148
+            0.000263864
           ]
         }
       },
@@ -1147,18 +1152,18 @@
       },
       "divergences": [],
       "label": "Neutral",
-      "reasoning": "GRASS closed Oct 19 at 0.620 (+5.2%), reclaiming weekly 0.601 but stalling under monthly 0.621 and weekly 0.641, with RSI 50 and no divergence on daily closes. Hold: 0.601 should now act as support, daily 0.560 is the add level and a close below 0.53 invalidates; your 3x liquidation at 0.506 is ~17% below, with the Oct 28 unlock ahead.",
+      "reasoning": "GRASS closed Oct 20 at 0.636 (+2.6%), its first daily close above monthly 0.621, but weekly 0.641/0.654 cap it, with RSI 51 and no divergence on daily closes. Hold into the Oct 28 unlock: 0.621/0.601 should act as support, daily 0.560 is the add level and a close below 0.53 invalidates; your 3x liquidation at 0.506 is ~20% below.",
       "images": [
         {
           "caption": "USD · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
-          "path": "research/labels/img/GRASS_usd_2026-10-19.png.b64"
+          "path": "research/labels/img/GRASS_usd_2026-10-20.png.b64"
         },
         {
           "caption": "vs ETH · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
-          "path": "research/labels/img/GRASS_eth_2026-10-19.png.b64"
+          "path": "research/labels/img/GRASS_eth_2026-10-20.png.b64"
         }
       ],
-      "notes": "Full analysis (needs_full: daily close 0.61959 on 2026-10-19 crossed weekly R 0.60118). Verified: Binance perp history (2026-10-18-close cache, 0d) + Hyperliquid 1d (723d, through 2026-10-20), 2026-10-19 post-close run ~18:30 CR; live 0.6139 (Hyperliquid mid), Oct 19 close 0.61959, RSI d/w 49.7/57.2, 7d -19.2%, EMA20/50/200 <>> (0.6358/0.5554/0.4466), vol 0.67x. GRASS/ETH 0.0002558, RSI 52.5. Divergence scan on daily closes (1d USD, 1d vs ETH, 1w USD): none active. HL funding +0.00125%/h, HL OI $28.5M. Stale: Binance OI/funding (HTTP 451 from the box; last Oct 18 cache), so HL is the perp source today. Verified (Hyperliquid read-only, 2026-10-19 ~18:13 CR): long 3,868.5 @ 0.6316, 3x isolated, liq 0.5059 (~17% below). Deep value 0.477 sits below that liquidation. Catalyst: Oct 28 unlock.",
+      "notes": "Full analysis (needs_full: daily close 0.6358 on 2026-10-20 crossed monthly R 0.62146). Verified: Binance perp history (2026-10-19 cache, 0d) + Hyperliquid 1d (724d, through 2026-10-21), 2026-10-20 post-close run ~18:20 CR; live 0.63373 (Hyperliquid mid), Oct 20 close 0.6358, RSI d/w 51.2/57.9, 7d -12.5%, EMA20/50/200 <>> (0.6373/0.5592/0.4487), vol 0.76x. GRASS/ETH 0.0002584, RSI 53.1. Divergence scan on daily closes (1d USD, 1d vs ETH, 1w USD): none active. HL funding +0.00125%/h, HL OI $29.7M. Stale: Binance OI/funding (HTTP 451 from the box; last Oct 18 cache), so HL is the perp source today. Verified (Hyperliquid read-only, 2026-10-20 ~18:12 CR): long 3,868.5 @ 0.6316, 3x isolated, liq 0.5061 (~20% below). Deep value 0.477 sits below that liquidation. Catalyst: Oct 28 unlock.",
       "thresholds": {
         "base": "Neutral",
         "down": [
@@ -1175,16 +1180,20 @@
           {
             "label": "Getting warm",
             "price": 0.79598
+          },
+          {
+            "label": "Take profit",
+            "price": 0.81893
           }
         ],
-        "ref_price": 0.6139,
-        "valid_from": "2026-10-19T18:35:09-06:00",
-        "valid_until": "2026-10-22T18:07:00-06:00"
+        "ref_price": 0.63373,
+        "valid_from": "2026-10-20T18:19:06-06:00",
+        "valid_until": "2026-10-23T18:07:00-06:00"
       }
     },
     "BLOCKTRONICS": {
       "rsi": {
-        "value": 41.2,
+        "value": 42.5,
         "period": 14,
         "timeframe": "1d",
         "state": "cool"
@@ -1293,7 +1302,7 @@
         }
       ],
       "label": "Neutral",
-      "reasoning": "BLOCKTRONICS eased 1.5% to 4.73e-06 on Oct 19 (thin, close-only CoinGecko data), just above daily support 4.68e-06 with RSI 41. The Hidden Bullish 1d (Sep 15 to Oct 9) stays active against the weekly Regular Bearish; hold, add only near weekly 3.66e-06, warm at 6.53e-06.",
+      "reasoning": "BLOCKTRONICS firmed 1.3% to 4.79e-06 on Oct 20 (thin, close-only CoinGecko data), above daily support 4.68e-06 with RSI 43. The Hidden Bullish 1d (Sep 15 to Oct 9) stays active against the weekly Regular Bearish; hold, add only near weekly 3.66e-06, warm at 6.53e-06.",
       "images": [
         {
           "caption": "USD · daily (M/W/D levels, RSI divergences marked)",
@@ -1304,7 +1313,7 @@
           "path": "research/labels/img/BLOCKTRONICS_eth_2026-10-17.png.b64"
         }
       ],
-      "notes": "Light (incremental) update 2026-10-19 post-close ~18:30 CR from research/cache/BLOCKTRONICS.json (needs_full: quiet: 1 new daily close(s), live 4.73e-06 -0.0% vs last close, move -1.6%, no cross, 3d since full). Fresh: live 4.73e-06 (CoinGecko simple price), Oct 19 close 4.73117e-06 (CoinGecko closes (synthetic OHLC)), RSI 1d 41.2 on completed closes through Oct 19, pivots/divergence re-check (no new close-confirmed divergence), no redraw (no new confirmed divergence, levels unchanged, image fresh). Carried from the 2026-10-17 full run: thresholds, usd_sr, eth_sr, divergence statuses, OI/funding. Previous notes: Full analysis (needs_full: new coin (no cache)). Verified: CoinGecko daily closes (157d, close-only), 2026-10-17 post-close run ~18:20 CR; price 4.88e-06, RSI d/w 43.3/77.9, 24h -1.3%, 7d +6.3%, EMA20/50/200 <<?, vol 0.30x. New coin (first analysis). Assumption: CoinGecko daily closes only (synthetic OHLC, 157d), CoinGecko id blocktronics, Base 0x7afe…0ba3; mcap ~$488k, 24h volume ~$1.2k. Missing: perp OI/funding.",
+      "notes": "Light (incremental) update 2026-10-20 post-close ~18:20 CR from research/cache/BLOCKTRONICS.json (needs_full: quiet: 1 new daily close(s), live 4.79e-06 -0.1% vs last close, move +1.3%, no cross, 4d since full). Fresh: live 4.79e-06 (CoinGecko simple price), Oct 20 close 4.79376e-06 (CoinGecko closes (synthetic OHLC)), RSI 1d 42.5 on completed closes through Oct 20, pivots/divergence re-check (no new close-confirmed divergence), redraw: False (no new confirmed divergence, levels unchanged, image fresh). Carried from the 2026-10-17 full run: thresholds, usd_sr, eth_sr, divergence statuses, OI/funding. Previous notes: Full analysis (needs_full: new coin (no cache)). Verified: CoinGecko daily closes (157d, close-only), 2026-10-17 post-close run ~18:20 CR; price 4.88e-06, RSI d/w 43.3/77.9, 24h -1.3%, 7d +6.3%, EMA20/50/200 <<?, vol 0.30x. New coin (first analysis). Assumption: CoinGecko daily closes only (synthetic OHLC, 157d), CoinGecko id blocktronics, Base 0x7afe…0ba3; mcap ~$488k, 24h volume ~$1.2k. Missing: perp OI/funding.",
       "thresholds": {
         "base": "Neutral",
         "down": [
@@ -1327,12 +1336,12 @@
             "price": 7.22636e-06
           }
         ],
-        "ref_price": 4.73e-06,
-        "valid_from": "2026-10-19T18:35:09-06:00",
-        "valid_until": "2026-10-22T18:07:00-06:00"
+        "ref_price": 4.79e-06,
+        "valid_from": "2026-10-20T18:19:06-06:00",
+        "valid_until": "2026-10-23T18:07:00-06:00"
       }
     }
   },
-  "valid_from": "2026-10-19T18:35:09-06:00",
-  "valid_until": "2026-10-22T18:07:00-06:00"
+  "valid_from": "2026-10-20T18:19:06-06:00",
+  "valid_until": "2026-10-23T18:07:00-06:00"
 }

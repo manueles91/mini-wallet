@@ -3,26 +3,26 @@
   "symbol": "GRASS",
   "coingecko_id": "grass",
   "last_full_analysis": {
-    "date": "2026-10-19",
-    "ts": "2026-10-19T18:35:09-06:00",
-    "ref_price": 0.6139,
+    "date": "2026-10-20",
+    "ts": "2026-10-20T18:19:06-06:00",
+    "ref_price": 0.63373,
     "label": "Neutral",
-    "source": "research/labels/2026-10-19.json"
+    "source": "research/labels/2026-10-20.json"
   },
   "last_update": {
-    "date": "2026-10-19",
-    "ts": "2026-10-19T18:35:09-06:00",
-    "price": 0.6139,
+    "date": "2026-10-20",
+    "ts": "2026-10-20T18:19:06-06:00",
+    "price": 0.63373,
     "mode": "full"
   },
-  "rsi_d": 49.7,
+  "rsi_d": 51.2,
   "usd_sr": {
     "monthly": {
       "support": [
-        0.26553
+        0.62146
       ],
       "resistance": [
-        0.62146
+        0.81893
       ]
     },
     "weekly": {
@@ -60,14 +60,18 @@
       {
         "label": "Getting warm",
         "price": 0.79598
+      },
+      {
+        "label": "Take profit",
+        "price": 0.81893
       }
     ],
-    "ref_price": 0.6139,
-    "valid_from": "2026-10-19T18:35:09-06:00",
-    "valid_until": "2026-10-22T18:07:00-06:00"
+    "ref_price": 0.63373,
+    "valid_from": "2026-10-20T18:19:06-06:00",
+    "valid_until": "2026-10-23T18:07:00-06:00"
   },
   "zones": {
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "buy": [
       {
         "name": "Zone 1",
@@ -80,8 +84,8 @@
   "last_divergence": null,
   "divergences_seen": [],
   "thesis": [
-    "GRASS closed Oct 19 at 0.620 (+5.2%), reclaiming weekly 0.601 but stalling under monthly 0.621 and weekly 0.641, with RSI 50 and no divergence on daily closes",
-    "Hold: 0.601 should now act as support, daily 0.560 is the add level and a close below 0.53 invalidates; your 3x liquidation at 0.506 is ~17% below, with the Oct 28 unlock ahead."
+    "GRASS closed Oct 20 at 0.636 (+2.6%), its first daily close above monthly 0.621, but weekly 0.641/0.654 cap it, with RSI 51 and no divergence on daily closes",
+    "Hold into the Oct 28 unlock: 0.621/0.601 should act as support, daily 0.560 is the add level and a close below 0.53 invalidates; your 3x liquidation at 0.506 is ~20% below."
   ],
   "catalysts": [
     {
@@ -120,19 +124,19 @@
     ],
     "k": 3,
     "source": "Hyperliquid 1d",
-    "as_of": "2026-10-19"
+    "as_of": "2026-10-20"
   },
   "image_paths": [
     {
-      "path": "research/labels/img/GRASS_usd_2026-10-19.png.b64",
+      "path": "research/labels/img/GRASS_usd_2026-10-20.png.b64",
       "caption": "USD \u00b7 daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
-      "drawn": "2026-10-19"
+      "drawn": "2026-10-20"
     },
     {
-      "path": "research/labels/img/GRASS_eth_2026-10-19.png.b64",
+      "path": "research/labels/img/GRASS_eth_2026-10-20.png.b64",
       "caption": "vs ETH \u00b7 daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
-      "drawn": "2026-10-19"
+      "drawn": "2026-10-20"
     }
   ],
-  "last_reasoning": "GRASS closed Oct 19 at 0.620 (+5.2%), reclaiming weekly 0.601 but stalling under monthly 0.621 and weekly 0.641, with RSI 50 and no divergence on daily closes. Hold: 0.601 should now act as support, daily 0.560 is the add level and a close below 0.53 invalidates; your 3x liquidation at 0.506 is ~17% below, with the Oct 28 unlock ahead."
+  "last_reasoning": "GRASS closed Oct 20 at 0.636 (+2.6%), its first daily close above monthly 0.621, but weekly 0.641/0.654 cap it, with RSI 51 and no divergence on daily closes. Hold into the Oct 28 unlock: 0.621/0.601 should act as support, daily 0.560 is the add level and a close below 0.53 invalidates; your 3x liquidation at 0.506 is ~20% below."
 }

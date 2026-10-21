@@ -3,27 +3,25 @@
   "symbol": "POD",
   "coingecko_id": "dolphin-2",
   "last_full_analysis": {
-    "date": "2026-10-19",
-    "ts": "2026-10-19T18:35:09-06:00",
-    "ref_price": 0.564853,
+    "date": "2026-10-20",
+    "ts": "2026-10-20T18:19:06-06:00",
+    "ref_price": 0.683646,
     "label": "Neutral",
-    "source": "research/labels/2026-10-19.json"
+    "source": "research/labels/2026-10-20.json"
   },
   "last_update": {
-    "date": "2026-10-19",
-    "ts": "2026-10-19T18:35:09-06:00",
-    "price": 0.564853,
+    "date": "2026-10-20",
+    "ts": "2026-10-20T18:19:06-06:00",
+    "price": 0.683646,
     "mode": "full"
   },
-  "rsi_d": 50.0,
+  "rsi_d": 57.7,
   "usd_sr": {
     "monthly": {
       "support": [
-        0.479149
-      ],
-      "resistance": [
         0.613596
-      ]
+      ],
+      "resistance": []
     },
     "weekly": {
       "support": [
@@ -48,11 +46,11 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.537038
+        "price": 0.613596
       },
       {
         "label": "Deep value",
-        "price": 0.479149
+        "price": 0.554525
       }
     ],
     "up": [
@@ -65,26 +63,26 @@
         "price": 0.903233
       }
     ],
-    "ref_price": 0.564853,
-    "valid_from": "2026-10-19T18:35:09-06:00",
-    "valid_until": "2026-10-22T18:07:00-06:00"
+    "ref_price": 0.683646,
+    "valid_from": "2026-10-20T18:19:06-06:00",
+    "valid_until": "2026-10-23T18:07:00-06:00"
   },
   "zones": {
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "buy": [
       {
         "name": "Zone 1",
-        "lo": 0.537038,
-        "hi": 0.554525
+        "lo": 0.554525,
+        "hi": 0.613596
       }
     ],
-    "invalidation": 0.479149
+    "invalidation": 0.537038
   },
   "last_divergence": null,
   "divergences_seen": [],
   "thesis": [
-    "POD closed Oct 19 at 0.543 (-2.6%), under weekly 0.5545 but above the 0.537 add level, and live 0.565 has bounced back above it on thin volume (0.12x); RSI 50, below EMA20 but above EMA50/200, no divergence on daily closes",
-    "POD/ETH is neutral (RSI 52); hold, add at 0.537, monthly 0.479 deep value, monthly 0.614 the first resistance."
+    "POD jumped 24% to a 0.673 close on Oct 20, breaking above monthly 0.614 on 1.5x volume with RSI 58 and price above all EMAs; no divergence on daily closes, and POD/ETH (RSI 59) is pressing monthly resistance",
+    "Hold; the reclaimed 0.614 is the add level, weekly 0.555 deep value, a daily close below 0.537 invalidates, daily 0.775 is the first warm level."
   ],
   "catalysts": [],
   "last_swings": {
@@ -118,19 +116,19 @@
     ],
     "k": 3,
     "source": "GeckoTerminal 1d",
-    "as_of": "2026-10-19"
+    "as_of": "2026-10-20"
   },
   "image_paths": [
     {
-      "path": "research/labels/img/POD_usd_2026-10-19.png.b64",
+      "path": "research/labels/img/POD_usd_2026-10-20.png.b64",
       "caption": "USD \u00b7 daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
-      "drawn": "2026-10-19"
+      "drawn": "2026-10-20"
     },
     {
-      "path": "research/labels/img/POD_eth_2026-10-19.png.b64",
+      "path": "research/labels/img/POD_eth_2026-10-20.png.b64",
       "caption": "vs ETH \u00b7 daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
-      "drawn": "2026-10-19"
+      "drawn": "2026-10-20"
     }
   ],
-  "last_reasoning": "POD closed Oct 19 at 0.543 (-2.6%), under weekly 0.5545 but above the 0.537 add level, and live 0.565 has bounced back above it on thin volume (0.12x); RSI 50, below EMA20 but above EMA50/200, no divergence on daily closes. POD/ETH is neutral (RSI 52); hold, add at 0.537, monthly 0.479 deep value, monthly 0.614 the first resistance."
+  "last_reasoning": "POD jumped 24% to a 0.673 close on Oct 20, breaking above monthly 0.614 on 1.5x volume with RSI 58 and price above all EMAs; no divergence on daily closes, and POD/ETH (RSI 59) is pressing monthly resistance. Hold; the reclaimed 0.614 is the add level, weekly 0.555 deep value, a daily close below 0.537 invalidates, daily 0.775 is the first warm level."
 }

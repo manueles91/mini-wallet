@@ -9,12 +9,12 @@
     "source": "research/labels/2026-10-16.json"
   },
   "last_update": {
-    "date": "2026-10-19",
-    "ts": "2026-10-19T18:35:09-06:00",
-    "price": 24.266,
+    "date": "2026-10-20",
+    "ts": "2026-10-20T18:19:06-06:00",
+    "price": 25.518,
     "mode": "incremental"
   },
-  "rsi_d": 49.1,
+  "rsi_d": 52.8,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -58,9 +58,9 @@
         "price": 34.666
       }
     ],
-    "ref_price": 24.2795,
-    "valid_from": "2026-10-19T18:35:09-06:00",
-    "valid_until": "2026-10-22T18:07:00-06:00"
+    "ref_price": 25.5335,
+    "valid_from": "2026-10-20T18:19:06-06:00",
+    "valid_until": "2026-10-23T18:07:00-06:00"
   },
   "zones": {
     "date": "2026-10-15",
@@ -123,5 +123,5 @@
       "drawn": "2026-10-17"
     }
   ],
-  "last_reasoning": "VVV jumped 6.8% to a 24.21 close on Oct 19, well above the monthly 21.54 add level and under daily resistance 25.90, with RSI 49 and no active divergence. Hold; a daily close above 25.9 opens the way toward monthly 34.7 (take-profit zone), and your 3x liquidation at 18.11 is now ~25% below."
+  "last_reasoning": "VVV extended 5.5% to a 25.54 close on Oct 20, now testing daily resistance 25.90 with RSI 53 and no active divergence. Hold; a daily close above 25.9 opens monthly 34.7 (take-profit zone; your TPs sit at 33/39), monthly 21.54 stays the add level and your 3x liquidation at 18.12 is ~29% below."
 }
