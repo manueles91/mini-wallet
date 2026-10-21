@@ -48,65 +48,92 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.710325,
-        "tf": "W",
-        "reason": "W support, default: 2nd level (no bullish confirmation)",
-        "shifted": false,
-        "default_price": 0.7175,
-        "base_price": 0.7175,
-        "offset_pct": -1.0,
-        "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+        "price": 0.61022,
+        "raw_price": 0.592989,
+        "snapped": true,
+        "reason": "snapped to M S/R 0.61022 (raw 0.592989); RSI 35.0 blend {'M': 0.58, 'D': 0.42}; Regular Bearish 1d s=0.18",
+        "weights": {
+          "M": 0.58,
+          "D": 0.42
+        },
+        "source": "W/M S/R (3% snap)",
+        "tf": "M",
+        "snapped_level": 0.61022
       },
       {
         "label": "Deep value",
-        "price": 0.604118,
-        "tf": "M",
-        "reason": "next M level beyond first rung",
-        "shifted": false,
-        "default_price": 0.61022,
-        "base_price": 0.61022,
-        "offset_pct": -1.0,
-        "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+        "price": 0.575521,
+        "raw_price": 0.575521,
+        "snapped": false,
+        "reason": "RSI 30.0 blend {'D': 1.0}; Regular Bearish 1d s=0.18",
+        "weights": {
+          "D": 1.0
+        },
+        "source": "RSI-implied blend",
+        "tf": "blend",
+        "snapped_level": null
       }
     ],
     "up": [
       {
         "label": "Getting warm",
-        "price": 0.934013,
-        "tf": "W",
-        "reason": "W resistance, shifted down: Regular Bearish 1d confirmed (2026-10-04->2026-10-11)",
-        "shifted": true,
-        "default_price": 0.99427,
-        "base_price": 0.9629,
-        "offset_pct": -3.0,
-        "offset_reason": "front-run below resistance: 0.5x ATR14 (cap 3%)"
+        "price": 0.929396,
+        "raw_price": 0.929396,
+        "snapped": false,
+        "reason": "RSI 64.1 blend {'W': 0.62, 'D': 0.38} per-tf {'D': 64.1, 'W': 67.5, 'M': 64.1} (momentum past warm, wRSI 53); Regular Bearish 1d s=0.18",
+        "weights": {
+          "W": 0.62,
+          "D": 0.38
+        },
+        "source": "RSI-implied blend",
+        "tf": "blend",
+        "snapped_level": null
       },
       {
         "label": "Take profit",
-        "price": 1.00271,
-        "tf": "W",
-        "reason": "next W level beyond first rung",
-        "shifted": false,
-        "default_price": 0.99427,
-        "base_price": 0.99427,
-        "offset_pct": 0.85,
-        "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+        "price": 1.05196,
+        "raw_price": 1.05196,
+        "snapped": false,
+        "reason": "RSI 69.1 blend {'W': 0.62, 'D': 0.38} per-tf {'D': 69.1, 'W': 72.5, 'M': 69.1}; Regular Bearish 1d s=0.18",
+        "weights": {
+          "W": 0.62,
+          "D": 0.38
+        },
+        "source": "RSI-implied blend",
+        "tf": "blend",
+        "snapped_level": null
       }
     ],
-    "ref_price": 0.860985,
-    "valid_from": "2026-10-20T23:05:55-06:00",
-    "valid_until": "2026-10-22T18:07:00-06:00",
-    "v": 2,
-    "anchored_at": "2026-10-20T23:06:00-06:00",
-    "anchor_ref_price": 0.860985,
+    "v": 3,
     "context": {
-      "rsi_d": 57.0,
-      "rsi_w": 66.1,
-      "uptrend": true,
-      "divergences": [
-        "Regular Bearish 1d 2026-10-04->2026-10-11"
-      ]
-    }
+      "wrsi_usd": 53.3,
+      "weights": {
+        "M": 0.35,
+        "W": 0.4,
+        "D": 0.25
+      },
+      "targets": {
+        "Consider adding": 35,
+        "Deep value": 30,
+        "Getting warm": 65,
+        "Take profit": 70
+      },
+      "wrsi_eth": 55.8,
+      "wrsi": 54.3,
+      "state": "Neutral",
+      "state_split": "USD 60% / ETH 40%"
+    },
+    "anchor": {
+      "bar_date": "2026-10-20",
+      "price": 0.88757,
+      "at": "2026-10-21T00:01:20-06:00",
+      "why": "forced re-anchor"
+    },
+    "ref_price": 0.84712,
+    "valid_from": "2026-10-21T00:01:16-06:00",
+    "valid_until": "2026-10-22T18:07:00-06:00",
+    "source_data": "Hyperliquid 1d",
+    "state": "Neutral"
   },
   "zones": {
     "date": "2026-10-20",
@@ -208,5 +235,5 @@
     }
   ],
   "setup_id": "AERO-L-2026-10-18",
-  "last_reasoning": "AERO 0.861, RSI 1d 56.4 / 1w 66.1; Regular Bearish 1d USD (2026-10-04 to 2026-10-11). Neutral. Ladder: add 0.7103 (W, -1.0% off 0.7175), deep value 0.6041 (M, -1.0% off 0.6102), warm 0.934 (W, -3.0% off 0.9629), take profit 1.003 (W, +0.8% off 0.9943)."
+  "last_reasoning": "AERO 0.8471, RSI 1d 56.4; Regular Bearish 1d USD. Neutral. Momentum ladder v3: add 0.6102 (-28%, S/R M), deep 0.5755 (-32%, RSI blend), warm 0.9294 (+10%, RSI blend), TP 1.052 (+24%, RSI blend)."
 }

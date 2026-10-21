@@ -60,66 +60,87 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 3.63872e-06,
-        "tf": "W",
-        "reason": "W support, default: 2nd level (no bullish confirmation)",
-        "shifted": false,
-        "default_price": 3.66091e-06,
-        "base_price": 3.66091e-06,
-        "offset_pct": -0.61,
-        "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+        "price": 4.40554e-06,
+        "raw_price": 4.40554e-06,
+        "snapped": false,
+        "reason": "RSI 35.0 blend {'D': 1.0}",
+        "weights": {
+          "D": 1.0
+        },
+        "source": "RSI-implied blend",
+        "tf": "blend",
+        "snapped_level": null
       },
       {
         "label": "Deep value",
-        "price": 2.93575e-06,
-        "tf": "W",
-        "reason": "next W level beyond first rung",
-        "shifted": false,
-        "default_price": 2.95794e-06,
-        "base_price": 2.95794e-06,
-        "offset_pct": -0.75,
-        "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+        "price": 4.03946e-06,
+        "raw_price": 4.03946e-06,
+        "snapped": false,
+        "reason": "RSI 30.0 blend {'D': 1.0}",
+        "weights": {
+          "D": 1.0
+        },
+        "source": "RSI-implied blend",
+        "tf": "blend",
+        "snapped_level": null
       }
     ],
     "up": [
       {
         "label": "Getting warm",
-        "price": 6.42044e-06,
+        "price": 6.53141e-06,
+        "raw_price": 6.53141e-06,
+        "snapped": true,
+        "reason": "snapped to W S/R 6.53141e-06 (raw 6.53141e-06); nearest W/M resistance (momentum past warm, wRSI 64)",
+        "weights": null,
+        "source": "W/M S/R (momentum-past rule)",
         "tf": "W",
-        "reason": "W resistance, default: 2nd level (no bearish confirmation); confirmation present (weekly RSI 78 >=70) but already nearest W/M",
-        "shifted": false,
-        "default_price": 6.53141e-06,
-        "base_price": 6.53141e-06,
-        "offset_pct": -1.7,
-        "offset_reason": "front-run below resistance: 0.5x ATR14 (cap 3%)"
+        "snapped_level": 6.53141e-06
       },
       {
         "label": "Take profit",
-        "price": 7.24855e-06,
-        "tf": "M",
-        "reason": "next M level beyond first rung",
-        "shifted": false,
-        "default_price": 7.22636e-06,
-        "base_price": 7.22636e-06,
-        "offset_pct": 0.31,
-        "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+        "price": 6.85798e-06,
+        "raw_price": 6.45052e-06,
+        "snapped": true,
+        "reason": "snapped to ? S/R 6.85798e-06 (raw 6.45052e-06); RSI 70.0 blend {'D': 1.0} per-tf {'D': 70.0, 'W': 87.7}",
+        "weights": {
+          "D": 1.0
+        },
+        "source": "W/M S/R (3% snap)",
+        "tf": "W/M",
+        "snapped_level": 6.85798e-06
       }
     ],
-    "ref_price": 4.78e-06,
-    "valid_from": "2026-10-20T23:05:55-06:00",
-    "valid_until": "2026-10-22T18:07:00-06:00",
-    "v": 2,
-    "anchored_at": "2026-10-20T23:06:04-06:00",
-    "anchor_ref_price": 4.78e-06,
+    "v": 3,
     "context": {
-      "rsi_d": 42.5,
-      "rsi_w": 77.7,
-      "uptrend": false,
-      "divergences": [
-        "Hidden Bullish 1d 2026-09-15->2026-10-09",
-        "Hidden Bullish 1w 2026-08-16->2026-10-25 (not confirmed)"
-      ]
-    }
+      "wrsi_usd": 64.2,
+      "weights": {
+        "M": 0.35,
+        "W": 0.4,
+        "D": 0.25
+      },
+      "targets": {
+        "Consider adding": 35,
+        "Deep value": 30,
+        "Getting warm": 65,
+        "Take profit": 70
+      },
+      "wrsi_eth": 66.2,
+      "wrsi": 65.0,
+      "state": "Neutral",
+      "state_split": "USD 60% / ETH 40%"
+    },
+    "anchor": {
+      "bar_date": "2026-10-20",
+      "price": 4.79375630908687e-06,
+      "at": "2026-10-21T00:01:24-06:00",
+      "why": "forced re-anchor"
+    },
+    "ref_price": 4.77e-06,
+    "valid_from": "2026-10-21T00:01:16-06:00",
+    "valid_until": "2026-10-22T18:07:00-06:00",
+    "source_data": "CoinGecko closes (synthetic OHLC)",
+    "state": "Neutral"
   },
   "last_divergence": {
     "type": "Hidden Bullish",
@@ -195,7 +216,7 @@
       "drawn": "2026-10-17"
     }
   ],
-  "last_reasoning": "BLOCKTRONICS 4.78e-06, RSI 1d 42.5 / 1w 77.7; Hidden Bullish 1d USD (2026-09-15 to 2026-10-09). Neutral. Ladder: add 3.639e-06 (W, -0.6% off 3.661e-06), deep value 2.936e-06 (W, -0.8% off 2.958e-06), warm 6.42e-06 (W, -1.7% off 6.531e-06), take profit 7.249e-06 (M, +0.3% off 7.226e-06).",
+  "last_reasoning": "BLOCKTRONICS 4.77e-06, RSI 1d 42.5; Hidden Bullish 1d USD; Regular Bearish 1w USD; Hidden Bullish 1w USD; Hidden Bullish 1d vs ETH. Neutral. Momentum ladder v3: add 4.406e-06 (-8%, RSI blend), deep 4.039e-06 (-15%, RSI blend), warm 6.531e-06 (+37%, S/R W), TP 6.858e-06 (+44%, S/R W/M).",
   "schema": "mw-cache/0",
   "symbol": "BLOCKTRONICS"
 }

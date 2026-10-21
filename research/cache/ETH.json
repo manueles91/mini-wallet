@@ -48,52 +48,91 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 2373.07,
-        "tf": "W",
-        "reason": "W support, default: 2nd level (no bullish confirmation)",
-        "shifted": false,
-        "default_price": 2383.7,
-        "base_price": 2383.7,
-        "offset_pct": -0.45,
-        "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+        "price": 1923.69,
+        "raw_price": 1923.69,
+        "snapped": false,
+        "reason": "RSI 35.0 blend {'W': 0.62, 'D': 0.38}",
+        "weights": {
+          "W": 0.62,
+          "D": 0.38
+        },
+        "source": "RSI-implied blend",
+        "tf": "blend",
+        "snapped_level": null
       },
       {
         "label": "Deep value",
-        "price": 2134.87,
-        "tf": "M",
-        "reason": "next M level beyond first rung",
-        "shifted": false,
-        "default_price": 2145.5,
-        "base_price": 2145.5,
-        "offset_pct": -0.5,
-        "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+        "price": 1644.83,
+        "raw_price": 1644.83,
+        "snapped": false,
+        "reason": "RSI 30.0 blend {'W': 0.62, 'D': 0.38}",
+        "weights": {
+          "W": 0.62,
+          "D": 0.38
+        },
+        "source": "RSI-implied blend",
+        "tf": "blend",
+        "snapped_level": null
       }
     ],
     "up": [
       {
         "label": "Getting warm",
-        "price": 2632.03,
+        "price": 2462.5,
+        "raw_price": 2462.5,
+        "snapped": true,
+        "reason": "snapped to W S/R 2462.5 (raw 2462.5); nearest W/M resistance (momentum past warm, wRSI 53)",
+        "weights": null,
+        "source": "W/M S/R (momentum-past rule)",
         "tf": "W",
-        "reason": "W resistance, default: 2nd level (no bearish confirmation)",
-        "shifted": false,
-        "default_price": 2621.4,
-        "base_price": 2621.4,
-        "offset_pct": 0.41,
-        "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+        "snapped_level": 2462.5
+      },
+      {
+        "label": "Take profit",
+        "price": 3534.46,
+        "raw_price": 3534.46,
+        "snapped": false,
+        "reason": "RSI 70.0 blend {'M': 0.35, 'W': 0.4, 'D': 0.25} per-tf {'D': 70.0, 'W': 70.0, 'M': 71.5}",
+        "weights": {
+          "M": 0.35,
+          "W": 0.4,
+          "D": 0.25
+        },
+        "source": "RSI-implied blend",
+        "tf": "blend",
+        "snapped_level": null
       }
     ],
-    "ref_price": 2450.15,
-    "valid_from": "2026-10-20T23:05:55-06:00",
-    "valid_until": "2026-10-22T18:07:00-06:00",
-    "v": 2,
-    "anchored_at": "2026-10-20T23:06:00-06:00",
-    "anchor_ref_price": 2450.15,
+    "v": 3,
     "context": {
-      "rsi_d": 43.1,
-      "rsi_w": 54.1,
-      "uptrend": false,
-      "divergences": []
-    }
+      "wrsi_usd": 53.5,
+      "weights": {
+        "M": 0.35,
+        "W": 0.4,
+        "D": 0.25
+      },
+      "targets": {
+        "Consider adding": 35,
+        "Deep value": 30,
+        "Getting warm": 65,
+        "Take profit": 70
+      },
+      "wrsi_eth": null,
+      "wrsi": 53.5,
+      "state": "Neutral",
+      "state_split": "USD only"
+    },
+    "anchor": {
+      "bar_date": "2026-10-20",
+      "price": 2448.6,
+      "at": "2026-10-21T00:01:21-06:00",
+      "why": "forced re-anchor"
+    },
+    "ref_price": 2438.95,
+    "valid_from": "2026-10-21T00:01:16-06:00",
+    "valid_until": "2026-10-22T18:07:00-06:00",
+    "source_data": "Hyperliquid 1d",
+    "state": "Neutral"
   },
   "zones": {
     "date": "2026-10-20",
@@ -163,5 +202,5 @@
       "drawn": "2026-10-20"
     }
   ],
-  "last_reasoning": "ETH 2450, RSI 1d 42.9 / 1w 54.1; no active divergence. Neutral. Ladder: add 2373 (W, -0.5% off 2384), deep value 2135 (M, -0.5% off 2146), warm 2632 (W, +0.4% off 2621)."
+  "last_reasoning": "ETH 2439, RSI 1d 42.9; no active divergence. Neutral. Momentum ladder v3: add 1924 (-21%, RSI blend), deep 1645 (-33%, RSI blend), warm 2462 (+1%, S/R W), TP 3534 (+45%, RSI blend)."
 }

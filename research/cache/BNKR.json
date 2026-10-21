@@ -50,63 +50,91 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.000293061,
-        "tf": "M",
-        "reason": "M support, default: 2nd level (no bullish confirmation)",
-        "shifted": false,
-        "default_price": 0.000296021,
-        "base_price": 0.000296021,
-        "offset_pct": -1.0,
-        "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+        "price": 0.000262904,
+        "raw_price": 0.000262904,
+        "snapped": false,
+        "reason": "RSI 35.0 blend {'D': 1.0}",
+        "weights": {
+          "D": 1.0
+        },
+        "source": "RSI-implied blend",
+        "tf": "blend",
+        "snapped_level": null
       },
       {
         "label": "Deep value",
-        "price": 0.000208266,
-        "tf": "W",
-        "reason": "next W level beyond first rung",
-        "shifted": false,
-        "default_price": 0.00021037,
-        "base_price": 0.00021037,
-        "offset_pct": -1.0,
-        "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+        "price": 0.000224169,
+        "raw_price": 0.000224169,
+        "snapped": false,
+        "reason": "RSI 30.0 blend {'D': 1.0}",
+        "weights": {
+          "D": 1.0
+        },
+        "source": "RSI-implied blend",
+        "tf": "blend",
+        "snapped_level": null
       }
     ],
     "up": [
       {
         "label": "Getting warm",
-        "price": 0.000559998,
-        "tf": "M",
-        "reason": "M resistance, default: 2nd level (no bearish confirmation)",
-        "shifted": false,
-        "default_price": 0.000556528,
-        "base_price": 0.000556528,
-        "offset_pct": 0.62,
-        "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+        "price": 0.00052097,
+        "raw_price": 0.00052097,
+        "snapped": false,
+        "reason": "RSI 65.0 blend {'W': 0.62, 'D': 0.38}",
+        "weights": {
+          "W": 0.62,
+          "D": 0.38
+        },
+        "source": "RSI-implied blend",
+        "tf": "blend",
+        "snapped_level": null
       },
       {
         "label": "Take profit",
-        "price": 0.000612325,
+        "price": 0.000608855,
+        "raw_price": 0.000613008,
+        "snapped": true,
+        "reason": "snapped to W S/R 0.000608855 (raw 0.000613008); RSI 70.0 blend {'W': 0.62, 'D': 0.38}",
+        "weights": {
+          "W": 0.62,
+          "D": 0.38
+        },
+        "source": "W/M S/R (3% snap)",
         "tf": "W",
-        "reason": "next W level beyond first rung",
-        "shifted": false,
-        "default_price": 0.000608855,
-        "base_price": 0.000608855,
-        "offset_pct": 0.57,
-        "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+        "snapped_level": 0.000608855
       }
     ],
-    "ref_price": 0.0003267,
-    "valid_from": "2026-10-20T23:05:55-06:00",
-    "valid_until": "2026-10-22T18:07:00-06:00",
-    "v": 2,
-    "anchored_at": "2026-10-20T23:06:01-06:00",
-    "anchor_ref_price": 0.0003267,
+    "v": 3,
     "context": {
-      "rsi_d": 48.1,
-      "rsi_w": 47.2,
-      "uptrend": false,
-      "divergences": []
-    }
+      "wrsi_usd": 48.4,
+      "weights": {
+        "M": 0.35,
+        "W": 0.4,
+        "D": 0.25
+      },
+      "targets": {
+        "Consider adding": 35,
+        "Deep value": 30,
+        "Getting warm": 65,
+        "Take profit": 70
+      },
+      "wrsi_eth": 48.2,
+      "wrsi": 48.3,
+      "state": "Neutral",
+      "state_split": "USD 60% / ETH 40%"
+    },
+    "anchor": {
+      "bar_date": "2026-10-20",
+      "price": 0.000326370364357312,
+      "at": "2026-10-21T00:01:22-06:00",
+      "why": "forced re-anchor"
+    },
+    "ref_price": 0.00032599,
+    "valid_from": "2026-10-21T00:01:16-06:00",
+    "valid_until": "2026-10-22T18:07:00-06:00",
+    "source_data": "GeckoTerminal 1d",
+    "state": "Neutral"
   },
   "zones": null,
   "last_divergence": null,
@@ -159,5 +187,5 @@
       "drawn": "2026-10-17"
     }
   ],
-  "last_reasoning": "BNKR 0.0003267, RSI 1d 48.1 / 1w 47.2; no active divergence. Neutral. Ladder: add 0.0002931 (M, -1.0% off 0.000296), deep value 0.0002083 (W, -1.0% off 0.0002104), warm 0.00056 (M, +0.6% off 0.0005565), take profit 0.0006123 (W, +0.6% off 0.0006089)."
+  "last_reasoning": "BNKR 0.000326, RSI 1d 48.1; no active divergence. Neutral. Momentum ladder v3: add 0.0002629 (-19%, RSI blend), deep 0.0002242 (-31%, RSI blend), warm 0.000521 (+60%, RSI blend), TP 0.0006089 (+87%, S/R W)."
 }

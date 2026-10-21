@@ -50,63 +50,88 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.595168,
-        "tf": "W",
-        "reason": "W support, default: 2nd level (no bullish confirmation)",
-        "shifted": false,
-        "default_price": 0.60118,
-        "base_price": 0.60118,
-        "offset_pct": -1.0,
-        "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+        "price": 0.458159,
+        "raw_price": 0.458159,
+        "snapped": false,
+        "reason": "RSI 35.0 blend {'D': 1.0}",
+        "weights": {
+          "D": 1.0
+        },
+        "source": "RSI-implied blend",
+        "tf": "blend",
+        "snapped_level": null
       },
       {
         "label": "Deep value",
-        "price": 0.472002,
-        "tf": "W",
-        "reason": "next W level beyond first rung",
-        "shifted": false,
-        "default_price": 0.47677,
-        "base_price": 0.47677,
-        "offset_pct": -1.0,
-        "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+        "price": 0.366027,
+        "raw_price": 0.366027,
+        "snapped": false,
+        "reason": "RSI 30.0 blend {'D': 1.0}",
+        "weights": {
+          "D": 1.0
+        },
+        "source": "RSI-implied blend",
+        "tf": "blend",
+        "snapped_level": null
       }
     ],
     "up": [
       {
         "label": "Getting warm",
-        "price": 0.660338,
+        "price": 0.64074,
+        "raw_price": 0.64074,
+        "snapped": true,
+        "reason": "snapped to W S/R 0.64074 (raw 0.64074); nearest W/M resistance (momentum past warm, wRSI 65)",
+        "weights": null,
+        "source": "W/M S/R (momentum-past rule)",
         "tf": "W",
-        "reason": "W resistance, default: 2nd level (no bearish confirmation)",
-        "shifted": false,
-        "default_price": 0.6538,
-        "base_price": 0.6538,
-        "offset_pct": 1.0,
-        "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+        "snapped_level": 0.64074
       },
       {
         "label": "Take profit",
-        "price": 0.827119,
-        "tf": "M",
-        "reason": "next M level beyond first rung",
-        "shifted": false,
-        "default_price": 0.81893,
-        "base_price": 0.81893,
-        "offset_pct": 1.0,
-        "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+        "price": 0.969028,
+        "raw_price": 0.969028,
+        "snapped": false,
+        "reason": "RSI 70.0 blend {'W': 0.62, 'D': 0.38} per-tf {'D': 70.0, 'W': 70.0, 'M': 94.0}",
+        "weights": {
+          "W": 0.62,
+          "D": 0.38
+        },
+        "source": "RSI-implied blend",
+        "tf": "blend",
+        "snapped_level": null
       }
     ],
-    "ref_price": 0.63987,
-    "valid_from": "2026-10-20T23:05:55-06:00",
-    "valid_until": "2026-10-22T18:07:00-06:00",
-    "v": 2,
-    "anchored_at": "2026-10-20T23:06:04-06:00",
-    "anchor_ref_price": 0.63987,
+    "v": 3,
     "context": {
-      "rsi_d": 51.6,
-      "rsi_w": 58.0,
-      "uptrend": true,
-      "divergences": []
-    }
+      "wrsi_usd": 64.8,
+      "weights": {
+        "M": 0.35,
+        "W": 0.4,
+        "D": 0.25
+      },
+      "targets": {
+        "Consider adding": 35,
+        "Deep value": 30,
+        "Getting warm": 65,
+        "Take profit": 70
+      },
+      "wrsi_eth": 61.8,
+      "wrsi": 63.6,
+      "state": "Neutral",
+      "state_split": "USD 60% / ETH 40%"
+    },
+    "anchor": {
+      "bar_date": "2026-10-20",
+      "price": 0.6358,
+      "at": "2026-10-21T00:01:23-06:00",
+      "why": "forced re-anchor"
+    },
+    "ref_price": 0.63783,
+    "valid_from": "2026-10-21T00:01:16-06:00",
+    "valid_until": "2026-10-22T18:07:00-06:00",
+    "source_data": "Hyperliquid 1d",
+    "state": "Neutral"
   },
   "zones": {
     "date": "2026-10-20",
@@ -176,5 +201,5 @@
       "drawn": "2026-10-20"
     }
   ],
-  "last_reasoning": "GRASS 0.6399, RSI 1d 51.2 / 1w 58.0; no active divergence. Neutral. Ladder: add 0.5952 (W, -1.0% off 0.6012), deep value 0.472 (W, -1.0% off 0.4768), warm 0.6603 (W, +1.0% off 0.6538), take profit 0.8271 (M, +1.0% off 0.8189)."
+  "last_reasoning": "GRASS 0.6378, RSI 1d 51.2; no active divergence. Neutral. Momentum ladder v3: add 0.4582 (-28%, RSI blend), deep 0.366 (-43%, RSI blend), warm 0.6407 (+0%, S/R W), TP 0.969 (+52%, RSI blend)."
 }

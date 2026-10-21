@@ -48,52 +48,87 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.0127441,
-        "tf": "M",
-        "reason": "M support, default: 2nd level (no bullish confirmation)",
-        "shifted": false,
-        "default_price": 0.0128728,
-        "base_price": 0.0128728,
-        "offset_pct": -1.0,
-        "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+        "price": 0.0137247,
+        "raw_price": 0.0137247,
+        "snapped": true,
+        "reason": "snapped to W S/R 0.0137247 (raw 0.0137247); nearest W/M support (momentum past add, wRSI 38)",
+        "weights": null,
+        "source": "W/M S/R (momentum-past rule)",
+        "tf": "W",
+        "snapped_level": 0.0137247
+      },
+      {
+        "label": "Deep value",
+        "price": 0.0130385,
+        "raw_price": 0.0138208,
+        "snapped": true,
+        "reason": "snapped to ? S/R 0.0130385 (raw 0.0138208); RSI 30.0 blend {'D': 1.0} per-tf {'D': 25.1, 'W': 29.3}",
+        "weights": {
+          "D": 1.0
+        },
+        "source": "W/M S/R (3% snap)",
+        "tf": "W/M",
+        "snapped_level": 0.0130385
       }
     ],
     "up": [
       {
         "label": "Getting warm",
-        "price": 0.0232592,
+        "price": 0.0241149,
+        "raw_price": 0.0239512,
+        "snapped": true,
+        "reason": "snapped to W S/R 0.0241149 (raw 0.0239512); RSI 65.0 blend {'D': 1.0}",
+        "weights": {
+          "D": 1.0
+        },
+        "source": "W/M S/R (3% snap)",
         "tf": "W",
-        "reason": "W resistance, default: 2nd level (no bearish confirmation)",
-        "shifted": false,
-        "default_price": 0.0231199,
-        "base_price": 0.0231199,
-        "offset_pct": 0.6,
-        "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+        "snapped_level": 0.0241149
       },
       {
         "label": "Take profit",
-        "price": 0.0242542,
-        "tf": "W",
-        "reason": "next W level beyond first rung",
-        "shifted": false,
-        "default_price": 0.0241149,
-        "base_price": 0.0241149,
-        "offset_pct": 0.58,
-        "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+        "price": 0.0264496,
+        "raw_price": 0.0264496,
+        "snapped": false,
+        "reason": "RSI 70.0 blend {'D': 1.0}",
+        "weights": {
+          "D": 1.0
+        },
+        "source": "RSI-implied blend",
+        "tf": "blend",
+        "snapped_level": null
       }
     ],
-    "ref_price": 0.0173016,
-    "valid_from": "2026-10-20T23:05:55-06:00",
-    "valid_until": "2026-10-22T18:07:00-06:00",
-    "v": 2,
-    "anchored_at": "2026-10-20T23:06:03-06:00",
-    "anchor_ref_price": 0.0173016,
+    "v": 3,
     "context": {
-      "rsi_d": 35.1,
-      "rsi_w": 39.2,
-      "uptrend": false,
-      "divergences": []
-    }
+      "wrsi_usd": 37.7,
+      "weights": {
+        "M": 0.35,
+        "W": 0.4,
+        "D": 0.25
+      },
+      "targets": {
+        "Consider adding": 35,
+        "Deep value": 30,
+        "Getting warm": 65,
+        "Take profit": 70
+      },
+      "wrsi_eth": 37.4,
+      "wrsi": 37.6,
+      "state": "Neutral",
+      "state_split": "USD 60% / ETH 40%"
+    },
+    "anchor": {
+      "bar_date": "2026-10-20",
+      "price": 0.0170429258009238,
+      "at": "2026-10-21T00:01:22-06:00",
+      "why": "forced re-anchor"
+    },
+    "ref_price": 0.0172039,
+    "valid_from": "2026-10-21T00:01:16-06:00",
+    "valid_until": "2026-10-22T18:07:00-06:00",
+    "source_data": "GeckoTerminal 1d",
+    "state": "Neutral"
   },
   "zones": null,
   "last_divergence": null,
@@ -146,5 +181,5 @@
       "drawn": "2026-10-16"
     }
   ],
-  "last_reasoning": "SERV 0.0173, RSI 1d 35.1 / 1w 39.2; no active divergence. Neutral. Ladder: add 0.01274 (M, -1.0% off 0.01287), warm 0.02326 (W, +0.6% off 0.02312), take profit 0.02425 (W, +0.6% off 0.02411)."
+  "last_reasoning": "SERV 0.0172, RSI 1d 35.1; no active divergence. Neutral. Momentum ladder v3: add 0.01372 (-20%, S/R W), deep 0.01304 (-24%, S/R W/M), warm 0.02411 (+40%, S/R W), TP 0.02645 (+54%, RSI blend)."
 }
