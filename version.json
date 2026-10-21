@@ -1,7 +1,7 @@
 {
-  "versionCode": 62,
-  "versionName": "13.34",
+  "versionCode": 63,
+  "versionName": "13.35",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "a244b1a9cf982a72457d693139d0fae76353a2ad396db75a68234423f8567072",
-  "notes": "Coin research: shows every active RSI divergence (bullish and bearish) with timeframe, dates and status."
+  "apkSha256": "849c7ba60afe9287401f4ae115bdabf17349ade767f8e16bca30b08277f5b8df",
+  "notes": "Leverage: tap a Perps or Options row for a live position chart (candles, Entry/Liquidation/Strike/Breakeven/Current lines, RSI 14)."
 }
