@@ -51,62 +51,66 @@
         "price": 0.66964,
         "raw_price": 0.66964,
         "snapped": false,
-        "reason": "B1 reverse RSI 35 (USD, no div shift)",
+        "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
         "snapped_level": null,
         "weights": {
-          "M": 0.35,
-          "W": 0.4,
-          "D": 0.25
-        }
+          "D": 1.0
+        },
+        "tfs": [
+          "D"
+        ]
       },
       {
         "label": "Deep value",
         "price": 0.575521,
         "raw_price": 0.575521,
         "snapped": false,
-        "reason": "B1 reverse RSI 30 (USD, no div shift)",
+        "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
         "snapped_level": null,
         "weights": {
-          "M": 0.35,
-          "W": 0.4,
-          "D": 0.25
-        }
+          "D": 1.0
+        },
+        "tfs": [
+          "D"
+        ]
       }
     ],
     "up": [
       {
         "label": "Getting warm",
-        "price": 0.894151,
-        "raw_price": 0.894151,
+        "price": 0.966882,
+        "raw_price": 0.966882,
         "snapped": false,
-        "reason": "B1 reverse RSI 65 (USD, no div shift)",
+        "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
         "snapped_level": null,
         "weights": {
-          "M": 0.35,
-          "W": 0.4,
-          "D": 0.25
-        }
+          "D": 1.0
+        },
+        "tfs": [
+          "D"
+        ]
       },
       {
         "label": "Take profit",
-        "price": 1.00525,
-        "raw_price": 1.00525,
+        "price": 1.06192,
+        "raw_price": 1.0379,
         "snapped": false,
-        "reason": "B1 reverse RSI 70 (USD, no div shift)",
+        "reason": "gap rule (TP vs warm, min gap 9.8%); B1 reverse RSI 70 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
         "snapped_level": null,
         "weights": {
-          "M": 0.35,
-          "W": 0.4,
-          "D": 0.25
-        }
+          "D": 1.0
+        },
+        "tfs": [
+          "D"
+        ]
       }
     ],
     "context": {
@@ -128,11 +132,12 @@
     },
     "v": 3,
     "mode": "B1 recompute-every-run (no snap, no anchoring)",
-    "ref_price": 0.866925,
-    "valid_from": "2026-10-21T11:42:37-06:00",
+    "ref_price": 0.858415,
+    "valid_from": "2026-10-21T12:51:29-06:00",
     "valid_until": "2026-10-22T18:07:00-06:00",
     "source_data": "Hyperliquid 1d",
-    "state": "Neutral"
+    "state": "Neutral",
+    "min_gap_pct": 9.83
   },
   "zones": {
     "date": "2026-10-20",
@@ -234,7 +239,7 @@
     }
   ],
   "setup_id": "AERO-L-2026-10-18",
-  "last_reasoning": "AERO 0.8669: RSI 1d 56.4, blended RSI 54.3 (USD 53.3/ETH 55.8) -> Neutral; Regular Bearish 1d USD (div ratio buy 0.0/sell 0.18). Uptrend (price > rising EMA50): pullback buy zone near EMA20 at 0.84 (-3%); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.723 (EMA50 -3%). RSI triggers: add 0.6696, deep 0.5755, warm 0.8942, TP 1.005.",
+  "last_reasoning": "AERO 0.8584: RSI 1d 56.4, blended RSI 54.3 (USD 53.3/ETH 55.8) -> Neutral; Regular Bearish 1d USD; Hidden Bullish 1d ETH (div ratio buy 0.0/sell 0.18). Uptrend (price > rising EMA50): pullback buy zone near EMA20 at 0.84 (-2%); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.723 (EMA50 -3%). RSI triggers: add 0.6696, deep 0.5755, warm 0.9669, TP 1.062.",
   "trend": {
     "regime": "Uptrend",
     "ema20": 0.840219,
@@ -244,7 +249,7 @@
     "exit_close_below": 0.723267,
     "trim_rule": "20% at each Getting warm / Take profit touch",
     "hidden_bullish": null,
-    "note": "Uptrend (price > rising EMA50): pullback buy zone near EMA20 at 0.84 (-3%); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.723 (EMA50 -3%).",
+    "note": "Uptrend (price > rising EMA50): pullback buy zone near EMA20 at 0.84 (-2%); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.723 (EMA50 -3%).",
     "framework": "TP1 trend pullback (guidance only)"
   }
 }

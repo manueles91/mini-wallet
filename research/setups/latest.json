@@ -127,7 +127,7 @@
   ],
   "framework": {
     "name": "TP1 trend pullback (guidance only, not a label; paper-tracked as TP1)",
-    "as_of": "2026-10-21T11:42:37-06:00",
+    "as_of": "2026-10-21T12:51:29-06:00",
     "valid_until": "2026-10-22T18:07:00-06:00",
     "rules": "Uptrend = close > rising EMA50 or weekly EMA50 rising. Buy pullbacks to EMA20 or confirmed Hidden Bullish; trim 20% at each Getting warm/Take profit touch; exit on daily close > 3% below EMA50.",
     "coins": {
@@ -140,7 +140,7 @@
         "exit_close_below": 0.723267,
         "trim_rule": "20% at each Getting warm / Take profit touch",
         "hidden_bullish": null,
-        "note": "Uptrend (price > rising EMA50): pullback buy zone near EMA20 at 0.84 (-3%); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.723 (EMA50 -3%).",
+        "note": "Uptrend (price > rising EMA50): pullback buy zone near EMA20 at 0.84 (-2%); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.723 (EMA50 -3%).",
         "framework": "TP1 trend pullback (guidance only)",
         "label": "Neutral"
       },

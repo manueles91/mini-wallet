@@ -53,30 +53,32 @@
         "price": 0.193315,
         "raw_price": 0.193315,
         "snapped": false,
-        "reason": "B1 reverse RSI 35 (USD, no div shift)",
+        "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
         "snapped_level": null,
         "weights": {
-          "M": 0.35,
-          "W": 0.4,
-          "D": 0.25
-        }
+          "D": 1.0
+        },
+        "tfs": [
+          "D"
+        ]
       },
       {
         "label": "Deep value",
-        "price": 0.181841,
+        "price": 0.176932,
         "raw_price": 0.181841,
         "snapped": false,
-        "reason": "B1 reverse RSI 30 (USD, no div shift)",
+        "reason": "gap rule (deep vs add, min gap 9.3%); B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
         "snapped_level": null,
         "weights": {
-          "M": 0.35,
-          "W": 0.4,
-          "D": 0.25
-        }
+          "D": 1.0
+        },
+        "tfs": [
+          "D"
+        ]
       }
     ],
     "up": [
@@ -85,30 +87,36 @@
         "price": 0.293743,
         "raw_price": 0.293743,
         "snapped": false,
-        "reason": "B1 reverse RSI 65 (USD, no div shift)",
+        "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
         "snapped_level": null,
         "weights": {
-          "M": 0.35,
-          "W": 0.4,
-          "D": 0.25
-        }
+          "W": 0.62,
+          "D": 0.38
+        },
+        "tfs": [
+          "D",
+          "W"
+        ]
       },
       {
         "label": "Take profit",
         "price": 0.33889,
         "raw_price": 0.33889,
         "snapped": false,
-        "reason": "B1 reverse RSI 70 (USD, no div shift)",
+        "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
         "snapped_level": null,
         "weights": {
-          "M": 0.35,
-          "W": 0.4,
-          "D": 0.25
-        }
+          "W": 0.62,
+          "D": 0.38
+        },
+        "tfs": [
+          "D",
+          "W"
+        ]
       }
     ],
     "context": {
@@ -128,11 +136,12 @@
     },
     "v": 3,
     "mode": "B1 recompute-every-run (no snap, no anchoring)",
-    "ref_price": 0.204145,
-    "valid_from": "2026-10-21T11:42:37-06:00",
+    "ref_price": 0.20649,
+    "valid_from": "2026-10-21T12:51:29-06:00",
     "valid_until": "2026-10-22T18:07:00-06:00",
     "source_data": "Hyperliquid 1d",
-    "state": "Neutral"
+    "state": "Neutral",
+    "min_gap_pct": 9.26
   },
   "zones": {
     "date": "2026-10-20",
@@ -197,7 +206,7 @@
       "drawn": "2026-10-21"
     }
   ],
-  "last_reasoning": "SYRUP 0.2041: RSI 1d 40.0, blended RSI 56.9 (USD 56.7/ETH 57.2) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 0.215, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 0.1933, deep 0.1818, warm 0.2937, TP 0.3389.",
+  "last_reasoning": "SYRUP 0.2065: RSI 1d 40.0, blended RSI 56.9 (USD 56.7/ETH 57.2) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 0.215, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 0.1933, deep 0.1769, warm 0.2937, TP 0.3389.",
   "trend": {
     "regime": "Downtrend",
     "note": "Downtrend (below/flat EMA50 0.215, weekly EMA50 not rising): no pullback buys; RSI labels only.",
