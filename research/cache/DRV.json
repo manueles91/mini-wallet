@@ -47,85 +47,85 @@
         "price": 0.301724,
         "raw_price": 0.301724,
         "snapped": false,
-        "reason": "RSI 35.0 blend {'D': 1.0}; Regular Bearish 1w s=0.24",
-        "weights": {
-          "D": 1.0
-        },
-        "source": "RSI-implied blend",
+        "reason": "B1 reverse RSI 35 (USD, no div shift)",
+        "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
-        "snapped_level": null
+        "snapped_level": null,
+        "weights": {
+          "M": 0.35,
+          "W": 0.4,
+          "D": 0.25
+        }
       },
       {
         "label": "Deep value",
         "price": 0.249631,
         "raw_price": 0.249631,
         "snapped": false,
-        "reason": "RSI 30.0 blend {'D': 1.0}; Regular Bearish 1w s=0.24",
-        "weights": {
-          "D": 1.0
-        },
-        "source": "RSI-implied blend",
+        "reason": "B1 reverse RSI 30 (USD, no div shift)",
+        "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
-        "snapped_level": null
+        "snapped_level": null,
+        "weights": {
+          "M": 0.35,
+          "W": 0.4,
+          "D": 0.25
+        }
       }
     ],
     "up": [
       {
         "label": "Getting warm",
-        "price": 0.385765,
-        "raw_price": 0.515049,
+        "price": 0.402319,
+        "raw_price": 0.37363,
         "snapped": false,
-        "reason": "state rule: blended weighted RSI 65.9 -> Getting warm; rung placed at current price; RSI 69.6 blend {'W': 0.62, 'D': 0.38} per-tf {'D': 69.6, 'W': 78.8} (momentum past warm, wRSI 65); Regular Bearish 1w s=0.24",
-        "weights": {
-          "W": 0.62,
-          "D": 0.38
-        },
+        "reason": "state rule: blended weighted RSI 65.9 -> Getting warm; rung placed at current price; B1 reverse RSI 65 (USD, no div shift)",
         "source": "state rule (weighted RSI)",
         "tf": "blend",
-        "snapped_level": null
+        "snapped_level": null,
+        "weights": {
+          "M": 0.35,
+          "W": 0.4,
+          "D": 0.25
+        }
       },
       {
         "label": "Take profit",
-        "price": 0.659171,
-        "raw_price": 0.659171,
+        "price": 0.418678,
+        "raw_price": 0.418678,
         "snapped": false,
-        "reason": "RSI 74.6 blend {'W': 0.62, 'D': 0.38} per-tf {'D': 74.6, 'W': 83.8}; Regular Bearish 1w s=0.24",
-        "weights": {
-          "W": 0.62,
-          "D": 0.38
-        },
-        "source": "RSI-implied blend",
+        "reason": "B1 reverse RSI 70 (USD, no div shift)",
+        "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
-        "snapped_level": null
+        "snapped_level": null,
+        "weights": {
+          "M": 0.35,
+          "W": 0.4,
+          "D": 0.25
+        }
       }
     ],
-    "v": 3,
     "context": {
       "wrsi_usd": 64.6,
-      "weights": {
-        "M": 0.35,
-        "W": 0.4,
-        "D": 0.25
-      },
-      "targets": {
-        "Consider adding": 35,
-        "Deep value": 30,
-        "Getting warm": 65,
-        "Take profit": 70
-      },
       "wrsi_eth": 67.9,
       "wrsi": 65.9,
       "state": "Getting warm",
-      "state_split": "USD 60% / ETH 40%"
+      "conv_long": 0.0,
+      "conv_short": 0.23542552185808568,
+      "div_notes": [
+        "Regular Bearish 1w s=0.24"
+      ],
+      "conviction_long": 0.0,
+      "conviction_short": 0.24,
+      "tier_long": "add",
+      "tier_short": "trim",
+      "state_split": "USD 60% / ETH 40%",
+      "regime": "Uptrend"
     },
-    "anchor": {
-      "bar_date": "2026-10-20",
-      "price": 0.394714656888859,
-      "at": "2026-10-21T00:01:22-06:00",
-      "why": "forced re-anchor"
-    },
-    "ref_price": 0.386538,
-    "valid_from": "2026-10-21T00:01:16-06:00",
+    "v": 3,
+    "mode": "B1 recompute-every-run (no snap, no anchoring)",
+    "ref_price": 0.403125,
+    "valid_from": "2026-10-21T11:42:37-06:00",
     "valid_until": "2026-10-22T18:07:00-06:00",
     "source_data": "GeckoTerminal 1d",
     "state": "Getting warm"
@@ -191,5 +191,17 @@
       "drawn": "2026-10-20"
     }
   ],
-  "last_reasoning": "DRV 0.3865, RSI 1d 49.8; Hidden Bullish 1d USD; Hidden Bullish 1d vs ETH. Getting warm. Momentum ladder v3: add 0.3017 (-22%, RSI blend), deep 0.2496 (-35%, RSI blend), warm 0.3858 (-0%, RSI blend), TP 0.6592 (+71%, RSI blend)."
+  "last_reasoning": "DRV 0.4031: RSI 1d 49.8, blended RSI 65.9 (USD 64.6/ETH 67.9) -> Getting warm; Hidden Bullish 1d USD; Hidden Bullish 1d vs ETH (div ratio buy 0.0/sell 0.24). Uptrend (price > rising EMA50): in the EMA20 pullback buy zone (0.408); Getting warm: trim 20%, don't sell out; exit on daily close < 0.335 (EMA50 -3%). RSI triggers: add 0.3017, deep 0.2496, warm 0.4023, TP 0.4187.",
+  "trend": {
+    "regime": "Uptrend",
+    "ema20": 0.407989,
+    "ema50": 0.345237,
+    "ema200": 0.19997,
+    "pullback_buy_zone": 0.407989,
+    "exit_close_below": 0.33488,
+    "trim_rule": "20% at each Getting warm / Take profit touch",
+    "hidden_bullish": null,
+    "note": "Uptrend (price > rising EMA50): in the EMA20 pullback buy zone (0.408); Getting warm: trim 20%, don't sell out; exit on daily close < 0.335 (EMA50 -3%).",
+    "framework": "TP1 trend pullback (guidance only)"
+  }
 }

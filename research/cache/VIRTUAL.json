@@ -50,27 +50,33 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.678925,
-        "raw_price": 0.66308,
-        "snapped": true,
-        "reason": "state rule: blended weighted RSI 34.1 -> Consider adding; rung placed at current price; snapped to W S/R 0.66308 (raw 0.66308); nearest W/M support (momentum past add, wRSI 34)",
-        "weights": null,
+        "price": 0.703204,
+        "raw_price": 0.620069,
+        "snapped": false,
+        "reason": "state rule: blended weighted RSI 34.1 -> Consider adding; rung placed at current price; B1 reverse RSI 35 (USD, no div shift)",
         "source": "state rule (weighted RSI)",
         "tf": "blend",
-        "snapped_level": null
+        "snapped_level": null,
+        "weights": {
+          "M": 0.35,
+          "W": 0.4,
+          "D": 0.25
+        }
       },
       {
         "label": "Deep value",
-        "price": 0.496693,
-        "raw_price": 0.496693,
+        "price": 0.574252,
+        "raw_price": 0.574252,
         "snapped": false,
-        "reason": "RSI 24.2 blend {'D': 1.0} per-tf {'D': 24.2, 'W': 24.2, 'M': 5}",
-        "weights": {
-          "D": 1.0
-        },
-        "source": "RSI-implied blend",
+        "reason": "B1 reverse RSI 30 (USD, no div shift)",
+        "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
-        "snapped_level": null
+        "snapped_level": null,
+        "weights": {
+          "M": 0.35,
+          "W": 0.4,
+          "D": 0.25
+        }
       }
     ],
     "up": [
@@ -79,57 +85,51 @@
         "price": 0.970595,
         "raw_price": 0.970595,
         "snapped": false,
-        "reason": "RSI 65.0 blend {'W': 0.62, 'D': 0.38}",
-        "weights": {
-          "W": 0.62,
-          "D": 0.38
-        },
-        "source": "RSI-implied blend",
+        "reason": "B1 reverse RSI 65 (USD, no div shift)",
+        "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
-        "snapped_level": null
+        "snapped_level": null,
+        "weights": {
+          "M": 0.35,
+          "W": 0.4,
+          "D": 0.25
+        }
       },
       {
         "label": "Take profit",
         "price": 1.11435,
         "raw_price": 1.11435,
         "snapped": false,
-        "reason": "RSI 70.0 blend {'W': 0.62, 'D': 0.38}",
-        "weights": {
-          "W": 0.62,
-          "D": 0.38
-        },
-        "source": "RSI-implied blend",
+        "reason": "B1 reverse RSI 70 (USD, no div shift)",
+        "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
-        "snapped_level": null
+        "snapped_level": null,
+        "weights": {
+          "M": 0.35,
+          "W": 0.4,
+          "D": 0.25
+        }
       }
     ],
-    "v": 3,
     "context": {
       "wrsi_usd": 34.2,
-      "weights": {
-        "M": 0.35,
-        "W": 0.4,
-        "D": 0.25
-      },
-      "targets": {
-        "Consider adding": 35,
-        "Deep value": 30,
-        "Getting warm": 65,
-        "Take profit": 70
-      },
       "wrsi_eth": 33.9,
       "wrsi": 34.1,
       "state": "Consider adding",
-      "state_split": "USD 60% / ETH 40%"
+      "conv_long": 0.0,
+      "conv_short": 0.0,
+      "div_notes": [],
+      "conviction_long": 0.0,
+      "conviction_short": 0.0,
+      "tier_long": "add",
+      "tier_short": "trim",
+      "state_split": "USD 60% / ETH 40%",
+      "regime": "Downtrend"
     },
-    "anchor": {
-      "bar_date": "2026-10-20",
-      "price": 0.68138,
-      "at": "2026-10-21T00:01:22-06:00",
-      "why": "forced re-anchor"
-    },
-    "ref_price": 0.67757,
-    "valid_from": "2026-10-21T00:01:16-06:00",
+    "v": 3,
+    "mode": "B1 recompute-every-run (no snap, no anchoring)",
+    "ref_price": 0.7018,
+    "valid_from": "2026-10-21T11:42:37-06:00",
     "valid_until": "2026-10-22T18:07:00-06:00",
     "source_data": "Hyperliquid 1d",
     "state": "Consider adding"
@@ -221,5 +221,10 @@
       "drawn": "2026-10-20"
     }
   ],
-  "last_reasoning": "VIRTUAL 0.6776, RSI 1d 44.7; no active divergence. Consider adding. Momentum ladder v3: add 0.6789 (+0%, RSI blend), deep 0.4967 (-27%, RSI blend), warm 0.9706 (+43%, RSI blend), TP 1.114 (+64%, RSI blend)."
+  "last_reasoning": "VIRTUAL 0.7018: RSI 1d 44.7, blended RSI 34.1 (USD 34.2/ETH 33.9) -> Consider adding; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 0.705, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 0.7032, deep 0.5743, warm 0.9706, TP 1.114.",
+  "trend": {
+    "regime": "Downtrend",
+    "note": "Downtrend (below/flat EMA50 0.705, weekly EMA50 not rising): no pullback buys; RSI labels only.",
+    "framework": "TP1 trend pullback (guidance only)"
+  }
 }
