@@ -1,7 +1,7 @@
 {
-  "versionCode": 64,
-  "versionName": "13.36",
+  "versionCode": 65,
+  "versionName": "13.37",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "dee589c5596b8f7ede2b61e5fa571544064412edc6c95252ae80733763e86e31",
-  "notes": "Position chart: entry date, open marker and position events (adds/reductions) with a tappable list."
+  "apkSha256": "5489c939e9f5279085e5673331be72613c5e71ea61fe660926d42b6c1444edf4",
+  "notes": "Position chart: date axis, every add/reduce as a labeled dot at its fill price, 'Avg entry' line, open marked at its real fill."
 }
