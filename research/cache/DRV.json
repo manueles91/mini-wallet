@@ -6,7 +6,8 @@
     "date": "2026-10-16",
     "ref_price": 0.433906,
     "label": "Neutral",
-    "source": "research/labels/2026-10-16.json"
+    "source": "research/labels/2026-10-16.json",
+    "levels_v2_anchor": "2026-10-20T23:05:55-06:00"
   },
   "last_update": {
     "date": "2026-10-20",
@@ -43,22 +44,54 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.364053
+        "price": 0.199024,
+        "tf": "M",
+        "reason": "M support, default: 2nd level (no bullish confirmation)",
+        "shifted": false,
+        "default_price": 0.201034,
+        "base_price": 0.201034,
+        "offset_pct": -1.0,
+        "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
       },
       {
         "label": "Deep value",
-        "price": 0.201034
+        "price": 0.121353,
+        "tf": "W",
+        "reason": "next W level beyond first rung",
+        "shifted": false,
+        "default_price": 0.122579,
+        "base_price": 0.122579,
+        "offset_pct": -1.0,
+        "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
       }
     ],
     "up": [
       {
         "label": "Getting warm",
-        "price": 0.489274
+        "price": 0.474596,
+        "tf": "D",
+        "reason": "D resistance, default: only level on this side; confirmation (Regular Bearish 1w confirmed (2026-07-12->2026-10-11); weekly RSI 74 >=70) but no W/M level",
+        "shifted": false,
+        "default_price": 0.489274,
+        "base_price": 0.489274,
+        "offset_pct": -3.0,
+        "offset_reason": "front-run below resistance: 0.5x ATR14 (cap 3%)"
       }
     ],
-    "ref_price": 0.39721,
-    "valid_from": "2026-10-20T18:19:06-06:00",
-    "valid_until": "2026-10-23T18:07:00-06:00"
+    "ref_price": 0.399656,
+    "valid_from": "2026-10-20T23:05:55-06:00",
+    "valid_until": "2026-10-22T18:07:00-06:00",
+    "v": 2,
+    "anchored_at": "2026-10-20T23:06:02-06:00",
+    "anchor_ref_price": 0.399656,
+    "context": {
+      "rsi_d": 49.8,
+      "rsi_w": 74.3,
+      "uptrend": true,
+      "divergences": [
+        "Regular Bearish 1w 2026-07-12->2026-10-11"
+      ]
+    }
   },
   "zones": null,
   "last_divergence": {

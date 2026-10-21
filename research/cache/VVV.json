@@ -6,7 +6,8 @@
     "date": "2026-10-16",
     "ref_price": 24.35,
     "label": "Neutral",
-    "source": "research/labels/2026-10-16.json"
+    "source": "research/labels/2026-10-16.json",
+    "levels_v2_anchor": "2026-10-20T23:05:55-06:00"
   },
   "last_update": {
     "date": "2026-10-20",
@@ -45,22 +46,52 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 21.536
+        "price": 21.3206,
+        "tf": "M",
+        "reason": "M support, default: 2nd level (no bullish confirmation)",
+        "shifted": false,
+        "default_price": 21.536,
+        "base_price": 21.536,
+        "offset_pct": -1.0,
+        "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
       },
       {
         "label": "Deep value",
-        "price": 21.131
+        "price": 14.7144,
+        "tf": "W",
+        "reason": "next W level beyond first rung",
+        "shifted": false,
+        "default_price": 14.863,
+        "base_price": 14.863,
+        "offset_pct": -1.0,
+        "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
       }
     ],
     "up": [
       {
         "label": "Getting warm",
-        "price": 34.666
+        "price": 34.916,
+        "tf": "M",
+        "reason": "M resistance, default: only level on this side",
+        "shifted": false,
+        "default_price": 34.666,
+        "base_price": 34.666,
+        "offset_pct": 0.72,
+        "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
       }
     ],
-    "ref_price": 25.5335,
-    "valid_from": "2026-10-20T18:19:06-06:00",
-    "valid_until": "2026-10-23T18:07:00-06:00"
+    "ref_price": 26.0315,
+    "valid_from": "2026-10-20T23:05:55-06:00",
+    "valid_until": "2026-10-22T18:07:00-06:00",
+    "v": 2,
+    "anchored_at": "2026-10-20T23:06:01-06:00",
+    "anchor_ref_price": 26.0315,
+    "context": {
+      "rsi_d": 52.8,
+      "rsi_w": 64.6,
+      "uptrend": true,
+      "divergences": []
+    }
   },
   "zones": {
     "date": "2026-10-15",

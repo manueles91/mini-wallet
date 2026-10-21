@@ -7,7 +7,8 @@
     "ts": "2026-10-20T18:19:06-06:00",
     "ref_price": 0.683646,
     "label": "Neutral",
-    "source": "research/labels/2026-10-20.json"
+    "source": "research/labels/2026-10-20.json",
+    "levels_v2_anchor": "2026-10-20T23:05:55-06:00"
   },
   "last_update": {
     "date": "2026-10-20",
@@ -46,26 +47,52 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.613596
+        "price": 0.54898,
+        "tf": "W",
+        "reason": "W support, default: 2nd level (no bullish confirmation)",
+        "shifted": false,
+        "default_price": 0.554525,
+        "base_price": 0.554525,
+        "offset_pct": -1.0,
+        "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
       },
       {
         "label": "Deep value",
-        "price": 0.554525
+        "price": 0.531668,
+        "tf": "W",
+        "reason": "next W level beyond first rung",
+        "shifted": false,
+        "default_price": 0.537038,
+        "base_price": 0.537038,
+        "offset_pct": -1.0,
+        "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
       }
     ],
     "up": [
       {
         "label": "Getting warm",
-        "price": 0.775161
-      },
-      {
-        "label": "Take profit",
-        "price": 0.903233
+        "price": 0.912265,
+        "tf": "W",
+        "reason": "W resistance, default: 2nd level (no bearish confirmation)",
+        "shifted": false,
+        "default_price": 0.903233,
+        "base_price": 0.903233,
+        "offset_pct": 1.0,
+        "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
       }
     ],
-    "ref_price": 0.683646,
-    "valid_from": "2026-10-20T18:19:06-06:00",
-    "valid_until": "2026-10-23T18:07:00-06:00"
+    "ref_price": 0.632301,
+    "valid_from": "2026-10-20T23:05:55-06:00",
+    "valid_until": "2026-10-22T18:07:00-06:00",
+    "v": 2,
+    "anchored_at": "2026-10-20T23:06:03-06:00",
+    "anchor_ref_price": 0.632301,
+    "context": {
+      "rsi_d": 57.2,
+      "rsi_w": 60.4,
+      "uptrend": true,
+      "divergences": []
+    }
   },
   "zones": {
     "date": "2026-10-20",

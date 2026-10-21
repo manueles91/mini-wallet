@@ -7,7 +7,8 @@
     "ts": "2026-10-20T18:19:06-06:00",
     "ref_price": 0.88539,
     "label": "Neutral",
-    "source": "research/labels/2026-10-20.json"
+    "source": "research/labels/2026-10-20.json",
+    "levels_v2_anchor": "2026-10-20T23:05:55-06:00"
   },
   "last_update": {
     "date": "2026-10-20",
@@ -47,26 +48,65 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.8041
+        "price": 0.710325,
+        "tf": "W",
+        "reason": "W support, default: 2nd level (no bullish confirmation)",
+        "shifted": false,
+        "default_price": 0.7175,
+        "base_price": 0.7175,
+        "offset_pct": -1.0,
+        "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
       },
       {
         "label": "Deep value",
-        "price": 0.7175
+        "price": 0.604118,
+        "tf": "M",
+        "reason": "next M level beyond first rung",
+        "shifted": false,
+        "default_price": 0.61022,
+        "base_price": 0.61022,
+        "offset_pct": -1.0,
+        "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
       }
     ],
     "up": [
       {
         "label": "Getting warm",
-        "price": 0.89894
+        "price": 0.934013,
+        "tf": "W",
+        "reason": "W resistance, shifted down: Regular Bearish 1d confirmed (2026-10-04->2026-10-11)",
+        "shifted": true,
+        "default_price": 0.99427,
+        "base_price": 0.9629,
+        "offset_pct": -3.0,
+        "offset_reason": "front-run below resistance: 0.5x ATR14 (cap 3%)"
       },
       {
         "label": "Take profit",
-        "price": 0.9629
+        "price": 1.00271,
+        "tf": "W",
+        "reason": "next W level beyond first rung",
+        "shifted": false,
+        "default_price": 0.99427,
+        "base_price": 0.99427,
+        "offset_pct": 0.85,
+        "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
       }
     ],
-    "ref_price": 0.88539,
-    "valid_from": "2026-10-20T18:19:06-06:00",
-    "valid_until": "2026-10-23T18:07:00-06:00"
+    "ref_price": 0.860985,
+    "valid_from": "2026-10-20T23:05:55-06:00",
+    "valid_until": "2026-10-22T18:07:00-06:00",
+    "v": 2,
+    "anchored_at": "2026-10-20T23:06:00-06:00",
+    "anchor_ref_price": 0.860985,
+    "context": {
+      "rsi_d": 57.0,
+      "rsi_w": 66.1,
+      "uptrend": true,
+      "divergences": [
+        "Regular Bearish 1d 2026-10-04->2026-10-11"
+      ]
+    }
   },
   "zones": {
     "date": "2026-10-20",

@@ -17,7 +17,8 @@
     "ts": "2026-10-17T18:20:16-06:00",
     "ref_price": 4.88e-06,
     "label": "Neutral",
-    "source": "research/labels/2026-10-17.json"
+    "source": "research/labels/2026-10-17.json",
+    "levels_v2_anchor": "2026-10-20T23:05:55-06:00"
   },
   "last_update": {
     "date": "2026-10-20",
@@ -59,26 +60,66 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 3.66091e-06
+        "price": 3.63872e-06,
+        "tf": "W",
+        "reason": "W support, default: 2nd level (no bullish confirmation)",
+        "shifted": false,
+        "default_price": 3.66091e-06,
+        "base_price": 3.66091e-06,
+        "offset_pct": -0.61,
+        "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
       },
       {
         "label": "Deep value",
-        "price": 2.95794e-06
+        "price": 2.93575e-06,
+        "tf": "W",
+        "reason": "next W level beyond first rung",
+        "shifted": false,
+        "default_price": 2.95794e-06,
+        "base_price": 2.95794e-06,
+        "offset_pct": -0.75,
+        "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
       }
     ],
     "up": [
       {
         "label": "Getting warm",
-        "price": 6.53141e-06
+        "price": 6.42044e-06,
+        "tf": "W",
+        "reason": "W resistance, default: 2nd level (no bearish confirmation); confirmation present (weekly RSI 78 >=70) but already nearest W/M",
+        "shifted": false,
+        "default_price": 6.53141e-06,
+        "base_price": 6.53141e-06,
+        "offset_pct": -1.7,
+        "offset_reason": "front-run below resistance: 0.5x ATR14 (cap 3%)"
       },
       {
         "label": "Take profit",
-        "price": 7.22636e-06
+        "price": 7.24855e-06,
+        "tf": "M",
+        "reason": "next M level beyond first rung",
+        "shifted": false,
+        "default_price": 7.22636e-06,
+        "base_price": 7.22636e-06,
+        "offset_pct": 0.31,
+        "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
       }
     ],
-    "ref_price": 4.79e-06,
-    "valid_from": "2026-10-20T18:19:06-06:00",
-    "valid_until": "2026-10-23T18:07:00-06:00"
+    "ref_price": 4.78e-06,
+    "valid_from": "2026-10-20T23:05:55-06:00",
+    "valid_until": "2026-10-22T18:07:00-06:00",
+    "v": 2,
+    "anchored_at": "2026-10-20T23:06:04-06:00",
+    "anchor_ref_price": 4.78e-06,
+    "context": {
+      "rsi_d": 42.5,
+      "rsi_w": 77.7,
+      "uptrend": false,
+      "divergences": [
+        "Hidden Bullish 1d 2026-09-15->2026-10-09",
+        "Hidden Bullish 1w 2026-08-16->2026-10-25 (not confirmed)"
+      ]
+    }
   },
   "last_divergence": {
     "type": "Hidden Bullish",

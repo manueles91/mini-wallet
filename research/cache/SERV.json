@@ -6,7 +6,8 @@
     "date": "2026-10-16",
     "ref_price": 0.0177427,
     "label": "Consider adding",
-    "source": "research/labels/2026-10-16.json"
+    "source": "research/labels/2026-10-16.json",
+    "levels_v2_anchor": "2026-10-20T23:05:55-06:00"
   },
   "last_update": {
     "date": "2026-10-20",
@@ -47,26 +48,52 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.018275
-      },
-      {
-        "label": "Deep value",
-        "price": 0.0137247
+        "price": 0.0127441,
+        "tf": "M",
+        "reason": "M support, default: 2nd level (no bullish confirmation)",
+        "shifted": false,
+        "default_price": 0.0128728,
+        "base_price": 0.0128728,
+        "offset_pct": -1.0,
+        "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
       }
     ],
     "up": [
       {
         "label": "Getting warm",
-        "price": 0.0202603
+        "price": 0.0232592,
+        "tf": "W",
+        "reason": "W resistance, default: 2nd level (no bearish confirmation)",
+        "shifted": false,
+        "default_price": 0.0231199,
+        "base_price": 0.0231199,
+        "offset_pct": 0.6,
+        "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
       },
       {
         "label": "Take profit",
-        "price": 0.0231199
+        "price": 0.0242542,
+        "tf": "W",
+        "reason": "next W level beyond first rung",
+        "shifted": false,
+        "default_price": 0.0241149,
+        "base_price": 0.0241149,
+        "offset_pct": 0.58,
+        "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
       }
     ],
-    "ref_price": 0.0175861,
-    "valid_from": "2026-10-20T18:19:06-06:00",
-    "valid_until": "2026-10-23T18:07:00-06:00"
+    "ref_price": 0.0173016,
+    "valid_from": "2026-10-20T23:05:55-06:00",
+    "valid_until": "2026-10-22T18:07:00-06:00",
+    "v": 2,
+    "anchored_at": "2026-10-20T23:06:03-06:00",
+    "anchor_ref_price": 0.0173016,
+    "context": {
+      "rsi_d": 35.1,
+      "rsi_w": 39.2,
+      "uptrend": false,
+      "divergences": []
+    }
   },
   "zones": null,
   "last_divergence": null,
