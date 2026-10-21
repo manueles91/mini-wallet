@@ -1,0 +1,1761 @@
+{
+  "schema": "mw-labels/0",
+  "date": "2026-10-20",
+  "generated_by": "Crypto Research daily routine (RSI 14d Wilder, M/W/D pivots USD + TOKEN/ETH, 1d+1w RSI divergence scan classified Regular/Hidden x Bullish/Bearish per cheat-sheet; long bias, HTF-weighted S/R, ETH confluence). Token list: holdings/latest.json 2026-10-20 total_usd > $500 + research/watchlist.json (12 coins). 2026-10-20 post-close run (6:07 PM CR, after the 00:00 UTC close): per-coin cache (research/cache, mw-cache/0); coins where needs_full() fired got a full analysis, quiet coins a light incremental update (thresholds carried, RSI/price/divergence refreshed). 2026-10-20T23:05:55-06:00: levels v2 re-anchor of all coins (anchored S/R, M>W>D, RSI/divergence level choice + ATR front-run offset).",
+  "tokens": {
+    "AERO": {
+      "rsi": {
+        "value": 56.4,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "warm"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.61022
+          ],
+          "resistance": []
+        },
+        "weekly": {
+          "support": [
+            0.8041,
+            0.7175
+          ],
+          "resistance": [
+            0.9629,
+            0.99427
+          ]
+        },
+        "daily": {
+          "support": [
+            0.76712
+          ],
+          "resistance": [
+            0.89894
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.000331745
+          ],
+          "resistance": [
+            0.000384653
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.000356221,
+            0.00032282
+          ],
+          "resistance": []
+        },
+        "daily": {
+          "support": [
+            0.000316926
+          ],
+          "resistance": [
+            0.000375807
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI",
+        "note": "Regular Bearish 1d (USD) active; vs-ETH Hidden Bullish (Oct 1 to Oct 6) aged out"
+      },
+      "divergences": [
+        {
+          "type": "Regular Bearish",
+          "timeframe": "1d",
+          "chart": "USD",
+          "from": "2026-10-04",
+          "to": "2026-10-11",
+          "rsi_from": 71.8,
+          "rsi_to": 69.0,
+          "status": "active (not invalidated: no close above the Oct 11 close yet)"
+        }
+      ],
+      "label": "Neutral",
+      "reasoning": "AERO 0.861, RSI 1d 56.4 / 1w 66.1; Regular Bearish 1d USD (2026-10-04 to 2026-10-11). Neutral. Ladder: add 0.7103 (W, -1.0% off 0.7175), deep value 0.6041 (M, -1.0% off 0.6102), warm 0.934 (W, -3.0% off 0.9629), take profit 1.003 (W, +0.8% off 0.9943).",
+      "images": [
+        {
+          "caption": "USD · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
+          "path": "research/labels/img/AERO_usd_2026-10-20.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
+          "path": "research/labels/img/AERO_eth_2026-10-20.png.b64"
+        }
+      ],
+      "notes": "Levels v2 re-anchor 2026-10-20T23:05:55-06:00 (Manuel-approved first live run, anchored S/R rungs + RSI/ATR front-run offset; live 0.860985 via Hyperliquid mid). Rungs: Consider adding 0.7103 [W] W support, default: 2nd level (no bullish confirmation); no confirmation: below level for a wick (0.1x ATR, cap 1%); Deep value 0.6041 [M] next M level beyond first rung; no confirmation: below level for a wick (0.1x ATR, cap 1%); Getting warm 0.934 [W] W resistance, shifted down: Regular Bearish 1d confirmed (2026-10-04->2026-10-11); front-run below resistance: 0.5x ATR14 (cap 3%); Take profit 1.003 [W] next W level beyond first rung; no confirmation: above level for a wick (0.1x ATR, cap 1%). Divergences (RSI, close-based): Regular Bearish 1d USD (2026-10-04 to 2026-10-11). Prior analysis prose superseded by the v2 ladder; data sources unchanged.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 0.710325,
+            "tf": "W",
+            "reason": "W support, default: 2nd level (no bullish confirmation)",
+            "shifted": false,
+            "default_price": 0.7175,
+            "base_price": 0.7175,
+            "offset_pct": -1.0,
+            "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+          },
+          {
+            "label": "Deep value",
+            "price": 0.604118,
+            "tf": "M",
+            "reason": "next M level beyond first rung",
+            "shifted": false,
+            "default_price": 0.61022,
+            "base_price": 0.61022,
+            "offset_pct": -1.0,
+            "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 0.934013,
+            "tf": "W",
+            "reason": "W resistance, shifted down: Regular Bearish 1d confirmed (2026-10-04->2026-10-11)",
+            "shifted": true,
+            "default_price": 0.99427,
+            "base_price": 0.9629,
+            "offset_pct": -3.0,
+            "offset_reason": "front-run below resistance: 0.5x ATR14 (cap 3%)"
+          },
+          {
+            "label": "Take profit",
+            "price": 1.00271,
+            "tf": "W",
+            "reason": "next W level beyond first rung",
+            "shifted": false,
+            "default_price": 0.99427,
+            "base_price": 0.99427,
+            "offset_pct": 0.85,
+            "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+          }
+        ],
+        "ref_price": 0.860985,
+        "valid_from": "2026-10-20T23:05:55-06:00",
+        "valid_until": "2026-10-22T18:07:00-06:00",
+        "v": 2,
+        "anchored_at": "2026-10-20T23:06:00-06:00",
+        "anchor_ref_price": 0.860985,
+        "context": {
+          "rsi_d": 57.0,
+          "rsi_w": 66.1,
+          "uptrend": true,
+          "divergences": [
+            "Regular Bearish 1d 2026-10-04->2026-10-11"
+          ]
+        }
+      }
+    },
+    "ETH": {
+      "rsi": {
+        "value": 42.9,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "cool"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            2145.5
+          ],
+          "resistance": []
+        },
+        "weekly": {
+          "support": [
+            2423.8,
+            2383.7
+          ],
+          "resistance": [
+            2462.5,
+            2621.4
+          ]
+        },
+        "daily": {
+          "support": [
+            2314.4
+          ],
+          "resistance": [
+            2545.9
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.02827
+          ],
+          "resistance": [
+            0.03205
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.02872,
+            0.02623
+          ],
+          "resistance": [
+            0.02968,
+            0.0302
+          ]
+        },
+        "daily": {
+          "support": [
+            0.02782
+          ],
+          "resistance": [
+            0.03097
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "divergences": [],
+      "label": "Neutral",
+      "reasoning": "ETH 2450, RSI 1d 42.9 / 1w 54.1; no active divergence. Neutral. Ladder: add 2373 (W, -0.5% off 2384), deep value 2135 (M, -0.5% off 2146), warm 2632 (W, +0.4% off 2621).",
+      "images": [
+        {
+          "caption": "USD · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
+          "path": "research/labels/img/ETH_usd_2026-10-20.png.b64"
+        },
+        {
+          "caption": "vs BTC · daily (ETH/BTC, M/W/D levels, risk/upside boxes, RSI divergences marked)",
+          "path": "research/labels/img/ETH_eth_2026-10-20.png.b64"
+        }
+      ],
+      "notes": "Levels v2 re-anchor 2026-10-20T23:05:55-06:00 (Manuel-approved first live run, anchored S/R rungs + RSI/ATR front-run offset; live 2450.15 via Hyperliquid mid). Rungs: Consider adding 2373 [W] W support, default: 2nd level (no bullish confirmation); no confirmation: below level for a wick (0.1x ATR, cap 1%); Deep value 2135 [M] next M level beyond first rung; no confirmation: below level for a wick (0.1x ATR, cap 1%); Getting warm 2632 [W] W resistance, default: 2nd level (no bearish confirmation); no confirmation: above level for a wick (0.1x ATR, cap 1%). Divergences (RSI, close-based): no active divergence. Prior analysis prose superseded by the v2 ladder; data sources unchanged.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 2373.07,
+            "tf": "W",
+            "reason": "W support, default: 2nd level (no bullish confirmation)",
+            "shifted": false,
+            "default_price": 2383.7,
+            "base_price": 2383.7,
+            "offset_pct": -0.45,
+            "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+          },
+          {
+            "label": "Deep value",
+            "price": 2134.87,
+            "tf": "M",
+            "reason": "next M level beyond first rung",
+            "shifted": false,
+            "default_price": 2145.5,
+            "base_price": 2145.5,
+            "offset_pct": -0.5,
+            "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 2632.03,
+            "tf": "W",
+            "reason": "W resistance, default: 2nd level (no bearish confirmation)",
+            "shifted": false,
+            "default_price": 2621.4,
+            "base_price": 2621.4,
+            "offset_pct": 0.41,
+            "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+          }
+        ],
+        "ref_price": 2450.15,
+        "valid_from": "2026-10-20T23:05:55-06:00",
+        "valid_until": "2026-10-22T18:07:00-06:00",
+        "v": 2,
+        "anchored_at": "2026-10-20T23:06:00-06:00",
+        "anchor_ref_price": 2450.15,
+        "context": {
+          "rsi_d": 43.1,
+          "rsi_w": 54.1,
+          "uptrend": false,
+          "divergences": []
+        }
+      }
+    },
+    "VVV": {
+      "rsi": {
+        "value": 52.8,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "neutral"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            21.536
+          ],
+          "resistance": [
+            34.666
+          ]
+        },
+        "weekly": {
+          "support": [
+            14.863,
+            11.069
+          ],
+          "resistance": []
+        },
+        "daily": {
+          "support": [
+            21.131
+          ],
+          "resistance": [
+            25.901
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.00561981
+          ],
+          "resistance": [
+            0.0115275
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.00709059,
+            0.00589331
+          ],
+          "resistance": []
+        },
+        "daily": {
+          "support": [
+            0.00987402
+          ],
+          "resistance": [
+            0.0104098
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "divergences": [],
+      "label": "Neutral",
+      "reasoning": "VVV 26.03, RSI 1d 52.8 / 1w 64.6; no active divergence. Neutral. Ladder: add 21.32 (M, -1.0% off 21.54), deep value 14.71 (W, -1.0% off 14.86), warm 34.92 (M, +0.7% off 34.67).",
+      "images": [
+        {
+          "caption": "USD · daily (M/W/D levels, RSI divergences marked)",
+          "path": "research/labels/img/VVV_usd_2026-10-17.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (M/W/D levels, RSI divergences marked)",
+          "path": "research/labels/img/VVV_eth_2026-10-17.png.b64"
+        }
+      ],
+      "notes": "Levels v2 re-anchor 2026-10-20T23:05:55-06:00 (Manuel-approved first live run, anchored S/R rungs + RSI/ATR front-run offset; live 26.0315 via Hyperliquid mid). Rungs: Consider adding 21.32 [M] M support, default: 2nd level (no bullish confirmation); no confirmation: below level for a wick (0.1x ATR, cap 1%); Deep value 14.71 [W] next W level beyond first rung; no confirmation: below level for a wick (0.1x ATR, cap 1%); Getting warm 34.92 [M] M resistance, default: only level on this side; no confirmation: above level for a wick (0.1x ATR, cap 1%). Divergences (RSI, close-based): no active divergence. Prior analysis prose superseded by the v2 ladder; data sources unchanged.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 21.3206,
+            "tf": "M",
+            "reason": "M support, default: 2nd level (no bullish confirmation)",
+            "shifted": false,
+            "default_price": 21.536,
+            "base_price": 21.536,
+            "offset_pct": -1.0,
+            "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+          },
+          {
+            "label": "Deep value",
+            "price": 14.7144,
+            "tf": "W",
+            "reason": "next W level beyond first rung",
+            "shifted": false,
+            "default_price": 14.863,
+            "base_price": 14.863,
+            "offset_pct": -1.0,
+            "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 34.916,
+            "tf": "M",
+            "reason": "M resistance, default: only level on this side",
+            "shifted": false,
+            "default_price": 34.666,
+            "base_price": 34.666,
+            "offset_pct": 0.72,
+            "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+          }
+        ],
+        "ref_price": 26.0315,
+        "valid_from": "2026-10-20T23:05:55-06:00",
+        "valid_until": "2026-10-22T18:07:00-06:00",
+        "v": 2,
+        "anchored_at": "2026-10-20T23:06:01-06:00",
+        "anchor_ref_price": 26.0315,
+        "context": {
+          "rsi_d": 52.8,
+          "rsi_w": 64.6,
+          "uptrend": true,
+          "divergences": []
+        }
+      }
+    },
+    "VIRTUAL": {
+      "rsi": {
+        "value": 44.7,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "cool"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.60414
+          ],
+          "resistance": [
+            0.82746
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.66308,
+            0.62893
+          ],
+          "resistance": [
+            0.68191,
+            0.79614
+          ]
+        },
+        "daily": {
+          "support": [
+            0.65281
+          ],
+          "resistance": [
+            0.73024
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.000244112
+          ],
+          "resistance": [
+            0.0002885
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.000262802,
+            0.000237778
+          ],
+          "resistance": [
+            0.000297537,
+            0.000316981
+          ]
+        },
+        "daily": {
+          "support": [
+            0.000274958
+          ],
+          "resistance": [
+            0.000303437
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "divergences": [],
+      "label": "Neutral",
+      "reasoning": "VIRTUAL 0.6814, RSI 1d 44.7 / 1w 48.9; no active divergence. Neutral. Ladder: add 0.6242 (W, -0.8% off 0.6289), deep value 0.5994 (M, -0.8% off 0.6041), warm 0.8009 (W, +0.6% off 0.7961), take profit 0.8322 (M, +0.6% off 0.8275).",
+      "images": [
+        {
+          "caption": "USD · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
+          "path": "research/labels/img/VIRTUAL_usd_2026-10-20.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
+          "path": "research/labels/img/VIRTUAL_eth_2026-10-20.png.b64"
+        }
+      ],
+      "notes": "Levels v2 re-anchor 2026-10-20T23:05:55-06:00 (Manuel-approved first live run, anchored S/R rungs + RSI/ATR front-run offset; live 0.68141 via Hyperliquid mid). Rungs: Consider adding 0.6242 [W] W support, default: 2nd level (no bullish confirmation); no confirmation: below level for a wick (0.1x ATR, cap 1%); Deep value 0.5994 [M] next M level beyond first rung; no confirmation: below level for a wick (0.1x ATR, cap 1%); Getting warm 0.8009 [W] W resistance, default: 2nd level (no bearish confirmation); no confirmation: above level for a wick (0.1x ATR, cap 1%); Take profit 0.8322 [M] next M level beyond first rung; no confirmation: above level for a wick (0.1x ATR, cap 1%). Divergences (RSI, close-based): no active divergence. Prior analysis prose superseded by the v2 ladder; data sources unchanged.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 0.624188,
+            "tf": "W",
+            "reason": "W support, default: 2nd level (no bullish confirmation)",
+            "shifted": false,
+            "default_price": 0.62893,
+            "base_price": 0.62893,
+            "offset_pct": -0.75,
+            "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+          },
+          {
+            "label": "Deep value",
+            "price": 0.599398,
+            "tf": "M",
+            "reason": "next M level beyond first rung",
+            "shifted": false,
+            "default_price": 0.60414,
+            "base_price": 0.60414,
+            "offset_pct": -0.78,
+            "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 0.800882,
+            "tf": "W",
+            "reason": "W resistance, default: 2nd level (no bearish confirmation)",
+            "shifted": false,
+            "default_price": 0.79614,
+            "base_price": 0.79614,
+            "offset_pct": 0.6,
+            "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+          },
+          {
+            "label": "Take profit",
+            "price": 0.832202,
+            "tf": "M",
+            "reason": "next M level beyond first rung",
+            "shifted": false,
+            "default_price": 0.82746,
+            "base_price": 0.82746,
+            "offset_pct": 0.57,
+            "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+          }
+        ],
+        "ref_price": 0.68141,
+        "valid_from": "2026-10-20T23:05:55-06:00",
+        "valid_until": "2026-10-22T18:07:00-06:00",
+        "v": 2,
+        "anchored_at": "2026-10-20T23:06:01-06:00",
+        "anchor_ref_price": 0.68141,
+        "context": {
+          "rsi_d": 45.0,
+          "rsi_w": 48.9,
+          "uptrend": false,
+          "divergences": []
+        }
+      }
+    },
+    "BNKR": {
+      "rsi": {
+        "value": 48.1,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "neutral"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.000296021
+          ],
+          "resistance": [
+            0.000556528,
+            0.000780124
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.000301467,
+            0.00021037
+          ],
+          "resistance": [
+            0.000608855
+          ]
+        },
+        "daily": {
+          "support": [
+            0.000310813
+          ],
+          "resistance": [
+            0.00032774
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            8.4406e-08
+          ],
+          "resistance": [
+            1.32044e-07,
+            1.75415e-07
+          ]
+        },
+        "weekly": {
+          "support": [],
+          "resistance": [
+            1.56037e-07
+          ]
+        },
+        "daily": {
+          "support": [
+            1.1521e-07
+          ],
+          "resistance": [
+            1.36054e-07
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "divergences": [],
+      "label": "Neutral",
+      "reasoning": "BNKR 0.0003267, RSI 1d 48.1 / 1w 47.2; no active divergence. Neutral. Ladder: add 0.0002931 (M, -1.0% off 0.000296), deep value 0.0002083 (W, -1.0% off 0.0002104), warm 0.00056 (M, +0.6% off 0.0005565), take profit 0.0006123 (W, +0.6% off 0.0006089).",
+      "images": [
+        {
+          "caption": "USD · daily (M/W/D levels, RSI divergences marked)",
+          "path": "research/labels/img/BNKR_usd_2026-10-17.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (M/W/D levels, RSI divergences marked)",
+          "path": "research/labels/img/BNKR_eth_2026-10-17.png.b64"
+        }
+      ],
+      "notes": "Levels v2 re-anchor 2026-10-20T23:05:55-06:00 (Manuel-approved first live run, anchored S/R rungs + RSI/ATR front-run offset; live 0.0003267 via CoinGecko simple price). Rungs: Consider adding 0.0002931 [M] M support, default: 2nd level (no bullish confirmation); no confirmation: below level for a wick (0.1x ATR, cap 1%); Deep value 0.0002083 [W] next W level beyond first rung; no confirmation: below level for a wick (0.1x ATR, cap 1%); Getting warm 0.00056 [M] M resistance, default: 2nd level (no bearish confirmation); no confirmation: above level for a wick (0.1x ATR, cap 1%); Take profit 0.0006123 [W] next W level beyond first rung; no confirmation: above level for a wick (0.1x ATR, cap 1%). Divergences (RSI, close-based): no active divergence. Prior analysis prose superseded by the v2 ladder; data sources unchanged.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 0.000293061,
+            "tf": "M",
+            "reason": "M support, default: 2nd level (no bullish confirmation)",
+            "shifted": false,
+            "default_price": 0.000296021,
+            "base_price": 0.000296021,
+            "offset_pct": -1.0,
+            "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+          },
+          {
+            "label": "Deep value",
+            "price": 0.000208266,
+            "tf": "W",
+            "reason": "next W level beyond first rung",
+            "shifted": false,
+            "default_price": 0.00021037,
+            "base_price": 0.00021037,
+            "offset_pct": -1.0,
+            "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 0.000559998,
+            "tf": "M",
+            "reason": "M resistance, default: 2nd level (no bearish confirmation)",
+            "shifted": false,
+            "default_price": 0.000556528,
+            "base_price": 0.000556528,
+            "offset_pct": 0.62,
+            "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+          },
+          {
+            "label": "Take profit",
+            "price": 0.000612325,
+            "tf": "W",
+            "reason": "next W level beyond first rung",
+            "shifted": false,
+            "default_price": 0.000608855,
+            "base_price": 0.000608855,
+            "offset_pct": 0.57,
+            "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+          }
+        ],
+        "ref_price": 0.0003267,
+        "valid_from": "2026-10-20T23:05:55-06:00",
+        "valid_until": "2026-10-22T18:07:00-06:00",
+        "v": 2,
+        "anchored_at": "2026-10-20T23:06:01-06:00",
+        "anchor_ref_price": 0.0003267,
+        "context": {
+          "rsi_d": 48.1,
+          "rsi_w": 47.2,
+          "uptrend": false,
+          "divergences": []
+        }
+      }
+    },
+    "DRV": {
+      "rsi": {
+        "value": 49.8,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "neutral"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.201034,
+            0.119443
+          ],
+          "resistance": []
+        },
+        "weekly": {
+          "support": [
+            0.122579
+          ],
+          "resistance": []
+        },
+        "daily": {
+          "support": [
+            0.364053
+          ],
+          "resistance": [
+            0.489274
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            8.20663e-05
+          ],
+          "resistance": []
+        },
+        "weekly": {
+          "support": [
+            7.03322e-05,
+            6.59898e-05
+          ],
+          "resistance": []
+        },
+        "daily": {
+          "support": [
+            0.000170546
+          ],
+          "resistance": [
+            0.00018124
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": true,
+        "type": "Hidden Bullish",
+        "timeframe": "1d",
+        "indicator": "RSI",
+        "from": "2026-10-07",
+        "to": "2026-10-18"
+      },
+      "divergences": [
+        {
+          "type": "Hidden Bullish",
+          "timeframe": "1d",
+          "chart": "USD",
+          "from": "2026-10-07",
+          "to": "2026-10-18",
+          "rsi_from": 54.7,
+          "rsi_to": 48.2,
+          "status": "active (close-confirmed Oct 20)"
+        },
+        {
+          "type": "Hidden Bullish",
+          "timeframe": "1d",
+          "chart": "vs ETH",
+          "from": "2026-10-07",
+          "to": "2026-10-18",
+          "rsi_from": 57.2,
+          "rsi_to": 51.0,
+          "status": "active (close-confirmed Oct 20)"
+        }
+      ],
+      "label": "Neutral",
+      "reasoning": "DRV 0.3997, RSI 1d 49.8 / 1w 74.3; Hidden Bullish 1d USD (2026-10-07 to 2026-10-18); Hidden Bullish 1d vs ETH (2026-10-07 to 2026-10-18). Neutral. Ladder: add 0.199 (M, -1.0% off 0.201), deep value 0.1214 (W, -1.0% off 0.1226), warm 0.4746 (D, -3.0% off 0.4893).",
+      "images": [
+        {
+          "caption": "USD · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
+          "path": "research/labels/img/DRV_usd_2026-10-20.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
+          "path": "research/labels/img/DRV_eth_2026-10-20.png.b64"
+        }
+      ],
+      "notes": "Levels v2 re-anchor 2026-10-20T23:05:55-06:00 (Manuel-approved first live run, anchored S/R rungs + RSI/ATR front-run offset; live 0.399656 via CoinGecko simple price). Rungs: Consider adding 0.199 [M] M support, default: 2nd level (no bullish confirmation); no confirmation: below level for a wick (0.1x ATR, cap 1%); Deep value 0.1214 [W] next W level beyond first rung; no confirmation: below level for a wick (0.1x ATR, cap 1%); Getting warm 0.4746 [D] D resistance, default: only level on this side; confirmation (Regular Bearish 1w confirmed (2026-07-12->2026-10-11); weekly RSI 74 >=70) but no W/M level; front-run below resistance: 0.5x ATR14 (cap 3%). Divergences (RSI, close-based): Hidden Bullish 1d USD (2026-10-07 to 2026-10-18); Hidden Bullish 1d vs ETH (2026-10-07 to 2026-10-18). Prior analysis prose superseded by the v2 ladder; data sources unchanged.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 0.199024,
+            "tf": "M",
+            "reason": "M support, default: 2nd level (no bullish confirmation)",
+            "shifted": false,
+            "default_price": 0.201034,
+            "base_price": 0.201034,
+            "offset_pct": -1.0,
+            "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+          },
+          {
+            "label": "Deep value",
+            "price": 0.121353,
+            "tf": "W",
+            "reason": "next W level beyond first rung",
+            "shifted": false,
+            "default_price": 0.122579,
+            "base_price": 0.122579,
+            "offset_pct": -1.0,
+            "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 0.474596,
+            "tf": "D",
+            "reason": "D resistance, default: only level on this side; confirmation (Regular Bearish 1w confirmed (2026-07-12->2026-10-11); weekly RSI 74 >=70) but no W/M level",
+            "shifted": false,
+            "default_price": 0.489274,
+            "base_price": 0.489274,
+            "offset_pct": -3.0,
+            "offset_reason": "front-run below resistance: 0.5x ATR14 (cap 3%)"
+          }
+        ],
+        "ref_price": 0.399656,
+        "valid_from": "2026-10-20T23:05:55-06:00",
+        "valid_until": "2026-10-22T18:07:00-06:00",
+        "v": 2,
+        "anchored_at": "2026-10-20T23:06:02-06:00",
+        "anchor_ref_price": 0.399656,
+        "context": {
+          "rsi_d": 49.8,
+          "rsi_w": 74.3,
+          "uptrend": true,
+          "divergences": [
+            "Regular Bearish 1w 2026-07-12->2026-10-11"
+          ]
+        }
+      }
+    },
+    "DRB": {
+      "rsi": {
+        "value": 42.7,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "cool"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.000111506
+          ],
+          "resistance": [
+            0.00030529
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.000140269,
+            9.04949e-05
+          ],
+          "resistance": [
+            0.000288262
+          ]
+        },
+        "daily": {
+          "support": [
+            0.000134011
+          ],
+          "resistance": [
+            0.000172079
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            4.9492e-08
+          ],
+          "resistance": [
+            1.00588e-07
+          ]
+        },
+        "weekly": {
+          "support": [
+            6.9349e-08,
+            3.3651e-08
+          ],
+          "resistance": [
+            9.0747e-08
+          ]
+        },
+        "daily": {
+          "support": [
+            6.7342e-08
+          ],
+          "resistance": [
+            7.5858e-08
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "divergences": [],
+      "label": "Neutral",
+      "reasoning": "DRB 0.0001589, RSI 1d 42.7 / 1w 53.1; no active divergence. Neutral. Ladder: add 0.0001104 (M, -1.0% off 0.0001115), deep value 8.959e-05 (W, -1.0% off 9.049e-05), warm 0.0002901 (W, +0.6% off 0.0002883), take profit 0.0003071 (M, +0.6% off 0.0003053).",
+      "images": [
+        {
+          "caption": "USD · daily (M/W/D levels, RSI divergences marked)",
+          "path": "research/labels/img/DRB_usd_2026-10-16.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (M/W/D levels, RSI divergences marked)",
+          "path": "research/labels/img/DRB_eth_2026-10-16.png.b64"
+        }
+      ],
+      "notes": "Levels v2 re-anchor 2026-10-20T23:05:55-06:00 (Manuel-approved first live run, anchored S/R rungs + RSI/ATR front-run offset; live 0.00015886 via CoinGecko simple price). Rungs: Consider adding 0.0001104 [M] M support, default: 2nd level (no bullish confirmation); no confirmation: below level for a wick (0.1x ATR, cap 1%); Deep value 8.959e-05 [W] next W level beyond first rung; no confirmation: below level for a wick (0.1x ATR, cap 1%); Getting warm 0.0002901 [W] W resistance, default: 2nd level (no bearish confirmation); no confirmation: above level for a wick (0.1x ATR, cap 1%); Take profit 0.0003071 [M] next M level beyond first rung; no confirmation: above level for a wick (0.1x ATR, cap 1%). Divergences (RSI, close-based): no active divergence. Prior analysis prose superseded by the v2 ladder; data sources unchanged.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 0.000110391,
+            "tf": "M",
+            "reason": "M support, default: 2nd level (no bullish confirmation)",
+            "shifted": false,
+            "default_price": 0.000111506,
+            "base_price": 0.000111506,
+            "offset_pct": -1.0,
+            "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+          },
+          {
+            "label": "Deep value",
+            "price": 8.959e-05,
+            "tf": "W",
+            "reason": "next W level beyond first rung",
+            "shifted": false,
+            "default_price": 9.04949e-05,
+            "base_price": 9.04949e-05,
+            "offset_pct": -1.0,
+            "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 0.000290115,
+            "tf": "W",
+            "reason": "W resistance, default: 2nd level (no bearish confirmation)",
+            "shifted": false,
+            "default_price": 0.000288262,
+            "base_price": 0.000288262,
+            "offset_pct": 0.64,
+            "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+          },
+          {
+            "label": "Take profit",
+            "price": 0.000307143,
+            "tf": "M",
+            "reason": "next M level beyond first rung",
+            "shifted": false,
+            "default_price": 0.00030529,
+            "base_price": 0.00030529,
+            "offset_pct": 0.61,
+            "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+          }
+        ],
+        "ref_price": 0.00015886,
+        "valid_from": "2026-10-20T23:05:55-06:00",
+        "valid_until": "2026-10-22T18:07:00-06:00",
+        "v": 2,
+        "anchored_at": "2026-10-20T23:06:02-06:00",
+        "anchor_ref_price": 0.00015886,
+        "context": {
+          "rsi_d": 42.7,
+          "rsi_w": 53.1,
+          "uptrend": false,
+          "divergences": [
+            "Hidden Bullish 1d 2026-09-24->2026-10-08 (not confirmed)"
+          ]
+        }
+      }
+    },
+    "SERV": {
+      "rsi": {
+        "value": 35.1,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "cool"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.0128728
+          ],
+          "resistance": [
+            0.0383767
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.0137247
+          ],
+          "resistance": [
+            0.0231199,
+            0.0241149
+          ]
+        },
+        "daily": {
+          "support": [
+            0.0174189
+          ],
+          "resistance": [
+            0.0202603
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            6.55126e-06
+          ],
+          "resistance": [
+            1.28683e-05
+          ]
+        },
+        "weekly": {
+          "support": [
+            6.19518e-06,
+            6.06929e-06
+          ],
+          "resistance": [
+            8.48598e-06,
+            1.11437e-05
+          ]
+        },
+        "daily": {
+          "support": [
+            5.97152e-06
+          ],
+          "resistance": [
+            7.72971e-06
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "divergences": [],
+      "label": "Neutral",
+      "reasoning": "SERV 0.0173, RSI 1d 35.1 / 1w 39.2; no active divergence. Neutral. Ladder: add 0.01274 (M, -1.0% off 0.01287), warm 0.02326 (W, +0.6% off 0.02312), take profit 0.02425 (W, +0.6% off 0.02411).",
+      "images": [
+        {
+          "caption": "USD · daily (M/W/D levels, RSI divergences marked)",
+          "path": "research/labels/img/SERV_usd_2026-10-16.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (M/W/D levels, RSI divergences marked)",
+          "path": "research/labels/img/SERV_eth_2026-10-16.png.b64"
+        }
+      ],
+      "notes": "Levels v2 re-anchor 2026-10-20T23:05:55-06:00 (Manuel-approved first live run, anchored S/R rungs + RSI/ATR front-run offset; live 0.0173016 via CoinGecko simple price). Rungs: Consider adding 0.01274 [M] M support, default: 2nd level (no bullish confirmation); no confirmation: below level for a wick (0.1x ATR, cap 1%); Getting warm 0.02326 [W] W resistance, default: 2nd level (no bearish confirmation); no confirmation: above level for a wick (0.1x ATR, cap 1%); Take profit 0.02425 [W] next W level beyond first rung; no confirmation: above level for a wick (0.1x ATR, cap 1%). Divergences (RSI, close-based): no active divergence. Prior analysis prose superseded by the v2 ladder; data sources unchanged.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 0.0127441,
+            "tf": "M",
+            "reason": "M support, default: 2nd level (no bullish confirmation)",
+            "shifted": false,
+            "default_price": 0.0128728,
+            "base_price": 0.0128728,
+            "offset_pct": -1.0,
+            "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 0.0232592,
+            "tf": "W",
+            "reason": "W resistance, default: 2nd level (no bearish confirmation)",
+            "shifted": false,
+            "default_price": 0.0231199,
+            "base_price": 0.0231199,
+            "offset_pct": 0.6,
+            "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+          },
+          {
+            "label": "Take profit",
+            "price": 0.0242542,
+            "tf": "W",
+            "reason": "next W level beyond first rung",
+            "shifted": false,
+            "default_price": 0.0241149,
+            "base_price": 0.0241149,
+            "offset_pct": 0.58,
+            "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+          }
+        ],
+        "ref_price": 0.0173016,
+        "valid_from": "2026-10-20T23:05:55-06:00",
+        "valid_until": "2026-10-22T18:07:00-06:00",
+        "v": 2,
+        "anchored_at": "2026-10-20T23:06:03-06:00",
+        "anchor_ref_price": 0.0173016,
+        "context": {
+          "rsi_d": 35.1,
+          "rsi_w": 39.2,
+          "uptrend": false,
+          "divergences": []
+        }
+      }
+    },
+    "POD": {
+      "rsi": {
+        "value": 57.7,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "warm"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.613596
+          ],
+          "resistance": []
+        },
+        "weekly": {
+          "support": [
+            0.554525,
+            0.537038
+          ],
+          "resistance": [
+            0.903233
+          ]
+        },
+        "daily": {
+          "support": [
+            0.567201
+          ],
+          "resistance": [
+            0.775161
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.000102655
+          ],
+          "resistance": [
+            0.000299566
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.000206809,
+            0.000188302
+          ],
+          "resistance": [
+            0.000323923
+          ]
+        },
+        "daily": {
+          "support": [
+            0.000277676
+          ],
+          "resistance": []
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "divergences": [],
+      "label": "Neutral",
+      "reasoning": "POD 0.6323, RSI 1d 57.7 / 1w 60.4; no active divergence. Neutral. Ladder: add 0.549 (W, -1.0% off 0.5545), deep value 0.5317 (W, -1.0% off 0.537), warm 0.9123 (W, +1.0% off 0.9032).",
+      "images": [
+        {
+          "caption": "USD · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
+          "path": "research/labels/img/POD_usd_2026-10-20.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
+          "path": "research/labels/img/POD_eth_2026-10-20.png.b64"
+        }
+      ],
+      "notes": "Levels v2 re-anchor 2026-10-20T23:05:55-06:00 (Manuel-approved first live run, anchored S/R rungs + RSI/ATR front-run offset; live 0.632301 via CoinGecko simple price). Rungs: Consider adding 0.549 [W] W support, default: 2nd level (no bullish confirmation); no confirmation: below level for a wick (0.1x ATR, cap 1%); Deep value 0.5317 [W] next W level beyond first rung; no confirmation: below level for a wick (0.1x ATR, cap 1%); Getting warm 0.9123 [W] W resistance, default: 2nd level (no bearish confirmation); no confirmation: above level for a wick (0.1x ATR, cap 1%). Divergences (RSI, close-based): no active divergence. Prior analysis prose superseded by the v2 ladder; data sources unchanged.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 0.54898,
+            "tf": "W",
+            "reason": "W support, default: 2nd level (no bullish confirmation)",
+            "shifted": false,
+            "default_price": 0.554525,
+            "base_price": 0.554525,
+            "offset_pct": -1.0,
+            "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+          },
+          {
+            "label": "Deep value",
+            "price": 0.531668,
+            "tf": "W",
+            "reason": "next W level beyond first rung",
+            "shifted": false,
+            "default_price": 0.537038,
+            "base_price": 0.537038,
+            "offset_pct": -1.0,
+            "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 0.912265,
+            "tf": "W",
+            "reason": "W resistance, default: 2nd level (no bearish confirmation)",
+            "shifted": false,
+            "default_price": 0.903233,
+            "base_price": 0.903233,
+            "offset_pct": 1.0,
+            "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+          }
+        ],
+        "ref_price": 0.632301,
+        "valid_from": "2026-10-20T23:05:55-06:00",
+        "valid_until": "2026-10-22T18:07:00-06:00",
+        "v": 2,
+        "anchored_at": "2026-10-20T23:06:03-06:00",
+        "anchor_ref_price": 0.632301,
+        "context": {
+          "rsi_d": 57.2,
+          "rsi_w": 60.4,
+          "uptrend": true,
+          "divergences": []
+        }
+      }
+    },
+    "SYRUP": {
+      "rsi": {
+        "value": 40.0,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "cool"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.19344
+          ],
+          "resistance": [
+            0.2267
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.1969,
+            0.14702
+          ],
+          "resistance": [
+            0.2036,
+            0.24015
+          ]
+        },
+        "daily": {
+          "support": [
+            0.19015
+          ],
+          "resistance": [
+            0.21132
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            7.69687e-05,
+            7.32304e-05
+          ],
+          "resistance": [
+            8.72433e-05,
+            8.99398e-05
+          ]
+        },
+        "weekly": {
+          "support": [
+            7.45446e-05
+          ],
+          "resistance": [
+            9.47046e-05
+          ]
+        },
+        "daily": {
+          "support": [
+            8.20352e-05
+          ],
+          "resistance": [
+            8.34232e-05
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "divergences": [],
+      "label": "Neutral",
+      "reasoning": "SYRUP 0.2013, RSI 1d 40.0 / 1w 49.3; no active divergence. Neutral. Ladder: add 0.1915 (M, -1.0% off 0.1934), deep value 0.1456 (W, -1.0% off 0.147), warm 0.2286 (M, +0.8% off 0.2267), take profit 0.2421 (W, +0.8% off 0.2402).",
+      "images": [
+        {
+          "caption": "USD · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
+          "path": "research/labels/img/SYRUP_usd_2026-10-20.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
+          "path": "research/labels/img/SYRUP_eth_2026-10-20.png.b64"
+        }
+      ],
+      "notes": "Levels v2 re-anchor 2026-10-20T23:05:55-06:00 (Manuel-approved first live run, anchored S/R rungs + RSI/ATR front-run offset; live 0.201335 via Hyperliquid mid). Rungs: Consider adding 0.1915 [M] M support, default: 2nd level (no bullish confirmation); no confirmation: below level for a wick (0.1x ATR, cap 1%); Deep value 0.1456 [W] next W level beyond first rung; no confirmation: below level for a wick (0.1x ATR, cap 1%); Getting warm 0.2286 [M] M resistance, default: 2nd level (no bearish confirmation); no confirmation: above level for a wick (0.1x ATR, cap 1%); Take profit 0.2421 [W] next W level beyond first rung; no confirmation: above level for a wick (0.1x ATR, cap 1%). Divergences (RSI, close-based): no active divergence. Prior analysis prose superseded by the v2 ladder; data sources unchanged.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 0.191528,
+            "tf": "M",
+            "reason": "M support, default: 2nd level (no bullish confirmation)",
+            "shifted": false,
+            "default_price": 0.19344,
+            "base_price": 0.19344,
+            "offset_pct": -0.99,
+            "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+          },
+          {
+            "label": "Deep value",
+            "price": 0.14555,
+            "tf": "W",
+            "reason": "next W level beyond first rung",
+            "shifted": false,
+            "default_price": 0.14702,
+            "base_price": 0.14702,
+            "offset_pct": -1.0,
+            "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 0.228612,
+            "tf": "M",
+            "reason": "M resistance, default: 2nd level (no bearish confirmation)",
+            "shifted": false,
+            "default_price": 0.2267,
+            "base_price": 0.2267,
+            "offset_pct": 0.84,
+            "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+          },
+          {
+            "label": "Take profit",
+            "price": 0.242062,
+            "tf": "W",
+            "reason": "next W level beyond first rung",
+            "shifted": false,
+            "default_price": 0.24015,
+            "base_price": 0.24015,
+            "offset_pct": 0.8,
+            "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+          }
+        ],
+        "ref_price": 0.201335,
+        "valid_from": "2026-10-20T23:05:55-06:00",
+        "valid_until": "2026-10-22T18:07:00-06:00",
+        "v": 2,
+        "anchored_at": "2026-10-20T23:06:03-06:00",
+        "anchor_ref_price": 0.201335,
+        "context": {
+          "rsi_d": 40.0,
+          "rsi_w": 49.3,
+          "uptrend": false,
+          "divergences": []
+        }
+      }
+    },
+    "GRASS": {
+      "rsi": {
+        "value": 51.2,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "neutral"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.62146
+          ],
+          "resistance": [
+            0.81893
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.60118,
+            0.47677
+          ],
+          "resistance": [
+            0.64074,
+            0.6538
+          ]
+        },
+        "daily": {
+          "support": [
+            0.56034
+          ],
+          "resistance": [
+            0.79598
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.000123804
+          ],
+          "resistance": [
+            0.000319911
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.000226616,
+            0.000197112
+          ],
+          "resistance": [
+            0.000284875,
+            0.000331748
+          ]
+        },
+        "daily": {
+          "support": [
+            0.00025804
+          ],
+          "resistance": [
+            0.000263864
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI"
+      },
+      "divergences": [],
+      "label": "Neutral",
+      "reasoning": "GRASS 0.6399, RSI 1d 51.2 / 1w 58.0; no active divergence. Neutral. Ladder: add 0.5952 (W, -1.0% off 0.6012), deep value 0.472 (W, -1.0% off 0.4768), warm 0.6603 (W, +1.0% off 0.6538), take profit 0.8271 (M, +1.0% off 0.8189).",
+      "images": [
+        {
+          "caption": "USD · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
+          "path": "research/labels/img/GRASS_usd_2026-10-20.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
+          "path": "research/labels/img/GRASS_eth_2026-10-20.png.b64"
+        }
+      ],
+      "notes": "Levels v2 re-anchor 2026-10-20T23:05:55-06:00 (Manuel-approved first live run, anchored S/R rungs + RSI/ATR front-run offset; live 0.63987 via Hyperliquid mid). Rungs: Consider adding 0.5952 [W] W support, default: 2nd level (no bullish confirmation); no confirmation: below level for a wick (0.1x ATR, cap 1%); Deep value 0.472 [W] next W level beyond first rung; no confirmation: below level for a wick (0.1x ATR, cap 1%); Getting warm 0.6603 [W] W resistance, default: 2nd level (no bearish confirmation); no confirmation: above level for a wick (0.1x ATR, cap 1%); Take profit 0.8271 [M] next M level beyond first rung; no confirmation: above level for a wick (0.1x ATR, cap 1%). Divergences (RSI, close-based): no active divergence. Prior analysis prose superseded by the v2 ladder; data sources unchanged.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 0.595168,
+            "tf": "W",
+            "reason": "W support, default: 2nd level (no bullish confirmation)",
+            "shifted": false,
+            "default_price": 0.60118,
+            "base_price": 0.60118,
+            "offset_pct": -1.0,
+            "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+          },
+          {
+            "label": "Deep value",
+            "price": 0.472002,
+            "tf": "W",
+            "reason": "next W level beyond first rung",
+            "shifted": false,
+            "default_price": 0.47677,
+            "base_price": 0.47677,
+            "offset_pct": -1.0,
+            "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 0.660338,
+            "tf": "W",
+            "reason": "W resistance, default: 2nd level (no bearish confirmation)",
+            "shifted": false,
+            "default_price": 0.6538,
+            "base_price": 0.6538,
+            "offset_pct": 1.0,
+            "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+          },
+          {
+            "label": "Take profit",
+            "price": 0.827119,
+            "tf": "M",
+            "reason": "next M level beyond first rung",
+            "shifted": false,
+            "default_price": 0.81893,
+            "base_price": 0.81893,
+            "offset_pct": 1.0,
+            "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+          }
+        ],
+        "ref_price": 0.63987,
+        "valid_from": "2026-10-20T23:05:55-06:00",
+        "valid_until": "2026-10-22T18:07:00-06:00",
+        "v": 2,
+        "anchored_at": "2026-10-20T23:06:04-06:00",
+        "anchor_ref_price": 0.63987,
+        "context": {
+          "rsi_d": 51.6,
+          "rsi_w": 58.0,
+          "uptrend": true,
+          "divergences": []
+        }
+      }
+    },
+    "BLOCKTRONICS": {
+      "rsi": {
+        "value": 42.5,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "cool"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            1.68039e-06
+          ],
+          "resistance": [
+            7.22636e-06
+          ]
+        },
+        "weekly": {
+          "support": [
+            3.66091e-06,
+            2.95794e-06
+          ],
+          "resistance": [
+            6.53141e-06,
+            1.20211e-05
+          ]
+        },
+        "daily": {
+          "support": [
+            4.67786e-06
+          ],
+          "resistance": [
+            5.01998e-06
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            8.98e-10
+          ],
+          "resistance": [
+            2.745e-09
+          ]
+        },
+        "weekly": {
+          "support": [
+            1.472e-09
+          ],
+          "resistance": [
+            2.594e-09,
+            5.8e-09
+          ]
+        },
+        "daily": {
+          "support": [
+            2.017e-09
+          ],
+          "resistance": [
+            2.074e-09
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": true,
+        "timeframe": "1d",
+        "indicator": "RSI",
+        "type": "Hidden Bullish"
+      },
+      "divergences": [
+        {
+          "type": "Hidden Bullish",
+          "timeframe": "1d",
+          "chart": "USD",
+          "from": "2026-09-15",
+          "to": "2026-10-09",
+          "rsi_from": 46.9,
+          "rsi_to": 34.9,
+          "status": "active"
+        },
+        {
+          "type": "Regular Bearish",
+          "timeframe": "1w",
+          "chart": "USD",
+          "from": "2026-08-23",
+          "to": "2026-09-27",
+          "rsi_from": 87.8,
+          "rsi_to": 83.5,
+          "status": "active"
+        },
+        {
+          "type": "Hidden Bullish",
+          "timeframe": "1w",
+          "chart": "USD",
+          "from": "2026-08-16",
+          "to": "2026-10-18",
+          "rsi_from": 86.6,
+          "rsi_to": 77.9,
+          "status": "forming (unconfirmed)"
+        },
+        {
+          "type": "Hidden Bullish",
+          "timeframe": "1d",
+          "chart": "vs ETH",
+          "from": "2026-09-18",
+          "to": "2026-10-09",
+          "rsi_from": 44.5,
+          "rsi_to": 36.5,
+          "status": "active"
+        }
+      ],
+      "label": "Neutral",
+      "reasoning": "BLOCKTRONICS 4.78e-06, RSI 1d 42.5 / 1w 77.7; Hidden Bullish 1d USD (2026-09-15 to 2026-10-09). Neutral. Ladder: add 3.639e-06 (W, -0.6% off 3.661e-06), deep value 2.936e-06 (W, -0.8% off 2.958e-06), warm 6.42e-06 (W, -1.7% off 6.531e-06), take profit 7.249e-06 (M, +0.3% off 7.226e-06).",
+      "images": [
+        {
+          "caption": "USD · daily (M/W/D levels, RSI divergences marked)",
+          "path": "research/labels/img/BLOCKTRONICS_usd_2026-10-17.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (M/W/D levels, RSI divergences marked)",
+          "path": "research/labels/img/BLOCKTRONICS_eth_2026-10-17.png.b64"
+        }
+      ],
+      "notes": "Levels v2 re-anchor 2026-10-20T23:05:55-06:00 (Manuel-approved first live run, anchored S/R rungs + RSI/ATR front-run offset; live 4.78e-06 via CoinGecko simple price). Rungs: Consider adding 3.639e-06 [W] W support, default: 2nd level (no bullish confirmation); no confirmation: below level for a wick (0.1x ATR, cap 1%); Deep value 2.936e-06 [W] next W level beyond first rung; no confirmation: below level for a wick (0.1x ATR, cap 1%); Getting warm 6.42e-06 [W] W resistance, default: 2nd level (no bearish confirmation); confirmation present (weekly RSI 78 >=70) but already nearest W/M; front-run below resistance: 0.5x ATR14 (cap 3%); Take profit 7.249e-06 [M] next M level beyond first rung; no confirmation: above level for a wick (0.1x ATR, cap 1%). Divergences (RSI, close-based): Hidden Bullish 1d USD (2026-09-15 to 2026-10-09); Regular Bearish 1w USD (2026-08-23 to 2026-09-27); Hidden Bullish 1w USD (2026-08-16 to 2026-10-18); Hidden Bullish 1d vs ETH (2026-09-18 to 2026-10-09). Prior analysis prose superseded by the v2 ladder; data sources unchanged.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 3.63872e-06,
+            "tf": "W",
+            "reason": "W support, default: 2nd level (no bullish confirmation)",
+            "shifted": false,
+            "default_price": 3.66091e-06,
+            "base_price": 3.66091e-06,
+            "offset_pct": -0.61,
+            "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+          },
+          {
+            "label": "Deep value",
+            "price": 2.93575e-06,
+            "tf": "W",
+            "reason": "next W level beyond first rung",
+            "shifted": false,
+            "default_price": 2.95794e-06,
+            "base_price": 2.95794e-06,
+            "offset_pct": -0.75,
+            "offset_reason": "no confirmation: below level for a wick (0.1x ATR, cap 1%)"
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 6.42044e-06,
+            "tf": "W",
+            "reason": "W resistance, default: 2nd level (no bearish confirmation); confirmation present (weekly RSI 78 >=70) but already nearest W/M",
+            "shifted": false,
+            "default_price": 6.53141e-06,
+            "base_price": 6.53141e-06,
+            "offset_pct": -1.7,
+            "offset_reason": "front-run below resistance: 0.5x ATR14 (cap 3%)"
+          },
+          {
+            "label": "Take profit",
+            "price": 7.24855e-06,
+            "tf": "M",
+            "reason": "next M level beyond first rung",
+            "shifted": false,
+            "default_price": 7.22636e-06,
+            "base_price": 7.22636e-06,
+            "offset_pct": 0.31,
+            "offset_reason": "no confirmation: above level for a wick (0.1x ATR, cap 1%)"
+          }
+        ],
+        "ref_price": 4.78e-06,
+        "valid_from": "2026-10-20T23:05:55-06:00",
+        "valid_until": "2026-10-22T18:07:00-06:00",
+        "v": 2,
+        "anchored_at": "2026-10-20T23:06:04-06:00",
+        "anchor_ref_price": 4.78e-06,
+        "context": {
+          "rsi_d": 42.5,
+          "rsi_w": 77.7,
+          "uptrend": false,
+          "divergences": [
+            "Hidden Bullish 1d 2026-09-15->2026-10-09",
+            "Hidden Bullish 1w 2026-08-16->2026-10-25 (not confirmed)"
+          ]
+        }
+      }
+    }
+  },
+  "valid_from": "2026-10-20T23:05:55-06:00",
+  "valid_until": "2026-10-22T18:07:00-06:00",
+  "ladder": {
+    "version": 2,
+    "rules": "anchored S/R rungs, M>W>D priority, RSI/divergence chooses the level (mwlabels/levels_v2.py)"
+  }
+}
