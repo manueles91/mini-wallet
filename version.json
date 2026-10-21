@@ -1,7 +1,7 @@
 {
-  "versionCode": 63,
-  "versionName": "13.35",
+  "versionCode": 64,
+  "versionName": "13.36",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "849c7ba60afe9287401f4ae115bdabf17349ade767f8e16bca30b08277f5b8df",
-  "notes": "Leverage: tap a Perps or Options row for a live position chart (candles, Entry/Liquidation/Strike/Breakeven/Current lines, RSI 14)."
+  "apkSha256": "dee589c5596b8f7ede2b61e5fa571544064412edc6c95252ae80733763e86e31",
+  "notes": "Position chart: entry date, open marker and position events (adds/reductions) with a tappable list."
 }
