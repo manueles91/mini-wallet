@@ -187,14 +187,14 @@
   },
   "image_paths": [
     {
-      "path": "research/labels/img/SYRUP_usd_2026-10-20.png.b64",
-      "caption": "USD \u00b7 daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
-      "drawn": "2026-10-20"
+      "caption": "USD \u00b7 daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; no price levels)",
+      "path": "research/labels/img/SYRUP_usd_2026-10-21.png.b64",
+      "drawn": "2026-10-21"
     },
     {
-      "path": "research/labels/img/SYRUP_eth_2026-10-20.png.b64",
-      "caption": "vs ETH \u00b7 daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
-      "drawn": "2026-10-20"
+      "caption": "vs ETH \u00b7 daily (same style)",
+      "path": "research/labels/img/SYRUP_eth_2026-10-21.png.b64",
+      "drawn": "2026-10-21"
     }
   ],
   "last_reasoning": "SYRUP 0.2041: RSI 1d 40.0, blended RSI 56.9 (USD 56.7/ETH 57.2) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 0.215, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 0.1933, deep 0.1818, warm 0.2937, TP 0.3389.",

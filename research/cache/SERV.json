@@ -173,14 +173,14 @@
   },
   "image_paths": [
     {
-      "path": "research/labels/img/SERV_usd_2026-10-16.png.b64",
-      "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-16"
+      "caption": "USD \u00b7 daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; no price levels)",
+      "path": "research/labels/img/SERV_usd_2026-10-21.png.b64",
+      "drawn": "2026-10-21"
     },
     {
-      "path": "research/labels/img/SERV_eth_2026-10-16.png.b64",
-      "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-16"
+      "caption": "vs ETH \u00b7 daily (same style)",
+      "path": "research/labels/img/SERV_eth_2026-10-21.png.b64",
+      "drawn": "2026-10-21"
     }
   ],
   "last_reasoning": "SERV 0.01734: RSI 1d 35.1, blended RSI 37.6 (USD 37.7/ETH 37.4) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 0.0221, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 0.01702, deep 0.01567, warm 0.02395, TP 0.02645.",

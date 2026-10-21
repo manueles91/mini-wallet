@@ -208,14 +208,14 @@
   },
   "image_paths": [
     {
-      "path": "research/labels/img/BLOCKTRONICS_usd_2026-10-17.png.b64",
-      "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-17"
+      "caption": "USD \u00b7 daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; no price levels)",
+      "path": "research/labels/img/BLOCKTRONICS_usd_2026-10-21.png.b64",
+      "drawn": "2026-10-21"
     },
     {
-      "path": "research/labels/img/BLOCKTRONICS_eth_2026-10-17.png.b64",
-      "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-17"
+      "caption": "vs ETH \u00b7 daily (same style)",
+      "path": "research/labels/img/BLOCKTRONICS_eth_2026-10-21.png.b64",
+      "drawn": "2026-10-21"
     }
   ],
   "last_reasoning": "BLOCKTRONICS 5.01e-06: RSI 1d 42.5, blended RSI 65.0 (USD 64.2/ETH 66.2) -> Neutral; Hidden Bullish 1d USD; Regular Bearish 1w USD; Hidden Bullish 1w USD; Hidden Bullish 1d vs ETH (div ratio buy 0.0/sell 0.0). Uptrend (weekly EMA50 rising): in the EMA20 pullback buy zone (5.12e-06); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 4.93e-06 (EMA50 -3%). RSI triggers: add 4.406e-06, deep 4.039e-06, warm 5.956e-06, TP 6.451e-06.",

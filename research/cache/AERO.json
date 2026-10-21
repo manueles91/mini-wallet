@@ -223,14 +223,14 @@
   },
   "image_paths": [
     {
-      "path": "research/labels/img/AERO_usd_2026-10-20.png.b64",
-      "caption": "USD \u00b7 daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
-      "drawn": "2026-10-20"
+      "caption": "USD \u00b7 daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; no price levels)",
+      "path": "research/labels/img/AERO_usd_2026-10-21.png.b64",
+      "drawn": "2026-10-21"
     },
     {
-      "path": "research/labels/img/AERO_eth_2026-10-20.png.b64",
-      "caption": "vs ETH \u00b7 daily (M/W/D levels, risk/upside boxes, RSI divergences marked)",
-      "drawn": "2026-10-20"
+      "caption": "vs ETH \u00b7 daily (same style)",
+      "path": "research/labels/img/AERO_eth_2026-10-21.png.b64",
+      "drawn": "2026-10-21"
     }
   ],
   "setup_id": "AERO-L-2026-10-18",
