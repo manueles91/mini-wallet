@@ -106,7 +106,7 @@
       "reasoning": "AERO 0.8128: RSI 1d 56.4, blended RSI 52.3 (USD 51.5/ETH 53.5) -> Neutral; Regular Bearish 1d USD; Hidden Bullish 1d ETH (div ratio buy 0.0/sell 0.19). Uptrend (price > rising EMA50): in the EMA20 pullback buy zone (0.838); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.726 (EMA50 -3%). RSI triggers: add 0.6602, deep 0.5728, warm 0.8974, TP 1.015.",
       "images": [
         {
-          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; no price levels)",
+          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
           "path": "research/labels/img/AERO_usd_2026-10-21.png.b64"
         },
         {
@@ -300,7 +300,7 @@
       "reasoning": "ETH 2479: RSI 1d 42.9, blended RSI 54.2 (USD 54.2/ETH None) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Uptrend (weekly EMA50 rising): in the EMA20 pullback buy zone (2,496); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 2,407 (EMA50 -3%). RSI triggers: add 1924, deep 1644, warm 2957, TP 3428.",
       "images": [
         {
-          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; no price levels)",
+          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
           "path": "research/labels/img/ETH_usd_2026-10-21.png.b64"
         },
         {
@@ -496,7 +496,7 @@
       "reasoning": "VVV 27.23: RSI 1d 52.8, blended RSI 64.2 (USD 62.6/ETH 66.5) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Uptrend (price > rising EMA50): pullback buy zone near EMA20 at 24.75 (-9%); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 22.98 (EMA50 -3%). RSI triggers: add 19.71, deep 16.54, warm 29.8, TP 32.57.",
       "images": [
         {
-          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; no price levels)",
+          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
           "path": "research/labels/img/VVV_usd_2026-10-21.png.b64"
         },
         {
@@ -709,7 +709,7 @@
       "reasoning": "VIRTUAL 0.6905: RSI 1d 44.7, blended RSI 34.2 (USD 34.5/ETH 33.9) -> Consider adding; Regular Bearish 1d USD; Regular Bearish 1d ETH (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 0.704, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 0.6919, deep 0.5784, warm 0.9677, TP 1.109.",
       "images": [
         {
-          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; no price levels)",
+          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
           "path": "research/labels/img/VIRTUAL_usd_2026-10-21.png.b64"
         },
         {
@@ -893,7 +893,7 @@
       "reasoning": "BNKR 0.0003279: RSI 1d 48.1, blended RSI 48.4 (USD 48.6/ETH 48.1) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Uptrend (weekly EMA50 rising): in the EMA20 pullback buy zone (0.000335); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.000319 (EMA50 -3%). RSI triggers: add 0.000267, deep 0.0002304, warm 0.0005185, TP 0.0006088.",
       "images": [
         {
-          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; no price levels)",
+          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
           "path": "research/labels/img/BNKR_usd_2026-10-21.png.b64"
         },
         {
@@ -1100,7 +1100,7 @@
       "reasoning": "DRV 0.4018: RSI 1d 49.8, blended RSI 66.2 (USD 65.0/ETH 68.1) -> Getting warm; Hidden Bullish 1d USD; Hidden Bullish 1d ETH (div ratio buy 0.0/sell 0.22). Uptrend (price > rising EMA50): in the EMA20 pullback buy zone (0.407); Hidden Bullish 1d confirmed Oct 18 = trend-continuation add; Getting warm: trim 20%, don't sell out; exit on daily close < 0.337 (EMA50 -3%). RSI triggers: add 0.3069, deep 0.2563, warm 0.401, TP 0.5343.",
       "images": [
         {
-          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; no price levels)",
+          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
           "path": "research/labels/img/DRV_usd_2026-10-21.png.b64"
         },
         {
@@ -1290,7 +1290,7 @@
       "reasoning": "DRB 0.000171: RSI 1d 42.7, blended RSI 50.4 (USD 50.0/ETH 51.1) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Uptrend (weekly EMA50 rising): in the EMA20 pullback buy zone (0.000181); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.00017 (EMA50 -3%). RSI triggers: add 0.000146, deep 0.000127, warm 0.0002326, TP 0.0002707.",
       "images": [
         {
-          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; no price levels)",
+          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
           "path": "research/labels/img/DRB_usd_2026-10-21.png.b64"
         },
         {
@@ -1483,7 +1483,7 @@
       "reasoning": "SERV 0.01684: RSI 1d 35.1, blended RSI 37.6 (USD 37.8/ETH 37.3) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 0.0219, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 0.009381, deep 0.008696, warm 0.02349, TP 0.02581.",
       "images": [
         {
-          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; no price levels)",
+          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
           "path": "research/labels/img/SERV_usd_2026-10-21.png.b64"
         },
         {
@@ -1660,7 +1660,7 @@
       "reasoning": "POD 0.5892: RSI 1d 57.7, blended RSI 55.1 (USD 55.0/ETH 55.2) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Uptrend (price > rising EMA50): in the EMA20 pullback buy zone (0.604); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.501 (EMA50 -3%). RSI triggers: add 0.3736, deep 0.2561, warm 0.8235, TP 1.026.",
       "images": [
         {
-          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; no price levels)",
+          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
           "path": "research/labels/img/POD_usd_2026-10-21.png.b64"
         },
         {
@@ -1854,7 +1854,7 @@
       "reasoning": "SYRUP 0.2029: RSI 1d 40.0, blended RSI 56.8 (USD 56.7/ETH 56.9) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 0.215, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 0.1939, deep 0.1781, warm 0.2923, TP 0.3368.",
       "images": [
         {
-          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; no price levels)",
+          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
           "path": "research/labels/img/SYRUP_usd_2026-10-21.png.b64"
         },
         {
@@ -2041,7 +2041,7 @@
       "reasoning": "GRASS 0.6912: RSI 1d 51.2, blended RSI 64.6 (USD 65.8/ETH 62.8) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Uptrend (price > rising EMA50): pullback buy zone near EMA20 at 0.642 (-7%); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.544 (EMA50 -3%). RSI triggers: add 0.4603, deep 0.3591, warm 0.8159, TP 0.9695.",
       "images": [
         {
-          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; no price levels)",
+          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
           "path": "research/labels/img/GRASS_usd_2026-10-21.png.b64"
         },
         {
@@ -2257,7 +2257,7 @@
       "reasoning": "BLOCKTRONICS 4.97e-06: RSI 1d 42.5, blended RSI 66.3 (USD 65.5/ETH 67.5) -> Getting warm; Hidden Bullish 1d USD; Hidden Bullish 1d ETH (div ratio buy 0.0/sell 0.0). Uptrend (weekly EMA50 rising): in the EMA20 pullback buy zone (5.11e-06); Getting warm: trim 20%, don't sell out; exit on daily close < 4.93e-06 (EMA50 -3%). RSI triggers: add 4.398e-06, deep 4.006e-06, warm 4.96e-06, TP 6.391e-06.",
       "images": [
         {
-          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; no price levels)",
+          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
           "path": "research/labels/img/BLOCKTRONICS_usd_2026-10-21.png.b64"
         },
         {

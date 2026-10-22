@@ -182,7 +182,7 @@
   },
   "image_paths": [
     {
-      "caption": "USD \u00b7 daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; no price levels)",
+      "caption": "USD \u00b7 daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
       "path": "research/labels/img/DRB_usd_2026-10-21.png.b64",
       "drawn": "2026-10-21"
     },
