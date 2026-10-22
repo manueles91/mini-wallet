@@ -1,7 +1,7 @@
 {
-  "versionCode": 65,
-  "versionName": "13.37",
+  "versionCode": 66,
+  "versionName": "13.38",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "5489c939e9f5279085e5673331be72613c5e71ea61fe660926d42b6c1444edf4",
-  "notes": "Position chart: date axis, every add/reduce as a labeled dot at its fill price, 'Avg entry' line, open marked at its real fill."
+  "apkSha256": "6f59e4cb1a0aabed5777b9ad460497e90c008a1e0f773ced74e2133f0545b30c",
+  "notes": "sAERO allocation card: per-position chain + pool, 47h cooldown countdown / Ready; sAERO + new AERO valued in net worth; 40 Acres sAERO migration handled automatically (no double count); AeroAllocator hidden until it has sAERO recs."
 }
