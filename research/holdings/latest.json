@@ -1,140 +1,140 @@
 {
   "schema": "mw-holdings/0",
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "note": "usd = spot incl. locked/staked/collateral minus loans; liquid_usd = movable part; lev_usd = perp notional + option delta-notional (signed); total_usd = usd + |lev_usd|",
-  "generated": "2026-10-21T23:49:06.781837963Z",
+  "generated": "2026-10-22T23:53:13.707349643Z",
   "tokens": {
     "AWAI": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 7.48,
-      "total_usd": 7.48
+      "usd": 7.1,
+      "total_usd": 7.1
     },
     "NATIVE": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 1.14,
-      "total_usd": 1.14
+      "usd": 1.12,
+      "total_usd": 1.12
     },
     "WACH": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 3.07,
-      "total_usd": 3.07
+      "usd": 2.54,
+      "total_usd": 2.54
     },
     "DRV": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 2885.46,
-      "total_usd": 2885.46
+      "usd": 2729.09,
+      "total_usd": 2729.09
     },
     "DIEM": {
       "lev_usd": 0,
-      "liquid_usd": 0,
-      "usd": 316.58,
-      "total_usd": 316.58
+      "liquid_usd": 5.22,
+      "usd": 307.21,
+      "total_usd": 307.21
     },
     "AGENT": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 4.03,
-      "total_usd": 4.03
+      "usd": 3.89,
+      "total_usd": 3.89
     },
     "PENDLE": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 20.36,
-      "total_usd": 20.36
+      "usd": 19.28,
+      "total_usd": 19.28
     },
     "PRIME": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 34.86,
-      "total_usd": 34.86
+      "usd": 32.09,
+      "total_usd": 32.09
     },
     "AUBRAI": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 39.17,
-      "total_usd": 39.17
+      "usd": 36.79,
+      "total_usd": 36.79
     },
     "CDX": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 15.84,
-      "total_usd": 15.84
+      "usd": 15.21,
+      "total_usd": 15.21
     },
     "VVV": {
-      "lev_usd": 17954.97,
+      "lev_usd": 12671.06,
       "liquid_usd": 0,
-      "usd": 2668.64,
-      "total_usd": 20623.61
+      "usd": 2602.07,
+      "total_usd": 15273.13
     },
     "GRASS": {
-      "lev_usd": 2636.96,
+      "lev_usd": 1761.5,
       "liquid_usd": 0,
       "usd": 0,
-      "total_usd": 2636.96
+      "total_usd": 1761.5
     },
     "BID": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 50.46,
-      "total_usd": 50.46
+      "usd": 47.34,
+      "total_usd": 47.34
     },
     "BLOCKTRONICS": {
       "lev_usd": 0,
-      "liquid_usd": 666.46,
-      "usd": 666.46,
-      "total_usd": 666.46
+      "liquid_usd": 645.01,
+      "usd": 645.01,
+      "total_usd": 645.01
     },
     "AAA": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 265.89,
-      "total_usd": 265.89
+      "usd": 266.26,
+      "total_usd": 266.26
     },
     "EIGEN": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 31.54,
-      "total_usd": 31.54
+      "usd": 28.18,
+      "total_usd": 28.18
     },
     "POD": {
       "lev_usd": 0,
-      "liquid_usd": 756.73,
-      "usd": 756.73,
-      "total_usd": 756.73
+      "liquid_usd": 706.91,
+      "usd": 706.91,
+      "total_usd": 706.91
     },
     "AVNT": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 247.27,
-      "total_usd": 247.27
+      "usd": 226.55,
+      "total_usd": 226.55
     },
     "GIZA": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 8.52,
-      "total_usd": 8.52
+      "usd": 8.23,
+      "total_usd": 8.23
     },
     "BIO": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 375.89,
-      "total_usd": 375.89
+      "usd": 348.74,
+      "total_usd": 348.74
     },
     "BNKR": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 3315.06,
-      "total_usd": 3315.06
+      "usd": 3495.68,
+      "total_usd": 3495.68
     },
     "SOLACE": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 2.72,
-      "total_usd": 2.72
+      "usd": 2.58,
+      "total_usd": 2.58
     },
     "SIRE": {
       "lev_usd": 0,
@@ -145,92 +145,86 @@
     "SUP": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 11.58,
-      "total_usd": 11.58
+      "usd": 11.13,
+      "total_usd": 11.13
     },
     "IRIS": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 5.21,
-      "total_usd": 5.21
+      "usd": 4.97,
+      "total_usd": 4.97
     },
     "SURF": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 9.67,
-      "total_usd": 9.67
-    },
-    "ALTT": {
-      "lev_usd": 0,
-      "liquid_usd": 0,
-      "usd": 1.04,
-      "total_usd": 1.04
+      "usd": 9.12,
+      "total_usd": 9.12
     },
     "ARBUS": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 6.03,
-      "total_usd": 6.03
+      "usd": 5.67,
+      "total_usd": 5.67
     },
     "DRB": {
       "lev_usd": 0,
-      "liquid_usd": 1713.11,
-      "usd": 1713.11,
-      "total_usd": 1713.11
+      "liquid_usd": 1430.46,
+      "usd": 1430.46,
+      "total_usd": 1430.46
     },
     "ETH": {
-      "lev_usd": 17940.36,
-      "liquid_usd": 64.86,
-      "usd": 64.86,
-      "total_usd": 18005.23
+      "lev_usd": 13639.39,
+      "liquid_usd": 51.07,
+      "usd": 51.07,
+      "total_usd": 13690.46
     },
     "USDC": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": -5772.43,
-      "total_usd": -5772.43
+      "usd": -5723.47,
+      "total_usd": -5723.47
     },
     "AXR": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 4.03,
-      "total_usd": 4.03
+      "usd": 3.93,
+      "total_usd": 3.93
     },
     "SPECTRA": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 174.18,
-      "total_usd": 174.18
+      "usd": 167.87,
+      "total_usd": 167.87
     },
     "SYRUP": {
-      "lev_usd": 1225.98,
+      "lev_usd": 838.38,
       "liquid_usd": 0,
       "usd": 0,
-      "total_usd": 1225.98
+      "total_usd": 838.38
     },
     "ROOM": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 1.46,
-      "total_usd": 1.46
+      "usd": 1.38,
+      "total_usd": 1.38
     },
     "AERO": {
-      "lev_usd": 0,
-      "liquid_usd": 0,
-      "usd": 50516.03,
-      "total_usd": 50516.03
+      "lev_usd": 1718.05,
+      "liquid_usd": 56.91,
+      "usd": 44547.24,
+      "total_usd": 46265.3
     },
     "MAYA": {
       "lev_usd": 0,
       "liquid_usd": 0,
-      "usd": 20.62,
-      "total_usd": 20.62
+      "usd": 19.57,
+      "total_usd": 19.57
     },
     "VIRTUAL": {
-      "lev_usd": 12261.08,
+      "lev_usd": 8419.61,
       "liquid_usd": 0,
-      "usd": 1849.78,
-      "total_usd": 14110.86
+      "usd": 1747.11,
+      "total_usd": 10166.72
     }
   },
   "errors": []
