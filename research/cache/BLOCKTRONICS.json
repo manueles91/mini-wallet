@@ -60,8 +60,8 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 4.40554e-06,
-        "raw_price": 4.40554e-06,
+        "price": 4.39807e-06,
+        "raw_price": 4.39807e-06,
         "snapped": false,
         "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -76,8 +76,8 @@
       },
       {
         "label": "Deep value",
-        "price": 4.03946e-06,
-        "raw_price": 4.03946e-06,
+        "price": 4.00571e-06,
+        "raw_price": 4.00571e-06,
         "snapped": false,
         "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -94,11 +94,11 @@
     "up": [
       {
         "label": "Getting warm",
-        "price": 5.95551e-06,
-        "raw_price": 5.95551e-06,
+        "price": 4.96006e-06,
+        "raw_price": 5.93171e-06,
         "snapped": false,
-        "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'D': 1.0}",
-        "source": "B1 reverse-RSI (USD)",
+        "reason": "state rule: blended weighted RSI 66.3 -> Getting warm; rung placed at current price; B1 reverse RSI 65 (USD, no div shift) tfs {'D': 1.0}",
+        "source": "state rule (weighted RSI)",
         "tf": "blend",
         "snapped_level": null,
         "weights": {
@@ -110,8 +110,8 @@
       },
       {
         "label": "Take profit",
-        "price": 6.45052e-06,
-        "raw_price": 6.45052e-06,
+        "price": 6.39136e-06,
+        "raw_price": 6.39136e-06,
         "snapped": false,
         "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -126,10 +126,10 @@
       }
     ],
     "context": {
-      "wrsi_usd": 64.2,
-      "wrsi_eth": 66.2,
-      "wrsi": 65.0,
-      "state": "Neutral",
+      "wrsi_usd": 65.5,
+      "wrsi_eth": 67.5,
+      "wrsi": 66.3,
+      "state": "Getting warm",
       "conv_long": 0.0,
       "conv_short": 0.0,
       "div_notes": [],
@@ -142,11 +142,11 @@
     },
     "v": 3,
     "mode": "B1 recompute-every-run (no snap, no anchoring)",
-    "ref_price": 5.03e-06,
-    "valid_from": "2026-10-21T12:51:29-06:00",
+    "ref_price": 4.97e-06,
+    "valid_from": "2026-10-21T18:16:21-06:00",
     "valid_until": "2026-10-22T18:07:00-06:00",
     "source_data": "CoinGecko closes (synthetic OHLC)",
-    "state": "Neutral",
+    "state": "Getting warm",
     "min_gap_pct": 5.0
   },
   "last_divergence": {
@@ -223,19 +223,19 @@
       "drawn": "2026-10-21"
     }
   ],
-  "last_reasoning": "BLOCKTRONICS 5.03e-06: RSI 1d 42.5, blended RSI 65.0 (USD 64.2/ETH 66.2) -> Neutral; Hidden Bullish 1d USD; Hidden Bullish 1d ETH (div ratio buy 0.0/sell 0.0). Uptrend (weekly EMA50 rising): in the EMA20 pullback buy zone (5.12e-06); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 4.93e-06 (EMA50 -3%). RSI triggers: add 4.406e-06, deep 4.039e-06, warm 5.956e-06, TP 6.451e-06.",
+  "last_reasoning": "BLOCKTRONICS 4.97e-06: RSI 1d 42.5, blended RSI 66.3 (USD 65.5/ETH 67.5) -> Getting warm; Hidden Bullish 1d USD; Hidden Bullish 1d ETH (div ratio buy 0.0/sell 0.0). Uptrend (weekly EMA50 rising): in the EMA20 pullback buy zone (5.11e-06); Getting warm: trim 20%, don't sell out; exit on daily close < 4.93e-06 (EMA50 -3%). RSI triggers: add 4.398e-06, deep 4.006e-06, warm 4.96e-06, TP 6.391e-06.",
   "schema": "mw-cache/0",
   "symbol": "BLOCKTRONICS",
   "trend": {
     "regime": "Uptrend",
-    "ema20": 5.12232e-06,
-    "ema50": 5.08611e-06,
-    "ema200": 4.51432e-06,
-    "pullback_buy_zone": 5.12232e-06,
-    "exit_close_below": 4.93352e-06,
+    "ema20": 5.10715e-06,
+    "ema50": 5.08128e-06,
+    "ema200": 4.51878e-06,
+    "pullback_buy_zone": 5.10715e-06,
+    "exit_close_below": 4.92884e-06,
     "trim_rule": "20% at each Getting warm / Take profit touch",
     "hidden_bullish": null,
-    "note": "Uptrend (weekly EMA50 rising): in the EMA20 pullback buy zone (5.12e-06); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 4.93e-06 (EMA50 -3%).",
+    "note": "Uptrend (weekly EMA50 rising): in the EMA20 pullback buy zone (5.11e-06); Getting warm: trim 20%, don't sell out; exit on daily close < 4.93e-06 (EMA50 -3%).",
     "framework": "TP1 trend pullback (guidance only)"
   }
 }
