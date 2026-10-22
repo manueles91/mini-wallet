@@ -1,7 +1,7 @@
 {
-  "versionCode": 66,
-  "versionName": "13.38",
+  "versionCode": 67,
+  "versionName": "13.39",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "6f59e4cb1a0aabed5777b9ad460497e90c008a1e0f773ced74e2133f0545b30c",
-  "notes": "sAERO allocation card: per-position chain + pool, 47h cooldown countdown / Ready; sAERO + new AERO valued in net worth; 40 Acres sAERO migration handled automatically (no double count); AeroAllocator hidden until it has sAERO recs."
+  "apkSha256": "56d400d8b1a238cb39b4dc2dadbfc8c1cc041356a3970b175b0fb2217524bfa5",
+  "notes": "In-app sAERO allocator: 'What to allocate' per position (stay/switch, target pool & chain, est. $ over the 47h cooldown window, ready time; tap a row for the numbers). Uses live Aero pool fees, staked share, allocated supply and incentive programs on all 7 chains; 40 Acres-managed excluded. Robinhood cooldown now tracked."
 }
