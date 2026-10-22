@@ -1,7 +1,7 @@
 {
-  "versionCode": 67,
-  "versionName": "13.39",
+  "versionCode": 68,
+  "versionName": "13.40",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "56d400d8b1a238cb39b4dc2dadbfc8c1cc041356a3970b175b0fb2217524bfa5",
-  "notes": "In-app sAERO allocator: 'What to allocate' per position (stay/switch, target pool & chain, est. $ over the 47h cooldown window, ready time; tap a row for the numbers). Uses live Aero pool fees, staked share, allocated supply and incentive programs on all 7 chains; 40 Acres-managed excluded. Robinhood cooldown now tracked."
+  "apkSha256": "28f68cdb9ff5f811aaaf624c56912ff0b1555bc1a68afbcd511dc25453b595df",
+  "notes": "sAERO 'What to allocate' now uses realized fees/day swept to allocators (Aero Vote Radar, aero.deftools.xyz, MIT) with live on-chain allocated supply and scheduled incentives; falls back to the 13.39 on-chain model if the radar is stale. 40 Acres positions shown as managed sAERO after migration ('not allocated' when idle)."
 }
