@@ -1,0 +1,129 @@
+{
+  "schema": "mw-setups-archive/0",
+  "setup": {
+    "id": "AERO-L-2026-10-18",
+    "token": "AERO",
+    "direction": "long",
+    "instrument": "perp",
+    "summary": "AERO perp long 2x: ladder 0.723/0.700 (zone 2), inval close <0.66, TPs 0.804/0.899/0.963",
+    "entry": 0.7115,
+    "stop": 0.66,
+    "targets": [
+      0.804,
+      0.899,
+      0.963
+    ],
+    "risk_reward": 3.4,
+    "confidence": "medium",
+    "hypothesis": "**Plan: wait for Zone 2, ladder in at 2x isolated.** Live mark 0.791 (13:09 CR) just lost Zone 1 (0.80\u20130.82); next supports daily 0.767, then Zone 2 = weekly 0.7175 / 0.6949.\n\n**Entries (ladder, 50/50):** 0.723 and 0.700 \u2192 avg ~0.7115. **Invalidation:** daily close < 0.66 (decision line, no stop order per your rule). Monthly 0.610 sits below as the wick risk.\n**TP ladder (1/3 each):** TP1 0.804 (weekly, old Zone 1) \u00b7 TP2 0.899 (daily R) \u00b7 TP3 0.963 (weekly R). R:R \u2248 1:3.4 on the ladder average.\n\n**Leverage & est. liquidation** (HL maintenance margin 16.7% on a 3x-max asset; matches the GRASS fill):\n| Entry | 2x liq | 3x liq |\n|---|---|---|\n| 0.723 | 0.434 | 0.578 |\n| 0.700 | 0.42 | 0.56 |\n| avg 0.7115 | 0.427 | 0.569 |\n| now 0.791 | 0.475 | 0.633 |\nAt 3x from 0.791, liquidation (0.633) is only ~4% under the 0.66 invalidation and above monthly 0.610, so a launch-day wick could liquidate before invalidation. **Prefer 2x.** 3x is acceptable only from Zone 2 (liq ~0.569, ~14% under invalidation).\n\n**Sizing (avg entry 0.7115):**\n| Margin | Lev | Notional | AERO | Loss at 0.66 | TP1 / TP2 / TP3 |\n|---|---|---|---|---|---|\n| $500 | 2x | $1,000 | 1,405 | -$72 | +$130 / +$264 / +$353 |\n| $500 | 3x | $1,500 | 2,108 | -$109 | +$195 / +$395 / +$530 |\n| $1000 | 2x | $2,000 | 2,811 | -$145 | +$260 / +$527 / +$707 |\n| $1000 | 3x | $3,000 | 4,216 | -$217 | +$390 / +$791 / +$1060 |\n\n**Timing**\n- **Now (0.791):** no. Price is breaking down with 4h RSI 33 and daily RSI falling, the daily Regular Bearish (Oct 4\u219211) is still active, and HL OI is flat (~39.0M AERO) through a 20% drop, so the leverage hasn't flushed yet.\n- **Zone 2 (preferred):** this is where weekly support, the rising EMA50 (0.737) and AERO/ETH monthly support (0.000332, Hidden Bullish forming vs ETH) line up.\n- **Reclaim alternative:** on a daily close back above 0.82, enter ~0.825 at 2x (liq ~0.495). Invalidation is then a daily close < 0.767, TPs the same from TP2.\n\n**Launch risk (Oct 21, ~6 PM CR epoch flip):**\n- **Pre-launch:** the run-up has already unwound (-20% from the Oct 16 high), so part of the sell-the-news has happened early.\n- **Post-launch:** three risks.\n  - VELO converts to AERO (0.044:1; AERO holders keep 94.5% of the new supply), and VELO holders may sell.\n  - Old emissions stop and the new emission schedule is still Missing.\n  - How HL handles the token migration on the perp is unconfirmed (Assumption: it continues 1:1).\n- **Rule of thumb:** if no fill before the launch, don't chase the launch candle. Re-evaluate after the first post-launch daily close (Oct 22).\n\n**Funding & capital**\n- **Funding:** HL +0.00125%/h (~0.03%/day) is a small cost for longs.\n- **Capital:** free USDC on HL is ~$405 against your $400 total reserve, so any AERO margin needs a fresh deposit (deposit the full margin).\n\n**Concentration \u26a0\ufe0f**\n- AERO was ~77% of your exposure (Oct 8) and backs the 40 Acres loan, so this adds correlated leverage.\n- 40 Acres LTV: 20.8% Base / 21.9% OP, non-liquidating.\n- LTV reaches 35% (top of the usual origination band) at AERO \u2248 0.470, and 50% at \u2248 0.329.\n\n**Evidence**\n- **Verified:** HL candles, OI and funding; @aeroxyz posts; 40 Acres on-chain debt and collateral.\n- **Assumption:** liquidation formula, sell-the-news magnitude, HL migration handling.\n- **Missing:** new emission schedule, HL OI history before Oct 14.",
+    "images": [
+      {
+        "caption": "AERO/USD daily \u00b7 zones, M/W/D levels, risk/upside boxes, RSI divergences",
+        "path": "research/setups/img/AERO_long_2026-10-18_1d.png.b64"
+      },
+      {
+        "caption": "AERO/USD 4h \u00b7 zones, M/W/D levels, RSI divergences",
+        "path": "research/setups/img/AERO_long_2026-10-18_4h.png.b64"
+      }
+    ],
+    "created": "2026-10-18T13:15:12-06:00",
+    "expires": "2026-10-23T18:07:00-06:00",
+    "status": "archived",
+    "venue": "Hyperliquid AERO perp (max 3x), isolated",
+    "entries": [
+      {
+        "price": 0.723,
+        "share": 0.5
+      },
+      {
+        "price": 0.7,
+        "share": 0.5
+      }
+    ],
+    "alt_entry": {
+      "trigger": "daily close > 0.82",
+      "price": 0.825,
+      "invalidation": 0.767,
+      "liq_2x": 0.495
+    },
+    "invalidation_note": "daily close below 0.66; no stop order (Manuel's rule)",
+    "tp_ladder": [
+      {
+        "price": 0.804,
+        "share": 0.3333
+      },
+      {
+        "price": 0.899,
+        "share": 0.3333
+      },
+      {
+        "price": 0.963,
+        "share": 0.3333
+      }
+    ],
+    "leverage": {
+      "recommended": 2,
+      "max": 3
+    },
+    "est_liquidation": {
+      "now_2x": 0.475,
+      "now_3x": 0.633,
+      "e1_2x": 0.434,
+      "e1_3x": 0.578,
+      "e2_2x": 0.42,
+      "e2_3x": 0.56,
+      "avg_2x": 0.427,
+      "avg_3x": 0.569,
+      "reclaim_2x": 0.495,
+      "reclaim_3x": 0.66
+    },
+    "sizing": {
+      "$500_2x": {
+        "notional_usd": 1000,
+        "aero": 1405,
+        "loss_at_invalidation_usd": 72,
+        "pnl_tp1_usd": 130,
+        "pnl_tp2_usd": 264,
+        "pnl_tp3_usd": 353
+      },
+      "$500_3x": {
+        "notional_usd": 1500,
+        "aero": 2108,
+        "loss_at_invalidation_usd": 109,
+        "pnl_tp1_usd": 195,
+        "pnl_tp2_usd": 395,
+        "pnl_tp3_usd": 530
+      },
+      "$1000_2x": {
+        "notional_usd": 2000,
+        "aero": 2811,
+        "loss_at_invalidation_usd": 145,
+        "pnl_tp1_usd": 260,
+        "pnl_tp2_usd": 527,
+        "pnl_tp3_usd": 707
+      },
+      "$1000_3x": {
+        "notional_usd": 3000,
+        "aero": 4216,
+        "loss_at_invalidation_usd": 217,
+        "pnl_tp1_usd": 390,
+        "pnl_tp2_usd": 791,
+        "pnl_tp3_usd": 1060
+      }
+    },
+    "funding": "+0.00125%/h (HL, flat 10d)",
+    "deposit_note": "HL free USDC ~$405 vs a $400 total reserve: any AERO margin needs a fresh deposit (deposit = full margin)",
+    "forty_acres": {
+      "ltv_base_pct": 20.8,
+      "ltv_op_pct": 21.9,
+      "ltv_combined_pct": 21.0,
+      "aero_at_35pct": 0.47,
+      "aero_at_50pct": 0.329,
+      "liquidating": false
+    },
+    "archived_at": "2026-10-21T19:38:33-05:00",
+    "archived_by": "crypto-research (approved by Manuel in chat 2026-10-21)",
+    "archive_reason": "built on rejected S/R-anchored levels; superseded by RSI/TP1 framework",
+    "archived_from": "research/setups/latest.json"
+  }
+}
