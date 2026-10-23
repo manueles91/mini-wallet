@@ -2373,10 +2373,193 @@
         "note": "Uptrend (weekly EMA50 rising): in the EMA20 pullback buy zone (5.08e-06); Getting warm: trim 20%, don't sell out; exit on daily close < 4.92e-06 (EMA50 -3%).",
         "framework": "TP1 trend pullback (guidance only)"
       }
+    },
+    "SPCX": {
+      "rsi": {
+        "value": 42.6,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "cool"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            104.36
+          ],
+          "resistance": []
+        },
+        "weekly": {
+          "support": [],
+          "resistance": [
+            176.28,
+            228.41
+          ]
+        },
+        "daily": {
+          "support": [
+            146.21
+          ],
+          "resistance": [
+            149.47
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.0521939
+          ],
+          "resistance": []
+        },
+        "weekly": {
+          "support": [
+            0.0539972
+          ],
+          "resistance": [
+            0.0641377,
+            0.0795265
+          ]
+        },
+        "daily": {
+          "support": [
+            0.0616478
+          ],
+          "resistance": [
+            0.0655193
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI",
+        "note": "no active divergence"
+      },
+      "divergences": [],
+      "label": "Neutral",
+      "reasoning": "SPCX 147.9: RSI 1d 42.6, blended RSI 42.3 (USD 44.4/ETH 39.1) -> Neutral; no active divergence, and price sits under EMA20 153.9/EMA50 152.0 (Downtrend tag, so no pullback buys) after giving back the Oct 20 spike to 159.8. Long bias but patient: wait for the RSI add trigger; only ~4.5 months of re-based history, so monthly RSI is excluded and levels use weekly/daily only. RSI triggers: add 127.8, deep 113.6, warm 182.2, TP 198.4.",
+      "images": [
+        {
+          "caption": "USD · daily (price + EMA20/50, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
+          "path": "research/labels/img/SPCX_usd_2026-10-23.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (same style)",
+          "path": "research/labels/img/SPCX_eth_2026-10-23.png.b64"
+        }
+      ],
+      "notes": "Full analysis (new-coin run, LeverLens watchlist add; needs_full: daily close 159.77 on 2026-10-20 crossed old Consider adding 149.47) 2026-10-23T15:17:18-06:00. Verified: OKX SPCX-USDT-SWAP 1D, 142 completed bars 2026-06-03..2026-10-22 (pre-2026-06-02 bars on a ~$2,400 pre-re-basing scale dropped); live 147.875 via Hyperliquid xyz mid; CoinGecko spacex-robinhood-tokenized-stock 147.92 (mcap $12.6M, history only since 2026-07-02, closes only) agrees within 0.1%. RSI d/w 42.6/46.0 (weekly on 21 bars; monthly only 5 bars, excluded from rungs/state: weights renormalised W .62/D .38). 24h +0.8%, 7d +1.5%, 30d -0.7%; EMA20 153.89, EMA50 151.98, EMA100 151.00 (no EMA200: <200 bars); 30d range 140.51-176.28; range since re-basing 104.36 (2026-08-03) - 228.41 (2026-06-16). S/R (display only, not used for levels): D S 146.21/R 149.47, W R 176.28/228.41, M S 104.36. SPCX/ETH 0.061922, RSI d/w 49.4/33.5, at EMA20/50 (0.061952/0.061724), W R 0.0641, W S 0.0540, M S 0.0522. OI/funding: Hyperliquid xyz:SPCX OI 1.04M (~$153M), funding 0.00063%/h, 24h vol $129M; OKX OI ~$56M, funding 0.0122%/8h (mildly positive, no squeeze signal). Levels v3/B1 (reverse-RSI 35/30/65/70, timeframe-consistent, no snap): Consider adding 127.8; Deep value 113.6; Getting warm 182.2; Take profit 198.4 (all blend W .62/D .38, no div shift). Divergences: none active (USD or vs ETH). Limitations: short history; tokenized-stock proxy (OKX perp) for the Robinhood token.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 127.801,
+            "raw_price": 127.801,
+            "snapped": false,
+            "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "W": 0.62,
+              "D": 0.38
+            },
+            "tfs": [
+              "D",
+              "W"
+            ]
+          },
+          {
+            "label": "Deep value",
+            "price": 113.647,
+            "raw_price": 113.647,
+            "snapped": false,
+            "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "W": 0.62,
+              "D": 0.38
+            },
+            "tfs": [
+              "D",
+              "W"
+            ]
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 182.173,
+            "raw_price": 182.173,
+            "snapped": false,
+            "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "W": 0.62,
+              "D": 0.38
+            },
+            "tfs": [
+              "D",
+              "W"
+            ]
+          },
+          {
+            "label": "Take profit",
+            "price": 198.405,
+            "raw_price": 198.405,
+            "snapped": false,
+            "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "W": 0.62,
+              "D": 0.38
+            },
+            "tfs": [
+              "D",
+              "W"
+            ]
+          }
+        ],
+        "context": {
+          "wrsi_usd": 44.4,
+          "wrsi_eth": 39.1,
+          "wrsi": 42.3,
+          "state": "Neutral",
+          "conv_long": 0.0,
+          "conv_short": 0.0,
+          "div_notes": [],
+          "conviction_long": 0.0,
+          "conviction_short": 0.0,
+          "tier_long": "add",
+          "tier_short": "trim",
+          "state_split": "USD 60% / ETH 40%",
+          "regime": "Downtrend"
+        },
+        "v": 3,
+        "mode": "B1 recompute-every-run (no snap, no anchoring)",
+        "ref_price": 147.875,
+        "valid_from": "2026-10-23T15:17:18-06:00",
+        "valid_until": "2026-10-27T18:07:00-06:00",
+        "source_data": "OKX USDT-swap 1D (utc), bars after 2026-06-02 re-basing",
+        "state": "Neutral",
+        "min_gap_pct": 5.31
+      },
+      "trend": {
+        "regime": "Downtrend",
+        "note": "Downtrend (below/flat EMA50 152, weekly EMA50 not rising): no pullback buys; RSI labels only.",
+        "framework": "TP1 trend pullback (guidance only)"
+      }
     }
   },
   "valid_from": "2026-10-23T01:52:33-06:00",
-  "valid_until": "2026-10-23T18:07:00-06:00",
+  "valid_until": "2026-10-27T18:07:00-06:00",
   "ladder": {
     "version": 3,
     "rules": "v3/B1: reverse-RSI 35/30/65/70 rungs (USD, M.35/W.40/D.25, no S/R snap), recomputed every run; state from 60/40 USD/ETH weighted RSI; divergence ratio = conviction (anchoring off by default, MW_LEVELS_ANCHOR=1) (mwlabels/levels_v3.py)"

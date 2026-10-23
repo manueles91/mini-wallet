@@ -1,20 +1,21 @@
 {
   "schema": "mw-cache/0",
   "symbol": "SPCX",
-  "coingecko_id": null,
+  "coingecko_id": "spacex-robinhood-tokenized-stock",
   "last_full_analysis": {
-    "date": "2026-10-17",
-    "ref_price": 145.38,
-    "label": "Consider adding",
-    "source": "research/labels/2026-10-17.json"
+    "date": "2026-10-23",
+    "ts": "2026-10-23T15:17:18-06:00",
+    "ref_price": 147.875,
+    "label": "Neutral",
+    "source": "research/labels/2026-10-23.json"
   },
   "last_update": {
-    "date": "2026-10-17",
-    "ts": "2026-10-17T18:20:16-06:00",
-    "price": 144.63,
-    "mode": "incremental"
+    "date": "2026-10-23",
+    "ts": "2026-10-23T15:17:18-06:00",
+    "price": 147.875,
+    "mode": "full"
   },
-  "rsi_d": 36.9,
+  "rsi_d": 42.6,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -24,11 +25,14 @@
     },
     "weekly": {
       "support": [],
-      "resistance": []
+      "resistance": [
+        176.28,
+        228.41
+      ]
     },
     "daily": {
       "support": [
-        145.22
+        146.21
       ],
       "resistance": [
         149.47
@@ -40,25 +44,107 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 149.47
+        "price": 127.801,
+        "raw_price": 127.801,
+        "snapped": false,
+        "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+        "source": "B1 reverse-RSI (USD)",
+        "tf": "blend",
+        "snapped_level": null,
+        "weights": {
+          "W": 0.62,
+          "D": 0.38
+        },
+        "tfs": [
+          "D",
+          "W"
+        ]
       },
       {
         "label": "Deep value",
-        "price": 104.36
+        "price": 113.647,
+        "raw_price": 113.647,
+        "snapped": false,
+        "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+        "source": "B1 reverse-RSI (USD)",
+        "tf": "blend",
+        "snapped_level": null,
+        "weights": {
+          "W": 0.62,
+          "D": 0.38
+        },
+        "tfs": [
+          "D",
+          "W"
+        ]
       }
     ],
-    "up": [],
-    "ref_price": 144.63,
-    "valid_from": "2026-10-17T18:20:16-06:00",
-    "valid_until": "2026-10-20T18:07:00-06:00"
+    "up": [
+      {
+        "label": "Getting warm",
+        "price": 182.173,
+        "raw_price": 182.173,
+        "snapped": false,
+        "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+        "source": "B1 reverse-RSI (USD)",
+        "tf": "blend",
+        "snapped_level": null,
+        "weights": {
+          "W": 0.62,
+          "D": 0.38
+        },
+        "tfs": [
+          "D",
+          "W"
+        ]
+      },
+      {
+        "label": "Take profit",
+        "price": 198.405,
+        "raw_price": 198.405,
+        "snapped": false,
+        "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+        "source": "B1 reverse-RSI (USD)",
+        "tf": "blend",
+        "snapped_level": null,
+        "weights": {
+          "W": 0.62,
+          "D": 0.38
+        },
+        "tfs": [
+          "D",
+          "W"
+        ]
+      }
+    ],
+    "context": {
+      "wrsi_usd": 44.4,
+      "wrsi_eth": 39.1,
+      "wrsi": 42.3,
+      "state": "Neutral",
+      "conv_long": 0.0,
+      "conv_short": 0.0,
+      "div_notes": [],
+      "conviction_long": 0.0,
+      "conviction_short": 0.0,
+      "tier_long": "add",
+      "tier_short": "trim",
+      "state_split": "USD 60% / ETH 40%",
+      "regime": "Downtrend"
+    },
+    "v": 3,
+    "mode": "B1 recompute-every-run (no snap, no anchoring)",
+    "ref_price": 147.875,
+    "valid_from": "2026-10-23T15:17:18-06:00",
+    "valid_until": "2026-10-27T18:07:00-06:00",
+    "source_data": "OKX USDT-swap 1D (utc), bars after 2026-06-02 re-basing",
+    "state": "Neutral",
+    "min_gap_pct": 5.31
   },
   "zones": null,
   "last_divergence": null,
   "divergences_seen": [],
-  "thesis": [
-    "SPCX lost the 146.9 add level on the Oct 16 close and sits on daily support 145.2 with RSI 37; yesterday's forming Hidden Bullish dropped out",
-    "SPCX/ETH holds daily support 0.0591 above weekly 0.0576, so small adds are fine while 145 holds on a daily close; monthly 104 is the only deep support, and a reclaim of daily 149.5 turns it neutral."
-  ],
+  "thesis": "Tokenized SpaceX (Robinhood token); priced via OKX SPCX-USDT-SWAP (re-based 2026-06-02) and Hyperliquid xyz:SPCX. Long bias; RSI-trigger adds only while in Downtrend regime.",
   "catalysts": [],
   "last_swings": {
     "daily_highs": [
@@ -77,31 +163,36 @@
     ],
     "daily_lows": [
       {
-        "date": "2026-09-15",
-        "price": 142.51
-      },
-      {
         "date": "2026-09-24",
         "price": 146.12
       },
       {
         "date": "2026-09-28",
         "price": 145.22
+      },
+      {
+        "date": "2026-10-17",
+        "price": 140.51
       }
     ],
     "k": 3
   },
   "image_paths": [
     {
-      "path": "research/labels/img/SPCX_usd_2026-10-17.png.b64",
-      "caption": "USD \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-17"
+      "caption": "USD \u00b7 daily (price + EMA20/50, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
+      "path": "research/labels/img/SPCX_usd_2026-10-23.png.b64",
+      "drawn": "2026-10-23"
     },
     {
-      "path": "research/labels/img/SPCX_eth_2026-10-17.png.b64",
-      "caption": "vs ETH \u00b7 daily (M/W/D levels, RSI divergences marked)",
-      "drawn": "2026-10-17"
+      "caption": "vs ETH \u00b7 daily (same style)",
+      "path": "research/labels/img/SPCX_eth_2026-10-23.png.b64",
+      "drawn": "2026-10-23"
     }
   ],
-  "last_reasoning": "SPCX closed Oct 17 at 145.3, right on daily support 145.2, with RSI 37 and no divergence, and live 144.3 is just under it. Small adds are fine while 145 holds on a daily close, but a close below opens monthly 104; a reclaim of daily 149.5 turns it neutral."
+  "last_reasoning": "SPCX 147.9: RSI 1d 42.6, blended RSI 42.3 (USD 44.4/ETH 39.1) -> Neutral; no active divergence, and price sits under EMA20 153.9/EMA50 152.0 (Downtrend tag, so no pullback buys) after giving back the Oct 20 spike to 159.8. Long bias but patient: wait for the RSI add trigger; only ~4.5 months of re-based history, so monthly RSI is excluded and levels use weekly/daily only. RSI triggers: add 127.8, deep 113.6, warm 182.2, TP 198.4.",
+  "trend": {
+    "regime": "Downtrend",
+    "note": "Downtrend (below/flat EMA50 152, weekly EMA50 not rising): no pullback buys; RSI labels only.",
+    "framework": "TP1 trend pullback (guidance only)"
+  }
 }
