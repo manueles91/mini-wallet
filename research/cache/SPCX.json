@@ -134,12 +134,12 @@
     },
     "v": 3,
     "mode": "B1 recompute-every-run (no snap, no anchoring)",
-    "ref_price": 148.625,
-    "valid_from": "2026-10-25T18:10:46-06:00",
+    "ref_price": 149.105,
+    "valid_from": "2026-10-26T12:44:27-06:00",
     "valid_until": "2026-10-26T18:07:00-06:00",
     "source_data": "OKX USDT-swap 1D (utc), bars after 2026-06-02 re-basing",
     "state": "Neutral",
-    "min_gap_pct": 5.39
+    "min_gap_pct": 5.37
   },
   "zones": null,
   "last_divergence": null,
@@ -180,16 +180,16 @@
   "image_paths": [
     {
       "caption": "USD \u00b7 daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
-      "path": "research/labels/img/SPCX_usd_2026-10-25.png.b64",
-      "drawn": "2026-10-25"
+      "path": "research/labels/img/SPCX_usd_2026-10-26.png.b64",
+      "drawn": "2026-10-26"
     },
     {
       "caption": "vs ETH \u00b7 daily (same style)",
-      "path": "research/labels/img/SPCX_eth_2026-10-25.png.b64",
-      "drawn": "2026-10-25"
+      "path": "research/labels/img/SPCX_eth_2026-10-26.png.b64",
+      "drawn": "2026-10-26"
     }
   ],
-  "last_reasoning": "SPCX 148.6: RSI 1d 42.6, blended RSI 44.0 (USD 45.6/ETH 41.6) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 151.5, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 128.1, deep 114.1, warm 180.9, TP 196.3.",
+  "last_reasoning": "SPCX 149.1: RSI 1d 42.6, blended RSI 44.0 (USD 45.6/ETH 41.6) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 151.5, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 128.1, deep 114.1, warm 180.9, TP 196.3.",
   "trend": {
     "regime": "Downtrend",
     "note": "Downtrend (below/flat EMA50 151.5, weekly EMA50 not rising): no pullback buys; RSI labels only.",
