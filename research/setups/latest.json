@@ -1,154 +1,156 @@
 {
-  "schema": "mw-setups/0",
-  "date": "2026-10-18",
-  "setups": [],
-  "framework": {
-    "name": "TP1 trend pullback (guidance only, not a label; paper-tracked as TP1)",
-    "as_of": "2026-10-25T18:10:46-06:00",
-    "valid_until": "2026-10-26T18:07:00-06:00",
-    "rules": "Uptrend = close > rising EMA50 or weekly EMA50 rising. Buy pullbacks to EMA20 or confirmed Hidden Bullish; trim 20% at each Getting warm/Take profit touch; exit on daily close > 3% below EMA50.",
-    "coins": {
-      "AERO": {
-        "regime": "Uptrend",
-        "ema20": 0.79905,
-        "ema50": 0.744614,
-        "ema200": 0.585644,
-        "pullback_buy_zone": 0.79905,
-        "exit_close_below": 0.722275,
-        "trim_rule": "20% at each Getting warm / Take profit touch",
-        "hidden_bullish": null,
-        "note": "Uptrend (weekly EMA50 rising): in the EMA20 pullback buy zone (0.799); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.722 (EMA50 -3%).",
-        "framework": "TP1 trend pullback (guidance only)",
-        "label": "Neutral"
-      },
-      "ETH": {
-        "regime": "Uptrend",
-        "ema20": 2452.32,
-        "ema50": 2463.91,
-        "ema200": 2318.32,
-        "pullback_buy_zone": 2452.32,
-        "exit_close_below": 2390.0,
-        "trim_rule": "20% at each Getting warm / Take profit touch",
-        "hidden_bullish": null,
-        "note": "Uptrend (weekly EMA50 rising): in the EMA20 pullback buy zone (2,452); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 2,390 (EMA50 -3%).",
-        "framework": "TP1 trend pullback (guidance only)",
-        "label": "Neutral"
-      },
-      "VVV": {
-        "regime": "Uptrend",
-        "ema20": 24.8749,
-        "ema50": 23.9077,
-        "ema200": 16.9961,
-        "pullback_buy_zone": 24.8749,
-        "exit_close_below": 23.1904,
-        "trim_rule": "20% at each Getting warm / Take profit touch",
-        "hidden_bullish": null,
-        "note": "Uptrend (price > rising EMA50): in the EMA20 pullback buy zone (24.87); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 23.19 (EMA50 -3%).",
-        "framework": "TP1 trend pullback (guidance only)",
-        "label": "Neutral"
-      },
-      "VIRTUAL": {
-        "regime": "Downtrend",
-        "note": "Downtrend (below/flat EMA50 0.694, weekly EMA50 not rising): no pullback buys; RSI labels only.",
-        "framework": "TP1 trend pullback (guidance only)",
-        "label": "Consider adding"
-      },
-      "BNKR": {
-        "regime": "Uptrend",
-        "ema20": 0.000333262,
-        "ema50": 0.000328869,
-        "ema200": 0.00033724,
-        "pullback_buy_zone": 0.000333262,
-        "exit_close_below": 0.000319003,
-        "trim_rule": "20% at each Getting warm / Take profit touch",
-        "hidden_bullish": null,
-        "note": "Uptrend (weekly EMA50 rising): in the EMA20 pullback buy zone (0.000333); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.000319 (EMA50 -3%).",
-        "framework": "TP1 trend pullback (guidance only)",
-        "label": "Neutral"
-      },
-      "DRV": {
-        "regime": "Uptrend",
-        "ema20": 0.395134,
-        "ema50": 0.350941,
-        "ema200": 0.208622,
-        "pullback_buy_zone": 0.395134,
-        "exit_close_below": 0.340412,
-        "trim_rule": "20% at each Getting warm / Take profit touch",
-        "hidden_bullish": null,
-        "note": "Uptrend (price > rising EMA50): in the EMA20 pullback buy zone (0.395); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.34 (EMA50 -3%).",
-        "framework": "TP1 trend pullback (guidance only)",
-        "label": "Neutral"
-      },
-      "DRB": {
-        "regime": "Uptrend",
-        "ema20": 0.000165708,
-        "ema50": 0.000169431,
-        "ema200": 0.000115677,
-        "pullback_buy_zone": 0.000165708,
-        "exit_close_below": 0.000164349,
-        "trim_rule": "20% at each Getting warm / Take profit touch",
-        "hidden_bullish": null,
-        "note": "Uptrend (weekly EMA50 rising): in the EMA20 pullback buy zone (0.000166); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.000164 (EMA50 -3%).",
-        "framework": "TP1 trend pullback (guidance only)",
-        "label": "Neutral"
-      },
-      "SERV": {
-        "regime": "Downtrend",
-        "note": "Downtrend (below/flat EMA50 0.0209, weekly EMA50 not rising): no pullback buys; RSI labels only.",
-        "framework": "TP1 trend pullback (guidance only)",
-        "label": "Neutral"
-      },
-      "POD": {
-        "regime": "Uptrend",
-        "ema20": 0.57206,
-        "ema50": 0.515924,
-        "ema200": 0.356601,
-        "pullback_buy_zone": 0.57206,
-        "exit_close_below": 0.500446,
-        "trim_rule": "20% at each Getting warm / Take profit touch",
-        "hidden_bullish": null,
-        "note": "Uptrend (weekly EMA50 rising): in the EMA20 pullback buy zone (0.572); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.5 (EMA50 -3%).",
-        "framework": "TP1 trend pullback (guidance only)",
-        "label": "Neutral"
-      },
-      "SYRUP": {
-        "regime": "Downtrend",
-        "note": "Downtrend (below/flat EMA50 0.21, weekly EMA50 not rising): no pullback buys; RSI labels only.",
-        "framework": "TP1 trend pullback (guidance only)",
-        "label": "Neutral"
-      },
-      "GRASS": {
-        "regime": "Uptrend",
-        "ema20": 0.652226,
-        "ema50": 0.577362,
-        "ema200": 0.457847,
-        "pullback_buy_zone": 0.652226,
-        "exit_close_below": 0.560042,
-        "trim_rule": "20% at each Getting warm / Take profit touch",
-        "hidden_bullish": null,
-        "note": "Uptrend (price > rising EMA50): pullback buy zone near EMA20 at 0.652 (-9%); Getting warm: trim 20%, don't sell out; exit on daily close < 0.56 (EMA50 -3%).",
-        "framework": "TP1 trend pullback (guidance only)",
-        "label": "Getting warm"
-      },
-      "BLOCKTRONICS": {
-        "regime": "Uptrend",
-        "ema20": 4.9737e-06,
-        "ema50": 5.02592e-06,
-        "ema200": 4.52624e-06,
-        "pullback_buy_zone": 4.9737e-06,
-        "exit_close_below": 4.87514e-06,
-        "trim_rule": "20% at each Getting warm / Take profit touch",
-        "hidden_bullish": null,
-        "note": "Uptrend (weekly EMA50 rising): in the EMA20 pullback buy zone (4.97e-06); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 4.88e-06 (EMA50 -3%).",
-        "framework": "TP1 trend pullback (guidance only)",
-        "label": "Neutral"
-      },
-      "SPCX": {
-        "regime": "Downtrend",
-        "note": "Downtrend (below/flat EMA50 151.5, weekly EMA50 not rising): no pullback buys; RSI labels only.",
-        "framework": "TP1 trend pullback (guidance only)",
-        "label": "Neutral"
-      }
-    }
+ "schema": "mw-setups/0",
+ "date": "2026-10-25",
+ "setups": [],
+ "framework": {
+  "name": "TP1 trend pullback (guidance only, not a label; paper-tracked as TP1)",
+  "as_of": "2026-10-25T18:10:46-06:00",
+  "valid_until": "2026-10-26T18:07:00-06:00",
+  "rules": "Uptrend = close > rising EMA50 or weekly EMA50 rising. Buy pullbacks to EMA20 or confirmed Hidden Bullish; trim 20% at each Getting warm/Take profit touch; exit on daily close > 3% below EMA50.",
+  "coins": {
+   "AERO": {
+    "regime": "Uptrend",
+    "ema20": 0.79905,
+    "ema50": 0.744614,
+    "ema200": 0.585644,
+    "pullback_buy_zone": 0.79905,
+    "exit_close_below": 0.722275,
+    "trim_rule": "20% at each Getting warm / Take profit touch",
+    "hidden_bullish": null,
+    "note": "Uptrend (weekly EMA50 rising): in the EMA20 pullback buy zone (0.799); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.722 (EMA50 -3%).",
+    "framework": "TP1 trend pullback (guidance only)",
+    "label": "Neutral"
+   },
+   "ETH": {
+    "regime": "Uptrend",
+    "ema20": 2452.32,
+    "ema50": 2463.91,
+    "ema200": 2318.32,
+    "pullback_buy_zone": 2452.32,
+    "exit_close_below": 2390.0,
+    "trim_rule": "20% at each Getting warm / Take profit touch",
+    "hidden_bullish": null,
+    "note": "Uptrend (weekly EMA50 rising): in the EMA20 pullback buy zone (2,452); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 2,390 (EMA50 -3%).",
+    "framework": "TP1 trend pullback (guidance only)",
+    "label": "Neutral"
+   },
+   "VVV": {
+    "regime": "Uptrend",
+    "ema20": 24.8749,
+    "ema50": 23.9077,
+    "ema200": 16.9961,
+    "pullback_buy_zone": 24.8749,
+    "exit_close_below": 23.1904,
+    "trim_rule": "20% at each Getting warm / Take profit touch",
+    "hidden_bullish": null,
+    "note": "Uptrend (price > rising EMA50): in the EMA20 pullback buy zone (24.87); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 23.19 (EMA50 -3%).",
+    "framework": "TP1 trend pullback (guidance only)",
+    "label": "Neutral"
+   },
+   "VIRTUAL": {
+    "regime": "Downtrend",
+    "note": "Downtrend (below/flat EMA50 0.694, weekly EMA50 not rising): no pullback buys; RSI labels only.",
+    "framework": "TP1 trend pullback (guidance only)",
+    "label": "Consider adding"
+   },
+   "BNKR": {
+    "regime": "Uptrend",
+    "ema20": 0.000333262,
+    "ema50": 0.000328869,
+    "ema200": 0.00033724,
+    "pullback_buy_zone": 0.000333262,
+    "exit_close_below": 0.000319003,
+    "trim_rule": "20% at each Getting warm / Take profit touch",
+    "hidden_bullish": null,
+    "note": "Uptrend (weekly EMA50 rising): in the EMA20 pullback buy zone (0.000333); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.000319 (EMA50 -3%).",
+    "framework": "TP1 trend pullback (guidance only)",
+    "label": "Neutral"
+   },
+   "DRV": {
+    "regime": "Uptrend",
+    "ema20": 0.395134,
+    "ema50": 0.350941,
+    "ema200": 0.208622,
+    "pullback_buy_zone": 0.395134,
+    "exit_close_below": 0.340412,
+    "trim_rule": "20% at each Getting warm / Take profit touch",
+    "hidden_bullish": null,
+    "note": "Uptrend (price > rising EMA50): in the EMA20 pullback buy zone (0.395); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.34 (EMA50 -3%).",
+    "framework": "TP1 trend pullback (guidance only)",
+    "label": "Neutral"
+   },
+   "DRB": {
+    "regime": "Uptrend",
+    "ema20": 0.000165708,
+    "ema50": 0.000169431,
+    "ema200": 0.000115677,
+    "pullback_buy_zone": 0.000165708,
+    "exit_close_below": 0.000164349,
+    "trim_rule": "20% at each Getting warm / Take profit touch",
+    "hidden_bullish": null,
+    "note": "Uptrend (weekly EMA50 rising): in the EMA20 pullback buy zone (0.000166); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.000164 (EMA50 -3%).",
+    "framework": "TP1 trend pullback (guidance only)",
+    "label": "Neutral"
+   },
+   "SERV": {
+    "regime": "Downtrend",
+    "note": "Downtrend (below/flat EMA50 0.0209, weekly EMA50 not rising): no pullback buys; RSI labels only.",
+    "framework": "TP1 trend pullback (guidance only)",
+    "label": "Neutral"
+   },
+   "POD": {
+    "regime": "Uptrend",
+    "ema20": 0.57206,
+    "ema50": 0.515924,
+    "ema200": 0.356601,
+    "pullback_buy_zone": 0.57206,
+    "exit_close_below": 0.500446,
+    "trim_rule": "20% at each Getting warm / Take profit touch",
+    "hidden_bullish": null,
+    "note": "Uptrend (weekly EMA50 rising): in the EMA20 pullback buy zone (0.572); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.5 (EMA50 -3%).",
+    "framework": "TP1 trend pullback (guidance only)",
+    "label": "Neutral"
+   },
+   "SYRUP": {
+    "regime": "Downtrend",
+    "note": "Downtrend (below/flat EMA50 0.21, weekly EMA50 not rising): no pullback buys; RSI labels only.",
+    "framework": "TP1 trend pullback (guidance only)",
+    "label": "Neutral"
+   },
+   "GRASS": {
+    "regime": "Uptrend",
+    "ema20": 0.652226,
+    "ema50": 0.577362,
+    "ema200": 0.457847,
+    "pullback_buy_zone": 0.652226,
+    "exit_close_below": 0.560042,
+    "trim_rule": "20% at each Getting warm / Take profit touch",
+    "hidden_bullish": null,
+    "note": "Uptrend (price > rising EMA50): pullback buy zone near EMA20 at 0.652 (-9%); Getting warm: trim 20%, don't sell out; exit on daily close < 0.56 (EMA50 -3%).",
+    "framework": "TP1 trend pullback (guidance only)",
+    "label": "Getting warm"
+   },
+   "BLOCKTRONICS": {
+    "regime": "Uptrend",
+    "ema20": 4.9737e-06,
+    "ema50": 5.02592e-06,
+    "ema200": 4.52624e-06,
+    "pullback_buy_zone": 4.9737e-06,
+    "exit_close_below": 4.87514e-06,
+    "trim_rule": "20% at each Getting warm / Take profit touch",
+    "hidden_bullish": null,
+    "note": "Uptrend (weekly EMA50 rising): in the EMA20 pullback buy zone (4.97e-06); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 4.88e-06 (EMA50 -3%).",
+    "framework": "TP1 trend pullback (guidance only)",
+    "label": "Neutral"
+   },
+   "SPCX": {
+    "regime": "Downtrend",
+    "note": "Downtrend (below/flat EMA50 151.5, weekly EMA50 not rising): no pullback buys; RSI labels only.",
+    "framework": "TP1 trend pullback (guidance only)",
+    "label": "Neutral"
+   }
   }
+ },
+ "message": "No active proposals at the moment.",
+ "valid_until": "2026-10-26T18:07:00-06:00"
 }
