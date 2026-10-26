@@ -1,6 +1,6 @@
 {
  "schema": "mw-scoring/0",
- "generated": "2026-10-24T18:21:26-06:00",
+ "generated": "2026-10-25T18:16:19-06:00",
  "paper_only": true,
  "rules": "(v1, 2026-10-21)\n- Every published rung spawns ONE hypothetical perp trade the first time price touches it after it was armed\n  (armed = valid_from of the label publication that carried it; disarmed when a later publication drops it, unless\n  already triggered). Longs at Consider adding / Add on dip / Deep value; shorts at Getting warm / Take profit.\n- Entry: the rung price on touch (if the bar opens through the rung, fill at that bar's open).\n- Stop: just beyond (0.5%) the next rung on the same side (Consider adding -> Deep value; Getting warm -> Take profit);\n  for the outer rung (or if none) the next stronger (W/M) S/R level beyond it; fallback 10% away. Setups: their stop\n  (invalidation).\n- Target: the next opposite-side level. Add/warm rungs -> first resistance above / support below the publication's\n  ref price (the \"Neutral\" band edge); Deep value -> the Consider adding rung; Take profit -> the Getting warm rung.\n  Setups: their first target. Fallback 10%.\n- Max hold 10 days (240 h), then exit at close. Stop and target in the same bar = stop (conservative). On the entry bar\n  only a stop counts, or a target if the bar CLOSES beyond it.\n- No leverage. Score in R multiples ((exit-entry)/|entry-stop|, sign-adjusted) and % move, net of 0.05% fee per side.\n- Context tags: coin, rung, side, level tf (M/W/D), RSI d/w at entry, divergences, whether the RSI shift moved the rung,\n  offset_pct, strategy. Strategies (scored separately, same rules): ladder_off0/0.5/1 (front-run offset x ATR14),\n  scaled_ladder (half at add, half at deep, common stop beyond deep), rsi_reclaim (daily RSI closes back above 30 within 3%\n  of W/M support -> long next open; short mirror at 70), div_confirm (Regular 1d/1w divergence confirmed on the close ->\n  next open, stop beyond the pivot), breakout_retest (retest of a W/M resistance broken by a daily close, within 10d).\n  Forward for strategies = same daily engine replayed on bars from Oct 21 (kind=forward_replay).\n- Backtest (`--backtest`): same rules over the last ~90 daily bars per coin, levels rebuilt from data available on\n  each day; ladders re-anchor on: close crossing a rung/W-M level, |move| > 15% from anchor, or anchor age > 14d.\n  IN-SAMPLE, daily bars only (intrabar order unknown), level/pivot code tuned on this same period, survivorship\n  (current watchlist). Kept separate from the forward ledger (starts 2026-10-21).",
  "forward": {
@@ -147,16 +147,16 @@
     ],
     "div_present": true,
     "status": "open",
-    "exit": 0.62912,
+    "exit": 0.62233,
     "exit_reason": "open (mark)",
     "fill": 0.68821,
-    "pct": -8.69,
-    "R": -0.53,
+    "pct": -9.67,
+    "R": -0.59,
     "mfe_R": 0.03,
     "mae_R": -0.73,
     "risk_pct": 16.38,
-    "bars_held": 71,
-    "exit_ts": "2026-10-25 00:00:00+00:00"
+    "bars_held": 95,
+    "exit_ts": "2026-10-26 00:00:00+00:00"
    },
    {
     "kind": "forward",
@@ -180,16 +180,16 @@
     ],
     "div_present": true,
     "status": "open",
-    "exit": 0.62912,
+    "exit": 0.62233,
     "exit_reason": "open (mark)",
     "fill": 0.66235,
-    "pct": -5.12,
-    "R": -0.37,
+    "pct": -6.14,
+    "R": -0.44,
     "mfe_R": 0.07,
     "mae_R": -0.62,
     "risk_pct": 13.9,
-    "bars_held": 40,
-    "exit_ts": "2026-10-25 00:00:00+00:00"
+    "bars_held": 64,
+    "exit_ts": "2026-10-26 00:00:00+00:00"
    }
   ],
   "closed_recent": [
@@ -2714,42 +2714,42 @@
   }
  },
  "real_positions_reference": {
-  "ts": "2026-10-24T18:20:19-06:00",
+  "ts": "2026-10-25T18:16:19-06:00",
   "positions": [
    {
     "coin": "GRASS",
     "szi": "2808.2",
     "entry": "0.64027",
-    "upnl": "88.547097",
-    "liq": "0.3998773939"
+    "upnl": "215.590065",
+    "liq": "0.4853770542"
    },
    {
     "coin": "VIRTUAL",
     "szi": "12942.1",
     "entry": "0.66971",
-    "upnl": "-526.314365",
-    "liq": "0.3693044851"
+    "upnl": "-611.861646",
+    "liq": "0.4181054315"
    },
    {
     "coin": "VVV",
     "szi": "484.09",
     "entry": "23.8102",
-    "upnl": "263.71108",
-    "liq": "16.6622220901"
+    "upnl": "665.98987",
+    "liq": "17.8865426983"
    },
    {
     "coin": "SYRUP",
     "szi": "4394.0",
     "entry": "0.189814",
-    "upnl": "-52.045413",
-    "liq": "0.1158184935"
+    "upnl": "-69.665353",
+    "liq": "0.1269363709"
    },
    {
     "coin": "AERO",
-    "szi": "2179.0",
-    "entry": "0.80352",
-    "upnl": "-227.53156",
-    "liq": "0.4828724415"
+    "szi": "7021.0",
+    "entry": "0.726023",
+    "upnl": "-359.63842",
+    "liq": "0.4976614142"
    }
   ]
  }
