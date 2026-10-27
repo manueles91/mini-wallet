@@ -48,22 +48,26 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.000110331,
-        "raw_price": 0.000110331,
+        "price": 5.62006e-05,
+        "raw_price": 5.62006e-05,
         "snapped": false,
-        "reason": "B1 reverse RSI 35 (USD, no div shift) tfs fallback",
+        "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'W': 1.0}",
         "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
         "snapped_level": null,
-        "weights": null,
-        "tfs": "fallback"
+        "weights": {
+          "W": 1.0
+        },
+        "tfs": [
+          "W"
+        ]
       },
       {
         "label": "Deep value",
-        "price": 9.63298e-05,
-        "raw_price": 0.000116794,
+        "price": 4.92751e-05,
+        "raw_price": 0.000116496,
         "snapped": false,
-        "reason": "gap rule (deep vs add, min gap 14.5%); B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
+        "reason": "gap rule (deep vs add, min gap 14.1%); B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
         "snapped_level": null,
@@ -78,45 +82,41 @@
     "up": [
       {
         "label": "Getting warm",
-        "price": 0.000230537,
-        "raw_price": 0.000230537,
+        "price": 0.000204756,
+        "raw_price": 0.000204756,
         "snapped": false,
-        "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+        "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
         "snapped_level": null,
         "weights": {
-          "W": 0.62,
-          "D": 0.38
+          "D": 1.0
         },
         "tfs": [
-          "D",
-          "W"
+          "D"
         ]
       },
       {
         "label": "Take profit",
-        "price": 0.000272176,
-        "raw_price": 0.000272176,
+        "price": 0.000233534,
+        "raw_price": 0.000233408,
         "snapped": false,
-        "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+        "reason": "gap rule (TP vs warm, min gap 14.1%); B1 reverse RSI 70 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
         "snapped_level": null,
         "weights": {
-          "W": 0.62,
-          "D": 0.38
+          "D": 1.0
         },
         "tfs": [
-          "D",
-          "W"
+          "D"
         ]
       }
     ],
     "context": {
-      "wrsi_usd": 44.4,
-      "wrsi_eth": 44.2,
-      "wrsi": 44.3,
+      "wrsi_usd": 39.6,
+      "wrsi_eth": 39.1,
+      "wrsi": 39.4,
       "state": "Neutral",
       "conv_long": 0.0,
       "conv_short": 0.0,
@@ -130,12 +130,12 @@
     },
     "v": 3,
     "mode": "B1 recompute-every-run (no snap, no anchoring)",
-    "ref_price": 0.00012259,
-    "valid_from": "2026-10-26T12:44:27-06:00",
-    "valid_until": "2026-10-26T18:07:00-06:00",
+    "ref_price": 0.00012199,
+    "valid_from": "2026-10-26T18:17:07-06:00",
+    "valid_until": "2026-10-27T18:07:00-06:00",
     "source_data": "GeckoTerminal 1d",
     "state": "Neutral",
-    "min_gap_pct": 14.53
+    "min_gap_pct": 14.05
   },
   "zones": null,
   "last_divergence": null,
@@ -188,16 +188,16 @@
       "drawn": "2026-10-26"
     }
   ],
-  "last_reasoning": "DRB 0.0001226: RSI 1d 42.7, blended RSI 44.3 (USD 44.4/ETH 44.2) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Exit: daily close 0.000123 is below EMA50 -3% (0.000164); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.000164; RSI labels only. RSI triggers: add 0.0001103, deep 9.633e-05, warm 0.0002305, TP 0.0002722.",
+  "last_reasoning": "DRB 0.000122: RSI 1d 42.7, blended RSI 39.4 (USD 39.6/ETH 39.1) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Exit: daily close 0.000121 is below EMA50 -3% (0.000162); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.000162; RSI labels only. RSI triggers: add 5.62e-05, deep 4.928e-05, warm 0.0002048, TP 0.0002335.",
   "trend": {
     "regime": "Exit",
-    "ema20": 0.000165708,
-    "ema50": 0.000169431,
-    "ema200": 0.000115677,
+    "ema20": 0.000161405,
+    "ema50": 0.000167512,
+    "ema200": 0.000115438,
     "pullback_buy_zone": null,
-    "exit_close_below": 0.000164349,
+    "exit_close_below": 0.000162487,
     "exit_triggered": true,
-    "note": "Exit: daily close 0.000123 is below EMA50 -3% (0.000164); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.000164; RSI labels only.",
+    "note": "Exit: daily close 0.000121 is below EMA50 -3% (0.000162); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.000162; RSI labels only.",
     "framework": "TP1 trend pullback (guidance only)"
   }
 }

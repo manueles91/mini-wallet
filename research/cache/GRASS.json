@@ -50,8 +50,8 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.477031,
-        "raw_price": 0.477031,
+        "price": 0.480283,
+        "raw_price": 0.480283,
         "snapped": false,
         "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -66,8 +66,8 @@
       },
       {
         "label": "Deep value",
-        "price": 0.374902,
-        "raw_price": 0.374902,
+        "price": 0.385449,
+        "raw_price": 0.385449,
         "snapped": false,
         "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -84,10 +84,10 @@
     "up": [
       {
         "label": "Getting warm",
-        "price": 0.688091,
-        "raw_price": 0.818925,
+        "price": 0.679249,
+        "raw_price": 0.823037,
         "snapped": false,
-        "reason": "state rule: blended weighted RSI 65.5 -> Getting warm; rung placed at current price; B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+        "reason": "state rule: blended weighted RSI 66.4 -> Getting warm; rung placed at current price; B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "state rule (weighted RSI)",
         "tf": "blend",
         "snapped_level": null,
@@ -102,8 +102,8 @@
       },
       {
         "label": "Take profit",
-        "price": 0.970201,
-        "raw_price": 0.970201,
+        "price": 0.968877,
+        "raw_price": 0.968877,
         "snapped": false,
         "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -120,9 +120,9 @@
       }
     ],
     "context": {
-      "wrsi_usd": 66.4,
-      "wrsi_eth": 64.2,
-      "wrsi": 65.5,
+      "wrsi_usd": 67.2,
+      "wrsi_eth": 65.2,
+      "wrsi": 66.4,
       "state": "Getting warm",
       "conv_long": 0.0,
       "conv_short": 0.0,
@@ -136,12 +136,12 @@
     },
     "v": 3,
     "mode": "B1 recompute-every-run (no snap, no anchoring)",
-    "ref_price": 0.68947,
-    "valid_from": "2026-10-26T12:44:27-06:00",
-    "valid_until": "2026-10-26T18:07:00-06:00",
+    "ref_price": 0.68061,
+    "valid_from": "2026-10-26T18:17:07-06:00",
+    "valid_until": "2026-10-27T18:07:00-06:00",
     "source_data": "Hyperliquid 1d",
     "state": "Getting warm",
-    "min_gap_pct": 12.61
+    "min_gap_pct": 11.77
   },
   "zones": {
     "date": "2026-10-20",
@@ -211,17 +211,17 @@
       "drawn": "2026-10-26"
     }
   ],
-  "last_reasoning": "GRASS 0.6895: RSI 1d 51.2, blended RSI 65.5 (USD 66.4/ETH 64.2) -> Getting warm; no active divergence (div ratio buy 0.0/sell 0.0). Uptrend (price > rising EMA50): pullback buy zone near EMA20 at 0.652 (-5%); Getting warm: trim 20%, don't sell out; exit on daily close < 0.56 (EMA50 -3%). RSI triggers: add 0.477, deep 0.3749, warm 0.6881, TP 0.9702.",
+  "last_reasoning": "GRASS 0.6806: RSI 1d 51.2, blended RSI 66.4 (USD 67.2/ETH 65.2) -> Getting warm; no active divergence (div ratio buy 0.0/sell 0.0). Uptrend (price > rising EMA50): pullback buy zone near EMA20 at 0.655 (-4%); Getting warm: trim 20%, don't sell out; exit on daily close < 0.564 (EMA50 -3%). RSI triggers: add 0.4803, deep 0.3854, warm 0.6792, TP 0.9689.",
   "trend": {
     "regime": "Uptrend",
-    "ema20": 0.652226,
-    "ema50": 0.577362,
-    "ema200": 0.457847,
-    "pullback_buy_zone": 0.652226,
-    "exit_close_below": 0.560042,
+    "ema20": 0.654782,
+    "ema50": 0.581351,
+    "ema200": 0.460049,
+    "pullback_buy_zone": 0.654782,
+    "exit_close_below": 0.56391,
     "trim_rule": "20% at each Getting warm / Take profit touch",
     "hidden_bullish": null,
-    "note": "Uptrend (price > rising EMA50): pullback buy zone near EMA20 at 0.652 (-5%); Getting warm: trim 20%, don't sell out; exit on daily close < 0.56 (EMA50 -3%).",
+    "note": "Uptrend (price > rising EMA50): pullback buy zone near EMA20 at 0.655 (-4%); Getting warm: trim 20%, don't sell out; exit on daily close < 0.564 (EMA50 -3%).",
     "framework": "TP1 trend pullback (guidance only)"
   }
 }
