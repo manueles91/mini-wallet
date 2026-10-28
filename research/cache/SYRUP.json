@@ -66,10 +66,10 @@
       },
       {
         "label": "Deep value",
-        "price": 0.0862174,
-        "raw_price": 0.174046,
+        "price": 0.0871824,
+        "raw_price": 0.173904,
         "snapped": false,
-        "reason": "gap rule (deep vs add, min gap 9.6%); B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
+        "reason": "gap rule (deep vs add, min gap 8.4%); B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
         "snapped_level": null,
@@ -84,8 +84,8 @@
     "up": [
       {
         "label": "Getting warm",
-        "price": 0.287481,
-        "raw_price": 0.287481,
+        "price": 0.285714,
+        "raw_price": 0.285714,
         "snapped": false,
         "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -102,8 +102,8 @@
       },
       {
         "label": "Take profit",
-        "price": 0.33425,
-        "raw_price": 0.33425,
+        "price": 0.331802,
+        "raw_price": 0.331802,
         "snapped": false,
         "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -120,9 +120,9 @@
       }
     ],
     "context": {
-      "wrsi_usd": 53.3,
-      "wrsi_eth": 54.5,
-      "wrsi": 53.8,
+      "wrsi_usd": 53.2,
+      "wrsi_eth": 54.1,
+      "wrsi": 53.6,
       "state": "Neutral",
       "conv_long": 0.0,
       "conv_short": 0.0,
@@ -136,12 +136,12 @@
     },
     "v": 3,
     "mode": "B1 recompute-every-run (no snap, no anchoring)",
-    "ref_price": 0.176815,
-    "valid_from": "2026-10-26T18:17:07-06:00",
-    "valid_until": "2026-10-27T18:07:00-06:00",
+    "ref_price": 0.173985,
+    "valid_from": "2026-10-27T18:09:15-06:00",
+    "valid_until": "2026-10-28T18:07:00-06:00",
     "source_data": "Hyperliquid 1d",
     "state": "Neutral",
-    "min_gap_pct": 9.58
+    "min_gap_pct": 8.36
   },
   "zones": {
     "date": "2026-10-20",
@@ -197,19 +197,19 @@
   "image_paths": [
     {
       "caption": "USD \u00b7 daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
-      "path": "research/labels/img/SYRUP_usd_2026-10-26.png.b64",
-      "drawn": "2026-10-26"
+      "path": "research/labels/img/SYRUP_usd_2026-10-27.png.b64",
+      "drawn": "2026-10-27"
     },
     {
       "caption": "vs ETH \u00b7 daily (same style)",
-      "path": "research/labels/img/SYRUP_eth_2026-10-26.png.b64",
-      "drawn": "2026-10-26"
+      "path": "research/labels/img/SYRUP_eth_2026-10-27.png.b64",
+      "drawn": "2026-10-27"
     }
   ],
-  "last_reasoning": "SYRUP 0.1768: RSI 1d 40.0, blended RSI 53.8 (USD 53.3/ETH 54.5) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 0.208, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 0.09447, deep 0.08622, warm 0.2875, TP 0.3342.",
+  "last_reasoning": "SYRUP 0.174: RSI 1d 40.0, blended RSI 53.6 (USD 53.2/ETH 54.1) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 0.207, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 0.09447, deep 0.08718, warm 0.2857, TP 0.3318.",
   "trend": {
     "regime": "Downtrend",
-    "note": "Downtrend (below/flat EMA50 0.208, weekly EMA50 not rising): no pullback buys; RSI labels only.",
+    "note": "Downtrend (below/flat EMA50 0.207, weekly EMA50 not rising): no pullback buys; RSI labels only.",
     "framework": "TP1 trend pullback (guidance only)"
   }
 }

@@ -50,10 +50,10 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.622292,
-        "raw_price": 0.610245,
+        "price": 0.630569,
+        "raw_price": 0.608242,
         "snapped": false,
-        "reason": "state rule: blended weighted RSI 31.6 -> Consider adding; rung placed at current price; B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}",
+        "reason": "state rule: blended weighted RSI 32.2 -> Consider adding; rung placed at current price; B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}",
         "source": "state rule (weighted RSI)",
         "tf": "blend",
         "snapped_level": null,
@@ -66,8 +66,8 @@
       },
       {
         "label": "Deep value",
-        "price": 0.579418,
-        "raw_price": 0.579418,
+        "price": 0.575711,
+        "raw_price": 0.575711,
         "snapped": false,
         "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -84,8 +84,8 @@
     "up": [
       {
         "label": "Getting warm",
-        "price": 0.94432,
-        "raw_price": 0.94432,
+        "price": 0.941562,
+        "raw_price": 0.941562,
         "snapped": false,
         "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -102,8 +102,8 @@
       },
       {
         "label": "Take profit",
-        "price": 1.08462,
-        "raw_price": 1.08462,
+        "price": 1.07971,
+        "raw_price": 1.07971,
         "snapped": false,
         "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -120,9 +120,9 @@
       }
     ],
     "context": {
-      "wrsi_usd": 31.4,
-      "wrsi_eth": 31.8,
-      "wrsi": 31.6,
+      "wrsi_usd": 32.2,
+      "wrsi_eth": 32.4,
+      "wrsi": 32.2,
       "state": "Consider adding",
       "conv_long": 0.0,
       "conv_short": 0.0,
@@ -136,12 +136,12 @@
     },
     "v": 3,
     "mode": "B1 recompute-every-run (no snap, no anchoring)",
-    "ref_price": 0.62105,
-    "valid_from": "2026-10-26T18:17:07-06:00",
-    "valid_until": "2026-10-27T18:07:00-06:00",
+    "ref_price": 0.62931,
+    "valid_from": "2026-10-27T18:09:15-06:00",
+    "valid_until": "2026-10-28T18:07:00-06:00",
     "source_data": "Hyperliquid 1d",
     "state": "Consider adding",
-    "min_gap_pct": 6.2
+    "min_gap_pct": 5.71
   },
   "zones": {
     "date": "2026-10-20",
@@ -221,19 +221,19 @@
   "image_paths": [
     {
       "caption": "USD \u00b7 daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
-      "path": "research/labels/img/VIRTUAL_usd_2026-10-26.png.b64",
-      "drawn": "2026-10-26"
+      "path": "research/labels/img/VIRTUAL_usd_2026-10-27.png.b64",
+      "drawn": "2026-10-27"
     },
     {
       "caption": "vs ETH \u00b7 daily (same style)",
-      "path": "research/labels/img/VIRTUAL_eth_2026-10-26.png.b64",
-      "drawn": "2026-10-26"
+      "path": "research/labels/img/VIRTUAL_eth_2026-10-27.png.b64",
+      "drawn": "2026-10-27"
     }
   ],
-  "last_reasoning": "VIRTUAL 0.621: RSI 1d 44.7, blended RSI 31.6 (USD 31.4/ETH 31.8) -> Consider adding; Regular Bearish 1d USD; Regular Bearish 1d ETH (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 0.691, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 0.6223, deep 0.5794, warm 0.9443, TP 1.085.",
+  "last_reasoning": "VIRTUAL 0.6293: RSI 1d 44.7, blended RSI 32.2 (USD 32.2/ETH 32.4) -> Consider adding; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 0.689, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 0.6306, deep 0.5757, warm 0.9416, TP 1.08.",
   "trend": {
     "regime": "Downtrend",
-    "note": "Downtrend (below/flat EMA50 0.691, weekly EMA50 not rising): no pullback buys; RSI labels only.",
+    "note": "Downtrend (below/flat EMA50 0.689, weekly EMA50 not rising): no pullback buys; RSI labels only.",
     "framework": "TP1 trend pullback (guidance only)"
   }
 }
