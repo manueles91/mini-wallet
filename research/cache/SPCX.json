@@ -44,8 +44,8 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 128.49,
-        "raw_price": 128.49,
+        "price": 128.019,
+        "raw_price": 128.019,
         "snapped": false,
         "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -62,8 +62,8 @@
       },
       {
         "label": "Deep value",
-        "price": 114.732,
-        "raw_price": 114.732,
+        "price": 114.429,
+        "raw_price": 114.429,
         "snapped": false,
         "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -82,8 +82,8 @@
     "up": [
       {
         "label": "Getting warm",
-        "price": 178.512,
-        "raw_price": 178.512,
+        "price": 178.583,
+        "raw_price": 178.583,
         "snapped": false,
         "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -100,8 +100,8 @@
       },
       {
         "label": "Take profit",
-        "price": 192.73,
-        "raw_price": 192.73,
+        "price": 193.348,
+        "raw_price": 193.348,
         "snapped": false,
         "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -118,9 +118,9 @@
       }
     ],
     "context": {
-      "wrsi_usd": 47.0,
-      "wrsi_eth": 43.4,
-      "wrsi": 45.5,
+      "wrsi_usd": 44.7,
+      "wrsi_eth": 40.3,
+      "wrsi": 42.9,
       "state": "Neutral",
       "conv_long": 0.0,
       "conv_short": 0.0,
@@ -134,12 +134,12 @@
     },
     "v": 3,
     "mode": "B1 recompute-every-run (no snap, no anchoring)",
-    "ref_price": 149.17,
-    "valid_from": "2026-10-27T18:09:15-06:00",
-    "valid_until": "2026-10-28T18:07:00-06:00",
+    "ref_price": 144.025,
+    "valid_from": "2026-10-28T18:16:25-06:00",
+    "valid_until": "2026-10-29T18:07:00-06:00",
     "source_data": "OKX USDT-swap 1D (utc), bars after 2026-06-02 re-basing",
     "state": "Neutral",
-    "min_gap_pct": 5.21
+    "min_gap_pct": 5.34
   },
   "zones": null,
   "last_divergence": null,
@@ -180,19 +180,19 @@
   "image_paths": [
     {
       "caption": "USD \u00b7 daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
-      "path": "research/labels/img/SPCX_usd_2026-10-27.png.b64",
-      "drawn": "2026-10-27"
+      "path": "research/labels/img/SPCX_usd_2026-10-28.png.b64",
+      "drawn": "2026-10-28"
     },
     {
       "caption": "vs ETH \u00b7 daily (same style)",
-      "path": "research/labels/img/SPCX_eth_2026-10-27.png.b64",
-      "drawn": "2026-10-27"
+      "path": "research/labels/img/SPCX_eth_2026-10-28.png.b64",
+      "drawn": "2026-10-28"
     }
   ],
-  "last_reasoning": "SPCX 149.2: RSI 1d 42.6, blended RSI 45.5 (USD 47.0/ETH 43.4) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 151.3, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 128.5, deep 114.7, warm 178.5, TP 192.7.",
+  "last_reasoning": "SPCX 144: RSI 1d 42.6, blended RSI 42.9 (USD 44.7/ETH 40.3) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 151, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 128, deep 114.4, warm 178.6, TP 193.3.",
   "trend": {
     "regime": "Downtrend",
-    "note": "Downtrend (below/flat EMA50 151.3, weekly EMA50 not rising): no pullback buys; RSI labels only.",
+    "note": "Downtrend (below/flat EMA50 151, weekly EMA50 not rising): no pullback buys; RSI labels only.",
     "framework": "TP1 trend pullback (guidance only)"
   }
 }

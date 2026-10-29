@@ -60,8 +60,8 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 4.40679e-06,
-        "raw_price": 4.40679e-06,
+        "price": 4.40782e-06,
+        "raw_price": 4.40782e-06,
         "snapped": false,
         "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -76,8 +76,8 @@
       },
       {
         "label": "Deep value",
-        "price": 4.1354e-06,
-        "raw_price": 4.1354e-06,
+        "price": 4.13101e-06,
+        "raw_price": 4.13101e-06,
         "snapped": false,
         "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -94,11 +94,11 @@
     "up": [
       {
         "label": "Getting warm",
-        "price": 5.62522e-06,
-        "raw_price": 5.62522e-06,
+        "price": 4.73052e-06,
+        "raw_price": 5.53546e-06,
         "snapped": false,
-        "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'D': 1.0}",
-        "source": "B1 reverse-RSI (USD)",
+        "reason": "state rule: blended weighted RSI 65.9 -> Getting warm; rung placed at current price; B1 reverse RSI 65 (USD, no div shift) tfs {'D': 1.0}",
+        "source": "state rule (weighted RSI)",
         "tf": "blend",
         "snapped_level": null,
         "weights": {
@@ -110,8 +110,8 @@
       },
       {
         "label": "Take profit",
-        "price": 6.03074e-06,
-        "raw_price": 6.03074e-06,
+        "price": 5.88512e-06,
+        "raw_price": 5.88512e-06,
         "snapped": false,
         "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -126,10 +126,10 @@
       }
     ],
     "context": {
-      "wrsi_usd": 62.9,
-      "wrsi_eth": 66.9,
-      "wrsi": 64.5,
-      "state": "Neutral",
+      "wrsi_usd": 64.4,
+      "wrsi_eth": 68.1,
+      "wrsi": 65.9,
+      "state": "Getting warm",
       "conv_long": 0.0,
       "conv_short": 0.0,
       "div_notes": [],
@@ -142,11 +142,11 @@
     },
     "v": 3,
     "mode": "B1 recompute-every-run (no snap, no anchoring)",
-    "ref_price": 4.63e-06,
-    "valid_from": "2026-10-27T18:09:15-06:00",
-    "valid_until": "2026-10-28T18:07:00-06:00",
+    "ref_price": 4.74e-06,
+    "valid_from": "2026-10-28T18:16:25-06:00",
+    "valid_until": "2026-10-29T18:07:00-06:00",
     "source_data": "CoinGecko closes (synthetic OHLC)",
-    "state": "Neutral",
+    "state": "Getting warm",
     "min_gap_pct": 5.0
   },
   "last_divergence": {
@@ -214,27 +214,27 @@
   "image_paths": [
     {
       "caption": "USD \u00b7 daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
-      "path": "research/labels/img/BLOCKTRONICS_usd_2026-10-27.png.b64",
-      "drawn": "2026-10-27"
+      "path": "research/labels/img/BLOCKTRONICS_usd_2026-10-28.png.b64",
+      "drawn": "2026-10-28"
     },
     {
       "caption": "vs ETH \u00b7 daily (same style)",
-      "path": "research/labels/img/BLOCKTRONICS_eth_2026-10-27.png.b64",
-      "drawn": "2026-10-27"
+      "path": "research/labels/img/BLOCKTRONICS_eth_2026-10-28.png.b64",
+      "drawn": "2026-10-28"
     }
   ],
-  "last_reasoning": "BLOCKTRONICS 4.63e-06: RSI 1d 42.5, blended RSI 64.5 (USD 62.9/ETH 66.9) -> Neutral; Hidden Bullish 1d USD; Hidden Bullish 1d ETH (div ratio buy 0.0/sell 0.0). Exit: daily close 4.61e-06 is below EMA50 -3% (4.86e-06); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 4.86e-06; RSI labels only. RSI triggers: add 4.407e-06, deep 4.135e-06, warm 5.625e-06, TP 6.031e-06.",
+  "last_reasoning": "BLOCKTRONICS 4.74e-06: RSI 1d 42.5, blended RSI 65.9 (USD 64.4/ETH 68.1) -> Getting warm; Hidden Bullish 1d USD; Hidden Bullish 1d ETH (div ratio buy 0.0/sell 0.0). Exit: daily close 4.75e-06 is below EMA50 -3% (4.84e-06); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 4.84e-06; RSI labels only. RSI triggers: add 4.408e-06, deep 4.131e-06, warm 4.731e-06, TP 5.885e-06.",
   "schema": "mw-cache/0",
   "symbol": "BLOCKTRONICS",
   "trend": {
     "regime": "Exit",
-    "ema20": 4.9394e-06,
-    "ema50": 5.00975e-06,
-    "ema200": 4.52711e-06,
+    "ema20": 4.89513e-06,
+    "ema50": 4.98543e-06,
+    "ema200": 4.53039e-06,
     "pullback_buy_zone": null,
-    "exit_close_below": 4.85946e-06,
+    "exit_close_below": 4.83587e-06,
     "exit_triggered": true,
-    "note": "Exit: daily close 4.61e-06 is below EMA50 -3% (4.86e-06); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 4.86e-06; RSI labels only.",
+    "note": "Exit: daily close 4.75e-06 is below EMA50 -3% (4.84e-06); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 4.84e-06; RSI labels only.",
     "framework": "TP1 trend pullback (guidance only)"
   }
 }

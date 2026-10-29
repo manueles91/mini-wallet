@@ -47,8 +47,8 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.358728,
-        "raw_price": 0.358728,
+        "price": 0.371529,
+        "raw_price": 0.371529,
         "snapped": false,
         "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -63,22 +63,26 @@
       },
       {
         "label": "Deep value",
-        "price": 0.309865,
-        "raw_price": 0.474006,
+        "price": 0.261451,
+        "raw_price": 0.261451,
         "snapped": false,
-        "reason": "gap rule (deep vs add, min gap 15.8%); B1 reverse RSI 30 (USD, no div shift) tfs fallback",
+        "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
         "snapped_level": null,
-        "weights": null,
-        "tfs": "fallback"
+        "weights": {
+          "D": 1.0
+        },
+        "tfs": [
+          "D"
+        ]
       }
     ],
     "up": [
       {
         "label": "Getting warm",
-        "price": 0.756944,
-        "raw_price": 0.756944,
+        "price": 0.748987,
+        "raw_price": 0.748987,
         "snapped": false,
         "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -93,10 +97,10 @@
       },
       {
         "label": "Take profit",
-        "price": 0.876308,
-        "raw_price": 0.859628,
+        "price": 0.865622,
+        "raw_price": 0.848607,
         "snapped": false,
-        "reason": "gap rule (TP vs warm, min gap 15.8%); B1 reverse RSI 70 (USD, no div shift) tfs {'D': 1.0}",
+        "reason": "gap rule (TP vs warm, min gap 15.6%); B1 reverse RSI 70 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
         "snapped_level": null,
@@ -109,9 +113,9 @@
       }
     ],
     "context": {
-      "wrsi_usd": 60.2,
-      "wrsi_eth": 61.8,
-      "wrsi": 60.9,
+      "wrsi_usd": 59.8,
+      "wrsi_eth": 61.3,
+      "wrsi": 60.4,
       "state": "Neutral",
       "conv_long": 0.0,
       "conv_short": 0.0,
@@ -125,12 +129,12 @@
     },
     "v": 3,
     "mode": "B1 recompute-every-run (no snap, no anchoring)",
-    "ref_price": 0.592507,
-    "valid_from": "2026-10-27T18:09:15-06:00",
-    "valid_until": "2026-10-28T18:07:00-06:00",
+    "ref_price": 0.602168,
+    "valid_from": "2026-10-28T18:16:25-06:00",
+    "valid_until": "2026-10-29T18:07:00-06:00",
     "source_data": "GeckoTerminal 1d",
     "state": "Neutral",
-    "min_gap_pct": 15.77
+    "min_gap_pct": 15.57
   },
   "zones": {
     "date": "2026-10-20",
@@ -186,26 +190,26 @@
   "image_paths": [
     {
       "caption": "USD \u00b7 daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
-      "path": "research/labels/img/POD_usd_2026-10-27.png.b64",
-      "drawn": "2026-10-27"
+      "path": "research/labels/img/POD_usd_2026-10-28.png.b64",
+      "drawn": "2026-10-28"
     },
     {
       "caption": "vs ETH \u00b7 daily (same style)",
-      "path": "research/labels/img/POD_eth_2026-10-27.png.b64",
-      "drawn": "2026-10-27"
+      "path": "research/labels/img/POD_eth_2026-10-28.png.b64",
+      "drawn": "2026-10-28"
     }
   ],
-  "last_reasoning": "POD 0.5925: RSI 1d 57.7, blended RSI 60.9 (USD 60.2/ETH 61.8) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Uptrend (price > rising EMA50): pullback buy zone near EMA20 at 0.566 (-4%); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.502 (EMA50 -3%). RSI triggers: add 0.3587, deep 0.3099, warm 0.7569, TP 0.8763.",
+  "last_reasoning": "POD 0.6022: RSI 1d 57.7, blended RSI 60.4 (USD 59.8/ETH 61.3) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Uptrend (price > rising EMA50): pullback buy zone near EMA20 at 0.569 (-6%); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.505 (EMA50 -3%). RSI triggers: add 0.3715, deep 0.2615, warm 0.749, TP 0.8656.",
   "trend": {
     "regime": "Uptrend",
-    "ema20": 0.566088,
-    "ema50": 0.517542,
-    "ema200": 0.358766,
-    "pullback_buy_zone": 0.566088,
-    "exit_close_below": 0.502016,
+    "ema20": 0.568521,
+    "ema50": 0.520445,
+    "ema200": 0.360473,
+    "pullback_buy_zone": 0.568521,
+    "exit_close_below": 0.504832,
     "trim_rule": "20% at each Getting warm / Take profit touch",
     "hidden_bullish": null,
-    "note": "Uptrend (price > rising EMA50): pullback buy zone near EMA20 at 0.566 (-4%); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.502 (EMA50 -3%).",
+    "note": "Uptrend (price > rising EMA50): pullback buy zone near EMA20 at 0.569 (-6%); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.505 (EMA50 -3%).",
     "framework": "TP1 trend pullback (guidance only)"
   }
 }
