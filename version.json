@@ -2,6 +2,6 @@
   "versionCode": 69,
   "versionName": "13.41",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "958b8c6a61f40d6b0b1ab323fc5c2598e0136a68dd7e1b0e6095d61dc77de4aa",
-  "notes": "sAERO 'What to allocate': fee forecast now blends last-24h and 96h fees swept to allocators (\u00bd/\u00bd), pools with no fees in the last 24h are skipped, and each position is split in 1% steps across up to 4 gauges by marginal $ given each pool's existing allocated weight (your own votes excluded) \u2014 no per-pool cap. Backtest (7\u00d724h windows, point-in-time incentives): $3.39/day per 10k sAERO vs $2.89 before."
+  "apkSha256": "bef387192572d1360bb15d6ebf9467e94ef6a0723a2a675f06016d3234da23ac",
+  "notes": "Faster widget refresh: the widget updates as soon as the portfolio is fetched; sAERO/allocator and research data refresh afterwards in a separate background job. Repeated taps no longer restart a running refresh. Allocator reads its 7 chains in parallel and recomputes at most every 30 min."
 }
