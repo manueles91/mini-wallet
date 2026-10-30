@@ -1,7 +1,7 @@
 {
-  "versionCode": 69,
-  "versionName": "13.41",
+  "versionCode": 70,
+  "versionName": "13.42",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "bef387192572d1360bb15d6ebf9467e94ef6a0723a2a675f06016d3234da23ac",
-  "notes": "Faster widget refresh: the widget updates as soon as the portfolio is fetched; sAERO/allocator and research data refresh afterwards in a separate background job. Repeated taps no longer restart a running refresh. Allocator reads its 7 chains in parallel and recomputes at most every 30 min."
+  "apkSha256": "b7e72feb5638fdffaed33018b7d2cbc28afbac79bfa870e30277564167fc211d",
+  "notes": "Fix: a refresh where several sources fail no longer replaces your last good totals; sAERO/research job no longer runs at the same time as the portfolio fetch; a stuck refresh can't block new ones."
 }
