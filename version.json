@@ -1,7 +1,7 @@
 {
-  "versionCode": 70,
-  "versionName": "13.42",
+  "versionCode": 71,
+  "versionName": "13.43",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "b7e72feb5638fdffaed33018b7d2cbc28afbac79bfa870e30277564167fc211d",
-  "notes": "Fix: a refresh where several sources fail no longer replaces your last good totals; sAERO/research job no longer runs at the same time as the portfolio fetch; a stuck refresh can't block new ones."
+  "apkSha256": "9f1e40023e204539f70bef9266821d2153a54696ce6b14c796c9f31d31460e1e",
+  "notes": "Fix: when the phone can't reach most sources (DNS/offline), the app keeps your last good portfolio instead of saving a partial one; one automatic retry on DNS errors."
 }
