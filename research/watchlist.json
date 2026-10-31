@@ -1,11 +1,7 @@
 {
   "schema": "mw-watchlist/0",
-  "updated": "2026-10-23T21:18:30Z",
+  "updated": "2026-10-31T02:05:53Z",
   "coins": [
-    {
-      "symbol": "SYRUP",
-      "id": "syrup"
-    },
     {
       "symbol": "GRASS",
       "id": "grass"
@@ -13,6 +9,10 @@
     {
       "symbol": "SPCX",
       "id": "spacex-robinhood-tokenized-stock"
+    },
+    {
+      "symbol": "POD",
+      "id": "dolphin-2"
     }
   ]
 }
