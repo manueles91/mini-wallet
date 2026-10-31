@@ -3,45 +3,44 @@
   "symbol": "SYRUP",
   "coingecko_id": "syrup",
   "last_full_analysis": {
-    "date": "2026-10-20",
-    "ts": "2026-10-20T18:19:06-06:00",
-    "ref_price": 0.202005,
+    "date": "2026-10-30",
+    "ts": "2026-10-30T18:18:02-06:00",
+    "ref_price": 0.156625,
     "label": "Neutral",
-    "source": "research/labels/2026-10-20.json",
-    "levels_v2_anchor": "2026-10-20T23:05:55-06:00"
+    "source": "research/labels/2026-10-30.json"
   },
   "last_update": {
-    "date": "2026-10-20",
-    "ts": "2026-10-20T18:19:06-06:00",
-    "price": 0.202005,
+    "date": "2026-10-30",
+    "ts": "2026-10-30T18:18:02-06:00",
+    "price": 0.15617,
     "mode": "full"
   },
-  "rsi_d": 40.0,
+  "rsi_d": 27.5,
   "usd_sr": {
     "monthly": {
       "support": [
-        0.19344
+        0.11359
       ],
       "resistance": [
-        0.2267
+        0.19344
       ]
     },
     "weekly": {
       "support": [
-        0.1969,
-        0.14702
+        0.14702,
+        0.11808
       ],
       "resistance": [
-        0.2036,
-        0.24015
+        0.1969,
+        0.2036
       ]
     },
     "daily": {
       "support": [
-        0.19015
+        0.14357
       ],
       "resistance": [
-        0.21132
+        0.15675
       ]
     }
   },
@@ -66,10 +65,10 @@
       },
       {
         "label": "Deep value",
-        "price": 0.0867431,
-        "raw_price": 0.120212,
+        "price": 0.0869953,
+        "raw_price": 0.125324,
         "snapped": false,
-        "reason": "gap rule (deep vs add, min gap 8.9%); B1 reverse RSI 30 (USD, no div shift) tfs fallback",
+        "reason": "gap rule (deep vs add, min gap 8.6%); B1 reverse RSI 30 (USD, no div shift) tfs fallback",
         "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
         "snapped_level": null,
@@ -80,8 +79,8 @@
     "up": [
       {
         "label": "Getting warm",
-        "price": 0.284476,
-        "raw_price": 0.284476,
+        "price": 0.282861,
+        "raw_price": 0.282861,
         "snapped": false,
         "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -98,8 +97,8 @@
       },
       {
         "label": "Take profit",
-        "price": 0.333145,
-        "raw_price": 0.333145,
+        "price": 0.330589,
+        "raw_price": 0.330589,
         "snapped": false,
         "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -116,9 +115,9 @@
       }
     ],
     "context": {
-      "wrsi_usd": 51.2,
-      "wrsi_eth": 52.1,
-      "wrsi": 51.6,
+      "wrsi_usd": 52.4,
+      "wrsi_eth": 53.6,
+      "wrsi": 52.9,
       "state": "Neutral",
       "conv_long": 0.0,
       "conv_short": 0.0,
@@ -132,12 +131,12 @@
     },
     "v": 3,
     "mode": "B1 recompute-every-run (no snap, no anchoring)",
-    "ref_price": 0.150265,
-    "valid_from": "2026-10-29T18:17:15-06:00",
-    "valid_until": "2026-10-30T18:07:00-06:00",
+    "ref_price": 0.156655,
+    "valid_from": "2026-10-30T18:18:02-06:00",
+    "valid_until": "2026-10-31T18:07:00-06:00",
     "source_data": "Hyperliquid 1d",
     "state": "Neutral",
-    "min_gap_pct": 8.91
+    "min_gap_pct": 8.6
   },
   "zones": {
     "date": "2026-10-20",
@@ -153,16 +152,12 @@
   "last_divergence": null,
   "divergences_seen": [],
   "thesis": [
-    "SYRUP closed Oct 20 at 0.202 (+3.5%), back above weekly 0.197 but just under weekly 0.2036, with RSI 40, price below all EMAs and no divergence on daily closes",
-    "Hold; monthly 0.193 is the add level, 0.190 deep value, a daily close below 0.185 invalidates, daily 0.211 is the first warm level; your 3x liquidation at 0.151 is ~25% below."
+    "[auto full 2026-10-30] SYRUP 0.15617: RSI USD M/W/D 74.5/42.6/27.5, SYRUP/ETH M/W/D 78.2/41.4/32.6; blended 52.9 -> Neutral; no active divergence.",
+    "Confluence bearish (below EMA50 in USD and vs ETH); EMA20/50/200 USD 0.188503/0.201505/0.208399. HL OI $4.8M, funding +0.0013%/h (7d avg +0.0013%/h)."
   ],
   "catalysts": [],
   "last_swings": {
     "daily_highs": [
-      {
-        "date": "2026-09-29",
-        "price": 0.25576
-      },
       {
         "date": "2026-10-04",
         "price": 0.26625
@@ -170,13 +165,13 @@
       {
         "date": "2026-10-13",
         "price": 0.2701
+      },
+      {
+        "date": "2026-10-22",
+        "price": 0.20977
       }
     ],
     "daily_lows": [
-      {
-        "date": "2026-09-24",
-        "price": 0.19882
-      },
       {
         "date": "2026-09-28",
         "price": 0.20324
@@ -184,28 +179,92 @@
       {
         "date": "2026-10-08",
         "price": 0.21132
+      },
+      {
+        "date": "2026-10-19",
+        "price": 0.18592
       }
     ],
-    "k": 3,
-    "source": "Hyperliquid 1d",
-    "as_of": "2026-10-20"
+    "k": 3
   },
   "image_paths": [
     {
       "caption": "USD \u00b7 daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
-      "path": "research/labels/img/SYRUP_usd_2026-10-29.png.b64",
-      "drawn": "2026-10-29"
+      "path": "research/labels/img/SYRUP_usd_2026-10-30.png.b64",
+      "drawn": "2026-10-30"
     },
     {
       "caption": "vs ETH \u00b7 daily (same style)",
-      "path": "research/labels/img/SYRUP_eth_2026-10-29.png.b64",
-      "drawn": "2026-10-29"
+      "path": "research/labels/img/SYRUP_eth_2026-10-30.png.b64",
+      "drawn": "2026-10-30"
     }
   ],
-  "last_reasoning": "SYRUP 0.1503: RSI 1d 40.0, blended RSI 51.6 (USD 51.2/ETH 52.1) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 0.203, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 0.09447, deep 0.08674, warm 0.2845, TP 0.3331.",
+  "last_reasoning": "SYRUP 0.1567: RSI 1d 27.5, blended RSI 52.9 (USD 52.4/ETH 53.6) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 0.202, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 0.09447, deep 0.087, warm 0.2829, TP 0.3306.",
   "trend": {
     "regime": "Downtrend",
-    "note": "Downtrend (below/flat EMA50 0.203, weekly EMA50 not rising): no pullback buys; RSI labels only.",
+    "note": "Downtrend (below/flat EMA50 0.202, weekly EMA50 not rising): no pullback buys; RSI labels only.",
     "framework": "TP1 trend pullback (guidance only)"
+  },
+  "eth_sr": {
+    "monthly": {
+      "support": [
+        6.82524e-05
+      ],
+      "resistance": [
+        7.20018e-05,
+        8.09279e-05
+      ]
+    },
+    "weekly": {
+      "support": [],
+      "resistance": [
+        7.3985e-05
+      ]
+    },
+    "daily": {
+      "support": [],
+      "resistance": [
+        6.97812e-05
+      ]
+    }
+  },
+  "full_detail": {
+    "rsi_usd": {
+      "D": 27.5,
+      "W": 42.6,
+      "M": 74.5
+    },
+    "rsi_eth": {
+      "D": 32.6,
+      "W": 41.4,
+      "M": 78.2
+    },
+    "wrsi_usd": 52.4,
+    "wrsi_eth": 53.6,
+    "wrsi": 52.9,
+    "state": "Neutral",
+    "ema_usd": {
+      "20": 0.188503,
+      "50": 0.201505,
+      "200": 0.208399
+    },
+    "ema_eth": {
+      "20": 7.848e-05,
+      "50": 8.25376e-05,
+      "200": 8.9739e-05
+    },
+    "confluence": "bearish (below EMA50 in USD and vs ETH)",
+    "divergences": [],
+    "perp": {
+      "venue": "Hyperliquid",
+      "oi_coins": 30506934.0,
+      "oi_usd": 4777386,
+      "funding_1h_pct": 0.00125,
+      "funding_7d_avg_1h_pct": 0.00125,
+      "day_ntl_vlm": 1831352,
+      "mark": 0.1566
+    },
+    "ratio": "SYRUP/ETH",
+    "price_eth": 6.961e-05
   }
 }

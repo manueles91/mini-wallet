@@ -3,43 +3,42 @@
   "symbol": "AERO",
   "coingecko_id": "aerodrome-finance",
   "last_full_analysis": {
-    "date": "2026-10-20",
-    "ts": "2026-10-20T18:19:06-06:00",
-    "ref_price": 0.88539,
+    "date": "2026-10-30",
+    "ts": "2026-10-30T18:18:02-06:00",
+    "ref_price": 0.623105,
     "label": "Neutral",
-    "source": "research/labels/2026-10-20.json",
-    "levels_v2_anchor": "2026-10-20T23:05:55-06:00"
+    "source": "research/labels/2026-10-30.json"
   },
   "last_update": {
-    "date": "2026-10-20",
-    "ts": "2026-10-20T18:19:06-06:00",
-    "price": 0.88539,
+    "date": "2026-10-30",
+    "ts": "2026-10-30T18:18:02-06:00",
+    "price": 0.61902,
     "mode": "full"
   },
-  "rsi_d": 56.4,
+  "rsi_d": 34.6,
   "usd_sr": {
     "monthly": {
       "support": [
-        0.61022
+        0.61022,
+        0.4739
       ],
       "resistance": []
     },
     "weekly": {
       "support": [
-        0.8041,
-        0.7175
+        0.55217
       ],
       "resistance": [
-        0.9629,
-        0.99427
+        0.63495,
+        0.6636
       ]
     },
     "daily": {
       "support": [
-        0.76712
+        0.58195
       ],
       "resistance": [
-        0.89894
+        0.65
       ]
     }
   },
@@ -48,26 +47,26 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.54367,
-        "raw_price": 0.54367,
+        "price": 0.62074,
+        "raw_price": 0.62074,
         "snapped": false,
-        "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'M': 1.0}",
+        "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
         "snapped_level": null,
         "weights": {
-          "M": 1.0
+          "D": 1.0
         },
         "tfs": [
-          "M"
+          "D"
         ]
       },
       {
         "label": "Deep value",
-        "price": 0.488085,
-        "raw_price": 0.57011,
+        "price": 0.562357,
+        "raw_price": 0.57216,
         "snapped": false,
-        "reason": "gap rule (deep vs add, min gap 11.4%); B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
+        "reason": "gap rule (deep vs add, min gap 10.4%); B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
         "snapped_level": null,
@@ -82,8 +81,8 @@
     "up": [
       {
         "label": "Getting warm",
-        "price": 0.908024,
-        "raw_price": 0.908024,
+        "price": 0.90073,
+        "raw_price": 0.90073,
         "snapped": false,
         "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -100,8 +99,8 @@
       },
       {
         "label": "Take profit",
-        "price": 1.05143,
-        "raw_price": 1.05143,
+        "price": 1.04156,
+        "raw_price": 1.04156,
         "snapped": false,
         "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -118,9 +117,9 @@
       }
     ],
     "context": {
-      "wrsi_usd": 44.7,
-      "wrsi_eth": 47.5,
-      "wrsi": 45.8,
+      "wrsi_usd": 44.6,
+      "wrsi_eth": 47.4,
+      "wrsi": 45.7,
       "state": "Neutral",
       "conv_long": 0.0,
       "conv_short": 0.0,
@@ -134,12 +133,12 @@
     },
     "v": 3,
     "mode": "B1 recompute-every-run (no snap, no anchoring)",
-    "ref_price": 0.61896,
-    "valid_from": "2026-10-29T18:17:15-06:00",
-    "valid_until": "2026-10-30T18:07:00-06:00",
+    "ref_price": 0.6234,
+    "valid_from": "2026-10-30T18:18:02-06:00",
+    "valid_until": "2026-10-31T18:07:00-06:00",
     "source_data": "Hyperliquid 1d",
     "state": "Neutral",
-    "min_gap_pct": 11.39
+    "min_gap_pct": 10.38
   },
   "zones": {
     "date": "2026-10-20",
@@ -186,8 +185,8 @@
     }
   ],
   "thesis": [
-    "AERO ripped 11.5% to a 0.888 close on Oct 20, reclaiming weekly 0.804 (Zone 1) and stalling just under daily 0.899, RSI 56, with the Regular Bearish 1d (Oct 4 to Oct 11) still active; AERO/ETH (RSI 59) is back above weekly support",
-    "Hold into tomorrow's 6 PM CR launch: 0.804 is now the add level, 0.718 deep value, 0.899/0.963 warm/take profit; a sell-the-news wick is the main risk."
+    "[auto full 2026-10-30] AERO 0.61902: RSI USD M/W/D 36.4/51.3/34.6, AERO/ETH M/W/D 42.4/53.4/38.3; blended 45.7 -> Neutral; Regular Bearish 1d USD (2026-10-04->2026-10-11, ratio 0.3).",
+    "Confluence bearish (below EMA50 in USD and vs ETH); EMA20/50/200 USD 0.744131/0.729629/0.589423. HL OI $24.7M, funding +0.0013%/h (7d avg +0.0009%/h)."
   ],
   "catalysts": [
     {
@@ -212,45 +211,122 @@
     ],
     "daily_lows": [
       {
-        "date": "2026-09-15",
-        "price": 0.51582
-      },
-      {
-        "date": "2026-10-02",
-        "price": 0.76334
-      },
-      {
         "date": "2026-10-08",
         "price": 0.76712
+      },
+      {
+        "date": "2026-10-19",
+        "price": 0.76328
+      },
+      {
+        "date": "2026-10-25",
+        "price": 0.65
       }
     ],
-    "k": 3,
-    "source": "Hyperliquid 1d",
-    "as_of": "2026-10-20"
+    "k": 3
   },
   "image_paths": [
     {
       "caption": "USD \u00b7 daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
-      "path": "research/labels/img/AERO_usd_2026-10-29.png.b64",
-      "drawn": "2026-10-29"
+      "path": "research/labels/img/AERO_usd_2026-10-30.png.b64",
+      "drawn": "2026-10-30"
     },
     {
       "caption": "vs ETH \u00b7 daily (same style)",
-      "path": "research/labels/img/AERO_eth_2026-10-29.png.b64",
-      "drawn": "2026-10-29"
+      "path": "research/labels/img/AERO_eth_2026-10-30.png.b64",
+      "drawn": "2026-10-30"
     }
   ],
   "setup_id": "AERO-L-2026-10-18",
-  "last_reasoning": "AERO 0.619: RSI 1d 56.4, blended RSI 45.8 (USD 44.7/ETH 47.5) -> Neutral; Regular Bearish 1d USD (div ratio buy 0.0/sell 0.0). Exit: daily close 0.624 is below EMA50 -3% (0.712); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.712; RSI labels only. RSI triggers: add 0.5437, deep 0.4881, warm 0.908, TP 1.051.",
+  "last_reasoning": "AERO 0.6234: RSI 1d 34.6, blended RSI 45.7 (USD 44.6/ETH 47.4) -> Neutral; Regular Bearish 1d USD ratio 0.3 (div ratio buy 0.0/sell 0.0). Exit: daily close 0.619 is below EMA50 -3% (0.708); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.708; RSI labels only. RSI triggers: add 0.6207, deep 0.5624, warm 0.9007, TP 1.042.",
   "trend": {
     "regime": "Exit",
-    "ema20": 0.757301,
-    "ema50": 0.734143,
-    "ema200": 0.589126,
+    "ema20": 0.744131,
+    "ema50": 0.729629,
+    "ema200": 0.589423,
     "pullback_buy_zone": null,
-    "exit_close_below": 0.712119,
+    "exit_close_below": 0.70774,
     "exit_triggered": true,
-    "note": "Exit: daily close 0.624 is below EMA50 -3% (0.712); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.712; RSI labels only.",
+    "note": "Exit: daily close 0.619 is below EMA50 -3% (0.708); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.708; RSI labels only.",
     "framework": "TP1 trend pullback (guidance only)"
+  },
+  "eth_sr": {
+    "monthly": {
+      "support": [
+        0.00019879
+      ],
+      "resistance": [
+        0.000348656
+      ]
+    },
+    "weekly": {
+      "support": [
+        0.000244944,
+        0.000237866
+      ],
+      "resistance": [
+        0.000286712,
+        0.000304414
+      ]
+    },
+    "daily": {
+      "support": [
+        0.000272307
+      ],
+      "resistance": [
+        0.000279114
+      ]
+    }
+  },
+  "full_detail": {
+    "rsi_usd": {
+      "D": 34.6,
+      "W": 51.3,
+      "M": 36.4
+    },
+    "rsi_eth": {
+      "D": 38.3,
+      "W": 53.4,
+      "M": 42.4
+    },
+    "wrsi_usd": 44.6,
+    "wrsi_eth": 47.4,
+    "wrsi": 45.7,
+    "state": "Neutral",
+    "ema_usd": {
+      "20": 0.744131,
+      "50": 0.729629,
+      "200": 0.589423
+    },
+    "ema_eth": {
+      "20": 0.000310397,
+      "50": 0.000298846,
+      "200": 0.00025252
+    },
+    "confluence": "bearish (below EMA50 in USD and vs ETH)",
+    "divergences": [
+      {
+        "type": "Regular Bearish",
+        "timeframe": "1d",
+        "chart": "USD",
+        "from": "2026-10-04",
+        "to": "2026-10-11",
+        "rsi_from": 71.8,
+        "rsi_to": 69.0,
+        "ratio": 0.3,
+        "status": "active"
+      }
+    ],
+    "perp": {
+      "venue": "Hyperliquid",
+      "oi_coins": 39645886.0,
+      "oi_usd": 24703352,
+      "funding_1h_pct": 0.00125,
+      "funding_7d_avg_1h_pct": 0.00091,
+      "day_ntl_vlm": 5779838,
+      "mark": 0.6231
+    },
+    "ratio": "AERO/ETH",
+    "price_eth": 0.000275917
   }
 }

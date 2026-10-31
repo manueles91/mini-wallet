@@ -3,45 +3,43 @@
   "symbol": "BNKR",
   "coingecko_id": "bankercoin-2",
   "last_full_analysis": {
-    "date": "2026-10-17",
-    "ts": "2026-10-17T18:20:16-06:00",
-    "ref_price": 0.00031491,
+    "date": "2026-10-30",
+    "ts": "2026-10-30T18:18:02-06:00",
+    "ref_price": 0.0002941,
     "label": "Neutral",
-    "source": "research/labels/2026-10-17.json",
-    "levels_v2_anchor": "2026-10-20T23:05:55-06:00"
+    "source": "research/labels/2026-10-30.json"
   },
   "last_update": {
-    "date": "2026-10-20",
-    "ts": "2026-10-20T18:19:06-06:00",
-    "price": 0.000319835,
-    "mode": "incremental"
+    "date": "2026-10-30",
+    "ts": "2026-10-30T18:18:02-06:00",
+    "price": 0.00029101,
+    "mode": "full"
   },
-  "rsi_d": 48.1,
+  "rsi_d": 43.2,
   "usd_sr": {
     "monthly": {
       "support": [
-        0.000296021
+        0.000191941,
+        0.000179026
       ],
       "resistance": [
-        0.000556528,
-        0.000780124
+        0.000556528
       ]
     },
     "weekly": {
       "support": [
-        0.000301467,
         0.00021037
       ],
       "resistance": [
-        0.000608855
+        0.000780124
       ]
     },
     "daily": {
       "support": [
-        0.000310813
+        0.000290435
       ],
       "resistance": [
-        0.00032774
+        0.000296314
       ]
     }
   },
@@ -50,8 +48,8 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.00026145,
-        "raw_price": 0.00026145,
+        "price": 0.00025709,
+        "raw_price": 0.00025709,
         "snapped": false,
         "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -66,10 +64,10 @@
       },
       {
         "label": "Deep value",
-        "price": 0.000236321,
-        "raw_price": 0.000237209,
+        "price": 0.000227406,
+        "raw_price": 0.000227406,
         "snapped": false,
-        "reason": "gap rule (deep vs add, min gap 10.6%); B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
+        "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
         "snapped_level": null,
@@ -84,8 +82,8 @@
     "up": [
       {
         "label": "Getting warm",
-        "price": 0.000474481,
-        "raw_price": 0.000474481,
+        "price": 0.0004745,
+        "raw_price": 0.0004745,
         "snapped": false,
         "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -102,8 +100,8 @@
       },
       {
         "label": "Take profit",
-        "price": 0.000562832,
-        "raw_price": 0.000562832,
+        "price": 0.000561314,
+        "raw_price": 0.000561314,
         "snapped": false,
         "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -120,9 +118,9 @@
       }
     ],
     "context": {
-      "wrsi_usd": 45.5,
-      "wrsi_eth": 45.8,
-      "wrsi": 45.6,
+      "wrsi_usd": 48.0,
+      "wrsi_eth": 48.5,
+      "wrsi": 48.2,
       "state": "Neutral",
       "conv_long": 0.0,
       "conv_short": 0.0,
@@ -136,27 +134,23 @@
     },
     "v": 3,
     "mode": "B1 recompute-every-run (no snap, no anchoring)",
-    "ref_price": 0.00026951,
-    "valid_from": "2026-10-29T18:17:15-06:00",
-    "valid_until": "2026-10-30T18:07:00-06:00",
+    "ref_price": 0.0002941,
+    "valid_from": "2026-10-30T18:18:02-06:00",
+    "valid_until": "2026-10-31T18:07:00-06:00",
     "source_data": "GeckoTerminal 1d",
     "state": "Neutral",
-    "min_gap_pct": 10.63
+    "min_gap_pct": 10.27
   },
   "zones": null,
   "last_divergence": null,
   "divergences_seen": [],
   "thesis": [
-    "BNKR jumped 9% to a 0.000315 close on Oct 17, reclaiming monthly 0.000296 and weekly 0.000301 a day after losing them, with RSI 46, still below all EMAs and no active divergence",
-    "BNKR/ETH is pressing monthly resistance 1.32e-07, so hold; 0.000296 is the add level, weekly 0.00021 deep value, monthly 0.000557 the first warm level."
+    "[auto full 2026-10-30] BNKR 0.00029101: RSI USD M/W/D None/48.4/43.2, BNKR/ETH M/W/D None/46.4/48.9; blended 48.2 -> Neutral; no active divergence.",
+    "Confluence bearish (below EMA50 in USD and vs ETH); EMA20/50/200 USD 0.000314515/0.000321117/0.000334136."
   ],
   "catalysts": [],
   "last_swings": {
     "daily_highs": [
-      {
-        "date": "2026-09-17",
-        "price": 0.000290435
-      },
       {
         "date": "2026-09-25",
         "price": 0.000556528
@@ -164,13 +158,13 @@
       {
         "date": "2026-10-02",
         "price": 0.00043578
+      },
+      {
+        "date": "2026-10-19",
+        "price": 0.000370945
       }
     ],
     "daily_lows": [
-      {
-        "date": "2026-09-29",
-        "price": 0.000396375
-      },
       {
         "date": "2026-10-08",
         "price": 0.000301518
@@ -178,6 +172,10 @@
       {
         "date": "2026-10-15",
         "price": 0.000261924
+      },
+      {
+        "date": "2026-10-22",
+        "price": 0.000308173
       }
     ],
     "k": 3
@@ -185,25 +183,82 @@
   "image_paths": [
     {
       "caption": "USD \u00b7 daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
-      "path": "research/labels/img/BNKR_usd_2026-10-29.png.b64",
-      "drawn": "2026-10-29"
+      "path": "research/labels/img/BNKR_usd_2026-10-30.png.b64",
+      "drawn": "2026-10-30"
     },
     {
       "caption": "vs ETH \u00b7 daily (same style)",
-      "path": "research/labels/img/BNKR_eth_2026-10-29.png.b64",
-      "drawn": "2026-10-29"
+      "path": "research/labels/img/BNKR_eth_2026-10-30.png.b64",
+      "drawn": "2026-10-30"
     }
   ],
-  "last_reasoning": "BNKR 0.0002695: RSI 1d 48.1, blended RSI 45.6 (USD 45.5/ETH 45.8) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Exit: daily close 0.000268 is below EMA50 -3% (0.000313); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.000313; RSI labels only. RSI triggers: add 0.0002614, deep 0.0002363, warm 0.0004745, TP 0.0005628.",
+  "last_reasoning": "BNKR 0.0002941: RSI 1d 43.2, blended RSI 48.2 (USD 48.0/ETH 48.5) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Exit: daily close 0.000291 is below EMA50 -3% (0.000311); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.000311; RSI labels only. RSI triggers: add 0.0002571, deep 0.0002274, warm 0.0004745, TP 0.0005613.",
   "trend": {
     "regime": "Exit",
-    "ema20": 0.00031699,
-    "ema50": 0.000322346,
-    "ema200": 0.000334569,
+    "ema20": 0.000314515,
+    "ema50": 0.000321117,
+    "ema200": 0.000334136,
     "pullback_buy_zone": null,
-    "exit_close_below": 0.000312676,
+    "exit_close_below": 0.000311484,
     "exit_triggered": true,
-    "note": "Exit: daily close 0.000268 is below EMA50 -3% (0.000313); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.000313; RSI labels only.",
+    "note": "Exit: daily close 0.000291 is below EMA50 -3% (0.000311); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.000311; RSI labels only.",
     "framework": "TP1 trend pullback (guidance only)"
+  },
+  "eth_sr": {
+    "monthly": {
+      "support": [
+        9.5516e-08,
+        7.9397e-08
+      ],
+      "resistance": [
+        2.0678e-07,
+        3.92152e-07
+      ]
+    },
+    "weekly": {
+      "support": [
+        1.07289e-07
+      ],
+      "resistance": []
+    },
+    "daily": {
+      "support": [
+        1.29045e-07
+      ],
+      "resistance": [
+        1.35095e-07
+      ]
+    }
+  },
+  "full_detail": {
+    "rsi_usd": {
+      "D": 43.2,
+      "W": 48.4,
+      "M": null
+    },
+    "rsi_eth": {
+      "D": 48.9,
+      "W": 46.4,
+      "M": null
+    },
+    "wrsi_usd": 48.0,
+    "wrsi_eth": 48.5,
+    "wrsi": 48.2,
+    "state": "Neutral",
+    "ema_usd": {
+      "20": 0.000314515,
+      "50": 0.000321117,
+      "200": 0.000334136
+    },
+    "ema_eth": {
+      "20": 1.31232e-07,
+      "50": 1.32205e-07,
+      "200": 1.52364e-07
+    },
+    "confluence": "bearish (below EMA50 in USD and vs ETH)",
+    "divergences": [],
+    "perp": null,
+    "ratio": "BNKR/ETH",
+    "price_eth": 1.29713e-07
   }
 }
