@@ -10,12 +10,12 @@
     "source": "research/labels/2026-10-30.json"
   },
   "last_update": {
-    "date": "2026-10-30",
-    "ts": "2026-10-30T18:18:02-06:00",
-    "price": 22.695,
-    "mode": "full"
+    "date": "2026-11-01",
+    "ts": "2026-10-31T18:08:33-06:00",
+    "price": 23.47,
+    "mode": "incremental"
   },
-  "rsi_d": 43.7,
+  "rsi_d": 46.2,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -46,8 +46,8 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 20.0741,
-        "raw_price": 20.0741,
+        "price": 20.1176,
+        "raw_price": 20.1176,
         "snapped": false,
         "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -62,8 +62,8 @@
       },
       {
         "label": "Deep value",
-        "price": 17.882,
-        "raw_price": 17.882,
+        "price": 17.8681,
+        "raw_price": 17.8681,
         "snapped": false,
         "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -80,8 +80,8 @@
     "up": [
       {
         "label": "Getting warm",
-        "price": 26.4528,
-        "raw_price": 26.4528,
+        "price": 26.4036,
+        "raw_price": 26.4036,
         "snapped": false,
         "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'M': 0.35, 'W': 0.4, 'D': 0.25}",
         "source": "B1 reverse-RSI (USD)",
@@ -100,8 +100,8 @@
       },
       {
         "label": "Take profit",
-        "price": 30.0012,
-        "raw_price": 30.0012,
+        "price": 29.9026,
+        "raw_price": 29.9026,
         "snapped": false,
         "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'M': 0.35, 'W': 0.4, 'D': 0.25}",
         "source": "B1 reverse-RSI (USD)",
@@ -120,9 +120,9 @@
       }
     ],
     "context": {
-      "wrsi_usd": 60.8,
-      "wrsi_eth": 66.1,
-      "wrsi": 62.9,
+      "wrsi_usd": 61.4,
+      "wrsi_eth": 66.7,
+      "wrsi": 63.5,
       "state": "Neutral",
       "conv_long": 0.0,
       "conv_short": 0.0,
@@ -132,16 +132,16 @@
       "tier_long": "add",
       "tier_short": "trim",
       "state_split": "USD 60% / ETH 40%",
-      "regime": "Exit"
+      "regime": "Uptrend"
     },
     "v": 3,
     "mode": "B1 recompute-every-run (no snap, no anchoring)",
-    "ref_price": 22.7785,
-    "valid_from": "2026-10-30T18:18:02-06:00",
-    "valid_until": "2026-10-31T18:07:00-06:00",
+    "ref_price": 23.473,
+    "valid_from": "2026-10-31T18:08:26-06:00",
+    "valid_until": "2026-11-01T18:07:00-06:00",
     "source_data": "Hyperliquid 1d",
     "state": "Neutral",
-    "min_gap_pct": 9.83
+    "min_gap_pct": 9.51
   },
   "zones": {
     "date": "2026-10-15",
@@ -195,25 +195,26 @@
   "image_paths": [
     {
       "caption": "USD \u00b7 daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
-      "path": "research/labels/img/VVV_usd_2026-10-30.png.b64",
-      "drawn": "2026-10-30"
+      "path": "research/labels/img/VVV_usd_2026-10-31.png.b64",
+      "drawn": "2026-10-31"
     },
     {
       "caption": "vs ETH \u00b7 daily (same style)",
-      "path": "research/labels/img/VVV_eth_2026-10-30.png.b64",
-      "drawn": "2026-10-30"
+      "path": "research/labels/img/VVV_eth_2026-10-31.png.b64",
+      "drawn": "2026-10-31"
     }
   ],
-  "last_reasoning": "VVV 22.78: RSI 1d 43.7, blended RSI 62.9 (USD 60.8/ETH 66.1) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Exit: daily close 22.7 is below EMA50 -3% (23.21); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 23.21; RSI labels only. RSI triggers: add 20.07, deep 17.88, warm 26.45, TP 30.",
+  "last_reasoning": "VVV 23.47: RSI 1d 46.2, blended RSI 63.5 (USD 61.4/ETH 66.7) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Uptrend (weekly EMA50 rising): in the EMA20 pullback buy zone (24.4); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 23.19 (EMA50 -3%). RSI triggers: add 20.12, deep 17.87, warm 26.4, TP 29.9.",
   "trend": {
-    "regime": "Exit",
-    "ema20": 24.5062,
-    "ema50": 23.9327,
-    "ema200": 17.3426,
-    "pullback_buy_zone": null,
-    "exit_close_below": 23.2147,
-    "exit_triggered": true,
-    "note": "Exit: daily close 22.7 is below EMA50 -3% (23.21); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 23.21; RSI labels only.",
+    "regime": "Uptrend",
+    "ema20": 24.3995,
+    "ema50": 23.9113,
+    "ema200": 17.4027,
+    "pullback_buy_zone": 24.3995,
+    "exit_close_below": 23.194,
+    "trim_rule": "20% at each Getting warm / Take profit touch",
+    "hidden_bullish": null,
+    "note": "Uptrend (weekly EMA50 rising): in the EMA20 pullback buy zone (24.4); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 23.19 (EMA50 -3%).",
     "framework": "TP1 trend pullback (guidance only)"
   },
   "eth_sr": {
