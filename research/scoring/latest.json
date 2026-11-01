@@ -1,6 +1,6 @@
 {
  "schema": "mw-scoring/0",
- "generated": "2026-10-30T18:21:32-06:00",
+ "generated": "2026-10-31T18:10:42-06:00",
  "paper_only": true,
  "rules": "(v1, 2026-10-21)\n- Every published rung spawns ONE hypothetical perp trade the first time price touches it after it was armed\n  (armed = valid_from of the label publication that carried it; disarmed when a later publication drops it, unless\n  already triggered). Longs at Consider adding / Add on dip / Deep value; shorts at Getting warm / Take profit.\n- Entry: the rung price on touch (if the bar opens through the rung, fill at that bar's open).\n- Stop: just beyond (0.5%) the next rung on the same side (Consider adding -> Deep value; Getting warm -> Take profit);\n  for the outer rung (or if none) the next stronger (W/M) S/R level beyond it; fallback 10% away. Setups: their stop\n  (invalidation).\n- Target: the next opposite-side level. Add/warm rungs -> first resistance above / support below the publication's\n  ref price (the \"Neutral\" band edge); Deep value -> the Consider adding rung; Take profit -> the Getting warm rung.\n  Setups: their first target. Fallback 10%.\n- Max hold 10 days (240 h), then exit at close. Stop and target in the same bar = stop (conservative). On the entry bar\n  only a stop counts, or a target if the bar CLOSES beyond it.\n- No leverage. Score in R multiples ((exit-entry)/|entry-stop|, sign-adjusted) and % move, net of 0.05% fee per side.\n- Context tags: coin, rung, side, level tf (M/W/D), RSI d/w at entry, divergences, whether the RSI shift moved the rung,\n  offset_pct, strategy. Strategies (scored separately, same rules): ladder_off0/0.5/1 (front-run offset x ATR14),\n  scaled_ladder (half at add, half at deep, common stop beyond deep), rsi_reclaim (daily RSI closes back above 30 within 3%\n  of W/M support -> long next open; short mirror at 70), div_confirm (Regular 1d/1w divergence confirmed on the close ->\n  next open, stop beyond the pivot), breakout_retest (retest of a W/M resistance broken by a daily close, within 10d).\n  Forward for strategies = same daily engine replayed on bars from Oct 21 (kind=forward_replay).\n- Backtest (`--backtest`): same rules over the last ~90 daily bars per coin, levels rebuilt from data available on\n  each day; ladders re-anchor on: close crossing a rung/W-M level, |move| > 15% from anchor, or anchor age > 14d.\n  IN-SAMPLE, daily bars only (intrabar order unknown), level/pivot code tuned on this same period, survivorship\n  (current watchlist). Kept separate from the forward ledger (starts 2026-10-21).",
  "forward": {
@@ -2713,42 +2713,42 @@
   }
  },
  "real_positions_reference": {
-  "ts": "2026-10-30T18:20:19-06:00",
+  "ts": "2026-10-31T18:10:42-06:00",
   "positions": [
    {
     "coin": "kPEPE",
     "szi": "124341.0",
     "entry": "0.005001",
-    "upnl": "-6.092709",
-    "liq": "0.0031337756"
+    "upnl": "-5.346663",
+    "liq": "0.0031351844"
    },
    {
     "coin": "GRASS",
     "szi": "2808.2",
     "entry": "0.64027",
-    "upnl": "-140.208875",
-    "liq": "0.4865780208"
+    "upnl": "-163.236115",
+    "liq": "0.4867876392"
    },
    {
     "coin": "VIRTUAL",
     "szi": "12942.1",
     "entry": "0.66971",
-    "upnl": "-917.036364",
-    "liq": "0.4190331307"
+    "upnl": "-1022.773321",
+    "liq": "0.4192295937"
    },
    {
     "coin": "VVV",
     "szi": "484.09",
     "entry": "23.8102",
-    "upnl": "-511.8011",
-    "liq": "17.9312619852"
+    "upnl": "-29.64746",
+    "liq": "17.9481756392"
    },
    {
     "coin": "AERO",
     "szi": "7021.0",
     "entry": "0.726023",
-    "upnl": "-720.58803",
-    "liq": "0.4985129078"
+    "upnl": "-552.29466",
+    "liq": "0.4987364642"
    }
   ]
  }
