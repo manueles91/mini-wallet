@@ -60,16 +60,16 @@
   "last_swings": {
     "daily_highs": [
       {
-        "date": "2026-10-02",
-        "price": 0.004755
-      },
-      {
         "date": "2026-10-12",
         "price": 0.004336
       },
       {
         "date": "2026-10-23",
         "price": 0.005109
+      },
+      {
+        "date": "2026-10-29",
+        "price": 0.00571
       }
     ],
     "daily_lows": [
@@ -88,7 +88,7 @@
     ],
     "k": 3
   },
-  "rsi_d": 60.5,
+  "rsi_d": 58.9,
   "thesis": [
     "[auto full 2026-10-30] KPEPE 0.004916: RSI USD M/W/D 63.7/60.6/59.8, KPEPE/ETH M/W/D 65.4/67.7/71.4; blended 60.6 -> Neutral; no active divergence.",
     "Confluence bullish (above EMA50 in USD and vs ETH); EMA20/50/200 USD 0.00443763/0.00416895/0.00386917. HL OI $66.5M, funding +0.0013%/h (7d avg +0.0013%/h)."
@@ -140,9 +140,9 @@
     "source": "research/labels/2026-10-30.json"
   },
   "last_update": {
-    "date": "2026-11-01",
-    "ts": "2026-10-31T18:08:43-06:00",
-    "price": 0.004958,
+    "date": "2026-11-02",
+    "ts": "2026-11-01T18:16:51-06:00",
+    "price": 0.004883,
     "mode": "incremental"
   },
   "coingecko_id": null,
@@ -151,8 +151,8 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.00362071,
-        "raw_price": 0.00362071,
+        "price": 0.00369183,
+        "raw_price": 0.00369183,
         "snapped": false,
         "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -167,8 +167,8 @@
       },
       {
         "label": "Deep value",
-        "price": 0.00309098,
-        "raw_price": 0.00309098,
+        "price": 0.00319994,
+        "raw_price": 0.00319994,
         "snapped": false,
         "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -185,8 +185,8 @@
     "up": [
       {
         "label": "Getting warm",
-        "price": 0.00550456,
-        "raw_price": 0.00550456,
+        "price": 0.00549099,
+        "raw_price": 0.00549099,
         "snapped": false,
         "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'M': 0.35, 'W': 0.4, 'D': 0.25}",
         "source": "B1 reverse-RSI (USD)",
@@ -205,8 +205,8 @@
       },
       {
         "label": "Take profit",
-        "price": 0.00719432,
-        "raw_price": 0.00719432,
+        "price": 0.00710586,
+        "raw_price": 0.00710586,
         "snapped": false,
         "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'M': 0.35, 'W': 0.4, 'D': 0.25}",
         "source": "B1 reverse-RSI (USD)",
@@ -226,7 +226,7 @@
     ],
     "context": {
       "wrsi_usd": 59.1,
-      "wrsi_eth": 63.0,
+      "wrsi_eth": 63.2,
       "wrsi": 60.7,
       "state": "Neutral",
       "conv_long": 0.0,
@@ -241,36 +241,36 @@
     },
     "v": 3,
     "mode": "B1 recompute-every-run (no snap, no anchoring)",
-    "ref_price": 0.004958,
-    "valid_from": "2026-10-31T18:08:26-06:00",
-    "valid_until": "2026-11-01T18:07:00-06:00",
+    "ref_price": 0.004883,
+    "valid_from": "2026-11-01T18:16:33-06:00",
+    "valid_until": "2026-11-03T00:07:00Z",
     "source_data": "Hyperliquid 1d",
     "state": "Neutral",
-    "min_gap_pct": 10.16
+    "min_gap_pct": 10.3
   },
-  "last_reasoning": "KPEPE 0.004958: RSI 1d 60.5, blended RSI 60.7 (USD 59.1/ETH 63.0) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Uptrend (price > rising EMA50): pullback buy zone near EMA20 at 0.00449 (-9%); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.00407 (EMA50 -3%). RSI triggers: add 0.003621, deep 0.003091, warm 0.005505, TP 0.007194.",
+  "last_reasoning": "KPEPE 0.004883: RSI 1d 58.9, blended RSI 60.7 (USD 59.1/ETH 63.2) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Uptrend (price > rising EMA50): pullback buy zone near EMA20 at 0.00453 (-7%); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.0041 (EMA50 -3%). RSI triggers: add 0.003692, deep 0.0032, warm 0.005491, TP 0.007106.",
   "trend": {
     "regime": "Uptrend",
-    "ema20": 0.00448728,
-    "ema50": 0.00419993,
-    "ema200": 0.00388002,
-    "pullback_buy_zone": 0.00448728,
-    "exit_close_below": 0.00407393,
+    "ema20": 0.00452554,
+    "ema50": 0.00422695,
+    "ema200": 0.00389006,
+    "pullback_buy_zone": 0.00452554,
+    "exit_close_below": 0.00410014,
     "trim_rule": "20% at each Getting warm / Take profit touch",
     "hidden_bullish": null,
-    "note": "Uptrend (price > rising EMA50): pullback buy zone near EMA20 at 0.00449 (-9%); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.00407 (EMA50 -3%).",
+    "note": "Uptrend (price > rising EMA50): pullback buy zone near EMA20 at 0.00453 (-7%); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 0.0041 (EMA50 -3%).",
     "framework": "TP1 trend pullback (guidance only)"
   },
   "image_paths": [
     {
       "caption": "USD \u00b7 daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
-      "path": "research/labels/img/KPEPE_usd_2026-10-31.png.b64",
-      "drawn": "2026-10-31"
+      "path": "research/labels/img/KPEPE_usd_2026-11-01.png.b64",
+      "drawn": "2026-11-01"
     },
     {
       "caption": "vs ETH \u00b7 daily (same style)",
-      "path": "research/labels/img/KPEPE_eth_2026-10-31.png.b64",
-      "drawn": "2026-10-31"
+      "path": "research/labels/img/KPEPE_eth_2026-11-01.png.b64",
+      "drawn": "2026-11-01"
     }
   ]
 }
