@@ -1,7 +1,7 @@
 {
-  "versionCode": 71,
-  "versionName": "13.43",
+  "versionCode": 72,
+  "versionName": "13.44",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "9f1e40023e204539f70bef9266821d2153a54696ce6b14c796c9f31d31460e1e",
-  "notes": "Fix: when the phone can't reach most sources (DNS/offline), the app keeps your last good portfolio instead of saving a partial one; one automatic retry on DNS errors."
+  "apkSha256": "cb6dc008561d233280a6dee8481602395732759564ea9dcf54d9fd927114e37b",
+  "notes": "sAERO in Autopilot is back: positions deposited into Aero's AERO Maxi Compounder are read from the Autopilot (PT balance) and counted once in net worth and the sAERO card (read-only, no switch recs). Faster refresh: portfolio sources fetch in parallel with per-source timeouts; a failed source keeps its last good value (marked stale) instead of dropping out."
 }
