@@ -10,12 +10,12 @@
     "source": "research/labels/2026-10-23.json"
   },
   "last_update": {
-    "date": "2026-11-04",
-    "ts": "2026-11-03T18:15:55-06:00",
-    "price": 140.91,
+    "date": "2026-11-05",
+    "ts": "2026-11-04T18:09:49-06:00",
+    "price": 135.01,
     "mode": "incremental"
   },
-  "rsi_d": 42.0,
+  "rsi_d": 35.7,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -44,8 +44,8 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 126.872,
-        "raw_price": 126.872,
+        "price": 126.199,
+        "raw_price": 126.199,
         "snapped": false,
         "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -62,8 +62,8 @@
       },
       {
         "label": "Deep value",
-        "price": 114.344,
-        "raw_price": 114.344,
+        "price": 113.836,
+        "raw_price": 113.836,
         "snapped": false,
         "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -82,8 +82,8 @@
     "up": [
       {
         "label": "Getting warm",
-        "price": 177.78,
-        "raw_price": 177.78,
+        "price": 177.843,
+        "raw_price": 177.843,
         "snapped": false,
         "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -100,8 +100,8 @@
       },
       {
         "label": "Take profit",
-        "price": 193.574,
-        "raw_price": 193.574,
+        "price": 194.306,
+        "raw_price": 194.306,
         "snapped": false,
         "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -118,9 +118,9 @@
       }
     ],
     "context": {
-      "wrsi_usd": 42.1,
-      "wrsi_eth": 40.7,
-      "wrsi": 41.5,
+      "wrsi_usd": 39.6,
+      "wrsi_eth": 34.5,
+      "wrsi": 37.6,
       "state": "Neutral",
       "conv_long": 0.0,
       "conv_short": 0.0,
@@ -134,9 +134,9 @@
     },
     "v": 3,
     "mode": "B1 recompute-every-run (no snap, no anchoring)",
-    "ref_price": 140.69,
-    "valid_from": "2026-11-03T18:15:40-06:00",
-    "valid_until": "2026-11-05T00:07:00Z",
+    "ref_price": 134.885,
+    "valid_from": "2026-11-04T18:09:34-06:00",
+    "valid_until": "2026-11-06T00:07:00Z",
     "source_data": "OKX USDT-swap 1D (utc), bars after 2026-06-02 re-basing",
     "state": "Neutral",
     "min_gap_pct": 5.0
@@ -180,19 +180,19 @@
   "image_paths": [
     {
       "caption": "USD \u00b7 daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
-      "path": "research/labels/img/SPCX_usd_2026-11-03.png.b64",
-      "drawn": "2026-11-03"
+      "path": "research/labels/img/SPCX_usd_2026-11-04.png.b64",
+      "drawn": "2026-11-04"
     },
     {
       "caption": "vs ETH \u00b7 daily (same style)",
-      "path": "research/labels/img/SPCX_eth_2026-11-03.png.b64",
-      "drawn": "2026-11-03"
+      "path": "research/labels/img/SPCX_eth_2026-11-04.png.b64",
+      "drawn": "2026-11-04"
     }
   ],
-  "last_reasoning": "SPCX 140.7: RSI 1d 42.0, blended RSI 41.5 (USD 42.1/ETH 40.7) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 148.4, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 126.9, deep 114.3, warm 177.8, TP 193.6.",
+  "last_reasoning": "SPCX 134.9: RSI 1d 35.7, blended RSI 37.6 (USD 39.6/ETH 34.5) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 147.8, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 126.2, deep 113.8, warm 177.8, TP 194.3.",
   "trend": {
     "regime": "Downtrend",
-    "note": "Downtrend (below/flat EMA50 148.4, weekly EMA50 not rising): no pullback buys; RSI labels only.",
+    "note": "Downtrend (below/flat EMA50 147.8, weekly EMA50 not rising): no pullback buys; RSI labels only.",
     "framework": "TP1 trend pullback (guidance only)"
   }
 }

@@ -3,19 +3,19 @@
   "symbol": "VVV",
   "coingecko_id": "venice-token",
   "last_full_analysis": {
-    "date": "2026-11-03",
-    "ts": "2026-11-03T18:15:40-06:00",
-    "ref_price": 22.5045,
+    "date": "2026-11-04",
+    "ts": "2026-11-04T18:09:34-06:00",
+    "ref_price": 21.282,
     "label": "Neutral",
-    "source": "research/labels/2026-11-03.json"
+    "source": "research/labels/2026-11-04.json"
   },
   "last_update": {
-    "date": "2026-11-03",
-    "ts": "2026-11-03T18:15:40-06:00",
-    "price": 22.631,
+    "date": "2026-11-04",
+    "ts": "2026-11-04T18:09:34-06:00",
+    "price": 21.53,
     "mode": "full"
   },
-  "rsi_d": 45.1,
+  "rsi_d": 41.9,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -46,8 +46,8 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 19.6805,
-        "raw_price": 19.6805,
+        "price": 19.5064,
+        "raw_price": 19.5064,
         "snapped": false,
         "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -62,8 +62,8 @@
       },
       {
         "label": "Deep value",
-        "price": 17.4848,
-        "raw_price": 17.4848,
+        "price": 17.4675,
+        "raw_price": 17.4675,
         "snapped": false,
         "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -80,8 +80,8 @@
     "up": [
       {
         "label": "Getting warm",
-        "price": 27.2238,
-        "raw_price": 27.2238,
+        "price": 27.1791,
+        "raw_price": 27.1791,
         "snapped": false,
         "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'M': 0.35, 'W': 0.4, 'D': 0.25}",
         "source": "B1 reverse-RSI (USD)",
@@ -100,8 +100,8 @@
       },
       {
         "label": "Take profit",
-        "price": 32.1524,
-        "raw_price": 32.1524,
+        "price": 32.143,
+        "raw_price": 32.143,
         "snapped": false,
         "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'M': 0.35, 'W': 0.4, 'D': 0.25}",
         "source": "B1 reverse-RSI (USD)",
@@ -120,9 +120,9 @@
       }
     ],
     "context": {
-      "wrsi_usd": 56.6,
-      "wrsi_eth": 63.9,
-      "wrsi": 59.5,
+      "wrsi_usd": 55.8,
+      "wrsi_eth": 61.8,
+      "wrsi": 58.2,
       "state": "Neutral",
       "conv_long": 0.0,
       "conv_short": 0.0,
@@ -136,12 +136,12 @@
     },
     "v": 3,
     "mode": "B1 recompute-every-run (no snap, no anchoring)",
-    "ref_price": 22.503,
-    "valid_from": "2026-11-03T18:15:40-06:00",
-    "valid_until": "2026-11-05T00:07:00Z",
+    "ref_price": 21.307,
+    "valid_from": "2026-11-04T18:09:34-06:00",
+    "valid_until": "2026-11-06T00:07:00Z",
     "source_data": "Hyperliquid 1d",
     "state": "Neutral",
-    "min_gap_pct": 9.61
+    "min_gap_pct": 10.39
   },
   "zones": {
     "date": "2026-10-15",
@@ -157,8 +157,8 @@
   "last_divergence": null,
   "divergences_seen": [],
   "thesis": [
-    "[auto full 2026-11-03] VVV 22.631: RSI USD M/W/D 60.7/58.5/45.1, VVV/ETH M/W/D 74.4/61.3/48.5; blended 59.5 -> Neutral; no active divergence.",
-    "Confluence mixed (above EMA50 vs ETH only); EMA20/50/200 USD 23.8534/23.7289/17.5475. HL OI $62.9M, funding +0.0013%/h (7d avg +0.0015%/h)."
+    "[auto full 2026-11-04] VVV 21.53: RSI USD M/W/D 59.1/56.3/41.9, VVV/ETH M/W/D 68.5/55.2/40.2; blended 58.2 -> Neutral; no active divergence.",
+    "Confluence bearish (below EMA50 in USD and vs ETH); EMA20/50/200 USD 23.6322/23.6427/17.5871. HL OI $60.3M, funding +0.0013%/h (7d avg +0.0015%/h)."
   ],
   "catalysts": [],
   "last_swings": {
@@ -195,25 +195,25 @@
   "image_paths": [
     {
       "caption": "USD \u00b7 daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
-      "path": "research/labels/img/VVV_usd_2026-11-03.png.b64",
-      "drawn": "2026-11-03"
+      "path": "research/labels/img/VVV_usd_2026-11-04.png.b64",
+      "drawn": "2026-11-04"
     },
     {
       "caption": "vs ETH \u00b7 daily (same style)",
-      "path": "research/labels/img/VVV_eth_2026-11-03.png.b64",
-      "drawn": "2026-11-03"
+      "path": "research/labels/img/VVV_eth_2026-11-04.png.b64",
+      "drawn": "2026-11-04"
     }
   ],
-  "last_reasoning": "VVV 22.5: RSI 1d 45.1, blended RSI 59.5 (USD 56.6/ETH 63.9) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Exit: daily close 22.63 is below EMA50 -3% (23.02); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 23.02; RSI labels only. RSI triggers: add 19.68, deep 17.48, warm 27.22, TP 32.15.",
+  "last_reasoning": "VVV 21.31: RSI 1d 41.9, blended RSI 58.2 (USD 55.8/ETH 61.8) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Exit: daily close 21.53 is below EMA50 -3% (22.93); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 22.93; RSI labels only. RSI triggers: add 19.51, deep 17.47, warm 27.18, TP 32.14.",
   "trend": {
     "regime": "Exit",
-    "ema20": 23.8534,
-    "ema50": 23.7289,
-    "ema200": 17.5475,
+    "ema20": 23.6322,
+    "ema50": 23.6427,
+    "ema200": 17.5871,
     "pullback_buy_zone": null,
-    "exit_close_below": 23.017,
+    "exit_close_below": 22.9334,
     "exit_triggered": true,
-    "note": "Exit: daily close 22.63 is below EMA50 -3% (23.02); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 23.02; RSI labels only.",
+    "note": "Exit: daily close 21.53 is below EMA50 -3% (22.93); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 22.93; RSI labels only.",
     "framework": "TP1 trend pullback (guidance only)"
   },
   "eth_sr": {
@@ -235,50 +235,50 @@
     },
     "daily": {
       "support": [
-        0.00991307
+        0.00871622
       ],
       "resistance": [
-        0.0104682
+        0.00935239
       ]
     }
   },
   "full_detail": {
     "rsi_usd": {
-      "D": 45.1,
-      "W": 58.5,
-      "M": 60.7
+      "D": 41.9,
+      "W": 56.3,
+      "M": 59.1
     },
     "rsi_eth": {
-      "D": 48.5,
-      "W": 61.3,
-      "M": 74.4
+      "D": 40.2,
+      "W": 55.2,
+      "M": 68.5
     },
-    "wrsi_usd": 56.6,
-    "wrsi_eth": 63.9,
-    "wrsi": 59.5,
+    "wrsi_usd": 55.8,
+    "wrsi_eth": 61.8,
+    "wrsi": 58.2,
     "state": "Neutral",
     "ema_usd": {
-      "20": 23.8534,
-      "50": 23.7289,
-      "200": 17.5475
+      "20": 23.6322,
+      "50": 23.6427,
+      "200": 17.5871
     },
     "ema_eth": {
-      "20": 0.0101462,
-      "50": 0.00980823,
-      "200": 0.00763175
+      "20": 0.0100258,
+      "50": 0.00977192,
+      "200": 0.0076442
     },
-    "confluence": "mixed (above EMA50 vs ETH only)",
+    "confluence": "bearish (below EMA50 in USD and vs ETH)",
     "divergences": [],
     "perp": {
       "venue": "Hyperliquid",
-      "oi_coins": 2796742.7800000003,
-      "oi_usd": 62918322,
+      "oi_coins": 2837848.719999998,
+      "oi_usd": 60326988,
       "funding_1h_pct": 0.00125,
-      "funding_7d_avg_1h_pct": 0.00155,
-      "day_ntl_vlm": 11032582,
-      "mark": 22.497
+      "funding_7d_avg_1h_pct": 0.00154,
+      "day_ntl_vlm": 16020320,
+      "mark": 21.258
     },
     "ratio": "VVV/ETH",
-    "price_eth": 0.00994988
+    "price_eth": 0.00888238
   }
 }
