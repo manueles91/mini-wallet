@@ -10,12 +10,12 @@
     "source": "research/labels/2026-10-30.json"
   },
   "last_update": {
-    "date": "2026-11-05",
-    "ts": "2026-11-04T18:09:45-06:00",
-    "price": 0.000278381,
+    "date": "2026-11-06",
+    "ts": "2026-11-05T18:18:02-06:00",
+    "price": 0.000257765,
     "mode": "incremental"
   },
-  "rsi_d": 42.9,
+  "rsi_d": 39.3,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -48,8 +48,8 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.000250831,
-        "raw_price": 0.000250831,
+        "price": 0.000247111,
+        "raw_price": 0.000247111,
         "snapped": false,
         "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -64,8 +64,8 @@
       },
       {
         "label": "Deep value",
-        "price": 0.000225367,
-        "raw_price": 0.000225367,
+        "price": 0.000223465,
+        "raw_price": 0.000223465,
         "snapped": false,
         "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -82,8 +82,8 @@
     "up": [
       {
         "label": "Getting warm",
-        "price": 0.000357784,
-        "raw_price": 0.000357784,
+        "price": 0.000355548,
+        "raw_price": 0.000355548,
         "snapped": false,
         "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -98,8 +98,8 @@
       },
       {
         "label": "Take profit",
-        "price": 0.000391738,
-        "raw_price": 0.000391738,
+        "price": 0.000392145,
+        "raw_price": 0.000392145,
         "snapped": false,
         "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -114,9 +114,9 @@
       }
     ],
     "context": {
-      "wrsi_usd": 61.1,
-      "wrsi_eth": 62.4,
-      "wrsi": 61.6,
+      "wrsi_usd": 59.7,
+      "wrsi_eth": 63.1,
+      "wrsi": 61.1,
       "state": "Neutral",
       "conv_long": 0.0,
       "conv_short": 0.0,
@@ -130,12 +130,12 @@
     },
     "v": 3,
     "mode": "B1 recompute-every-run (no snap, no anchoring)",
-    "ref_price": 0.00028198,
-    "valid_from": "2026-11-04T18:09:34-06:00",
-    "valid_until": "2026-11-06T00:07:00Z",
+    "ref_price": 0.00026123,
+    "valid_from": "2026-11-05T18:17:51-06:00",
+    "valid_until": "2026-11-07T00:07:00Z",
     "source_data": "GeckoTerminal 1d",
     "state": "Neutral",
-    "min_gap_pct": 8.41
+    "min_gap_pct": 8.83
   },
   "zones": null,
   "last_divergence": null,
@@ -179,19 +179,19 @@
   "image_paths": [
     {
       "caption": "USD \u00b7 daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
-      "path": "research/labels/img/BNKR_usd_2026-11-04.png.b64",
-      "drawn": "2026-11-04"
+      "path": "research/labels/img/BNKR_usd_2026-11-05.png.b64",
+      "drawn": "2026-11-05"
     },
     {
       "caption": "vs ETH \u00b7 daily (same style)",
-      "path": "research/labels/img/BNKR_eth_2026-11-04.png.b64",
-      "drawn": "2026-11-04"
+      "path": "research/labels/img/BNKR_eth_2026-11-05.png.b64",
+      "drawn": "2026-11-05"
     }
   ],
-  "last_reasoning": "BNKR 0.000282: RSI 1d 42.9, blended RSI 61.6 (USD 61.1/ETH 62.4) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 0.000312, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 0.0002508, deep 0.0002254, warm 0.0003578, TP 0.0003917.",
+  "last_reasoning": "BNKR 0.0002612: RSI 1d 39.3, blended RSI 61.1 (USD 59.7/ETH 63.1) -> Neutral; Regular Bullish 1d USD ratio 1.0 (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 0.00031, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 0.0002471, deep 0.0002235, warm 0.0003555, TP 0.0003921.",
   "trend": {
     "regime": "Downtrend",
-    "note": "Downtrend (below/flat EMA50 0.000312, weekly EMA50 not rising): no pullback buys; RSI labels only.",
+    "note": "Downtrend (below/flat EMA50 0.00031, weekly EMA50 not rising): no pullback buys; RSI labels only.",
     "framework": "TP1 trend pullback (guidance only)"
   },
   "eth_sr": {

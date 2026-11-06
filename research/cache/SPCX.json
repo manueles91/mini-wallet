@@ -3,39 +3,40 @@
   "symbol": "SPCX",
   "coingecko_id": "spacex-robinhood-tokenized-stock",
   "last_full_analysis": {
-    "date": "2026-10-23",
-    "ts": "2026-10-23T15:17:18-06:00",
-    "ref_price": 147.875,
+    "date": "2026-11-05",
+    "ts": "2026-11-05T18:17:51-06:00",
+    "ref_price": 125.485,
     "label": "Neutral",
-    "source": "research/labels/2026-10-23.json"
+    "source": "research/labels/2026-11-05.json"
   },
   "last_update": {
     "date": "2026-11-05",
-    "ts": "2026-11-04T18:09:49-06:00",
-    "price": 135.01,
-    "mode": "incremental"
+    "ts": "2026-11-05T18:17:51-06:00",
+    "price": 122.65,
+    "mode": "full"
   },
-  "rsi_d": 35.7,
+  "rsi_d": 27.2,
   "usd_sr": {
     "monthly": {
       "support": [
         104.36
       ],
-      "resistance": []
+      "resistance": [
+        176.28
+      ]
     },
     "weekly": {
       "support": [],
       "resistance": [
-        176.28,
         228.41
       ]
     },
     "daily": {
       "support": [
-        146.21
+        119.24
       ],
       "resistance": [
-        149.47
+        129.92
       ]
     }
   },
@@ -44,37 +45,33 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 126.199,
-        "raw_price": 126.199,
+        "price": 121.387,
+        "raw_price": 121.387,
         "snapped": false,
-        "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+        "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'W': 1.0}",
         "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
         "snapped_level": null,
         "weights": {
-          "W": 0.62,
-          "D": 0.38
+          "W": 1.0
         },
         "tfs": [
-          "D",
           "W"
         ]
       },
       {
         "label": "Deep value",
-        "price": 113.836,
-        "raw_price": 113.836,
+        "price": 104.953,
+        "raw_price": 104.953,
         "snapped": false,
-        "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+        "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'W': 1.0}",
         "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
         "snapped_level": null,
         "weights": {
-          "W": 0.62,
-          "D": 0.38
+          "W": 1.0
         },
         "tfs": [
-          "D",
           "W"
         ]
       }
@@ -82,8 +79,8 @@
     "up": [
       {
         "label": "Getting warm",
-        "price": 177.843,
-        "raw_price": 177.843,
+        "price": 178.227,
+        "raw_price": 178.227,
         "snapped": false,
         "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -100,8 +97,8 @@
       },
       {
         "label": "Take profit",
-        "price": 194.306,
-        "raw_price": 194.306,
+        "price": 196.116,
+        "raw_price": 196.116,
         "snapped": false,
         "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -118,9 +115,9 @@
       }
     ],
     "context": {
-      "wrsi_usd": 39.6,
-      "wrsi_eth": 34.5,
-      "wrsi": 37.6,
+      "wrsi_usd": 36.4,
+      "wrsi_eth": 34.0,
+      "wrsi": 35.4,
       "state": "Neutral",
       "conv_long": 0.0,
       "conv_short": 0.0,
@@ -134,9 +131,9 @@
     },
     "v": 3,
     "mode": "B1 recompute-every-run (no snap, no anchoring)",
-    "ref_price": 134.885,
-    "valid_from": "2026-11-04T18:09:34-06:00",
-    "valid_until": "2026-11-06T00:07:00Z",
+    "ref_price": 125.4,
+    "valid_from": "2026-11-05T18:17:51-06:00",
+    "valid_until": "2026-11-07T00:07:00Z",
     "source_data": "OKX USDT-swap 1D (utc), bars after 2026-06-02 re-basing",
     "state": "Neutral",
     "min_gap_pct": 5.0
@@ -144,7 +141,10 @@
   "zones": null,
   "last_divergence": null,
   "divergences_seen": [],
-  "thesis": "Tokenized SpaceX (Robinhood token); priced via OKX SPCX-USDT-SWAP (re-based 2026-06-02) and Hyperliquid xyz:SPCX. Long bias; RSI-trigger adds only while in Downtrend regime.",
+  "thesis": [
+    "[auto full 2026-11-05] SPCX 122.65: RSI USD M/W/D None/36.1/27.2, SPCX/ETH M/W/D None/31.1/33.7; blended 35.4 -> Neutral; no active divergence.",
+    "Confluence bearish (below EMA50 in USD and vs ETH); EMA20/50/200 USD 142.331/146.858/154.532."
+  ],
   "catalysts": [],
   "last_swings": {
     "daily_highs": [
@@ -180,19 +180,75 @@
   "image_paths": [
     {
       "caption": "USD \u00b7 daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
-      "path": "research/labels/img/SPCX_usd_2026-11-04.png.b64",
-      "drawn": "2026-11-04"
+      "path": "research/labels/img/SPCX_usd_2026-11-05.png.b64",
+      "drawn": "2026-11-05"
     },
     {
       "caption": "vs ETH \u00b7 daily (same style)",
-      "path": "research/labels/img/SPCX_eth_2026-11-04.png.b64",
-      "drawn": "2026-11-04"
+      "path": "research/labels/img/SPCX_eth_2026-11-05.png.b64",
+      "drawn": "2026-11-05"
     }
   ],
-  "last_reasoning": "SPCX 134.9: RSI 1d 35.7, blended RSI 37.6 (USD 39.6/ETH 34.5) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 147.8, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 126.2, deep 113.8, warm 177.8, TP 194.3.",
+  "last_reasoning": "SPCX 125.4: RSI 1d 27.2, blended RSI 35.4 (USD 36.4/ETH 34.0) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 146.9, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 121.4, deep 105, warm 178.2, TP 196.1.",
   "trend": {
     "regime": "Downtrend",
-    "note": "Downtrend (below/flat EMA50 147.8, weekly EMA50 not rising): no pullback buys; RSI labels only.",
+    "note": "Downtrend (below/flat EMA50 146.9, weekly EMA50 not rising): no pullback buys; RSI labels only.",
     "framework": "TP1 trend pullback (guidance only)"
+  },
+  "eth_sr": {
+    "monthly": {
+      "support": [
+        0.0521939
+      ],
+      "resistance": [
+        0.0684004
+      ]
+    },
+    "weekly": {
+      "support": [
+        0.0539972
+      ],
+      "resistance": [
+        0.0641377,
+        0.0795265
+      ]
+    },
+    "daily": {
+      "support": [],
+      "resistance": [
+        0.055381
+      ]
+    }
+  },
+  "full_detail": {
+    "rsi_usd": {
+      "D": 27.2,
+      "W": 36.1,
+      "M": null
+    },
+    "rsi_eth": {
+      "D": 33.7,
+      "W": 31.1,
+      "M": null
+    },
+    "wrsi_usd": 36.4,
+    "wrsi_eth": 34.0,
+    "wrsi": 35.4,
+    "state": "Neutral",
+    "ema_usd": {
+      "20": 142.331,
+      "50": 146.858,
+      "200": 154.532
+    },
+    "ema_eth": {
+      "20": 0.0606673,
+      "50": 0.061314,
+      "200": 0.0735519
+    },
+    "confluence": "bearish (below EMA50 in USD and vs ETH)",
+    "divergences": [],
+    "perp": null,
+    "ratio": "SPCX/ETH",
+    "price_eth": 0.0548254
   }
 }
