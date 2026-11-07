@@ -3,19 +3,19 @@
   "symbol": "GRASS",
   "coingecko_id": "grass",
   "last_full_analysis": {
-    "date": "2026-11-05",
-    "ts": "2026-11-05T18:17:51-06:00",
-    "ref_price": 0.49247,
+    "date": "2026-11-06",
+    "ts": "2026-11-06T18:17:50-06:00",
+    "ref_price": 0.50041,
     "label": "Neutral",
-    "source": "research/labels/2026-11-05.json"
+    "source": "research/labels/2026-11-06.json"
   },
   "last_update": {
-    "date": "2026-11-05",
-    "ts": "2026-11-05T18:17:51-06:00",
-    "price": 0.48875,
+    "date": "2026-11-06",
+    "ts": "2026-11-06T18:17:50-06:00",
+    "price": 0.5024,
     "mode": "full"
   },
-  "rsi_d": 38.3,
+  "rsi_d": 39.9,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -49,8 +49,8 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.453589,
-        "raw_price": 0.453589,
+        "price": 0.453262,
+        "raw_price": 0.453262,
         "snapped": false,
         "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -65,8 +65,8 @@
       },
       {
         "label": "Deep value",
-        "price": 0.386259,
-        "raw_price": 0.386259,
+        "price": 0.386514,
+        "raw_price": 0.386514,
         "snapped": false,
         "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -83,8 +83,8 @@
     "up": [
       {
         "label": "Getting warm",
-        "price": 0.843098,
-        "raw_price": 0.843098,
+        "price": 0.836613,
+        "raw_price": 0.836613,
         "snapped": false,
         "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -101,8 +101,8 @@
       },
       {
         "label": "Take profit",
-        "price": 1.01676,
-        "raw_price": 1.01676,
+        "price": 1.00641,
+        "raw_price": 1.00641,
         "snapped": false,
         "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -119,9 +119,9 @@
       }
     ],
     "context": {
-      "wrsi_usd": 60.7,
-      "wrsi_eth": 58.6,
-      "wrsi": 59.8,
+      "wrsi_usd": 61.1,
+      "wrsi_eth": 59.1,
+      "wrsi": 60.3,
       "state": "Neutral",
       "conv_long": 0.0,
       "conv_short": 0.0,
@@ -135,12 +135,12 @@
     },
     "v": 3,
     "mode": "B1 recompute-every-run (no snap, no anchoring)",
-    "ref_price": 0.49245,
-    "valid_from": "2026-11-05T18:17:51-06:00",
-    "valid_until": "2026-11-07T00:07:00Z",
+    "ref_price": 0.50041,
+    "valid_from": "2026-11-06T18:17:50-06:00",
+    "valid_until": "2026-11-07T18:07:00-06:00",
     "source_data": "Hyperliquid 1d",
     "state": "Neutral",
-    "min_gap_pct": 14.75
+    "min_gap_pct": 14.02
   },
   "zones": {
     "date": "2026-10-20",
@@ -162,8 +162,8 @@
     }
   ],
   "thesis": [
-    "[auto full 2026-11-05] GRASS 0.48875: RSI USD M/W/D 81.6/50.4/38.3, GRASS/ETH M/W/D 73.9/50.8/39.7; blended 59.8 -> Neutral; no active divergence.",
-    "Confluence bearish (below EMA50 in USD and vs ETH); EMA20/50/200 USD 0.609221/0.584837/0.473057. HL OI $20.3M, funding +0.0013%/h (7d avg +0.0013%/h)."
+    "[auto full 2026-11-06] GRASS 0.5024: RSI USD M/W/D 81.8/50.9/39.9, GRASS/ETH M/W/D 74.1/51.4/41.5; blended 60.3 -> Neutral; no active divergence.",
+    "Confluence bearish (below EMA50 in USD and vs ETH); EMA20/50/200 USD 0.599048/0.581604/0.473349. HL OI $20.6M, funding +0.0013%/h (7d avg +0.0013%/h)."
   ],
   "catalysts": [
     {
@@ -205,25 +205,25 @@
   "image_paths": [
     {
       "caption": "USD \u00b7 daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
-      "path": "research/labels/img/GRASS_usd_2026-11-05.png.b64",
-      "drawn": "2026-11-05"
+      "path": "research/labels/img/GRASS_usd_2026-11-06.png.b64",
+      "drawn": "2026-11-06"
     },
     {
       "caption": "vs ETH \u00b7 daily (same style)",
-      "path": "research/labels/img/GRASS_eth_2026-11-05.png.b64",
-      "drawn": "2026-11-05"
+      "path": "research/labels/img/GRASS_eth_2026-11-06.png.b64",
+      "drawn": "2026-11-06"
     }
   ],
-  "last_reasoning": "GRASS 0.4924: RSI 1d 38.3, blended RSI 59.8 (USD 60.7/ETH 58.6) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Exit: daily close 0.489 is below EMA50 -3% (0.567); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.567; RSI labels only. RSI triggers: add 0.4536, deep 0.3863, warm 0.8431, TP 1.017.",
+  "last_reasoning": "GRASS 0.5004: RSI 1d 39.9, blended RSI 60.3 (USD 61.1/ETH 59.1) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Exit: daily close 0.502 is below EMA50 -3% (0.564); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.564; RSI labels only. RSI triggers: add 0.4533, deep 0.3865, warm 0.8366, TP 1.006.",
   "trend": {
     "regime": "Exit",
-    "ema20": 0.609221,
-    "ema50": 0.584837,
-    "ema200": 0.473057,
+    "ema20": 0.599048,
+    "ema50": 0.581604,
+    "ema200": 0.473349,
     "pullback_buy_zone": null,
-    "exit_close_below": 0.567292,
+    "exit_close_below": 0.564156,
     "exit_triggered": true,
-    "note": "Exit: daily close 0.489 is below EMA50 -3% (0.567); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.567; RSI labels only.",
+    "note": "Exit: daily close 0.502 is below EMA50 -3% (0.564); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.564; RSI labels only.",
     "framework": "TP1 trend pullback (guidance only)"
   },
   "eth_sr": {
@@ -247,50 +247,50 @@
     },
     "daily": {
       "support": [
-        0.000196526
+        0.000218503
       ],
       "resistance": [
-        0.000218503
+        0.000226367
       ]
     }
   },
   "full_detail": {
     "rsi_usd": {
-      "D": 38.3,
-      "W": 50.4,
-      "M": 81.6
+      "D": 39.9,
+      "W": 50.9,
+      "M": 81.8
     },
     "rsi_eth": {
-      "D": 39.7,
-      "W": 50.8,
-      "M": 73.9
+      "D": 41.5,
+      "W": 51.4,
+      "M": 74.1
     },
-    "wrsi_usd": 60.7,
-    "wrsi_eth": 58.6,
-    "wrsi": 59.8,
+    "wrsi_usd": 61.1,
+    "wrsi_eth": 59.1,
+    "wrsi": 60.3,
     "state": "Neutral",
     "ema_usd": {
-      "20": 0.609221,
-      "50": 0.584837,
-      "200": 0.473057
+      "20": 0.599048,
+      "50": 0.581604,
+      "200": 0.473349
     },
     "ema_eth": {
-      "20": 0.00025964,
-      "50": 0.000243595,
-      "200": 0.000205934
+      "20": 0.000256291,
+      "50": 0.000242846,
+      "200": 0.000206119
     },
     "confluence": "bearish (below EMA50 in USD and vs ETH)",
     "divergences": [],
     "perp": {
       "venue": "Hyperliquid",
-      "oi_coins": 41195078.0,
-      "oi_usd": 20291872,
+      "oi_coins": 41199015.80000001,
+      "oi_usd": 20615576,
       "funding_1h_pct": 0.00125,
       "funding_7d_avg_1h_pct": 0.00125,
-      "day_ntl_vlm": 5217659,
-      "mark": 0.49258
+      "day_ntl_vlm": 1754126,
+      "mark": 0.50039
     },
     "ratio": "GRASS/ETH",
-    "price_eth": 0.000218475
+    "price_eth": 0.000224476
   }
 }
