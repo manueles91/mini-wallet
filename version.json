@@ -1,7 +1,7 @@
 {
-  "versionCode": 73,
-  "versionName": "13.45",
+  "versionCode": 74,
+  "versionName": "13.46",
   "apkUrl": "https://raw.githubusercontent.com/manueles91/mini-wallet/main/mini-wallet.apk.b64",
-  "apkSha256": "e2b42e9f89708b0582a1c0d70b12e0ed3a2af4b7c1596567ac9fbdcdb45050a7",
-  "notes": "Reliability: every source and each Base protocol keeps its last good value (saved on the phone) and is shown as stale if it fails; a refresh that would drop your total >30% while anything failed is never saved. Speed: Base protocols run in parallel with Multicall3, dead RPCs removed, 6 s timeouts with hedged fallbacks. New: Settings \u2192 Updates \u2192 Refresh timing."
+  "apkSha256": "8138b58895b477c375888761dfacae9de09e207ef3167e1ba7eeb579dcf32db4",
+  "notes": "Leverage widget: 24h change for every Hyperliquid perp now comes from Hyperliquid itself (mark vs previous-day price), so kPEPE and LIT no longer show a blank 24h. Outside price sites are only a fallback."
 }
