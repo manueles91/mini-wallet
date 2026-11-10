@@ -3,23 +3,24 @@
   "symbol": "POD",
   "coingecko_id": "dolphin-2",
   "last_full_analysis": {
-    "date": "2026-11-08",
-    "ts": "2026-11-08T18:08:57-06:00",
-    "ref_price": 0.449424,
+    "date": "2026-11-09",
+    "ts": "2026-11-09T18:12:54-06:00",
+    "ref_price": 0.478443,
     "label": "Neutral",
-    "source": "research/labels/2026-11-08.json"
+    "source": "research/labels/2026-11-09.json"
   },
   "last_update": {
-    "date": "2026-11-08",
-    "ts": "2026-11-08T18:08:57-06:00",
-    "price": 0.450589,
+    "date": "2026-11-09",
+    "ts": "2026-11-09T18:12:54-06:00",
+    "price": 0.457844,
     "mode": "full"
   },
-  "rsi_d": 42.6,
+  "rsi_d": 43.5,
   "usd_sr": {
     "monthly": {
       "support": [
-        0.237585
+        0.237585,
+        0.145435
       ],
       "resistance": [
         0.613596
@@ -27,8 +28,7 @@
     },
     "weekly": {
       "support": [
-        0.410206,
-        0.145435
+        0.41632
       ],
       "resistance": [
         0.537038,
@@ -49,8 +49,8 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 0.382009,
-        "raw_price": 0.382009,
+        "price": 0.385402,
+        "raw_price": 0.385402,
         "snapped": false,
         "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -65,8 +65,8 @@
       },
       {
         "label": "Deep value",
-        "price": 0.317749,
-        "raw_price": 0.317749,
+        "price": 0.323486,
+        "raw_price": 0.323486,
         "snapped": false,
         "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
@@ -83,45 +83,41 @@
     "up": [
       {
         "label": "Getting warm",
-        "price": 0.643205,
-        "raw_price": 0.643205,
+        "price": 0.641733,
+        "raw_price": 0.641733,
         "snapped": false,
-        "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+        "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
         "snapped_level": null,
         "weights": {
-          "W": 0.62,
-          "D": 0.38
+          "D": 1.0
         },
         "tfs": [
-          "D",
-          "W"
+          "D"
         ]
       },
       {
         "label": "Take profit",
-        "price": 0.835481,
-        "raw_price": 0.835481,
+        "price": 0.742392,
+        "raw_price": 0.722223,
         "snapped": false,
-        "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+        "reason": "gap rule (TP vs warm, min gap 15.7%); B1 reverse RSI 70 (USD, no div shift) tfs {'D': 1.0}",
         "source": "B1 reverse-RSI (USD)",
         "tf": "blend",
         "snapped_level": null,
         "weights": {
-          "W": 0.62,
-          "D": 0.38
+          "D": 1.0
         },
         "tfs": [
-          "D",
-          "W"
+          "D"
         ]
       }
     ],
     "context": {
-      "wrsi_usd": 53.8,
-      "wrsi_eth": 57.8,
-      "wrsi": 55.4,
+      "wrsi_usd": 41.9,
+      "wrsi_eth": 43.2,
+      "wrsi": 42.4,
       "state": "Neutral",
       "conv_long": 0.0,
       "conv_short": 0.0,
@@ -135,12 +131,12 @@
     },
     "v": 3,
     "mode": "B1 recompute-every-run (no snap, no anchoring)",
-    "ref_price": 0.45074,
-    "valid_from": "2026-11-08T18:08:57-06:00",
-    "valid_until": "2026-11-09T18:07:00-06:00",
+    "ref_price": 0.478443,
+    "valid_from": "2026-11-09T18:12:54-06:00",
+    "valid_until": "2026-11-10T18:07:00-06:00",
     "source_data": "GeckoTerminal 1d",
     "state": "Neutral",
-    "min_gap_pct": 16.98
+    "min_gap_pct": 15.69
   },
   "zones": {
     "date": "2026-10-20",
@@ -156,8 +152,8 @@
   "last_divergence": null,
   "divergences_seen": [],
   "thesis": [
-    "[auto full 2026-11-08] POD 0.450589: RSI USD M/W/D None/60.2/42.6, POD/ETH M/W/D None/64.7/47.4; blended 55.4 -> Neutral; no active divergence.",
-    "Confluence bearish (below EMA50 in USD and vs ETH); EMA20/50/200 USD 0.511977/0.507754/0.410255."
+    "[auto full 2026-11-09] POD 0.457844: RSI USD M/W/D None/41.2/43.5, POD/ETH M/W/D None/40.4/48.1; blended 42.4 -> Neutral; no active divergence.",
+    "Confluence mixed (above EMA50 vs ETH only); EMA20/50/200 USD 0.506821/0.505854/0.424628."
   ],
   "catalysts": [],
   "last_swings": {
@@ -194,25 +190,25 @@
   "image_paths": [
     {
       "caption": "USD \u00b7 daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
-      "path": "research/labels/img/POD_usd_2026-11-08.png.b64",
-      "drawn": "2026-11-08"
+      "path": "research/labels/img/POD_usd_2026-11-09.png.b64",
+      "drawn": "2026-11-09"
     },
     {
       "caption": "vs ETH \u00b7 daily (same style)",
-      "path": "research/labels/img/POD_eth_2026-11-08.png.b64",
-      "drawn": "2026-11-08"
+      "path": "research/labels/img/POD_eth_2026-11-09.png.b64",
+      "drawn": "2026-11-09"
     }
   ],
-  "last_reasoning": "POD 0.4507: RSI 1d 42.6, blended RSI 55.4 (USD 53.8/ETH 57.8) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Exit: daily close 0.451 is below EMA50 -3% (0.493); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.493; RSI labels only. RSI triggers: add 0.382, deep 0.3177, warm 0.6432, TP 0.8355.",
+  "last_reasoning": "POD 0.4784: RSI 1d 43.5, blended RSI 42.4 (USD 41.9/ETH 43.2) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Exit: daily close 0.458 is below EMA50 -3% (0.491); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.491; RSI labels only. RSI triggers: add 0.3854, deep 0.3235, warm 0.6417, TP 0.7424.",
   "trend": {
     "regime": "Exit",
-    "ema20": 0.511977,
-    "ema50": 0.507754,
-    "ema200": 0.410255,
+    "ema20": 0.506821,
+    "ema50": 0.505854,
+    "ema200": 0.424628,
     "pullback_buy_zone": null,
-    "exit_close_below": 0.492522,
+    "exit_close_below": 0.490679,
     "exit_triggered": true,
-    "note": "Exit: daily close 0.451 is below EMA50 -3% (0.493); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.493; RSI labels only.",
+    "note": "Exit: daily close 0.458 is below EMA50 -3% (0.491); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.491; RSI labels only.",
     "framework": "TP1 trend pullback (guidance only)"
   },
   "eth_sr": {
@@ -226,7 +222,9 @@
       ]
     },
     "weekly": {
-      "support": [],
+      "support": [
+        0.000179186
+      ],
       "resistance": [
         0.000218535
       ]
@@ -242,33 +240,33 @@
   },
   "full_detail": {
     "rsi_usd": {
-      "D": 42.6,
-      "W": 60.2,
+      "D": 43.5,
+      "W": 41.2,
       "M": null
     },
     "rsi_eth": {
-      "D": 47.4,
-      "W": 64.7,
+      "D": 48.1,
+      "W": 40.4,
       "M": null
     },
-    "wrsi_usd": 53.8,
-    "wrsi_eth": 57.8,
-    "wrsi": 55.4,
+    "wrsi_usd": 41.9,
+    "wrsi_eth": 43.2,
+    "wrsi": 42.4,
     "state": "Neutral",
     "ema_usd": {
-      "20": 0.511977,
-      "50": 0.507754,
-      "200": 0.410255
+      "20": 0.506821,
+      "50": 0.505854,
+      "200": 0.424628
     },
     "ema_eth": {
-      "20": 0.000221639,
-      "50": 0.000213844,
-      "200": 0.00018156
+      "20": 0.000220965,
+      "50": 0.000213897,
+      "200": 0.000188067
     },
-    "confluence": "bearish (below EMA50 in USD and vs ETH)",
+    "confluence": "mixed (above EMA50 vs ETH only)",
     "divergences": [],
     "perp": null,
     "ratio": "POD/ETH",
-    "price_eth": 0.000211962
+    "price_eth": 0.000214557
   }
 }

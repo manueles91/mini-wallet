@@ -10,12 +10,12 @@
     "source": "research/labels/2026-11-05.json"
   },
   "last_update": {
-    "date": "2026-11-09",
-    "ts": "2026-11-08T18:09:14-06:00",
-    "price": 135.38,
+    "date": "2026-11-10",
+    "ts": "2026-11-09T18:13:11-06:00",
+    "price": 142.72,
     "mode": "incremental"
   },
-  "rsi_d": 42.3,
+  "rsi_d": 50.0,
   "usd_sr": {
     "monthly": {
       "support": [
@@ -45,8 +45,8 @@
     "down": [
       {
         "label": "Consider adding",
-        "price": 123.869,
-        "raw_price": 123.869,
+        "price": 123.904,
+        "raw_price": 123.904,
         "snapped": false,
         "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -63,8 +63,8 @@
       },
       {
         "label": "Deep value",
-        "price": 110.882,
-        "raw_price": 110.882,
+        "price": 111.052,
+        "raw_price": 111.052,
         "snapped": false,
         "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -83,8 +83,8 @@
     "up": [
       {
         "label": "Getting warm",
-        "price": 177.558,
-        "raw_price": 177.558,
+        "price": 176.729,
+        "raw_price": 176.729,
         "snapped": false,
         "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -101,8 +101,8 @@
       },
       {
         "label": "Take profit",
-        "price": 194.439,
-        "raw_price": 194.439,
+        "price": 193.104,
+        "raw_price": 193.104,
         "snapped": false,
         "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
         "source": "B1 reverse-RSI (USD)",
@@ -119,9 +119,9 @@
       }
     ],
     "context": {
-      "wrsi_usd": 42.2,
-      "wrsi_eth": 42.5,
-      "wrsi": 42.3,
+      "wrsi_usd": 44.3,
+      "wrsi_eth": 46.5,
+      "wrsi": 45.2,
       "state": "Neutral",
       "conv_long": 0.0,
       "conv_short": 0.0,
@@ -135,9 +135,9 @@
     },
     "v": 3,
     "mode": "B1 recompute-every-run (no snap, no anchoring)",
-    "ref_price": 135.245,
-    "valid_from": "2026-11-08T18:08:57-06:00",
-    "valid_until": "2026-11-09T18:07:00-06:00",
+    "ref_price": 142.525,
+    "valid_from": "2026-11-09T18:12:54-06:00",
+    "valid_until": "2026-11-10T18:07:00-06:00",
     "source_data": "OKX USDT-swap 1D (utc), bars after 2026-06-02 re-basing",
     "state": "Neutral",
     "min_gap_pct": 5.0
@@ -184,19 +184,19 @@
   "image_paths": [
     {
       "caption": "USD \u00b7 daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
-      "path": "research/labels/img/SPCX_usd_2026-11-08.png.b64",
-      "drawn": "2026-11-08"
+      "path": "research/labels/img/SPCX_usd_2026-11-09.png.b64",
+      "drawn": "2026-11-09"
     },
     {
       "caption": "vs ETH \u00b7 daily (same style)",
-      "path": "research/labels/img/SPCX_eth_2026-11-08.png.b64",
-      "drawn": "2026-11-08"
+      "path": "research/labels/img/SPCX_eth_2026-11-09.png.b64",
+      "drawn": "2026-11-09"
     }
   ],
-  "last_reasoning": "SPCX 135.2: RSI 1d 42.3, blended RSI 42.3 (USD 42.2/ETH 42.5) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 145.5, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 123.9, deep 110.9, warm 177.6, TP 194.4.",
+  "last_reasoning": "SPCX 142.5: RSI 1d 50.0, blended RSI 45.2 (USD 44.3/ETH 46.5) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 145.4, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 123.9, deep 111.1, warm 176.7, TP 193.1.",
   "trend": {
     "regime": "Downtrend",
-    "note": "Downtrend (below/flat EMA50 145.5, weekly EMA50 not rising): no pullback buys; RSI labels only.",
+    "note": "Downtrend (below/flat EMA50 145.4, weekly EMA50 not rising): no pullback buys; RSI labels only.",
     "framework": "TP1 trend pullback (guidance only)"
   },
   "eth_sr": {
