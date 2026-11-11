@@ -1,0 +1,2145 @@
+{
+  "schema": "mw-labels/0",
+  "date": "2026-10-20",
+  "generated_by": "Crypto Research daily routine (RSI 14d Wilder, M/W/D pivots USD + TOKEN/ETH, 1d+1w RSI divergence scan classified Regular/Hidden x Bullish/Bearish per cheat-sheet; long bias, HTF-weighted S/R, ETH confluence). Token list: holdings/latest.json 2026-10-20 total_usd > $500 + research/watchlist.json (12 coins). 2026-10-20 post-close run (6:07 PM CR, after the 00:00 UTC close): per-coin cache (research/cache, mw-cache/0); coins where needs_full() fired got a full analysis, quiet coins a light incremental update (thresholds carried, RSI/price/divergence refreshed). 2026-10-20T23:05:55-06:00: levels v2 re-anchor of all coins (anchored S/R, M>W>D, RSI/divergence level choice + ATR front-run offset). 2026-10-21T18:16:21-06:00: levels v3/B1 live (timeframe-consistent, recompute every run, 60/40 state RSI) + TP1 trend-pullback guidance. 2026-10-23T18:13:03-06:00: levels v3/B1 live (timeframe-consistent, recompute every run, 60/40 state RSI) + TP1 trend-pullback guidance. 2026-10-24T18:14:46-06:00: levels v3/B1 live (timeframe-consistent, recompute every run, 60/40 state RSI) + TP1 trend-pullback guidance. 2026-10-25T18:10:46-06:00: levels v3/B1 live (timeframe-consistent, recompute every run, 60/40 state RSI) + TP1 trend-pullback guidance. 2026-10-26T18:17:07-06:00: levels v3/B1 live (timeframe-consistent, recompute every run, 60/40 state RSI) + TP1 trend-pullback guidance. 2026-10-27T18:09:15-06:00: levels v3/B1 live (timeframe-consistent, recompute every run, 60/40 state RSI) + TP1 trend-pullback guidance. 2026-10-28T18:16:25-06:00: levels v3/B1 live (timeframe-consistent, recompute every run, 60/40 state RSI) + TP1 trend-pullback guidance. 2026-10-29T18:17:15-06:00: levels v3/B1 live (timeframe-consistent, recompute every run, 60/40 state RSI) + TP1 trend-pullback guidance. 2026-10-30T18:18:02-06:00: levels v3/B1 live (timeframe-consistent, recompute every run, 60/40 state RSI) + TP1 trend-pullback guidance. 2026-10-31T18:08:26-06:00: levels v3/B1 live (timeframe-consistent, recompute every run, 60/40 state RSI) + TP1 trend-pullback guidance. 2026-11-01T18:16:33-06:00: levels v3/B1 live (timeframe-consistent, recompute every run, 60/40 state RSI) + TP1 trend-pullback guidance. 2026-11-02T18:14:39-06:00: levels v3/B1 live (timeframe-consistent, recompute every run, 60/40 state RSI) + TP1 trend-pullback guidance. 2026-11-03T18:15:40-06:00: levels v3/B1 live (timeframe-consistent, recompute every run, 60/40 state RSI) + TP1 trend-pullback guidance. 2026-11-04T18:09:34-06:00: levels v3/B1 live (timeframe-consistent, recompute every run, 60/40 state RSI) + TP1 trend-pullback guidance. 2026-11-05T18:17:51-06:00: levels v3/B1 live (timeframe-consistent, recompute every run, 60/40 state RSI) + TP1 trend-pullback guidance. 2026-11-06T18:17:50-06:00: levels v3/B1 live (timeframe-consistent, recompute every run, 60/40 state RSI) + TP1 trend-pullback guidance. 2026-11-07T18:08:09-06:00: levels v3/B1 live (timeframe-consistent, recompute every run, 60/40 state RSI) + TP1 trend-pullback guidance. 2026-11-08T18:08:57-06:00: levels v3/B1 live (timeframe-consistent, recompute every run, 60/40 state RSI) + TP1 trend-pullback guidance. 2026-11-09T18:12:54-06:00: levels v3/B1 live (timeframe-consistent, recompute every run, 60/40 state RSI) + TP1 trend-pullback guidance. 2026-11-10T18:10:48-06:00: levels v3/B1 live (timeframe-consistent, recompute every run, 60/40 state RSI) + TP1 trend-pullback guidance.",
+  "tokens": {
+    "AERO": {
+      "rsi": {
+        "value": 32.7,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "warm"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.30402
+          ],
+          "resistance": []
+        },
+        "weekly": {
+          "support": [
+            0.4739,
+            0.39613
+          ],
+          "resistance": [
+            0.55217,
+            0.61022
+          ]
+        },
+        "daily": {
+          "support": [
+            0.53
+          ],
+          "resistance": [
+            0.57334
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.000176752
+          ],
+          "resistance": [
+            0.000348656
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.000244944,
+            0.000237866
+          ],
+          "resistance": [
+            0.000286712,
+            0.000304414
+          ]
+        },
+        "daily": {
+          "support": [
+            0.000265144
+          ],
+          "resistance": [
+            0.000272086
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI",
+        "note": "no active divergence"
+      },
+      "divergences": [],
+      "label": "Neutral",
+      "reasoning": "AERO 0.5456: RSI 1d 32.7, blended RSI 42.7 (USD 40.6/ETH 46.0) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Exit: daily close 0.545 is below EMA50 -3% (0.664); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.664; RSI labels only. RSI triggers: add 0.3755, deep 0.3447, warm 0.8665, TP 1.007.",
+      "images": [
+        {
+          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
+          "path": "research/labels/img/AERO_usd_2026-11-10.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (same style)",
+          "path": "research/labels/img/AERO_eth_2026-11-10.png.b64"
+        }
+      ],
+      "notes": "Levels v3/B1 (reverse-RSI 35/30/65/70, timeframe-consistent per side, no snap, recomputed every run) 2026-11-10T18:10:48-06:00; live 0.545635 via Hyperliquid mid; state RSI 60/40 USD/ETH 42.7 -> Neutral; regime Exit. Triggers: Consider adding 0.3755 [B1 reverse-RSI (USD)] B1 reverse RSI 35 (USD, no div shift) tfs {'M': 0.47, 'W': 0.53}; Deep value 0.3447 [B1 reverse-RSI (USD)] gap rule (deep vs add, min gap 8.9%); B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}; Getting warm 0.8665 [B1 reverse-RSI (USD)] B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}; Take profit 1.007 [B1 reverse-RSI (USD)] B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}. Divergences: no active divergence.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 0.375509,
+            "raw_price": 0.375509,
+            "snapped": false,
+            "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'M': 0.47, 'W': 0.53}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "M": 0.47,
+              "W": 0.53
+            },
+            "tfs": [
+              "M",
+              "W"
+            ]
+          },
+          {
+            "label": "Deep value",
+            "price": 0.344746,
+            "raw_price": 0.522645,
+            "snapped": false,
+            "reason": "gap rule (deep vs add, min gap 8.9%); B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "D": 1.0
+            },
+            "tfs": [
+              "D"
+            ]
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 0.866497,
+            "raw_price": 0.866497,
+            "snapped": false,
+            "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "W": 0.62,
+              "D": 0.38
+            },
+            "tfs": [
+              "D",
+              "W"
+            ]
+          },
+          {
+            "label": "Take profit",
+            "price": 1.00738,
+            "raw_price": 1.00738,
+            "snapped": false,
+            "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "W": 0.62,
+              "D": 0.38
+            },
+            "tfs": [
+              "D",
+              "W"
+            ]
+          }
+        ],
+        "context": {
+          "wrsi_usd": 40.6,
+          "wrsi_eth": 46.0,
+          "wrsi": 42.7,
+          "state": "Neutral",
+          "conv_long": 0.0,
+          "conv_short": 0.0,
+          "div_notes": [],
+          "conviction_long": 0.0,
+          "conviction_short": 0.0,
+          "tier_long": "add",
+          "tier_short": "trim",
+          "state_split": "USD 60% / ETH 40%",
+          "regime": "Exit"
+        },
+        "v": 3,
+        "mode": "B1 recompute-every-run (no snap, no anchoring)",
+        "ref_price": 0.545635,
+        "valid_from": "2026-11-10T18:10:48-06:00",
+        "valid_until": "2026-11-11T18:07:00-06:00",
+        "source_data": "Hyperliquid 1d",
+        "state": "Neutral",
+        "min_gap_pct": 8.92
+      },
+      "trend": {
+        "regime": "Exit",
+        "ema20": 0.646083,
+        "ema50": 0.684267,
+        "ema200": 0.591008,
+        "pullback_buy_zone": null,
+        "exit_close_below": 0.663739,
+        "exit_triggered": true,
+        "note": "Exit: daily close 0.545 is below EMA50 -3% (0.664); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.664; RSI labels only.",
+        "framework": "TP1 trend pullback (guidance only)"
+      }
+    },
+    "ETH": {
+      "rsi": {
+        "value": 29.6,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "cool"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            1740.7
+          ],
+          "resistance": [
+            2100.0
+          ]
+        },
+        "weekly": {
+          "support": [
+            1980.8,
+            1797.2
+          ],
+          "resistance": [
+            2149.9,
+            2355.8
+          ]
+        },
+        "daily": {
+          "support": [
+            1946.5
+          ],
+          "resistance": [
+            2281.5
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.0246932
+          ],
+          "resistance": [
+            0.028744
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.0274844,
+            0.0267592
+          ],
+          "resistance": [
+            0.0300755,
+            0.0308314
+          ]
+        },
+        "daily": {
+          "support": [
+            0.0261823
+          ],
+          "resistance": [
+            0.0280751
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI",
+        "note": "Regular Bullish 1d BTC (2026-10-29->2026-11-10, ratio 0.43)"
+      },
+      "divergences": [
+        {
+          "type": "Regular Bullish",
+          "timeframe": "1d",
+          "chart": "BTC",
+          "from": "2026-10-29",
+          "to": "2026-11-10",
+          "rsi_from": 24.7,
+          "rsi_to": 28.1,
+          "ratio": 0.43,
+          "status": "forming (last swing not confirmed)"
+        }
+      ],
+      "label": "Neutral",
+      "reasoning": "ETH 2050: RSI 1d 29.6, blended RSI 42.5 (USD 42.5/ETH None) -> Neutral; Regular Bullish 1d BTC ratio 0.43 (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 2,358, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 1769, deep 1485, warm 3243, TP 3743.",
+      "images": [
+        {
+          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
+          "path": "research/labels/img/ETH_usd_2026-11-10.png.b64"
+        },
+        {
+          "caption": "ETH/BTC · daily (same style)",
+          "path": "research/labels/img/ETH_eth_2026-11-10.png.b64"
+        }
+      ],
+      "notes": "Levels v3/B1 (reverse-RSI 35/30/65/70, timeframe-consistent per side, no snap, recomputed every run) 2026-11-10T18:10:48-06:00; live 2050.15 via Hyperliquid mid; state RSI 60/40 USD/ETH 42.5 -> Neutral; regime Downtrend. Triggers: Consider adding 1769 [B1 reverse-RSI (USD)] B1 reverse RSI 35 (USD, no div shift) tfs {'W': 1.0}; Deep value 1485 [B1 reverse-RSI (USD)] B1 reverse RSI 30 (USD, no div shift) tfs {'W': 1.0}; Getting warm 3243 [B1 reverse-RSI (USD)] B1 reverse RSI 65 (USD, no div shift) tfs {'M': 0.35, 'W': 0.4, 'D': 0.25}; Take profit 3743 [B1 reverse-RSI (USD)] B1 reverse RSI 70 (USD, no div shift) tfs {'M': 0.35, 'W': 0.4, 'D': 0.25}. Divergences: Regular Bullish 1d BTC ratio 0.43.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 1769.48,
+            "raw_price": 1769.48,
+            "snapped": false,
+            "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'W': 1.0}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "W": 1.0
+            },
+            "tfs": [
+              "W"
+            ]
+          },
+          {
+            "label": "Deep value",
+            "price": 1484.6,
+            "raw_price": 1484.6,
+            "snapped": false,
+            "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'W': 1.0}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "W": 1.0
+            },
+            "tfs": [
+              "W"
+            ]
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 3242.55,
+            "raw_price": 3242.55,
+            "snapped": false,
+            "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'M': 0.35, 'W': 0.4, 'D': 0.25}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "M": 0.35,
+              "W": 0.4,
+              "D": 0.25
+            },
+            "tfs": [
+              "D",
+              "M",
+              "W"
+            ]
+          },
+          {
+            "label": "Take profit",
+            "price": 3743.0,
+            "raw_price": 3743.0,
+            "snapped": false,
+            "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'M': 0.35, 'W': 0.4, 'D': 0.25}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "M": 0.35,
+              "W": 0.4,
+              "D": 0.25
+            },
+            "tfs": [
+              "D",
+              "M",
+              "W"
+            ]
+          }
+        ],
+        "context": {
+          "wrsi_usd": 42.5,
+          "wrsi_eth": null,
+          "wrsi": 42.5,
+          "state": "Neutral",
+          "conv_long": 0.0,
+          "conv_short": 0.0,
+          "div_notes": [],
+          "conviction_long": 0.0,
+          "conviction_short": 0.0,
+          "tier_long": "add",
+          "tier_short": "trim",
+          "state_split": "USD only",
+          "regime": "Downtrend"
+        },
+        "v": 3,
+        "mode": "B1 recompute-every-run (no snap, no anchoring)",
+        "ref_price": 2050.15,
+        "valid_from": "2026-11-10T18:10:48-06:00",
+        "valid_until": "2026-11-11T18:07:00-06:00",
+        "source_data": "Hyperliquid 1d",
+        "state": "Neutral",
+        "min_gap_pct": 5.02
+      },
+      "trend": {
+        "regime": "Downtrend",
+        "note": "Downtrend (below/flat EMA50 2,358, weekly EMA50 not rising): no pullback buys; RSI labels only.",
+        "framework": "TP1 trend pullback (guidance only)"
+      }
+    },
+    "VVV": {
+      "rsi": {
+        "value": 38.0,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "neutral"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            9.83
+          ],
+          "resistance": [
+            21.5,
+            34.732
+          ]
+        },
+        "weekly": {
+          "support": [
+            14.846,
+            11.09
+          ],
+          "resistance": [
+            21.0
+          ]
+        },
+        "daily": {
+          "support": [
+            18.884
+          ],
+          "resistance": [
+            20.585
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.00533775
+          ],
+          "resistance": [
+            0.01202,
+            0.012534
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.00850935,
+            0.0077212
+          ],
+          "resistance": []
+        },
+        "daily": {
+          "support": [
+            0.00935239
+          ],
+          "resistance": [
+            0.00956994
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI",
+        "note": "no active divergence"
+      },
+      "divergences": [],
+      "label": "Neutral",
+      "reasoning": "VVV 19.36: RSI 1d 38.0, blended RSI 56.2 (USD 52.5/ETH 61.7) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Exit: daily close 19.29 is below EMA50 -3% (22.29); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 22.29; RSI labels only. RSI triggers: add 18.45, deep 16.54, warm 27.35, TP 32.63.",
+      "images": [
+        {
+          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
+          "path": "research/labels/img/VVV_usd_2026-11-10.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (same style)",
+          "path": "research/labels/img/VVV_eth_2026-11-10.png.b64"
+        }
+      ],
+      "notes": "Levels v3/B1 (reverse-RSI 35/30/65/70, timeframe-consistent per side, no snap, recomputed every run) 2026-11-10T18:10:48-06:00; live 19.355 via Hyperliquid mid; state RSI 60/40 USD/ETH 56.2 -> Neutral; regime Exit. Triggers: Consider adding 18.45 [B1 reverse-RSI (USD)] B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}; Deep value 16.54 [B1 reverse-RSI (USD)] gap rule (deep vs add, min gap 11.6%); B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}; Getting warm 27.35 [B1 reverse-RSI (USD)] B1 reverse RSI 65 (USD, no div shift) tfs {'M': 0.35, 'W': 0.4, 'D': 0.25}; Take profit 32.63 [B1 reverse-RSI (USD)] B1 reverse RSI 70 (USD, no div shift) tfs {'M': 0.35, 'W': 0.4, 'D': 0.25}. Divergences: no active divergence.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 18.4547,
+            "raw_price": 18.4547,
+            "snapped": false,
+            "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "D": 1.0
+            },
+            "tfs": [
+              "D"
+            ]
+          },
+          {
+            "label": "Deep value",
+            "price": 16.5421,
+            "raw_price": 16.6729,
+            "snapped": false,
+            "reason": "gap rule (deep vs add, min gap 11.6%); B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "D": 1.0
+            },
+            "tfs": [
+              "D"
+            ]
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 27.3469,
+            "raw_price": 27.3469,
+            "snapped": false,
+            "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'M': 0.35, 'W': 0.4, 'D': 0.25}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "M": 0.35,
+              "W": 0.4,
+              "D": 0.25
+            },
+            "tfs": [
+              "D",
+              "M",
+              "W"
+            ]
+          },
+          {
+            "label": "Take profit",
+            "price": 32.6312,
+            "raw_price": 32.6312,
+            "snapped": false,
+            "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'M': 0.35, 'W': 0.4, 'D': 0.25}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "M": 0.35,
+              "W": 0.4,
+              "D": 0.25
+            },
+            "tfs": [
+              "D",
+              "M",
+              "W"
+            ]
+          }
+        ],
+        "context": {
+          "wrsi_usd": 52.5,
+          "wrsi_eth": 61.7,
+          "wrsi": 56.2,
+          "state": "Neutral",
+          "conv_long": 0.0,
+          "conv_short": 0.0,
+          "div_notes": [],
+          "conviction_long": 0.0,
+          "conviction_short": 0.0,
+          "tier_long": "add",
+          "tier_short": "trim",
+          "state_split": "USD 60% / ETH 40%",
+          "regime": "Exit"
+        },
+        "v": 3,
+        "mode": "B1 recompute-every-run (no snap, no anchoring)",
+        "ref_price": 19.355,
+        "valid_from": "2026-11-10T18:10:48-06:00",
+        "valid_until": "2026-11-11T18:07:00-06:00",
+        "source_data": "Hyperliquid 1d",
+        "state": "Neutral",
+        "min_gap_pct": 11.56
+      },
+      "trend": {
+        "regime": "Exit",
+        "ema20": 22.2255,
+        "ema50": 22.9827,
+        "ema200": 17.7606,
+        "pullback_buy_zone": null,
+        "exit_close_below": 22.2932,
+        "exit_triggered": true,
+        "note": "Exit: daily close 19.29 is below EMA50 -3% (22.29); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 22.29; RSI labels only.",
+        "framework": "TP1 trend pullback (guidance only)"
+      }
+    },
+    "VIRTUAL": {
+      "rsi": {
+        "value": 33.3,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "cool"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.49725
+          ],
+          "resistance": []
+        },
+        "weekly": {
+          "support": [
+            0.52
+          ],
+          "resistance": [
+            0.57473,
+            0.60414
+          ]
+        },
+        "daily": {
+          "support": [],
+          "resistance": [
+            0.53278
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.000249805,
+            0.000233222
+          ],
+          "resistance": [
+            0.000426382
+          ]
+        },
+        "weekly": {
+          "support": [],
+          "resistance": [
+            0.000268624,
+            0.000310051
+          ]
+        },
+        "daily": {
+          "support": [
+            0.000257772
+          ],
+          "resistance": [
+            0.000273275
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": true,
+        "timeframe": "1d",
+        "indicator": "RSI",
+        "note": "Regular Bullish 1d USD (2026-10-29->2026-11-10, ratio 0.26); Regular Bullish 1d ETH (2026-10-29->2026-11-04, ratio 0.97); Hidden Bearish 1d ETH (2026-10-27->2026-11-10, ratio 0.68)"
+      },
+      "divergences": [
+        {
+          "type": "Regular Bullish",
+          "timeframe": "1d",
+          "chart": "USD",
+          "from": "2026-10-29",
+          "to": "2026-11-10",
+          "rsi_from": 30.9,
+          "rsi_to": 33.3,
+          "ratio": 0.26,
+          "status": "forming (last swing not confirmed)"
+        },
+        {
+          "type": "Regular Bullish",
+          "timeframe": "1d",
+          "chart": "ETH",
+          "from": "2026-10-29",
+          "to": "2026-11-04",
+          "rsi_from": 31.8,
+          "rsi_to": 34.6,
+          "ratio": 0.97,
+          "status": "active"
+        },
+        {
+          "type": "Hidden Bearish",
+          "timeframe": "1d",
+          "chart": "ETH",
+          "from": "2026-10-27",
+          "to": "2026-11-10",
+          "rsi_from": 42.2,
+          "rsi_to": 46.0,
+          "ratio": 0.68,
+          "status": "forming (last swing not confirmed)"
+        }
+      ],
+      "label": "Consider adding",
+      "reasoning": "VIRTUAL 0.5325: RSI 1d 33.3, blended RSI 30.2 (USD 28.9/ETH 32.2) -> Consider adding; Regular Bullish 1d USD ratio 0.26; Regular Bullish 1d ETH ratio 0.97; Hidden Bearish 1d ETH ratio 0.68 (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 0.639, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 0.5336, deep 0.2193, warm 0.8932, TP 1.032.",
+      "images": [
+        {
+          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
+          "path": "research/labels/img/VIRTUAL_usd_2026-11-10.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (same style)",
+          "path": "research/labels/img/VIRTUAL_eth_2026-11-10.png.b64"
+        }
+      ],
+      "notes": "Levels v3/B1 (reverse-RSI 35/30/65/70, timeframe-consistent per side, no snap, recomputed every run) 2026-11-10T18:10:48-06:00; live 0.53255 via Hyperliquid mid; state RSI 60/40 USD/ETH 30.2 -> Consider adding; regime Downtrend. Triggers: Consider adding 0.5336 [state rule (weighted RSI)] state rule: blended weighted RSI 30.2 -> Consider adding; rung placed at current price; B1 reverse RSI 35 (USD, no div shift) tfs {'W': 1.0}; Deep value 0.2193 [B1 reverse-RSI (USD)] B1 reverse RSI 30 (USD, no div shift) tfs {'W': 1.0}; Getting warm 0.8932 [B1 reverse-RSI (USD)] B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}; Take profit 1.032 [B1 reverse-RSI (USD)] B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}. Divergences: Regular Bullish 1d USD ratio 0.26; Regular Bullish 1d ETH ratio 0.97; Hidden Bearish 1d ETH ratio 0.68.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 0.533615,
+            "raw_price": 0.378307,
+            "snapped": false,
+            "reason": "state rule: blended weighted RSI 30.2 -> Consider adding; rung placed at current price; B1 reverse RSI 35 (USD, no div shift) tfs {'W': 1.0}",
+            "source": "state rule (weighted RSI)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "W": 1.0
+            },
+            "tfs": [
+              "W"
+            ]
+          },
+          {
+            "label": "Deep value",
+            "price": 0.21934,
+            "raw_price": 0.21934,
+            "snapped": false,
+            "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'W': 1.0}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "W": 1.0
+            },
+            "tfs": [
+              "W"
+            ]
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 0.893192,
+            "raw_price": 0.893192,
+            "snapped": false,
+            "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "W": 0.62,
+              "D": 0.38
+            },
+            "tfs": [
+              "D",
+              "W"
+            ]
+          },
+          {
+            "label": "Take profit",
+            "price": 1.03166,
+            "raw_price": 1.03166,
+            "snapped": false,
+            "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "W": 0.62,
+              "D": 0.38
+            },
+            "tfs": [
+              "D",
+              "W"
+            ]
+          }
+        ],
+        "context": {
+          "wrsi_usd": 28.9,
+          "wrsi_eth": 32.2,
+          "wrsi": 30.2,
+          "state": "Consider adding",
+          "conv_long": 0.0,
+          "conv_short": 0.0,
+          "div_notes": [],
+          "conviction_long": 0.0,
+          "conviction_short": 0.0,
+          "tier_long": "add",
+          "tier_short": "trim",
+          "state_split": "USD 60% / ETH 40%",
+          "regime": "Downtrend"
+        },
+        "v": 3,
+        "mode": "B1 recompute-every-run (no snap, no anchoring)",
+        "ref_price": 0.53255,
+        "valid_from": "2026-11-10T18:10:48-06:00",
+        "valid_until": "2026-11-11T18:07:00-06:00",
+        "source_data": "Hyperliquid 1d",
+        "state": "Consider adding",
+        "min_gap_pct": 6.96
+      },
+      "trend": {
+        "regime": "Downtrend",
+        "note": "Downtrend (below/flat EMA50 0.639, weekly EMA50 not rising): no pullback buys; RSI labels only.",
+        "framework": "TP1 trend pullback (guidance only)"
+      }
+    },
+    "BNKR": {
+      "rsi": {
+        "value": 37.5,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "neutral"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.000191941,
+            0.000179026
+          ],
+          "resistance": [
+            0.000556528
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.00021037
+          ],
+          "resistance": [
+            0.000780124
+          ]
+        },
+        "daily": {
+          "support": [
+            0.00024784
+          ],
+          "resistance": [
+            0.000255253
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            9.5516e-08,
+            7.9397e-08
+          ],
+          "resistance": [
+            2.0678e-07,
+            3.92152e-07
+          ]
+        },
+        "weekly": {
+          "support": [
+            1.07289e-07
+          ],
+          "resistance": []
+        },
+        "daily": {
+          "support": [
+            1.209e-07
+          ],
+          "resistance": [
+            1.27288e-07
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI",
+        "note": "no active divergence"
+      },
+      "divergences": [],
+      "label": "Consider adding",
+      "reasoning": "BNKR 0.0002522: RSI 1d 37.5, blended RSI 32.2 (USD 31.3/ETH 33.5) -> Consider adding; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 0.0003, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 0.0002527, deep 0.000223, warm 0.0003308, TP 0.0003618.",
+      "images": [
+        {
+          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
+          "path": "research/labels/img/BNKR_usd_2026-11-10.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (same style)",
+          "path": "research/labels/img/BNKR_eth_2026-11-10.png.b64"
+        }
+      ],
+      "notes": "Levels v3/B1 (reverse-RSI 35/30/65/70, timeframe-consistent per side, no snap, recomputed every run) 2026-11-10T18:10:48-06:00; live 0.00025222 via CoinGecko simple price; state RSI 60/40 USD/ETH 32.2 -> Consider adding; regime Downtrend. Triggers: Consider adding 0.0002527 [state rule (weighted RSI)] state rule: blended weighted RSI 32.2 -> Consider adding; rung placed at current price; B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}; Deep value 0.000223 [B1 reverse-RSI (USD)] B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}; Getting warm 0.0003308 [B1 reverse-RSI (USD)] B1 reverse RSI 65 (USD, no div shift) tfs {'D': 1.0}; Take profit 0.0003618 [B1 reverse-RSI (USD)] B1 reverse RSI 70 (USD, no div shift) tfs {'D': 1.0}. Divergences: no active divergence.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 0.000252724,
+            "raw_price": 0.000241617,
+            "snapped": false,
+            "reason": "state rule: blended weighted RSI 32.2 -> Consider adding; rung placed at current price; B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}",
+            "source": "state rule (weighted RSI)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "D": 1.0
+            },
+            "tfs": [
+              "D"
+            ]
+          },
+          {
+            "label": "Deep value",
+            "price": 0.000223024,
+            "raw_price": 0.000223024,
+            "snapped": false,
+            "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "D": 1.0
+            },
+            "tfs": [
+              "D"
+            ]
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 0.000330801,
+            "raw_price": 0.000330801,
+            "snapped": false,
+            "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'D': 1.0}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "D": 1.0
+            },
+            "tfs": [
+              "D"
+            ]
+          },
+          {
+            "label": "Take profit",
+            "price": 0.000361756,
+            "raw_price": 0.000361756,
+            "snapped": false,
+            "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'D': 1.0}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "D": 1.0
+            },
+            "tfs": [
+              "D"
+            ]
+          }
+        ],
+        "context": {
+          "wrsi_usd": 31.3,
+          "wrsi_eth": 33.5,
+          "wrsi": 32.2,
+          "state": "Consider adding",
+          "conv_long": 0.0,
+          "conv_short": 0.0,
+          "div_notes": [],
+          "conviction_long": 0.0,
+          "conviction_short": 0.0,
+          "tier_long": "add",
+          "tier_short": "trim",
+          "state_split": "USD 60% / ETH 40%",
+          "regime": "Downtrend"
+        },
+        "v": 3,
+        "mode": "B1 recompute-every-run (no snap, no anchoring)",
+        "ref_price": 0.00025222,
+        "valid_from": "2026-11-10T18:10:48-06:00",
+        "valid_until": "2026-11-11T18:07:00-06:00",
+        "source_data": "GeckoTerminal 1d",
+        "state": "Consider adding",
+        "min_gap_pct": 8.28
+      },
+      "trend": {
+        "regime": "Downtrend",
+        "note": "Downtrend (below/flat EMA50 0.0003, weekly EMA50 not rising): no pullback buys; RSI labels only.",
+        "framework": "TP1 trend pullback (guidance only)"
+      }
+    },
+    "DRV": {
+      "rsi": {
+        "value": 42.2,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "neutral"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.201034,
+            0.0899641
+          ],
+          "resistance": [
+            0.563608
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.122579
+          ],
+          "resistance": [
+            0.341168
+          ]
+        },
+        "daily": {
+          "support": [
+            0.297999
+          ],
+          "resistance": [
+            0.36274
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.000106272
+          ],
+          "resistance": [
+            0.000226613
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.000132575,
+            7.25833e-05
+          ],
+          "resistance": []
+        },
+        "daily": {
+          "support": [
+            0.000135459
+          ],
+          "resistance": [
+            0.000149526
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI",
+        "note": "no active divergence"
+      },
+      "divergences": [],
+      "label": "Neutral",
+      "reasoning": "DRV 0.3109: RSI 1d 42.2, blended RSI 59.6 (USD 56.0/ETH 65.0) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Exit: daily close 0.311 is below EMA50 -3% (0.328); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.328; RSI labels only. RSI triggers: add 0.2809, deep 0.2517, warm 0.346, TP 0.4111.",
+      "images": [
+        {
+          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
+          "path": "research/labels/img/DRV_usd_2026-11-10.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (same style)",
+          "path": "research/labels/img/DRV_eth_2026-11-10.png.b64"
+        }
+      ],
+      "notes": "Levels v3/B1 (reverse-RSI 35/30/65/70, timeframe-consistent per side, no snap, recomputed every run) 2026-11-10T18:10:48-06:00; live 0.310851 via CoinGecko simple price; state RSI 60/40 USD/ETH 59.6 -> Neutral; regime Exit. Triggers: Consider adding 0.2809 [B1 reverse-RSI (USD)] B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}; Deep value 0.2517 [B1 reverse-RSI (USD)] B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}; Getting warm 0.346 [B1 reverse-RSI (USD)] B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}; Take profit 0.4111 [B1 reverse-RSI (USD)] B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}. Divergences: no active divergence.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 0.280851,
+            "raw_price": 0.280851,
+            "snapped": false,
+            "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "D": 1.0
+            },
+            "tfs": [
+              "D"
+            ]
+          },
+          {
+            "label": "Deep value",
+            "price": 0.251655,
+            "raw_price": 0.251655,
+            "snapped": false,
+            "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "D": 1.0
+            },
+            "tfs": [
+              "D"
+            ]
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 0.346035,
+            "raw_price": 0.346035,
+            "snapped": false,
+            "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "W": 0.62,
+              "D": 0.38
+            },
+            "tfs": [
+              "D",
+              "W"
+            ]
+          },
+          {
+            "label": "Take profit",
+            "price": 0.411087,
+            "raw_price": 0.411087,
+            "snapped": false,
+            "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "W": 0.62,
+              "D": 0.38
+            },
+            "tfs": [
+              "D",
+              "W"
+            ]
+          }
+        ],
+        "context": {
+          "wrsi_usd": 56.0,
+          "wrsi_eth": 65.0,
+          "wrsi": 59.6,
+          "state": "Neutral",
+          "conv_long": 0.0,
+          "conv_short": 0.0,
+          "div_notes": [],
+          "conviction_long": 0.0,
+          "conviction_short": 0.0,
+          "tier_long": "add",
+          "tier_short": "trim",
+          "state_split": "USD 60% / ETH 40%",
+          "regime": "Exit"
+        },
+        "v": 3,
+        "mode": "B1 recompute-every-run (no snap, no anchoring)",
+        "ref_price": 0.310851,
+        "valid_from": "2026-11-10T18:10:48-06:00",
+        "valid_until": "2026-11-11T18:07:00-06:00",
+        "source_data": "GeckoTerminal 1d",
+        "state": "Neutral",
+        "min_gap_pct": 10.7
+      },
+      "trend": {
+        "regime": "Exit",
+        "ema20": 0.336177,
+        "ema50": 0.338534,
+        "ema200": 0.226081,
+        "pullback_buy_zone": null,
+        "exit_close_below": 0.328378,
+        "exit_triggered": true,
+        "note": "Exit: daily close 0.311 is below EMA50 -3% (0.328); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.328; RSI labels only.",
+        "framework": "TP1 trend pullback (guidance only)"
+      }
+    },
+    "GRASS": {
+      "rsi": {
+        "value": 38.2,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "neutral"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.26553
+          ],
+          "resistance": [
+            0.62146
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.39736,
+            0.37694
+          ],
+          "resistance": [
+            0.47024,
+            0.60118
+          ]
+        },
+        "daily": {
+          "support": [
+            0.44605
+          ],
+          "resistance": [
+            0.51434
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.000109569
+          ],
+          "resistance": [
+            0.000284469
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.00020585,
+            0.000152389
+          ],
+          "resistance": [
+            0.000230658,
+            0.000248766
+          ]
+        },
+        "daily": {
+          "support": [
+            0.000218503
+          ],
+          "resistance": [
+            0.000226367
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI",
+        "note": "no active divergence"
+      },
+      "divergences": [],
+      "label": "Neutral",
+      "reasoning": "GRASS 0.4649: RSI 1d 38.2, blended RSI 58.1 (USD 58.4/ETH 57.7) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Exit: daily close 0.464 is below EMA50 -3% (0.551); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.551; RSI labels only. RSI triggers: add 0.4348, deep 0.3758, warm 0.713, TP 0.8086.",
+      "images": [
+        {
+          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
+          "path": "research/labels/img/GRASS_usd_2026-11-10.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (same style)",
+          "path": "research/labels/img/GRASS_eth_2026-11-10.png.b64"
+        }
+      ],
+      "notes": "Levels v3/B1 (reverse-RSI 35/30/65/70, timeframe-consistent per side, no snap, recomputed every run) 2026-11-10T18:10:48-06:00; live 0.46489 via Hyperliquid mid; state RSI 60/40 USD/ETH 58.1 -> Neutral; regime Exit. Triggers: Consider adding 0.4348 [B1 reverse-RSI (USD)] B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}; Deep value 0.3758 [B1 reverse-RSI (USD)] B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}; Getting warm 0.713 [B1 reverse-RSI (USD)] B1 reverse RSI 65 (USD, no div shift) tfs {'D': 1.0}; Take profit 0.8086 [B1 reverse-RSI (USD)] B1 reverse RSI 70 (USD, no div shift) tfs {'D': 1.0}. Divergences: no active divergence.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 0.434752,
+            "raw_price": 0.434752,
+            "snapped": false,
+            "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "D": 1.0
+            },
+            "tfs": [
+              "D"
+            ]
+          },
+          {
+            "label": "Deep value",
+            "price": 0.375762,
+            "raw_price": 0.375762,
+            "snapped": false,
+            "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "D": 1.0
+            },
+            "tfs": [
+              "D"
+            ]
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 0.71298,
+            "raw_price": 0.71298,
+            "snapped": false,
+            "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'D': 1.0}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "D": 1.0
+            },
+            "tfs": [
+              "D"
+            ]
+          },
+          {
+            "label": "Take profit",
+            "price": 0.808562,
+            "raw_price": 0.808562,
+            "snapped": false,
+            "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'D': 1.0}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "D": 1.0
+            },
+            "tfs": [
+              "D"
+            ]
+          }
+        ],
+        "context": {
+          "wrsi_usd": 58.4,
+          "wrsi_eth": 57.7,
+          "wrsi": 58.1,
+          "state": "Neutral",
+          "conv_long": 0.0,
+          "conv_short": 0.0,
+          "div_notes": [],
+          "conviction_long": 0.0,
+          "conviction_short": 0.0,
+          "tier_long": "add",
+          "tier_short": "trim",
+          "state_split": "USD 60% / ETH 40%",
+          "regime": "Exit"
+        },
+        "v": 3,
+        "mode": "B1 recompute-every-run (no snap, no anchoring)",
+        "ref_price": 0.46489,
+        "valid_from": "2026-11-10T18:10:48-06:00",
+        "valid_until": "2026-11-11T18:07:00-06:00",
+        "source_data": "Hyperliquid 1d",
+        "state": "Neutral",
+        "min_gap_pct": 13.0
+      },
+      "trend": {
+        "regime": "Exit",
+        "ema20": 0.561904,
+        "ema50": 0.56769,
+        "ema200": 0.473925,
+        "pullback_buy_zone": null,
+        "exit_close_below": 0.550659,
+        "exit_triggered": true,
+        "note": "Exit: daily close 0.464 is below EMA50 -3% (0.551); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.551; RSI labels only.",
+        "framework": "TP1 trend pullback (guidance only)"
+      }
+    },
+    "SPCX": {
+      "rsi": {
+        "value": 51.2,
+        "period": 14,
+        "timeframe": "1d",
+        "state": "cool"
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            104.36
+          ],
+          "resistance": [
+            176.28
+          ]
+        },
+        "weekly": {
+          "support": [],
+          "resistance": [
+            228.41
+          ]
+        },
+        "daily": {
+          "support": [
+            119.24
+          ],
+          "resistance": [
+            129.92
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.0521939
+          ],
+          "resistance": [
+            0.0684004
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.0539972
+          ],
+          "resistance": [
+            0.0641377,
+            0.0795265
+          ]
+        },
+        "daily": {
+          "support": [],
+          "resistance": [
+            0.055381
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI",
+        "note": "no active divergence"
+      },
+      "divergences": [],
+      "label": "Neutral",
+      "reasoning": "SPCX 143.6: RSI 1d 51.2, blended RSI 46.2 (USD 44.8/ETH 48.3) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Downtrend (below/flat EMA50 145.4, weekly EMA50 not rising): no pullback buys; RSI labels only. RSI triggers: add 124.2, deep 111.4, warm 176.4, TP 192.5.",
+      "images": [
+        {
+          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
+          "path": "research/labels/img/SPCX_usd_2026-11-10.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (same style)",
+          "path": "research/labels/img/SPCX_eth_2026-11-10.png.b64"
+        }
+      ],
+      "notes": "Levels v3/B1 (reverse-RSI 35/30/65/70, timeframe-consistent per side, no snap, recomputed every run) 2026-11-10T18:10:48-06:00; live 143.605 via Hyperliquid xyz mid; state RSI 60/40 USD/ETH 46.2 -> Neutral; regime Downtrend. Triggers: Consider adding 124.2 [B1 reverse-RSI (USD)] B1 reverse RSI 35 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}; Deep value 111.4 [B1 reverse-RSI (USD)] B1 reverse RSI 30 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}; Getting warm 176.4 [B1 reverse-RSI (USD)] B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}; Take profit 192.5 [B1 reverse-RSI (USD)] B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}. Divergences: no active divergence.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 124.222,
+            "raw_price": 124.222,
+            "snapped": false,
+            "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "W": 0.62,
+              "D": 0.38
+            },
+            "tfs": [
+              "D",
+              "W"
+            ]
+          },
+          {
+            "label": "Deep value",
+            "price": 111.437,
+            "raw_price": 111.437,
+            "snapped": false,
+            "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "W": 0.62,
+              "D": 0.38
+            },
+            "tfs": [
+              "D",
+              "W"
+            ]
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 176.444,
+            "raw_price": 176.444,
+            "snapped": false,
+            "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "W": 0.62,
+              "D": 0.38
+            },
+            "tfs": [
+              "D",
+              "W"
+            ]
+          },
+          {
+            "label": "Take profit",
+            "price": 192.532,
+            "raw_price": 192.532,
+            "snapped": false,
+            "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "W": 0.62,
+              "D": 0.38
+            },
+            "tfs": [
+              "D",
+              "W"
+            ]
+          }
+        ],
+        "context": {
+          "wrsi_usd": 44.8,
+          "wrsi_eth": 48.3,
+          "wrsi": 46.2,
+          "state": "Neutral",
+          "conv_long": 0.0,
+          "conv_short": 0.0,
+          "div_notes": [],
+          "conviction_long": 0.0,
+          "conviction_short": 0.0,
+          "tier_long": "add",
+          "tier_short": "trim",
+          "state_split": "USD 60% / ETH 40%",
+          "regime": "Downtrend"
+        },
+        "v": 3,
+        "mode": "B1 recompute-every-run (no snap, no anchoring)",
+        "ref_price": 143.605,
+        "valid_from": "2026-11-10T18:10:48-06:00",
+        "valid_until": "2026-11-11T18:07:00-06:00",
+        "source_data": "OKX USDT-swap 1D (utc), bars after 2026-06-02 re-basing",
+        "state": "Neutral",
+        "min_gap_pct": 5.0
+      },
+      "trend": {
+        "regime": "Downtrend",
+        "note": "Downtrend (below/flat EMA50 145.4, weekly EMA50 not rising): no pullback buys; RSI labels only.",
+        "framework": "TP1 trend pullback (guidance only)"
+      }
+    },
+    "KPEPE": {
+      "rsi": {
+        "value": 64.9,
+        "period": 14,
+        "timeframe": "1d",
+        "state": null
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.005258
+          ],
+          "resistance": [
+            0.00585
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.005371,
+            0.005058
+          ],
+          "resistance": [
+            0.005704
+          ]
+        },
+        "daily": {
+          "support": [
+            0.004755
+          ],
+          "resistance": []
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            2.59031e-06,
+            2.42056e-06
+          ],
+          "resistance": [
+            2.73498e-06
+          ]
+        },
+        "weekly": {
+          "support": [
+            2.31016e-06
+          ],
+          "resistance": [
+            2.79821e-06
+          ]
+        },
+        "daily": {
+          "support": [
+            2.53564e-06
+          ],
+          "resistance": []
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI",
+        "note": "no active divergence"
+      },
+      "divergences": [],
+      "label": "Getting warm",
+      "notes": "Levels v3/B1 (reverse-RSI 35/30/65/70, timeframe-consistent per side, no snap, recomputed every run) 2026-11-10T18:10:48-06:00; live 0.005442 via Hyperliquid mid; state RSI 60/40 USD/ETH 65.8 -> Getting warm; regime Uptrend. Triggers: Consider adding 0.004036 [B1 reverse-RSI (USD)] B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}; Deep value 0.003548 [B1 reverse-RSI (USD)] B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}; Getting warm 0.005431 [state rule (weighted RSI)] state rule: blended weighted RSI 65.8 -> Getting warm; rung placed at current price; B1 reverse RSI 65 (USD, no div shift) tfs {'M': 1.0}; Take profit 0.009754 [B1 reverse-RSI (USD)] B1 reverse RSI 70 (USD, no div shift) tfs {'M': 1.0}. Divergences: no active divergence.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 0.00403568,
+            "raw_price": 0.00403568,
+            "snapped": false,
+            "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "D": 1.0
+            },
+            "tfs": [
+              "D"
+            ]
+          },
+          {
+            "label": "Deep value",
+            "price": 0.00354815,
+            "raw_price": 0.00354815,
+            "snapped": false,
+            "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "D": 1.0
+            },
+            "tfs": [
+              "D"
+            ]
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 0.00543112,
+            "raw_price": 0.00579347,
+            "snapped": false,
+            "reason": "state rule: blended weighted RSI 65.8 -> Getting warm; rung placed at current price; B1 reverse RSI 65 (USD, no div shift) tfs {'M': 1.0}",
+            "source": "state rule (weighted RSI)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "M": 1.0
+            },
+            "tfs": [
+              "M"
+            ]
+          },
+          {
+            "label": "Take profit",
+            "price": 0.00975427,
+            "raw_price": 0.00975427,
+            "snapped": false,
+            "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'M': 1.0}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "M": 1.0
+            },
+            "tfs": [
+              "M"
+            ]
+          }
+        ],
+        "context": {
+          "wrsi_usd": 62.9,
+          "wrsi_eth": 70.3,
+          "wrsi": 65.8,
+          "state": "Getting warm",
+          "conv_long": 0.0,
+          "conv_short": 0.0,
+          "div_notes": [],
+          "conviction_long": 0.0,
+          "conviction_short": 0.0,
+          "tier_long": "add",
+          "tier_short": "trim",
+          "state_split": "USD 60% / ETH 40%",
+          "regime": "Uptrend"
+        },
+        "v": 3,
+        "mode": "B1 recompute-every-run (no snap, no anchoring)",
+        "ref_price": 0.005442,
+        "valid_from": "2026-11-10T18:10:48-06:00",
+        "valid_until": "2026-11-11T18:07:00-06:00",
+        "source_data": "Hyperliquid 1d",
+        "state": "Getting warm",
+        "min_gap_pct": 9.75
+      },
+      "trend": {
+        "regime": "Uptrend",
+        "ema20": 0.00481004,
+        "ema50": 0.00445509,
+        "ema200": 0.00398305,
+        "pullback_buy_zone": 0.00481004,
+        "exit_close_below": 0.00432144,
+        "trim_rule": "20% at each Getting warm / Take profit touch",
+        "hidden_bullish": null,
+        "note": "Uptrend (price > rising EMA50): pullback buy zone near EMA20 at 0.00481 (-12%); Getting warm: trim 20%, don't sell out; exit on daily close < 0.00432 (EMA50 -3%).",
+        "framework": "TP1 trend pullback (guidance only)"
+      },
+      "reasoning": "KPEPE 0.005442: RSI 1d 64.9, blended RSI 65.8 (USD 62.9/ETH 70.3) -> Getting warm; no active divergence (div ratio buy 0.0/sell 0.0). Uptrend (price > rising EMA50): pullback buy zone near EMA20 at 0.00481 (-12%); Getting warm: trim 20%, don't sell out; exit on daily close < 0.00432 (EMA50 -3%). RSI triggers: add 0.004036, deep 0.003548, warm 0.005431, TP 0.009754.",
+      "images": [
+        {
+          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
+          "path": "research/labels/img/KPEPE_usd_2026-11-10.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (same style)",
+          "path": "research/labels/img/KPEPE_eth_2026-11-10.png.b64"
+        }
+      ]
+    },
+    "POD": {
+      "rsi": {
+        "value": 43.0,
+        "period": 14,
+        "timeframe": "1d",
+        "state": null
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            0.237585,
+            0.145435
+          ],
+          "resistance": [
+            0.613596
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.41632
+          ],
+          "resistance": [
+            0.537038,
+            0.554525
+          ]
+        },
+        "daily": {
+          "support": [
+            0.44583
+          ],
+          "resistance": [
+            0.479149
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            9.56307e-05
+          ],
+          "resistance": [
+            0.000316438,
+            0.00033275
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.000218535,
+            0.000179186
+          ],
+          "resistance": []
+        },
+        "daily": {
+          "support": [
+            0.000209158
+          ],
+          "resistance": [
+            0.000224942
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": false,
+        "timeframe": "1d",
+        "indicator": "RSI",
+        "note": "no active divergence"
+      },
+      "divergences": [],
+      "label": "Neutral",
+      "notes": "Levels v3/B1 (reverse-RSI 35/30/65/70, timeframe-consistent per side, no snap, recomputed every run) 2026-11-10T18:10:48-06:00; live 0.45422 via CoinGecko simple price; state RSI 60/40 USD/ETH 42.6 -> Neutral; regime Exit. Triggers: Consider adding 0.3888 [B1 reverse-RSI (USD)] B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}; Deep value 0.3314 [B1 reverse-RSI (USD)] B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}; Getting warm 0.6296 [B1 reverse-RSI (USD)] B1 reverse RSI 65 (USD, no div shift) tfs {'D': 1.0}; Take profit 0.7155 [B1 reverse-RSI (USD)] gap rule (TP vs warm, min gap 13.6%); B1 reverse RSI 70 (USD, no div shift) tfs {'D': 1.0}. Divergences: no active divergence.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 0.38885,
+            "raw_price": 0.38885,
+            "snapped": false,
+            "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "D": 1.0
+            },
+            "tfs": [
+              "D"
+            ]
+          },
+          {
+            "label": "Deep value",
+            "price": 0.331356,
+            "raw_price": 0.331356,
+            "snapped": false,
+            "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "D": 1.0
+            },
+            "tfs": [
+              "D"
+            ]
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 0.629624,
+            "raw_price": 0.629624,
+            "snapped": false,
+            "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'D': 1.0}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "D": 1.0
+            },
+            "tfs": [
+              "D"
+            ]
+          },
+          {
+            "label": "Take profit",
+            "price": 0.715531,
+            "raw_price": 0.705895,
+            "snapped": false,
+            "reason": "gap rule (TP vs warm, min gap 13.6%); B1 reverse RSI 70 (USD, no div shift) tfs {'D': 1.0}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "D": 1.0
+            },
+            "tfs": [
+              "D"
+            ]
+          }
+        ],
+        "context": {
+          "wrsi_usd": 41.7,
+          "wrsi_eth": 43.9,
+          "wrsi": 42.6,
+          "state": "Neutral",
+          "conv_long": 0.0,
+          "conv_short": 0.0,
+          "div_notes": [],
+          "conviction_long": 0.0,
+          "conviction_short": 0.0,
+          "tier_long": "add",
+          "tier_short": "trim",
+          "state_split": "USD 60% / ETH 40%",
+          "regime": "Exit"
+        },
+        "v": 3,
+        "mode": "B1 recompute-every-run (no snap, no anchoring)",
+        "ref_price": 0.45422,
+        "valid_from": "2026-11-10T18:10:48-06:00",
+        "valid_until": "2026-11-11T18:07:00-06:00",
+        "source_data": "GeckoTerminal 1d",
+        "state": "Neutral",
+        "min_gap_pct": 13.64
+      },
+      "trend": {
+        "regime": "Exit",
+        "ema20": 0.501686,
+        "ema50": 0.503778,
+        "ema200": 0.42491,
+        "pullback_buy_zone": null,
+        "exit_close_below": 0.488664,
+        "exit_triggered": true,
+        "note": "Exit: daily close 0.453 is below EMA50 -3% (0.489); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.489; RSI labels only.",
+        "framework": "TP1 trend pullback (guidance only)"
+      },
+      "reasoning": "POD 0.4542: RSI 1d 43.0, blended RSI 42.6 (USD 41.7/ETH 43.9) -> Neutral; no active divergence (div ratio buy 0.0/sell 0.0). Exit: daily close 0.453 is below EMA50 -3% (0.489); TP1 exit rule wins over the weekly uptrend tag. No pullback buys until a daily close back above 0.489; RSI labels only. RSI triggers: add 0.3888, deep 0.3314, warm 0.6296, TP 0.7155.",
+      "images": [
+        {
+          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
+          "path": "research/labels/img/POD_usd_2026-11-10.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (same style)",
+          "path": "research/labels/img/POD_eth_2026-11-10.png.b64"
+        }
+      ]
+    },
+    "LIT": {
+      "rsi": {
+        "value": 54.3,
+        "period": 14,
+        "timeframe": "1d",
+        "state": null
+      },
+      "usd_sr": {
+        "monthly": {
+          "support": [
+            2.5661
+          ],
+          "resistance": [
+            5.5858
+          ]
+        },
+        "weekly": {
+          "support": [
+            2.76,
+            1.9648
+          ],
+          "resistance": []
+        },
+        "daily": {
+          "support": [
+            3.356
+          ],
+          "resistance": [
+            3.4193
+          ]
+        }
+      },
+      "eth_sr": {
+        "monthly": {
+          "support": [
+            0.00114379,
+            0.000981183
+          ],
+          "resistance": [
+            0.00216537
+          ]
+        },
+        "weekly": {
+          "support": [
+            0.00104994
+          ],
+          "resistance": [
+            0.00153299,
+            0.00164009
+          ]
+        },
+        "daily": {
+          "support": [
+            0.00136367
+          ],
+          "resistance": [
+            0.0014903
+          ]
+        }
+      },
+      "bullish_divergence": {
+        "present": true,
+        "timeframe": "1d",
+        "indicator": "RSI",
+        "note": "Hidden Bearish 1d USD (2026-10-11->2026-10-21, ratio 1.0); Regular Bullish 1d ETH (2026-10-15->2026-10-29, ratio 1.0)"
+      },
+      "divergences": [
+        {
+          "type": "Hidden Bearish",
+          "timeframe": "1d",
+          "chart": "USD",
+          "from": "2026-10-11",
+          "to": "2026-10-21",
+          "rsi_from": 46.0,
+          "rsi_to": 53.3,
+          "ratio": 1.0,
+          "status": "active"
+        },
+        {
+          "type": "Regular Bullish",
+          "timeframe": "1d",
+          "chart": "ETH",
+          "from": "2026-10-15",
+          "to": "2026-10-29",
+          "rsi_from": 34.8,
+          "rsi_to": 37.9,
+          "ratio": 1.0,
+          "status": "active"
+        }
+      ],
+      "label": "Neutral",
+      "notes": "Levels v3/B1 (reverse-RSI 35/30/65/70, timeframe-consistent per side, no snap, recomputed every run) 2026-11-10T18:10:48-06:00; live 3.4703 via Hyperliquid mid; state RSI 60/40 USD/ETH 51.5 -> Neutral; regime Uptrend. Triggers: Consider adding 2.688 [B1 reverse-RSI (USD)] B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}; Deep value 2.32 [B1 reverse-RSI (USD)] B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}; Getting warm 4.724 [B1 reverse-RSI (USD)] B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}; Take profit 5.444 [B1 reverse-RSI (USD)] B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}. Divergences: Hidden Bearish 1d USD ratio 1.0; Regular Bullish 1d ETH ratio 1.0.",
+      "thresholds": {
+        "base": "Neutral",
+        "down": [
+          {
+            "label": "Consider adding",
+            "price": 2.6877,
+            "raw_price": 2.6877,
+            "snapped": false,
+            "reason": "B1 reverse RSI 35 (USD, no div shift) tfs {'D': 1.0}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "D": 1.0
+            },
+            "tfs": [
+              "D"
+            ]
+          },
+          {
+            "label": "Deep value",
+            "price": 2.32044,
+            "raw_price": 2.32044,
+            "snapped": false,
+            "reason": "B1 reverse RSI 30 (USD, no div shift) tfs {'D': 1.0}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "D": 1.0
+            },
+            "tfs": [
+              "D"
+            ]
+          }
+        ],
+        "up": [
+          {
+            "label": "Getting warm",
+            "price": 4.72367,
+            "raw_price": 4.72367,
+            "snapped": false,
+            "reason": "B1 reverse RSI 65 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "W": 0.62,
+              "D": 0.38
+            },
+            "tfs": [
+              "D",
+              "W"
+            ]
+          },
+          {
+            "label": "Take profit",
+            "price": 5.44356,
+            "raw_price": 5.44356,
+            "snapped": false,
+            "reason": "B1 reverse RSI 70 (USD, no div shift) tfs {'W': 0.62, 'D': 0.38}",
+            "source": "B1 reverse-RSI (USD)",
+            "tf": "blend",
+            "snapped_level": null,
+            "weights": {
+              "W": 0.62,
+              "D": 0.38
+            },
+            "tfs": [
+              "D",
+              "W"
+            ]
+          }
+        ],
+        "context": {
+          "wrsi_usd": 49.1,
+          "wrsi_eth": 54.9,
+          "wrsi": 51.5,
+          "state": "Neutral",
+          "conv_long": 0.0,
+          "conv_short": 0.0,
+          "div_notes": [],
+          "conviction_long": 0.0,
+          "conviction_short": 0.0,
+          "tier_long": "add",
+          "tier_short": "trim",
+          "state_split": "USD 60% / ETH 40%",
+          "regime": "Uptrend"
+        },
+        "v": 3,
+        "mode": "B1 recompute-every-run (no snap, no anchoring)",
+        "ref_price": 3.4703,
+        "valid_from": "2026-11-10T18:10:48-06:00",
+        "valid_until": "2026-11-11T18:07:00-06:00",
+        "source_data": "Hyperliquid 1d",
+        "state": "Neutral",
+        "min_gap_pct": 10.7
+      },
+      "trend": {
+        "regime": "Uptrend",
+        "ema20": 3.25648,
+        "ema50": 3.40544,
+        "ema200": 2.93834,
+        "pullback_buy_zone": 3.25648,
+        "exit_close_below": 3.30327,
+        "trim_rule": "20% at each Getting warm / Take profit touch",
+        "hidden_bullish": null,
+        "note": "Uptrend (weekly EMA50 rising): pullback buy zone near EMA20 at 3.256 (-6%); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 3.303 (EMA50 -3%).",
+        "framework": "TP1 trend pullback (guidance only)"
+      },
+      "reasoning": "LIT 3.47: RSI 1d 54.3, blended RSI 51.5 (USD 49.1/ETH 54.9) -> Neutral; Hidden Bearish 1d USD ratio 1.0; Regular Bullish 1d ETH ratio 1.0 (div ratio buy 0.0/sell 0.0). Uptrend (weekly EMA50 rising): pullback buy zone near EMA20 at 3.256 (-6%); trim 20% at each warm/TP touch, don't sell out; exit on daily close < 3.303 (EMA50 -3%). RSI triggers: add 2.688, deep 2.32, warm 4.724, TP 5.444.",
+      "images": [
+        {
+          "caption": "USD · daily (price + EMA20/50/200, RSI 30/35/65/70, divergences with ratio, regime tag; weekly/monthly S/R as reference only, not used for label levels)",
+          "path": "research/labels/img/LIT_usd_2026-11-10.png.b64"
+        },
+        {
+          "caption": "vs ETH · daily (same style)",
+          "path": "research/labels/img/LIT_eth_2026-11-10.png.b64"
+        }
+      ]
+    }
+  },
+  "valid_from": "2026-11-10T18:10:48-06:00",
+  "valid_until": "2026-11-11T18:07:00-06:00",
+  "ladder": {
+    "version": 3,
+    "rules": "v3/B1: reverse-RSI 35/30/65/70 rungs (USD, M.35/W.40/D.25, no S/R snap), recomputed every run; state from 60/40 USD/ETH weighted RSI; divergence ratio = conviction (anchoring off by default, MW_LEVELS_ANCHOR=1) (mwlabels/levels_v3.py)"
+  }
+}
